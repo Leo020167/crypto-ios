@@ -1,0 +1,24 @@
+
+/* Class = "UITextField"; placeholder = "输入姓名"; ObjectID = "1l0-ph-hCG"; */
+"1l0-ph-hCG.placeholder" = "Please enter your name";
+
+/* Class = "UILabel"; text = "收款人姓名"; ObjectID = "GSS-pD-hVv"; */
+"GSS-pD-hVv.text" = "Payee Name";
+
+/* Class = "UILabel"; text = "请务必使用与您注册手机号码一致的实名账号"; ObjectID = "oqv-jn-qeW"; */
+"oqv-jn-qeW.text" = "Please make sure to use the same name account as your registered cell phone number";
+
+/* Class = "UITextField"; placeholder = "请输入账号"; ObjectID = "pRx-iX-LGg"; */
+"pRx-iX-LGg.placeholder" = "Please enter the account";
+
+/* Class = "UILabel"; text = "---"; ObjectID = "q1E-S5-plq"; */
+"q1E-S5-plq.text" = "---";
+
+/* Class = "UIButton"; normalTitle = "保存"; ObjectID = "vPJ-Lb-JFB"; */
+"vPJ-Lb-JFB.normalTitle" = "Save";
+
+/* Class = "UILabel"; text = "收款码"; ObjectID = "vod-NF-o7c"; */
+"vod-NF-o7c.text" = "Receiving code";
+
+/* Class = "UILabel"; text = "账号"; ObjectID = "wdK-FN-Zd8"; */
+"wdK-FN-Zd8.text" = "Account";

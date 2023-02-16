@@ -1,0 +1,18 @@
+
+/* Class = "UILabel"; text = "取消规则：买家当日累计4笔取消，会限制当日买入功能。"; ObjectID = "602-0O-GYH"; */
+"602-0O-GYH.text" = "Cancellation rules: The buyer has 4 cancellations on the same day, which will limit the purchase function on the same day.";
+
+/* Class = "UILabel"; text = "确认取消订单"; ObjectID = "6PX-0H-FjW"; */
+"6PX-0H-FjW.text" = "Confirm cancel order";
+
+/* Class = "UIButton"; normalTitle = "我在想想"; ObjectID = "Qtu-nx-acM"; */
+"Qtu-nx-acM.normalTitle" = "Let me think again";
+
+/* Class = "UILabel"; text = "如您已经向卖家付款，请不要取消订单"; ObjectID = "SUe-xR-q70"; */
+"SUe-xR-q70.text" = "If you have already paid the seller, please do not cancel the order";
+
+/* Class = "UIButton"; normalTitle = "确认"; ObjectID = "jie-jH-578"; */
+"jie-jH-578.normalTitle" = "Confirm";
+
+/* Class = "UILabel"; text = "我确认还没有付款给对方"; ObjectID = "lRI-i0-4yl"; */
+"lRI-i0-4yl.text" = "I confirm that the payment has not been made to the other party";

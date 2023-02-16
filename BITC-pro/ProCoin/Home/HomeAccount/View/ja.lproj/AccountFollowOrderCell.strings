@@ -1,0 +1,15 @@
+
+/* Class = "UILabel"; text = "---"; ObjectID = "Af9-yJ-9yq"; */
+"Af9-yJ-9yq.text" = "---";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "B0X-rJ-K2c"; */
+"B0X-rJ-K2c.text" = "0";
+
+/* Class = "UILabel"; text = "跟单总盈亏"; ObjectID = "Tki-av-GAr"; */
+"Tki-av-GAr.text" = "総損益";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "YSk-hi-MoC"; */
+"YSk-hi-MoC.text" = "0";
+
+/* Class = "UILabel"; text = "跟单总投入"; ObjectID = "aNE-CC-5ep"; */
+"aNE-CC-5ep.text" = "荷為替総投入";

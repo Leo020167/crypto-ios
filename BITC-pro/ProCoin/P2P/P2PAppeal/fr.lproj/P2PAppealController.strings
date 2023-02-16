@@ -1,0 +1,36 @@
+
+/* Class = "UILabel"; text = "提起申诉后资产将会冻结，申诉专员将介入本次交易，直至申诉结束。恶意申诉属于扰乱平台正常运营秩序的行为，情节严重将冻结账户。"; ObjectID = "AvE-u8-3c3"; */
+"AvE-u8-3c3.text" = "提起申诉后资产将会冻结，申诉专员将介入本次交易，直至申诉结束。恶意申诉属于扰乱平台正常运营秩序的行为，情节严重将冻结账户。";
+
+/* Class = "UILabel"; text = "申诉截图（可选）"; ObjectID = "Bkj-gR-nZz"; */
+"Bkj-gR-nZz.text" = "申诉截图（可选）";
+
+/* Class = "UILabel"; text = "-"; ObjectID = "DVs-bo-wpj"; */
+"DVs-bo-wpj.text" = "-";
+
+/* Class = "UILabel"; text = "申诉理由"; ObjectID = "GdZ-Wc-KH1"; */
+"GdZ-Wc-KH1.text" = "申诉理由";
+
+/* Class = "UILabel"; text = "-"; ObjectID = "JAy-T3-2Eb"; */
+"JAy-T3-2Eb.text" = "-";
+
+/* Class = "UILabel"; text = "申诉留言（可选）"; ObjectID = "Mo5-aN-dCW"; */
+"Mo5-aN-dCW.text" = "申诉留言（可选）";
+
+/* Class = "UILabel"; text = "您可以写下您申诉的详细情况～～"; ObjectID = "SRL-h1-SRC"; */
+"SRL-h1-SRC.text" = "您可以写下您申诉的详细情况～～";
+
+/* Class = "UIButton"; normalTitle = "提交申诉"; ObjectID = "Tuh-eu-H0K"; */
+"Tuh-eu-H0K.normalTitle" = "提交申诉";
+
+/* Class = "UILabel"; text = "-"; ObjectID = "VXx-yF-rQk"; */
+"VXx-yF-rQk.text" = "-";
+
+/* Class = "UILabel"; text = "-"; ObjectID = "WIe-Hq-Ndb"; */
+"WIe-Hq-Ndb.text" = "-";
+
+/* Class = "UILabel"; text = "申诉"; ObjectID = "dYx-SD-GTa"; */
+"dYx-SD-GTa.text" = "申诉";
+
+/* Class = "UILabel"; text = "申诉提醒"; ObjectID = "sQ0-04-ZLX"; */
+"sQ0-04-ZLX.text" = "申诉提醒";

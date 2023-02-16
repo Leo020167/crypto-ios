@@ -1,0 +1,69 @@
+
+/* Class = "UILabel"; text = "-"; ObjectID = "030-mi-DBm"; */
+"030-mi-DBm.text" = "-";
+
+/* Class = "UILabel"; text = "CNY/USDT"; ObjectID = "5jZ-tO-lTw"; */
+"5jZ-tO-lTw.text" = "HKD/USDT";
+
+/* Class = "UILabel"; text = "出售USDT时系统将会从余额账户中冻结改部分资金"; ObjectID = "ABa-be-Q3q"; */
+"ABa-be-Q3q.text" = "出售USDT时系统将会从余额账户中冻结改部分资金";
+
+/* Class = "UILabel"; text = "方式（可多选）"; ObjectID = "GKg-WC-DeC"; */
+"GKg-WC-DeC.text" = "方式（可多选）";
+
+/* Class = "UILabel"; text = "我想"; ObjectID = "GdZ-Wc-KH1"; */
+"GdZ-Wc-KH1.text" = "我想";
+
+/* Class = "UILabel"; text = "限额"; ObjectID = "LXt-l0-9mi"; */
+"LXt-l0-9mi.text" = "限额";
+
+/* Class = "UILabel"; text = "数量"; ObjectID = "MUa-Jt-aAY"; */
+"MUa-Jt-aAY.text" = "数量";
+
+/* Class = "UILabel"; text = "留言内容"; ObjectID = "Mo5-aN-dCW"; */
+"Mo5-aN-dCW.text" = "留言内容";
+
+/* Class = "UIButton"; normalTitle = "购买"; ObjectID = "Mse-fs-OBA"; */
+"Mse-fs-OBA.normalTitle" = "购买";
+
+/* Class = "UILabel"; text = "USDT"; ObjectID = "Pce-EX-brP"; */
+"Pce-EX-brP.text" = "USDT";
+
+/* Class = "UILabel"; text = "价格"; ObjectID = "Qxk-c7-vkB"; */
+"Qxk-c7-vkB.text" = "价格";
+
+/* Class = "UIButton"; normalTitle = "确认发布"; ObjectID = "Tuh-eu-H0K"; */
+"Tuh-eu-H0K.normalTitle" = "确认发布";
+
+/* Class = "UILabel"; text = "-"; ObjectID = "YSC-T3-FCT"; */
+"YSC-T3-FCT.text" = "-";
+
+/* Class = "UILabel"; text = "请写下您想对卖家/买家说的话！"; ObjectID = "Zgy-Mc-BSK"; */
+"Zgy-Mc-BSK.text" = "请写下您想对卖家/买家说的话！";
+
+/* Class = "UILabel"; text = "CNY"; ObjectID = "aFX-TF-yHF"; */
+"aFX-TF-yHF.text" = "HKD";
+
+/* Class = "UILabel"; text = "当前购买最低价7.02 CNY/USDT"; ObjectID = "bT1-vp-8eA"; */
+"bT1-vp-8eA.text" = "当前购买最低价7.02 HKD/USDT";
+
+/* Class = "UIButton"; normalTitle = "填入"; ObjectID = "beT-9Q-2Dp"; */
+"beT-9Q-2Dp.normalTitle" = "填入";
+
+/* Class = "UILabel"; text = "添加广告"; ObjectID = "dYx-SD-GTa"; */
+"dYx-SD-GTa.text" = "添加广告";
+
+/* Class = "UIButton"; normalTitle = "出售"; ObjectID = "ofq-1W-C33"; */
+"ofq-1W-C33.normalTitle" = "出售";
+
+/* Class = "UILabel"; text = "～"; ObjectID = "rOk-Qb-c2e"; */
+"rOk-Qb-c2e.text" = "～";
+
+/* Class = "UILabel"; text = "-"; ObjectID = "vBP-6R-IcN"; */
+"vBP-6R-IcN.text" = "-";
+
+/* Class = "UILabel"; text = "USDT"; ObjectID = "xWM-MH-52X"; */
+"xWM-MH-52X.text" = "USDT";
+
+/* Class = "UILabel"; text = "CNY"; ObjectID = "zAV-7p-pc9"; */
+"zAV-7p-pc9.text" = "HKD";

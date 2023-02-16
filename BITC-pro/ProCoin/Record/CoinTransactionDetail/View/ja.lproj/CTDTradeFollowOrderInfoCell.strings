@@ -1,0 +1,66 @@
+
+/* Class = "UILabel"; text = "成交额"; ObjectID = "478-8D-XAx"; */
+"478-8D-XAx.text" = "取り引き高";
+
+/* Class = "UILabel"; text = "---"; ObjectID = "54v-C1-aoF"; */
+"54v-C1-aoF.text" = "---";
+
+/* Class = "UILabel"; text = "成交数量"; ObjectID = "AQD-9r-21o"; */
+"AQD-9r-21o.text" = "トランザクション数";
+
+/* Class = "UILabel"; text = "委托数量"; ObjectID = "AuS-Jh-S4N"; */
+"AuS-Jh-S4N.text" = "委任数";
+
+/* Class = "UILabel"; text = "技术服务费(USDT)"; ObjectID = "Bv4-yA-cll"; */
+"Bv4-yA-cll.text" = "ぎじゅつサービス料(USDT)";
+
+/* Class = "UILabel"; text = "---"; ObjectID = "J8g-Xy-Yq9"; */
+"J8g-Xy-Yq9.text" = "---";
+
+/* Class = "UILabel"; text = "---"; ObjectID = "KYo-dx-ZXX"; */
+"KYo-dx-ZXX.text" = "---";
+
+/* Class = "UILabel"; text = "--"; ObjectID = "T0K-Xz-9l4"; */
+"T0K-Xz-9l4.text" = "--";
+
+/* Class = "UILabel"; text = "成交数量"; ObjectID = "Ve9-7X-nST"; */
+"Ve9-7X-nST.text" = "トランザクション数";
+
+/* Class = "UILabel"; text = "--"; ObjectID = "X6n-e7-rjy"; */
+"X6n-e7-rjy.text" = "--";
+
+/* Class = "UILabel"; text = "成交额"; ObjectID = "YQb-6C-xOp"; */
+"YQb-6C-xOp.text" = "取り引き高";
+
+/* Class = "UILabel"; text = "--"; ObjectID = "cYw-jh-Yda"; */
+"cYw-jh-Yda.text" = "--";
+
+/* Class = "UILabel"; text = "跟单成交"; ObjectID = "dnn-f3-UgL"; */
+"dnn-f3-UgL.text" = "取引が成立する";
+
+/* Class = "UILabel"; text = "委托数量"; ObjectID = "g6m-BA-PAU"; */
+"g6m-BA-PAU.text" = "委任数";
+
+/* Class = "UILabel"; text = "手续费"; ObjectID = "gsa-1H-RFg"; */
+"gsa-1H-RFg.text" = "手数料";
+
+/* Class = "UILabel"; text = "---"; ObjectID = "iND-8q-L3V"; */
+"iND-8q-L3V.text" = "---";
+
+/* Class = "UILabel"; text = "跟单分成(USDT）"; ObjectID = "l6p-52-1tc"; */
+"l6p-52-1tc.text" = "荷為替分割(USDT）";
+
+/* Class = "UILabel"; text = "手续费"; ObjectID = "oyy-qy-DbJ"; */
+"oyy-qy-DbJ.text" = "手数料";
+
+/* Class = "UILabel"; text = "我的成交"; ObjectID = "q5G-L9-Ev0"; */
+"q5G-L9-Ev0.text" = "私の取引だ";
+
+/* Class = "UILabel"; text = "--"; ObjectID = "qhB-xo-VQW"; */
+"qhB-xo-VQW.text" = "--";
+
+/* Class = "UILabel"; text = "--"; ObjectID = "ySE-QF-XNZ"; */
+"ySE-QF-XNZ.text" = "--";
+
+/* Class = "UILabel"; text = "--"; ObjectID = "zvk-UO-9a7"; */
+"zvk-UO-9a7.text" = "--";

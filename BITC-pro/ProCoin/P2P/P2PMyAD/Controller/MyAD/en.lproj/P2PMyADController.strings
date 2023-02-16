@@ -1,0 +1,9 @@
+
+/* Class = "UIButton"; normalTitle = "添加广告"; ObjectID = "YQq-hS-hkW"; */
+"YQq-hS-hkW.normalTitle" = "Add ads";
+
+/* Class = "UILabel"; text = "您暂未发布广告～"; ObjectID = "YnR-Gj-n52"; */
+"YnR-Gj-n52.text" = "You have not posted an ad";
+
+/* Class = "UILabel"; text = "我的广告"; ObjectID = "dYx-SD-GTa"; */
+"dYx-SD-GTa.text" = "My Ads";

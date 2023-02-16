@@ -1,0 +1,9 @@
+
+/* Class = "UILabel"; text = "币种"; ObjectID = "GcN-Qm-pdp"; */
+"GcN-Qm-pdp.text" = "币种";
+
+/* Class = "UILabel"; text = "市值"; ObjectID = "Hix-Nx-B1Z"; */
+"Hix-Nx-B1Z.text" = "市值";
+
+/* Class = "UILabel"; text = "数量"; ObjectID = "QZO-Bt-vR0"; */
+"QZO-Bt-vR0.text" = "数量";

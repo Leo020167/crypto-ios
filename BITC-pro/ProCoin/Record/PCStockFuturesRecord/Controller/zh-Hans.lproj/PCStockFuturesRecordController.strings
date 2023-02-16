@@ -1,0 +1,18 @@
+
+/* Class = "UILabel"; text = "暂无该记录数据"; ObjectID = "24l-91-wSA"; */
+"24l-91-wSA.text" = "暂无该记录数据";
+
+/* Class = "UILabel"; text = "暂无该记录数据"; ObjectID = "dJK-EI-ooR"; */
+"dJK-EI-ooR.text" = "暂无该记录数据";
+
+/* Class = "UIButton"; normalTitle = "委托记录"; ObjectID = "eVQ-XI-u6s"; */
+"eVQ-XI-u6s.normalTitle" = "委托记录";
+
+/* Class = "UIButton"; normalTitle = "历史记录"; ObjectID = "m2j-TK-6vV"; */
+"m2j-TK-6vV.normalTitle" = "历史记录";
+
+/* Class = "UIButton"; normalTitle = "筛选"; ObjectID = "t0T-uq-EMT"; */
+"t0T-uq-EMT.normalTitle" = "筛选";
+
+/* Class = "UILabel"; text = "股指期货记录"; ObjectID = "v5Z-b9-ACt"; */
+"v5Z-b9-ACt.text" = "股指期货记录";

@@ -1,0 +1,18 @@
+
+/* Class = "UILabel"; text = "成交价"; ObjectID = "6Ms-CH-BcC"; */
+"6Ms-CH-BcC.text" = "Turnover Price";
+
+/* Class = "UILabel"; text = "---"; ObjectID = "Ehk-2n-vwe"; */
+"Ehk-2n-vwe.text" = "---";
+
+/* Class = "UILabel"; text = "成交时间"; ObjectID = "NcD-mo-ihv"; */
+"NcD-mo-ihv.text" = "Turnover Time";
+
+/* Class = "UILabel"; text = "成交量"; ObjectID = "fhf-9A-64e"; */
+"fhf-9A-64e.text" = "Trading volume";
+
+/* Class = "UILabel"; text = "---"; ObjectID = "hwX-cn-0sN"; */
+"hwX-cn-0sN.text" = "---";
+
+/* Class = "UILabel"; text = "---"; ObjectID = "n95-bB-bKN"; */
+"n95-bB-bKN.text" = "---";

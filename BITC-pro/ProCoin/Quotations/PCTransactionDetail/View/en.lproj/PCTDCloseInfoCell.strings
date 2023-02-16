@@ -1,0 +1,36 @@
+
+/* Class = "UILabel"; text = "---"; ObjectID = "09y-cA-xW6"; */
+"09y-cA-xW6.text" = "---";
+
+/* Class = "UILabel"; text = "平仓盈亏"; ObjectID = "56a-b6-ScZ"; */
+"56a-b6-ScZ.text" = "Closing profit and loss";
+
+/* Class = "UILabel"; text = "平仓价"; ObjectID = "57s-XZ-Upf"; */
+"57s-XZ-Upf.text" = "Closed Price";
+
+/* Class = "UILabel"; text = "---"; ObjectID = "9RH-j6-bW1"; */
+"9RH-j6-bW1.text" = "---";
+
+/* Class = "UILabel"; text = "盈利分成"; ObjectID = "HWE-d6-aGL"; */
+"HWE-d6-aGL.text" = "Share of Profits";
+
+/* Class = "UILabel"; text = "---"; ObjectID = "HWP-JM-cCh"; */
+"HWP-JM-cCh.text" = "---";
+
+/* Class = "UILabel"; text = "平仓手数"; ObjectID = "VE1-9z-H1t"; */
+"VE1-9z-H1t.text" = "Lots for closing a position";
+
+/* Class = "UILabel"; text = "平仓手续费"; ObjectID = "dmc-D2-K1c"; */
+"dmc-D2-K1c.text" = "Commission for closing a position";
+
+/* Class = "UILabel"; text = "---"; ObjectID = "fZf-ui-g1k"; */
+"fZf-ui-g1k.text" = "---";
+
+/* Class = "UILabel"; text = "平仓时间"; ObjectID = "iOc-Ki-aG3"; */
+"iOc-Ki-aG3.text" = "Time for closing a position";
+
+/* Class = "UILabel"; text = "---"; ObjectID = "mee-gM-myI"; */
+"mee-gM-myI.text" = "---";
+
+/* Class = "UILabel"; text = "---"; ObjectID = "yde-bp-uxE"; */
+"yde-bp-uxE.text" = "---";

@@ -1,0 +1,32 @@
+//
+//  MicromarketMenuView.h
+//  TJRtaojinroad
+//
+//  Created by taojinroad on 3/29/16.
+//  Copyright © 2016 淘金路. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+#import "TJRBaseView.h"
+
+@class MicromarketMenuView;
+@class WBShareButton;
+
+@protocol MicromarketMenuViewDelegate <NSObject>
+
+@optional
+- (void)micromarketMenuView:(MicromarketMenuView *)menuView shareButtonClicked:(id)sender;
+- (void)micromarketMenuView:(MicromarketMenuView *)menuView personButtonClicked:(id)sender;
+- (void)micromarketMenuView:(MicromarketMenuView *)menuView orderButtonClicked:(id)sender;
+- (void)micromarketMenuView:(MicromarketMenuView *)menuView replaceButtonClicked:(id)sender;
+
+@end
+
+@interface MicromarketMenuView : TJRBaseView
+
+@property (assign, nonatomic) id<MicromarketMenuViewDelegate> delegate;
+@property (retain, nonatomic) IBOutlet WBShareButton *shareBtn;
+
+- (void)show:(UIView*)superView;
+- (void)setPersonNewCount:(NSInteger)count;
+@end

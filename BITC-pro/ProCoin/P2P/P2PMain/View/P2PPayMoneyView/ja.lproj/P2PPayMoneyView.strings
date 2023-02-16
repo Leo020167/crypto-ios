@@ -1,0 +1,30 @@
+
+/* Class = "UIButton"; normalTitle = "200,000"; ObjectID = "502-Bl-gH6"; */
+"502-Bl-gH6.normalTitle" = "200,000";
+
+/* Class = "UIButton"; normalTitle = "10,000"; ObjectID = "AVu-dm-3hv"; */
+"AVu-dm-3hv.normalTitle" = "10,000";
+
+/* Class = "UIButton"; normalTitle = "重置"; ObjectID = "Caa-Dz-Mu4"; */
+"Caa-Dz-Mu4.normalTitle" = "リセット";
+
+/* Class = "UILabel"; text = "CNY"; ObjectID = "DAj-n4-LV1"; */
+"DAj-n4-LV1.text" = "HKD";
+
+/* Class = "UIButton"; normalTitle = "筛选"; ObjectID = "FWP-fD-tVu"; */
+"FWP-fD-tVu.normalTitle" = "ふるいわけ";
+
+/* Class = "UITextField"; placeholder = "系统会为您筛选包含目标金额的商品"; ObjectID = "Gzm-nF-Ln5"; */
+"Gzm-nF-Ln5.placeholder" = "目標額を含む商品を選別してくれる";
+
+/* Class = "UIButton"; normalTitle = "1,000"; ObjectID = "OdP-0q-8SA"; */
+"OdP-0q-8SA.normalTitle" = "1,000";
+
+/* Class = "UIButton"; normalTitle = "500,000"; ObjectID = "RcT-dG-SxQ"; */
+"RcT-dG-SxQ.normalTitle" = "500,000";
+
+/* Class = "UIButton"; normalTitle = "100"; ObjectID = "U1q-ez-wyp"; */
+"U1q-ez-wyp.normalTitle" = "100";
+
+/* Class = "UIButton"; normalTitle = "50,000"; ObjectID = "aPh-Si-Ajc"; */
+"aPh-Si-Ajc.normalTitle" = "50,000";

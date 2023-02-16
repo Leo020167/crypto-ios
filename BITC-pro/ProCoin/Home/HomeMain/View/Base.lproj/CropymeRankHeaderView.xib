@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment version="2304" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clipsSubviews="YES" contentMode="scaleToFill" id="7lL-ly-F15">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="75"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HKT-tu-UGo">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="75"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="排名" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VEB-nV-tID">
+                            <rect key="frame" x="0.0" y="54" width="70" height="18"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="18" id="LKz-vs-zAd"/>
+                                <constraint firstAttribute="width" constant="70" id="iMX-cN-Y9b"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <color key="textColor" red="0.23921568627450979" green="0.22745098039215686" blue="0.31372549019607843" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="用户名称" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qhD-c3-kgs">
+                            <rect key="frame" x="100" y="54" width="170" height="18"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="18" id="eke-KP-YF2"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <color key="textColor" red="0.23921568630000001" green="0.2274509804" blue="0.31372549020000001" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="综合评分" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vhs-sf-Dr7">
+                            <rect key="frame" x="275" y="54" width="85" height="18"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="18" id="ZCt-BL-RAS"/>
+                                <constraint firstAttribute="width" constant="85" id="pYu-Dl-O5x"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <color key="textColor" red="0.23921568630000001" green="0.2274509804" blue="0.31372549020000001" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="高手排行榜" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="We6-RD-TCa">
+                            <rect key="frame" x="15" y="15" width="102" height="24"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                            <color key="textColor" red="0.23921568627450979" green="0.22745098039215686" blue="0.31372549019607843" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="We6-RD-TCa" firstAttribute="leading" secondItem="HKT-tu-UGo" secondAttribute="leading" constant="15" id="1f4-Q5-DUk"/>
+                        <constraint firstItem="Vhs-sf-Dr7" firstAttribute="leading" secondItem="qhD-c3-kgs" secondAttribute="trailing" constant="5" id="HhV-UH-sDp"/>
+                        <constraint firstItem="VEB-nV-tID" firstAttribute="leading" secondItem="HKT-tu-UGo" secondAttribute="leading" id="NcP-cR-nzh"/>
+                        <constraint firstItem="We6-RD-TCa" firstAttribute="top" secondItem="HKT-tu-UGo" secondAttribute="top" constant="15" id="Rnc-rf-CJC"/>
+                        <constraint firstAttribute="trailing" secondItem="Vhs-sf-Dr7" secondAttribute="trailing" constant="15" id="T2B-M3-VkB"/>
+                        <constraint firstItem="qhD-c3-kgs" firstAttribute="centerY" secondItem="VEB-nV-tID" secondAttribute="centerY" id="bX7-wI-OWw"/>
+                        <constraint firstItem="qhD-c3-kgs" firstAttribute="leading" secondItem="VEB-nV-tID" secondAttribute="trailing" constant="30" id="lEy-8v-SNt"/>
+                        <constraint firstItem="Vhs-sf-Dr7" firstAttribute="centerY" secondItem="VEB-nV-tID" secondAttribute="centerY" id="rYt-Cw-VH8"/>
+                        <constraint firstItem="VEB-nV-tID" firstAttribute="top" secondItem="We6-RD-TCa" secondAttribute="bottom" constant="15" id="wo7-DA-p0g"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="HKT-tu-UGo" secondAttribute="bottom" id="4ZO-Ft-9zx"/>
+                <constraint firstItem="HKT-tu-UGo" firstAttribute="top" secondItem="7lL-ly-F15" secondAttribute="top" id="AUO-qT-9w9"/>
+                <constraint firstAttribute="trailing" secondItem="HKT-tu-UGo" secondAttribute="trailing" id="Fjw-wj-s5g"/>
+                <constraint firstItem="HKT-tu-UGo" firstAttribute="leading" secondItem="7lL-ly-F15" secondAttribute="leading" id="yBN-mA-VK1"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="-212" y="55.322338830584712"/>
+        </view>
+    </objects>
+</document>

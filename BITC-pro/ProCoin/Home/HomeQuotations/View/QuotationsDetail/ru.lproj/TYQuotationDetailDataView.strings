@@ -1,0 +1,60 @@
+
+/* Class = "UILabel"; text = "--"; ObjectID = "0CQ-P6-HXf"; */
+"0CQ-P6-HXf.text" = "--";
+
+/* Class = "UIButton"; normalTitle = "1分"; ObjectID = "4Oq-ZE-lAZ"; */
+"4Oq-ZE-lAZ.normalTitle" = "5 дней";
+
+/* Class = "UILabel"; text = "--"; ObjectID = "4Wg-bK-EGc"; */
+"4Wg-bK-EGc.text" = "--";
+
+/* Class = "UILabel"; text = "高"; ObjectID = "BQW-vh-6ZY"; */
+"BQW-vh-6ZY.text" = "Высокая";
+
+/* Class = "UILabel"; text = "---"; ObjectID = "DNz-VR-q0d"; */
+"DNz-VR-q0d.text" = "---";
+
+/* Class = "UILabel"; text = "MA5："; ObjectID = "EJw-wh-zas"; */
+"EJw-wh-zas.text" = "MA5：";
+
+/* Class = "UILabel"; text = "≈¥---"; ObjectID = "EUP-GH-Zj7"; */
+"EUP-GH-Zj7.text" = "≈¥---";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "Ett-2a-zsq"; */
+"Ett-2a-zsq.text" = "0";
+
+/* Class = "UIButton"; normalTitle = "日K"; ObjectID = "Ofq-BW-pC4"; */
+"Ofq-BW-pC4.normalTitle" = "День K";
+
+/* Class = "UILabel"; text = "量"; ObjectID = "Ozl-Ag-0kQ"; */
+"Ozl-Ag-0kQ.text" = "量";
+
+/* Class = "UIButton"; normalTitle = "周K"; ObjectID = "VDD-Sw-MPJ"; */
+"VDD-Sw-MPJ.normalTitle" = "Еженедельный k";
+
+/* Class = "UILabel"; text = "MA10："; ObjectID = "Xu0-fp-7fN"; */
+"Xu0-fp-7fN.text" = "MA10：";
+
+/* Class = "UIButton"; normalTitle = "1小时"; ObjectID = "YNZ-0f-RcK"; */
+"YNZ-0f-RcK.normalTitle" = "1 час";
+
+/* Class = "UILabel"; text = "0.00%"; ObjectID = "ZOX-wT-yI5"; */
+"ZOX-wT-yI5.text" = "0.00%";
+
+/* Class = "UILabel"; text = "MA20："; ObjectID = "cIz-x2-npC"; */
+"cIz-x2-npC.text" = "MA20：";
+
+/* Class = "UIButton"; normalTitle = "15分"; ObjectID = "dFa-a8-qJU"; */
+"dFa-a8-qJU.normalTitle" = "15 минут";
+
+/* Class = "UILabel"; text = "低"; ObjectID = "fWO-JO-Gnr"; */
+"fWO-JO-Gnr.text" = "Низкий";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "fdx-KU-01q"; */
+"fdx-KU-01q.text" = "0";
+
+/* Class = "UIButton"; normalTitle = "分时"; ObjectID = "jua-vb-trD"; */
+"jua-vb-trD.normalTitle" = "Время доля";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "lk6-pa-Kcy"; */
+"lk6-pa-Kcy.text" = "0";

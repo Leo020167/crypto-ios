@@ -1,0 +1,45 @@
+
+/* Class = "UIButton"; normalTitle = "注册"; ObjectID = "9"; */
+"9.normalTitle" = "註冊";
+
+/* Class = "UITextField"; placeholder = "设置密码"; ObjectID = "19"; */
+"19.placeholder" = "パスワードの設定";
+
+/* Class = "UITextField"; placeholder = "请输入手机号码"; ObjectID = "22"; */
+"22.placeholder" = "携帯電話番号を入力してください";
+
+/* Class = "UITextField"; placeholder = "请再次输入密码"; ObjectID = "24"; */
+"24.placeholder" = "パスワードを再入力してください";
+
+/* Class = "UILabel"; text = "Worldwide Coin Trade"; ObjectID = "0wh-5R-nch"; */
+"0wh-5R-nch.text" = "Worldwide Coin Trade";
+
+/* Class = "UIButton"; normalTitle = "《隐私条款》"; ObjectID = "22B-RW-1og"; */
+"22B-RW-1og.normalTitle" = "《プライバシー条項》";
+
+/* Class = "UILabel"; text = "+1"; ObjectID = "R4q-H0-EJS"; */
+"R4q-H0-EJS.text" = "+1";
+
+/* Class = "UILabel"; text = "点击注册即表示您已经阅读并同意W.W.C.T的"; ObjectID = "SeM-fo-ao2"; */
+"SeM-fo-ao2.text" = "登録をクリックすると、BITCの";
+
+/* Class = "UILabel"; text = "提示:密码必须是8-16位数字与字母组合"; ObjectID = "Vgu-GU-vGZ"; */
+"Vgu-GU-vGZ.text" = "ヒント:パスワードは8~16桁の数字と文字を組み合わせてください";
+
+/* Class = "UILabel"; text = "美国"; ObjectID = "WL3-ZB-WuB"; */
+"WL3-ZB-WuB.text" = "US";
+
+/* Class = "UIButton"; normalTitle = "《用户协议》"; ObjectID = "YaW-Fy-iAk"; */
+"YaW-Fy-iAk.normalTitle" = "《ユーザプロトコル》";
+
+/* Class = "UILabel"; text = "注册"; ObjectID = "g7r-7x-iYI"; */
+"g7r-7x-iYI.text" = "登録";
+
+/* Class = "UIButton"; normalTitle = "Register with Email"; ObjectID = "lEM-Ja-ATg"; */
+"lEM-Ja-ATg.normalTitle" = "メール登録";
+
+/* Class = "UILabel"; text = "环球数字资产交易平台"; ObjectID = "sSZ-Tb-9Lo"; */
+"sSZ-Tb-9Lo.text" = "ユニバーサルデジタル資産取引プラットフォーム";
+
+/* Class = "UITextField"; placeholder = "请填写邀请码(必填)"; ObjectID = "vUt-E2-J20"; */
+"vUt-E2-J20.placeholder" = "招待コード（必須）をご記入ください。";

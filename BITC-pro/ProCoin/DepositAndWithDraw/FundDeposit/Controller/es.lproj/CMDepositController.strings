@@ -1,0 +1,18 @@
+
+/* Class = "UILabel"; text = "购买数量:0"; ObjectID = "A0w-3e-gcu"; */
+"A0w-3e-gcu.text" = "购买数量:0";
+
+/* Class = "UILabel"; text = "购买单价:¥0.00"; ObjectID = "VOM-nx-ML6"; */
+"VOM-nx-ML6.text" = "购买单价:¥0.00";
+
+/* Class = "UILabel"; text = "购买USDT"; ObjectID = "Wav-l7-qWh"; */
+"Wav-l7-qWh.text" = "购买USDT";
+
+/* Class = "UILabel"; text = ".00"; ObjectID = "jog-tI-Pp3"; */
+"jog-tI-Pp3.text" = ".00";
+
+/* Class = "UILabel"; text = "¥"; ObjectID = "pBF-I2-heg"; */
+"pBF-I2-heg.text" = "¥";
+
+/* Class = "UIButton"; normalTitle = "购买"; ObjectID = "uND-rQ-qoO"; */
+"uND-rQ-qoO.normalTitle" = "购买";

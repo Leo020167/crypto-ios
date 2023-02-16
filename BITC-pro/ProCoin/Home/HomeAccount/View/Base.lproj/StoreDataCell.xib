@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment version="2304" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="StoreDataCellIdentifier" rowHeight="83" id="mjh-jr-P3q">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="85"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="mjh-jr-P3q" id="Gps-sG-LGZ">
+                <rect key="frame" x="0.0" y="0.0" width="414" height="84.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" tag="100" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="已存BTC总量" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xTe-V0-gX2">
+                        <rect key="frame" x="10" y="20" width="73" height="16"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="16" id="lSY-Ss-rMk"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" red="0.1137254902" green="0.19215686269999999" blue="0.33333333329999998" alpha="0.20000000000000001" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="LNb-sK-DKe">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="10"/>
+                        <color key="backgroundColor" red="0.97647058819999999" green="0.98039215690000003" blue="0.99215686270000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="10" id="yaQ-QX-JUa"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" tag="101" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="已获BTC收益" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IYl-cq-kIU">
+                        <rect key="frame" x="331" y="20" width="73" height="16"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="16" id="Ucb-lB-x0J"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" red="0.1137254902" green="0.19215686269999999" blue="0.33333333329999998" alpha="0.20000000000000001" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" tag="102" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2.151515" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="DPC-pr-YFF">
+                        <rect key="frame" x="10" y="50.5" width="192" height="24"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                        <color key="textColor" red="0.1137254902" green="0.19215686269999999" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" tag="103" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2.151515" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="8PD-bc-qqR">
+                        <rect key="frame" x="212" y="50.5" width="192" height="24"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                        <color key="textColor" red="0.1137254902" green="0.19215686269999999" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="xTe-V0-gX2" firstAttribute="leading" secondItem="Gps-sG-LGZ" secondAttribute="leading" constant="10" id="89W-BU-1kB"/>
+                    <constraint firstItem="IYl-cq-kIU" firstAttribute="centerY" secondItem="xTe-V0-gX2" secondAttribute="centerY" id="DoA-eG-S3l"/>
+                    <constraint firstAttribute="trailing" secondItem="LNb-sK-DKe" secondAttribute="trailing" id="FTj-zi-bce"/>
+                    <constraint firstItem="LNb-sK-DKe" firstAttribute="leading" secondItem="Gps-sG-LGZ" secondAttribute="leading" id="Nak-EH-1QX"/>
+                    <constraint firstAttribute="trailing" secondItem="8PD-bc-qqR" secondAttribute="trailing" constant="10" id="ZQp-AI-Xfc"/>
+                    <constraint firstItem="DPC-pr-YFF" firstAttribute="width" secondItem="8PD-bc-qqR" secondAttribute="width" id="beb-D4-BO2"/>
+                    <constraint firstItem="xTe-V0-gX2" firstAttribute="top" secondItem="LNb-sK-DKe" secondAttribute="bottom" constant="10" id="c2Y-eg-X6J"/>
+                    <constraint firstItem="LNb-sK-DKe" firstAttribute="top" secondItem="Gps-sG-LGZ" secondAttribute="top" id="chp-uF-FJ1"/>
+                    <constraint firstAttribute="trailing" secondItem="IYl-cq-kIU" secondAttribute="trailing" constant="10" id="kpW-BM-cc6"/>
+                    <constraint firstItem="8PD-bc-qqR" firstAttribute="centerY" secondItem="DPC-pr-YFF" secondAttribute="centerY" id="ofF-Lc-0Fh"/>
+                    <constraint firstItem="8PD-bc-qqR" firstAttribute="leading" secondItem="DPC-pr-YFF" secondAttribute="trailing" constant="10" id="qDe-Xz-6ma"/>
+                    <constraint firstItem="DPC-pr-YFF" firstAttribute="leading" secondItem="Gps-sG-LGZ" secondAttribute="leading" constant="10" id="uws-Xu-zYA"/>
+                    <constraint firstAttribute="bottom" secondItem="DPC-pr-YFF" secondAttribute="bottom" constant="10" id="ySH-Aj-xe4"/>
+                </constraints>
+            </tableViewCellContentView>
+            <point key="canvasLocation" x="-118.40000000000001" y="246.02698650674665"/>
+        </tableViewCell>
+    </objects>
+</document>

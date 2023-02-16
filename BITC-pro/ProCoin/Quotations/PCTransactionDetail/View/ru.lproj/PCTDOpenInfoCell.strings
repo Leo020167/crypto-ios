@@ -1,0 +1,60 @@
+
+/* Class = "UILabel"; text = "---"; ObjectID = "DkA-Hn-Whe"; */
+"DkA-Hn-Whe.text" = "---";
+
+/* Class = "UILabel"; text = "---"; ObjectID = "E1V-VI-TRM"; */
+"E1V-VI-TRM.text" = "---";
+
+/* Class = "UILabel"; text = "开仓方向"; ObjectID = "GMa-v9-lCQ"; */
+"GMa-v9-lCQ.text" = "开仓方向";
+
+/* Class = "UILabel"; text = "止损价"; ObjectID = "Iva-cF-Sjl"; */
+"Iva-cF-Sjl.text" = "止损价";
+
+/* Class = "UILabel"; text = "开仓状态"; ObjectID = "M3Z-pp-fti"; */
+"M3Z-pp-fti.text" = "开仓状态";
+
+/* Class = "UILabel"; text = "开仓价"; ObjectID = "N5U-YK-Z5P"; */
+"N5U-YK-Z5P.text" = "开仓价";
+
+/* Class = "UILabel"; text = "止盈价"; ObjectID = "P6v-vh-7VR"; */
+"P6v-vh-7VR.text" = "止盈价";
+
+/* Class = "UILabel"; text = "---"; ObjectID = "Pd7-c7-8vJ"; */
+"Pd7-c7-8vJ.text" = "---";
+
+/* Class = "UILabel"; text = "---"; ObjectID = "SNF-N6-L3l"; */
+"SNF-N6-L3l.text" = "---";
+
+/* Class = "UILabel"; text = "持仓手数"; ObjectID = "Toe-6d-f4t"; */
+"Toe-6d-f4t.text" = "持仓手数";
+
+/* Class = "UILabel"; text = "---"; ObjectID = "VAM-ql-UL6"; */
+"VAM-ql-UL6.text" = "---";
+
+/* Class = "UIButton"; normalTitle = "设置"; ObjectID = "W8y-Y5-2Xz"; */
+"W8y-Y5-2Xz.normalTitle" = "设置";
+
+/* Class = "UILabel"; text = "开仓手续费"; ObjectID = "cRb-ba-SMI"; */
+"cRb-ba-SMI.text" = "开仓手续费";
+
+/* Class = "UILabel"; text = "---"; ObjectID = "j3o-QP-vqn"; */
+"j3o-QP-vqn.text" = "---";
+
+/* Class = "UILabel"; text = "开仓时间"; ObjectID = "lMK-Ot-yz4"; */
+"lMK-Ot-yz4.text" = "开仓时间";
+
+/* Class = "UILabel"; text = "持仓保证金"; ObjectID = "ox6-Gw-3Aq"; */
+"ox6-Gw-3Aq.text" = "持仓保证金";
+
+/* Class = "UILabel"; text = "---"; ObjectID = "psH-2z-lu0"; */
+"psH-2z-lu0.text" = "---";
+
+/* Class = "UIButton"; normalTitle = "设置"; ObjectID = "uAY-cR-QZi"; */
+"uAY-cR-QZi.normalTitle" = "设置";
+
+/* Class = "UILabel"; text = "---"; ObjectID = "viY-7H-E0R"; */
+"viY-7H-E0R.text" = "---";
+
+/* Class = "UILabel"; text = "---"; ObjectID = "wbQ-CD-yMw"; */
+"wbQ-CD-yMw.text" = "---";

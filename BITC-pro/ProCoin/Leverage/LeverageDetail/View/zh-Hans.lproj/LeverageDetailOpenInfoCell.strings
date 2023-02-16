@@ -1,0 +1,54 @@
+
+/* Class = "UILabel"; text = "---"; ObjectID = "66y-VT-FAk"; */
+"66y-VT-FAk.text" = "---";
+
+/* Class = "UILabel"; text = "开仓价"; ObjectID = "9fr-Ft-flF"; */
+"9fr-Ft-flF.text" = "开仓价";
+
+/* Class = "UILabel"; text = "---"; ObjectID = "CaR-KW-kNL"; */
+"CaR-KW-kNL.text" = "---";
+
+/* Class = "UILabel"; text = "开仓数量"; ObjectID = "DfR-m7-aeb"; */
+"DfR-m7-aeb.text" = "开仓数量";
+
+/* Class = "UILabel"; text = "---"; ObjectID = "Jy4-2E-phq"; */
+"Jy4-2E-phq.text" = "---";
+
+/* Class = "UILabel"; text = "---"; ObjectID = "Kzk-DY-uxa"; */
+"Kzk-DY-uxa.text" = "---";
+
+/* Class = "UILabel"; text = "增加"; ObjectID = "O8Q-f6-NaC"; */
+"O8Q-f6-NaC.text" = "增加";
+
+/* Class = "UILabel"; text = "---"; ObjectID = "UnT-P4-Hbb"; */
+"UnT-P4-Hbb.text" = "---";
+
+/* Class = "UILabel"; text = "---"; ObjectID = "VpC-iA-V2d"; */
+"VpC-iA-V2d.text" = "---";
+
+/* Class = "UILabel"; text = "总资产"; ObjectID = "Xkz-Tg-jdv"; */
+"Xkz-Tg-jdv.text" = "总资产";
+
+/* Class = "UILabel"; text = "开仓金额"; ObjectID = "Yxl-Vh-wP4"; */
+"Yxl-Vh-wP4.text" = "开仓金额";
+
+/* Class = "UILabel"; text = "---"; ObjectID = "kA9-X9-mxw"; */
+"kA9-X9-mxw.text" = "---";
+
+/* Class = "UILabel"; text = "---"; ObjectID = "sHw-KB-DJi"; */
+"sHw-KB-DJi.text" = "---";
+
+/* Class = "UILabel"; text = "开仓时间"; ObjectID = "svg-3d-we3"; */
+"svg-3d-we3.text" = "开仓时间";
+
+/* Class = "UILabel"; text = "开仓方向"; ObjectID = "tNB-qO-T3u"; */
+"tNB-qO-T3u.text" = "开仓方向";
+
+/* Class = "UILabel"; text = "保证金"; ObjectID = "vEh-Xm-uqH"; */
+"vEh-Xm-uqH.text" = "保证金";
+
+/* Class = "UILabel"; text = "开仓手续费"; ObjectID = "wSz-L8-bye"; */
+"wSz-L8-bye.text" = "开仓手续费";
+
+/* Class = "UILabel"; text = "---"; ObjectID = "wum-0b-Dmb"; */
+"wum-0b-Dmb.text" = "---";

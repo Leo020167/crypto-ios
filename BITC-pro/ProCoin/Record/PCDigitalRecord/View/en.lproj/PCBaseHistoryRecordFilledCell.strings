@@ -1,0 +1,27 @@
+
+/* Class = "UILabel"; text = "2020-02-29 15:33:20"; ObjectID = "3MG-dR-4yt"; */
+"3MG-dR-4yt.text" = "2020-02-29 15:33:20";
+
+/* Class = "UILabel"; text = "手数"; ObjectID = "3q7-72-ViK"; */
+"3q7-72-ViK.text" = "Lot";
+
+/* Class = "UILabel"; text = "BTC/USDT 看涨(做多)"; ObjectID = "BmY-fW-35t"; */
+"BmY-fW-35t.text" = "BTC/USDT Bullish (long)";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "Dx2-zM-yzd"; */
+"Dx2-zM-yzd.text" = "0";
+
+/* Class = "UILabel"; text = "盈利USDT"; ObjectID = "Uag-7U-Lqy"; */
+"Uag-7U-Lqy.text" = "Profit USDT";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "mQP-WJ-JAZ"; */
+"mQP-WJ-JAZ.text" = "0";
+
+/* Class = "UILabel"; text = "已成交"; ObjectID = "sQr-S1-4gC"; */
+"sQr-S1-4gC.text" = "Dealt with";
+
+/* Class = "UILabel"; text = "开仓价"; ObjectID = "tVW-Fm-F21"; */
+"tVW-Fm-F21.text" = "Opening Price";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "zd4-CU-asJ"; */
+"zd4-CU-asJ.text" = "0";

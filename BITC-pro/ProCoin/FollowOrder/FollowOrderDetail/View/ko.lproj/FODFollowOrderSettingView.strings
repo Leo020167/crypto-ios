@@ -1,0 +1,24 @@
+
+/* Class = "UILabel"; text = "≈¥0.00"; ObjectID = "7rM-cM-9oR"; */
+"7rM-cM-9oR.text" = "≈¥0.00";
+
+/* Class = "UILabel"; text = "每笔跟单上限"; ObjectID = "C9A-B8-U7h"; */
+"C9A-B8-U7h.text" = "每筆跟單上限";
+
+/* Class = "UITextField"; placeholder = "请输入每笔跟单上限USDT"; ObjectID = "GpB-qp-BcX"; */
+"GpB-qp-BcX.placeholder" = "請輸入每筆跟單上限USDT";
+
+/* Class = "UITextField"; text = "0"; ObjectID = "GpB-qp-BcX"; */
+"GpB-qp-BcX.text" = "0";
+
+/* Class = "UILabel"; text = "USDT"; ObjectID = "Xld-pB-gAd"; */
+"Xld-pB-gAd.text" = "USDT";
+
+/* Class = "UILabel"; text = "止损 未设置"; ObjectID = "mVw-wF-8zo"; */
+"mVw-wF-8zo.text" = "止損 未設置";
+
+/* Class = "UIButton"; normalTitle = "确定"; ObjectID = "tYb-sy-uzN"; */
+"tYb-sy-uzN.normalTitle" = "確定";
+
+/* Class = "UILabel"; text = "止盈 未设置"; ObjectID = "wfd-hY-1Ya"; */
+"wfd-hY-1Ya.text" = "止盈 未設置";

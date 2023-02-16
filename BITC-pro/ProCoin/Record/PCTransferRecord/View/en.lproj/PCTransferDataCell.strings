@@ -1,0 +1,18 @@
+
+/* Class = "UILabel"; text = "时间"; ObjectID = "G6s-lM-p7s"; */
+"G6s-lM-p7s.text" = "Time";
+
+/* Class = "UILabel"; text = "数量(USDT)"; ObjectID = "JKi-DA-O0P"; */
+"JKi-DA-O0P.text" = "Quantity (USDT)";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "KED-3A-vdM"; */
+"KED-3A-vdM.text" = "0";
+
+/* Class = "UILabel"; text = "100"; ObjectID = "Kgt-M9-eHQ"; */
+"Kgt-M9-eHQ.text" = "100";
+
+/* Class = "UILabel"; text = "类型"; ObjectID = "MOZ-3M-bkO"; */
+"MOZ-3M-bkO.text" = "Type";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "vZY-uY-tVh"; */
+"vZY-uY-tVh.text" = "0";

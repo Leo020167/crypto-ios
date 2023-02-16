@@ -1,0 +1,12 @@
+
+/* Class = "UILabel"; text = "止盈价"; ObjectID = "0Nl-HF-635"; */
+"0Nl-HF-635.text" = "Take Profit Price";
+
+/* Class = "UILabel"; text = "---设置"; ObjectID = "Avy-4t-u1X"; */
+"Avy-4t-u1X.text" = "--Settings";
+
+/* Class = "UITextField"; placeholder = "请输入止盈价"; ObjectID = "Cqt-XS-1es"; */
+"Cqt-XS-1es.placeholder" = "Please enter the take profit price";
+
+/* Class = "UIButton"; normalTitle = "确认"; ObjectID = "ZLH-BY-1df"; */
+"ZLH-BY-1df.normalTitle" = "Sure";

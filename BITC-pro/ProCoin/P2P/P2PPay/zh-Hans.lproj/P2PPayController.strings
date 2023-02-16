@@ -1,0 +1,57 @@
+
+/* Class = "UILabel"; text = "-"; ObjectID = "0Be-uQ-CzE"; */
+"0Be-uQ-CzE.text" = "-";
+
+/* Class = "UILabel"; text = "银行户名"; ObjectID = "2Bz-A1-ddu"; */
+"2Bz-A1-ddu.text" = "银行户名";
+
+/* Class = "UILabel"; text = "-"; ObjectID = "5Oh-xu-kMG"; */
+"5Oh-xu-kMG.text" = "-";
+
+/* Class = "UILabel"; text = "开户银行"; ObjectID = "9cb-Ma-9nQ"; */
+"9cb-Ma-9nQ.text" = "开户银行";
+
+/* Class = "UILabel"; text = "银行卡号"; ObjectID = "9ww-1a-ahU"; */
+"9ww-1a-ahU.text" = "银行卡号";
+
+/* Class = "UILabel"; text = "¥0.00"; ObjectID = "DoH-Gu-yTS"; */
+"DoH-Gu-yTS.text" = "¥0.00";
+
+/* Class = "UILabel"; text = "已经缴纳保证金"; ObjectID = "EaL-32-fYX"; */
+"EaL-32-fYX.text" = "已经缴纳保证金";
+
+/* Class = "UILabel"; text = "请务必使用本人的支付方式向以下银行卡自行转账"; ObjectID = "HYb-kX-vW2"; */
+"HYb-kX-vW2.text" = "请务必使用本人的支付方式向以下银行卡自行转账";
+
+/* Class = "UILabel"; text = "WWCT认证商家"; ObjectID = "Hjf-Ea-GPl"; */
+"Hjf-Ea-GPl.text" = "BITC认证商家";
+
+/* Class = "UILabel"; text = "收款码"; ObjectID = "SFI-Gj-FaV"; */
+"SFI-Gj-FaV.text" = "收款码";
+
+/* Class = "UIButton"; normalTitle = "我已付款成功"; ObjectID = "Tuh-eu-H0K"; */
+"Tuh-eu-H0K.normalTitle" = "我已付款成功";
+
+/* Class = "UILabel"; text = "-"; ObjectID = "VXx-yF-rQk"; */
+"VXx-yF-rQk.text" = "-";
+
+/* Class = "UILabel"; text = "-"; ObjectID = "YdF-SD-ZH9"; */
+"YdF-SD-ZH9.text" = "-";
+
+/* Class = "UILabel"; text = "商家认证"; ObjectID = "dYx-SD-GTa"; */
+"dYx-SD-GTa.text" = "商家认证";
+
+/* Class = "UILabel"; text = "担保交易"; ObjectID = "e68-l1-Cvg"; */
+"e68-l1-Cvg.text" = "担保交易";
+
+/* Class = "UILabel"; text = "向卖家付款"; ObjectID = "gqi-Ew-OfM"; */
+"gqi-Ew-OfM.text" = "向卖家付款";
+
+/* Class = "UILabel"; text = "您正在向WWCT认证卖家购买0.00USDT"; ObjectID = "t4O-dc-Ulf"; */
+"t4O-dc-Ulf.text" = "您正在向BITC认证卖家购买0.00USDT";
+
+/* Class = "UILabel"; text = "-"; ObjectID = "t6D-Df-dlD"; */
+"t6D-Df-dlD.text" = "-";
+
+/* Class = "UILabel"; text = "付款剩余时间"; ObjectID = "xqU-LD-Fhh"; */
+"xqU-LD-Fhh.text" = "付款剩余时间";

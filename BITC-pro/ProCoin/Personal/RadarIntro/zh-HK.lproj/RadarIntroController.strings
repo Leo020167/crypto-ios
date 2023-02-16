@@ -1,0 +1,33 @@
+
+/* Class = "UILabel"; text = "1.跟单盈利额"; ObjectID = "36F-Pc-RF2"; */
+"36F-Pc-RF2.text" = "1.跟單盈利額";
+
+/* Class = "UILabel"; text = "4.跟单胜率"; ObjectID = "3lE-eZ-aY2"; */
+"3lE-eZ-aY2.text" = "4.跟單勝率";
+
+/* Class = "UILabel"; text = "2.盈利能力"; ObjectID = "9If-XQ-7JA"; */
+"9If-XQ-7JA.text" = "2.盈利能力";
+
+/* Class = "UILabel"; text = "释义：跟随高手的用户最近30天盈亏总金额。"; ObjectID = "Bnb-Sj-TGi"; */
+"Bnb-Sj-TGi.text" = "解釋：跟隨高手的用戶最近30天盈虧總金額";
+
+/* Class = "UILabel"; text = "释义：高手最近30天跟单人数，数值越大，代表跟随者越多，人气越高。"; ObjectID = "C8Q-TO-VrS"; */
+"C8Q-TO-VrS.text" = "解釋：高手最近30天跟單人數，數值越大，代表跟隨者越多，人氣越高。";
+
+/* Class = "UILabel"; text = "释义：跟随高手的用户最近30天平均每笔交易的收益率。数值越大，代表跟随高手的用户收益越好。"; ObjectID = "Mw9-L7-vVc"; */
+"Mw9-L7-vVc.text" = "解釋：跟隨高手的用戶最近30天平均每筆交易的收益率。數值越大，代表跟隨高手的用戶收益越好";
+
+/* Class = "UILabel"; text = "3.跟单收益率"; ObjectID = "Xdb-ub-gmP"; */
+"Xdb-ub-gmP.text" = "3.跟單收益率";
+
+/* Class = "UILabel"; text = "5.人气指数"; ObjectID = "ZMm-2N-cYp"; */
+"ZMm-2N-cYp.text" = "5.人氣指數";
+
+/* Class = "UILabel"; text = "释义：跟随高手盈利的几率。数值越大，代表跟单获利的可能性就越高。"; ObjectID = "dNN-Md-Ryz"; */
+"dNN-Md-Ryz.text" = "解釋：跟隨高手盈利的幾率。數值越大，代表跟單獲利的可能性就越高。";
+
+/* Class = "UILabel"; text = "释义：高手最近30天平均每笔交易的收益率。数值越大，代表个人盈利能力越强。"; ObjectID = "fu7-UP-4Z0"; */
+"fu7-UP-4Z0.text" = "解釋：高手最近30天平均每筆交易的收益率。數值越大，代表個人盈利能力越強。";
+
+/* Class = "UILabel"; text = "雷达图说明"; ObjectID = "uku-Wg-f3d"; */
+"uku-Wg-f3d.text" = "雷達圖說明";

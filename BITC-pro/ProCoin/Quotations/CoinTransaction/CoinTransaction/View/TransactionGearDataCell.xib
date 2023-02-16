@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="TransactionGearDataCellIdentifier" rowHeight="21" id="bMw-a5-MNN">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="23"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="bMw-a5-MNN" id="tBX-kT-5YR">
+                <rect key="frame" x="0.0" y="0.0" width="414" height="22.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" tag="102" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="aUw-50-ir3">
+                        <rect key="frame" x="414" y="0.0" width="0.0" height="22.5"/>
+                        <color key="backgroundColor" red="0.96470588235294119" green="0.96862745098039216" blue="0.97254901960784312" alpha="1" colorSpace="deviceRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" id="aYn-6i-yOT"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" tag="100" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="---" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="6" translatesAutoresizingMaskIntoConstraints="NO" id="NsG-W7-l25">
+                        <rect key="frame" x="0.0" y="0.0" width="207" height="22.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" red="0.23921568627450979" green="0.22745098039215686" blue="0.31372549019607843" alpha="1" colorSpace="deviceRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" tag="101" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="---" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dlr-N4-fro">
+                        <rect key="frame" x="207" y="0.0" width="207" height="22.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" red="0.23921568630000001" green="0.2274509804" blue="0.31372549020000001" alpha="1" colorSpace="deviceRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="NsG-W7-l25" firstAttribute="leading" secondItem="tBX-kT-5YR" secondAttribute="leading" id="41y-rn-7z2"/>
+                    <constraint firstItem="NsG-W7-l25" firstAttribute="top" secondItem="tBX-kT-5YR" secondAttribute="top" id="B5m-wP-3fQ"/>
+                    <constraint firstItem="dlr-N4-fro" firstAttribute="top" secondItem="tBX-kT-5YR" secondAttribute="top" id="EFP-bt-1nm"/>
+                    <constraint firstAttribute="trailing" secondItem="aUw-50-ir3" secondAttribute="trailing" id="PWe-d9-hIe"/>
+                    <constraint firstAttribute="bottom" secondItem="dlr-N4-fro" secondAttribute="bottom" id="Qpc-Ey-4GM"/>
+                    <constraint firstAttribute="bottom" secondItem="aUw-50-ir3" secondAttribute="bottom" id="Tg4-Gd-i6G"/>
+                    <constraint firstItem="dlr-N4-fro" firstAttribute="leading" secondItem="NsG-W7-l25" secondAttribute="trailing" id="YrI-cL-GVQ"/>
+                    <constraint firstItem="aUw-50-ir3" firstAttribute="top" secondItem="tBX-kT-5YR" secondAttribute="top" id="bq2-GQ-qdm"/>
+                    <constraint firstItem="NsG-W7-l25" firstAttribute="width" secondItem="dlr-N4-fro" secondAttribute="width" id="f5b-vw-dHV"/>
+                    <constraint firstAttribute="bottom" secondItem="NsG-W7-l25" secondAttribute="bottom" id="oe6-qd-IeI"/>
+                    <constraint firstAttribute="trailing" secondItem="dlr-N4-fro" secondAttribute="trailing" id="uNs-ix-SpH"/>
+                </constraints>
+            </tableViewCellContentView>
+            <point key="canvasLocation" x="155.07246376811597" y="86.049107142857139"/>
+        </tableViewCell>
+    </objects>
+</document>

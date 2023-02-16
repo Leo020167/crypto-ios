@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment version="2304" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="RYu-th-JJi">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="IoO-yo-lG8">
+                    <rect key="frame" x="10" y="14" width="4" height="16"/>
+                    <color key="backgroundColor" red="0.23921568630000001" green="0.2274509804" blue="0.31372549020000001" alpha="1" colorSpace="deviceRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="16" id="Q0B-4s-Cuo"/>
+                        <constraint firstAttribute="width" constant="4" id="h2q-o9-t0f"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="交易明细" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3fI-Kl-eTn">
+                    <rect key="frame" x="24" y="10" width="73.5" height="25"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="25" id="Cke-Bm-aV0"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                    <color key="textColor" red="0.23921568630000001" green="0.2274509804" blue="0.31372549020000001" alpha="1" colorSpace="deviceRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="3fI-Kl-eTn" firstAttribute="top" secondItem="n1e-Ze-44R" secondAttribute="top" constant="10" id="5BS-0e-1nh"/>
+                <constraint firstItem="3fI-Kl-eTn" firstAttribute="leading" secondItem="IoO-yo-lG8" secondAttribute="trailing" constant="10" id="5E4-Eg-sPf"/>
+                <constraint firstItem="IoO-yo-lG8" firstAttribute="top" secondItem="n1e-Ze-44R" secondAttribute="top" constant="14" id="WbT-p4-4IX"/>
+                <constraint firstItem="IoO-yo-lG8" firstAttribute="leading" secondItem="n1e-Ze-44R" secondAttribute="leading" constant="10" id="fFS-Af-tVi"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="n1e-Ze-44R"/>
+            <point key="canvasLocation" x="624.79999999999995" y="-502.84857571214394"/>
+        </view>
+    </objects>
+</document>

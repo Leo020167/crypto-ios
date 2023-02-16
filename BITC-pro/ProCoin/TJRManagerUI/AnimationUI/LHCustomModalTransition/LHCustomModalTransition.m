@@ -1,0 +1,420 @@
+//
+//  LHCustomModalTransition.m
+//  JianShuPopViewDemo
+//
+//  Created by LinGrea on 16/2/2.
+//  Copyright © 2016年 Lin. All rights reserved.
+//
+
+#import "LHCustomModalTransition.h"
+
+@interface LHCustomModalTransition () {
+    CGFloat screenHeight;
+    BOOL iOS8_OR_LATER;
+}
+
+// 保存入口传入的 试图控制器，用于操作
+@property (nonatomic, retain) UIViewController *modalVC;
+// 保存时弹出还是收起的状态
+@property (nonatomic, assign) BOOL isDismiss;
+// 保存frame
+@property (nonatomic, assign) CATransform3D tempTransform;
+// 保存当前动画的上下文
+@property (nonatomic, retain) id <UIViewControllerContextTransitioning> transitionContext;
+// 保存是否可手势驱动
+@property BOOL isInteractive;
+// 保存是否完成
+@property BOOL isDragEnough;
+@end
+
+@implementation LHCustomModalTransition
+
+- (instancetype)initWithModalViewController:(UIViewController *)modalViewController {
+	self = [super init];
+	if (self) {
+		_modalVC = [modalViewController retain];
+		// 设置默认样式、并且默认不能手势返回、缩放默认比例0.85、默认动画时间0.8s
+		_transitionStyle = LHCustomScaleAndRotateTransitionStyle;
+		_dragable = NO;
+		_duration = 0.6f;
+		_behindViewScale = 0.85f;
+		_behindViewAlpha = 0.8f;
+        screenHeight = [[UIScreen mainScreen]bounds].size.height;
+        iOS8_OR_LATER =  NSFoundationVersionNumber >= NSFoundationVersionNumber_iOS_8_0;
+	}
+	return self;
+}
+
+// 设置是否添加手势
+- (void)setDragable:(BOOL)dragable {
+	_dragable = dragable;
+    if (self.isDragable) {//拖动手势
+        UIPanGestureRecognizer *panGesture = [[UIPanGestureRecognizer alloc]initWithTarget:self action:@selector(handlePanGesture:)];
+		panGesture.delegate = self;
+		[self.modalVC.view addGestureRecognizer:panGesture];
+        RELEASE(panGesture);
+    }
+}
+
+// 设置动画样式
+- (void)setTransitionStyle:(LHCustomModalTransitionStyle)transitionStyle {
+	_transitionStyle = transitionStyle;
+}
+
+// 设置缩放比例
+- (void)setReduceScale:(CGFloat)reduceScale {
+	_behindViewScale = reduceScale;
+}
+
+// 设置转场时长
+- (void)setDuration:(CGFloat)duration {
+	_duration = duration;
+}
+
+#pragma mark -转场委托实现
+// 转场动画时间
+- (NSTimeInterval)transitionDuration:(id <UIViewControllerContextTransitioning>)transitionContext {
+	return _duration;
+}
+
+// 转场动画具体实现
+- (void)animateTransition:(id <UIViewControllerContextTransitioning>)transitionContext {
+	switch (_transitionStyle) {
+		case LHCustomScaleAndRotateTransitionStyle:
+			[self animateLHCustomScaleAndRotateTransitionStyleTransition:transitionContext];
+			break;
+
+		case LHCustomScaleTransitionStyle:
+			[self animateLHCustomScaleTransitionStyleTransition:transitionContext];
+			break;
+
+		default:
+			break;
+	}
+}
+
+#pragma mark - 不同动画效果
+// LHCustomScaleTransitionStyle
+- (void)animateLHCustomScaleTransitionStyleTransition:(id <UIViewControllerContextTransitioning>)transitionContext {
+	// 获取转场的两个视图控制器
+	UIViewController *fromVC = [transitionContext viewControllerForKey:UITransitionContextFromViewControllerKey];
+	UIViewController *toVC = [transitionContext viewControllerForKey:UITransitionContextToViewControllerKey];
+
+	// 获取产生转场的容器view
+	UIView *containerView = [transitionContext containerView];
+
+	if (!self.isDismiss) {	// 弹出
+		// 初始化弹出视图在底部
+		// ios7 finalFrameForViewController:可能取不到 autolayout 的 frame
+		CGRect finalRect = CGRectZero;
+		if (iOS8_OR_LATER) {
+			finalRect = [transitionContext finalFrameForViewController:toVC];
+		} else {
+			finalRect = [[UIScreen mainScreen] bounds];
+		}
+		toVC.view.frame = CGRectOffset(finalRect, 0, screenHeight);
+		[containerView addSubview:toVC.view];
+
+		// 弹出动画
+		[UIView animateWithDuration:[self transitionDuration:transitionContext] delay:0 options:UIViewAnimationOptionCurveEaseOut animations:^{
+			// 形变：缩小
+			fromVC.view.transform = CGAffineTransformScale(fromVC.view.transform, _behindViewScale, _behindViewScale);
+			// 透明度变化
+			fromVC.view.alpha = _behindViewAlpha;
+
+			// 弹出视图控制器
+			toVC.view.frame = finalRect;
+		} completion:^(BOOL finished) {
+			// 标记结束
+			[transitionContext completeTransition:![transitionContext transitionWasCancelled]];
+		}];
+	} else {// 收起
+			// 获得当前frame
+		CGRect initRect = [transitionContext initialFrameForViewController:fromVC];
+		CGRect finalRect = CGRectOffset(initRect, 0, screenHeight);
+
+		// 透明度变化
+		toVC.view.alpha = _behindViewAlpha;
+		// 收起动画
+		[UIView animateWithDuration:[self transitionDuration:transitionContext] delay:0 options:UIViewAnimationOptionCurveEaseOut animations:^{
+			// 形变：回到初始位置
+			toVC.view.transform = CGAffineTransformIdentity;
+			// 透明度变化
+			toVC.view.alpha = 1.0f;
+
+			// 收起视图控制器
+			fromVC.view.frame = finalRect;
+		} completion:^(BOOL finished) {
+			// 标记结束
+			[transitionContext completeTransition:![transitionContext transitionWasCancelled]];
+		}];
+	}
+}
+
+// LHCustomScaleAndRotateTransitionStyle
+- (void)animateLHCustomScaleAndRotateTransitionStyleTransition:(id <UIViewControllerContextTransitioning>)transitionContext {
+	// 获取转场的两个视图控制器
+	UIViewController *fromVC = [transitionContext viewControllerForKey:UITransitionContextFromViewControllerKey];
+	UIViewController *toVC = [transitionContext viewControllerForKey:UITransitionContextToViewControllerKey];
+
+	// 获取产生转场的容器view
+	UIView *containerView = [transitionContext containerView];
+
+	if (!self.isDismiss) {	// 弹出
+		// 解决角度变换时，fromVC有一半会出现在 toVC上的bug
+		fromVC.view.layer.zPosition = -400;
+		toVC.view.layer.zPosition = 400;
+
+		// 初始化弹出视图在底部
+		// ios7 finalFrameForViewController:可能取不到 autolayout 的 frame
+		CGRect finalRect = CGRectZero;
+		if (iOS8_OR_LATER) {
+			finalRect = [transitionContext finalFrameForViewController:toVC];
+		} else {
+			finalRect = [[UIScreen mainScreen] bounds];
+		}
+		toVC.view.frame = CGRectOffset(finalRect, 0, screenHeight);
+		[containerView addSubview:toVC.view];
+
+		// 弹出动画
+		[UIView animateWithDuration:[self transitionDuration:transitionContext] / 2.0 delay:0 options:UIViewAnimationOptionCurveEaseInOut animations:^{
+			// 第一步形变：绕X轴旋转并缩小
+			[fromVC.view.layer setTransform:[self firstTransform]];
+		} completion:^(BOOL finished) {
+			[UIView animateWithDuration:[self transitionDuration:transitionContext] / 2.0 delay:0 options:UIViewAnimationOptionCurveEaseInOut animations:^{
+				// 第二步形变：向上移动，并缩小
+				[fromVC.view.layer setTransform:[self secondTransform]];
+			} completion:^(BOOL finished) {}];
+		}];
+
+		[UIView animateWithDuration:[self transitionDuration:transitionContext] delay:0 options:UIViewAnimationOptionCurveEaseInOut animations:^{
+			// 弹出视图控制器
+			toVC.view.frame = finalRect;
+			// 透明度变化
+			fromVC.view.alpha = _behindViewAlpha;
+		} completion:^(BOOL finished) {
+			// 标记结束
+			[transitionContext completeTransition:![transitionContext transitionWasCancelled]];
+		}];
+	} else {// 收起
+			// 获得当前frame
+		CGRect initRect = [transitionContext initialFrameForViewController:fromVC];
+		CGRect finalRect = CGRectOffset(initRect, 0, screenHeight);
+
+		// 收起动画
+		[UIView animateWithDuration:[self transitionDuration:transitionContext] / 2.0 delay:0 options:UIViewAnimationOptionCurveEaseInOut animations:^{
+			// 第一步形变：绕X轴旋转并缩小
+			[toVC.view.layer setTransform:[self firstTransform]];
+		} completion:^(BOOL finished) {
+			[UIView animateWithDuration:[self transitionDuration:transitionContext] / 2.0 delay:0 options:UIViewAnimationOptionCurveEaseInOut animations:^{
+				// 第二步形变：回到初始位置
+				[toVC.view.layer setTransform:CATransform3DIdentity];
+			} completion:^(BOOL finished) {}];
+		}];
+
+		// 透明度变化
+		toVC.view.alpha = _behindViewAlpha;
+		[UIView animateWithDuration:[self transitionDuration:transitionContext] delay:0 options:UIViewAnimationOptionCurveEaseInOut animations:^{
+			// 收起视图控制器
+			fromVC.view.frame = finalRect;
+			// 透明度变化
+			toVC.view.alpha = 1.0f;
+		} completion:^(BOOL finished) {
+			// 标记结束
+			[transitionContext completeTransition:![transitionContext transitionWasCancelled]];
+		}];
+	}
+}
+
+#pragma mark -处理手势驱动
+- (void)handlePanGesture:(UIPanGestureRecognizer *)gesture {
+	CGPoint translation = [gesture translationInView:self.modalVC.view];
+	// 向上拖动不处理
+	if (translation.y < 0) return;
+	// 根据手势状态操作
+	switch (gesture.state) {
+		case UIGestureRecognizerStateBegan:
+			{
+				self.isInteractive =  YES;
+				[self.modalVC dismissViewControllerAnimated:YES completion:nil];
+				break;
+			}
+
+		case UIGestureRecognizerStateChanged:
+			{// 滑动距离/屏幕高度 = 进度
+				CGFloat percent = (translation.y / screenHeight) <= 1 ? (translation.y / screenHeight) : 1;
+				self.isDragEnough = (percent > 0.2);
+				// 更新
+				[self updateInteractiveTransition:percent];
+
+				break;
+			}
+
+		case UIGestureRecognizerStateCancelled:
+		case UIGestureRecognizerStateEnded:
+			{// 拖动结束，判断是执行还是取消
+				self.isInteractive = NO;
+				if ((gesture.state == UIGestureRecognizerStateCancelled) || !self.isDragEnough) {
+					[self cancelInteractiveTransition];
+				} else {
+					[self finishInteractiveTransition];
+				}
+				break;
+			}
+
+		default:
+			break;
+	}
+}
+
+#pragma mark -覆写手势驱动过程
+// 开始
+- (void)startInteractiveTransition:(id <UIViewControllerContextTransitioning>)transitionContext {
+	UIViewController *toVC = [transitionContext viewControllerForKey:UITransitionContextToViewControllerKey];
+	// 保存当前缩小的状态
+	self.tempTransform = toVC.view.layer.transform;
+	// 保存transitionContext，下面使用
+	self.transitionContext = transitionContext;
+}
+
+// 更新
+- (void)updateInteractiveTransition:(CGFloat)percentComplete {
+	id <UIViewControllerContextTransitioning> transitionContext = self.transitionContext;
+	UIViewController *fromVC = [transitionContext viewControllerForKey:UITransitionContextFromViewControllerKey];
+	UIViewController *toVC = [transitionContext viewControllerForKey:UITransitionContextToViewControllerKey];
+
+	// 计算放大倍数，然后进行缩放
+	CGFloat scale = 1 + ((1.0 / _behindViewScale) - 1) * percentComplete;
+	toVC.view.layer.transform = CATransform3DScale(self.tempTransform, scale, scale, 1);
+
+	// 更新新透明度
+	toVC.view.alpha = _behindViewAlpha + ((1 - _behindViewAlpha) * percentComplete);
+
+	// 下拉的长度
+	CGRect nowFrame = CGRectMake(0,
+			(CGRectGetHeight(fromVC.view.bounds) * percentComplete),
+			CGRectGetWidth(fromVC.view.frame),
+			CGRectGetHeight(fromVC.view.frame));
+	fromVC.view.frame = nowFrame;
+}
+
+// 完成
+- (void)finishInteractiveTransition {
+	id <UIViewControllerContextTransitioning> transitionContext = self.transitionContext;
+	UIViewController *fromVC = [transitionContext viewControllerForKey:UITransitionContextFromViewControllerKey];
+	UIViewController *toVC = [transitionContext viewControllerForKey:UITransitionContextToViewControllerKey];
+
+	// 收起弹出的试图控制器
+	CGRect finalRect = CGRectMake(0,
+			CGRectGetHeight(fromVC.view.bounds),
+			CGRectGetWidth(fromVC.view.frame),
+			CGRectGetHeight(fromVC.view.frame));
+
+	// 动画
+	[UIView animateWithDuration:[self transitionDuration:transitionContext]
+						  delay:0
+		 usingSpringWithDamping:5
+		  initialSpringVelocity:5
+						options:UIViewAnimationOptionCurveEaseInOut
+					 animations:^{
+		// 放大到原始大小
+		CATransform3D transition = CATransform3DIdentity;
+		toVC.view.layer.transform = transition;
+		// 透明度变化
+		toVC.view.alpha = 1.0f;
+
+		// 向下移动隐藏
+		fromVC.view.frame = finalRect;
+	} completion:^(BOOL finished) {
+		// 标记结束
+		[transitionContext completeTransition:YES];
+	}];
+}
+
+// 取消
+- (void)cancelInteractiveTransition {
+	id <UIViewControllerContextTransitioning> transitionContext = self.transitionContext;
+	UIViewController *fromVC = [transitionContext viewControllerForKey:UITransitionContextFromViewControllerKey];
+	UIViewController *toVC = [transitionContext viewControllerForKey:UITransitionContextToViewControllerKey];
+	[UIView animateWithDuration:0.4
+						  delay:0
+		 usingSpringWithDamping:5
+		  initialSpringVelocity:5
+						options:UIViewAnimationOptionCurveEaseOut
+					 animations:^{
+		// 缩小到大小
+		toVC.view.layer.transform = self.tempTransform;
+		// 透明度变化
+		toVC.view.alpha = _behindViewAlpha;
+
+		// 向上移动，恢复到弹出的状态
+		fromVC.view.frame = CGRectMake(0, 0,
+		CGRectGetWidth(fromVC.view.frame),
+		CGRectGetHeight(fromVC.view.frame));
+	} completion:^(BOOL finished) {
+		// 标记未结束
+		[transitionContext completeTransition:NO];
+	}];
+}
+
+#pragma mark -设置是否自定义转场动画
+// 弹出
+- (id <UIViewControllerAnimatedTransitioning>)animationControllerForPresentedController:(UIViewController *)presented presentingController:(UIViewController *)presenting sourceController:(UIViewController *)source {
+	self.isDismiss = NO;
+	return self;
+}
+
+// 收起
+- (id <UIViewControllerAnimatedTransitioning>)animationControllerForDismissedController:(UIViewController *)dismissed {
+	self.isDismiss = YES;
+	return self;
+}
+
+#pragma mark -设置是否自定义手势驱动转场动画
+// 弹出
+- (id <UIViewControllerInteractiveTransitioning>)interactionControllerForPresentation:(id <UIViewControllerAnimatedTransitioning>)animator {
+	return nil;
+}
+
+// 收起
+- (id <UIViewControllerInteractiveTransitioning>)interactionControllerForDismissal:(id <UIViewControllerAnimatedTransitioning>)animator {
+	if (self.isInteractive && self.dragable) {
+		self.isDismiss = YES;
+		return self;
+	}
+	return nil;
+}
+
+#pragma mark - 变换操作
+// 第一步变换
+- (CATransform3D)firstTransform {
+	CATransform3D transform = CATransform3DIdentity;
+
+	transform.m34 = 1.0 / -900;
+
+	_behindViewScale = _behindViewScale + 0.1 > 1.0 ? 1.0 : _behindViewScale;
+	// 宽高缩小0.9
+	transform = CATransform3DScale(transform, _behindViewScale + 0.1, _behindViewScale + 0.1, 1);
+	// 绕X轴旋转15度
+	transform = CATransform3DRotate(transform, 15.0 * M_PI / 180.0, 1, 0, 0);
+
+	return transform;
+}
+
+// 第二步变换
+- (CATransform3D)secondTransform {
+	CATransform3D transform = CATransform3DIdentity;
+	transform.m34 = [self firstTransform].m34;
+	// 向上移动的高度
+	transform = CATransform3DTranslate(transform, 0, -20, 0);
+	// 宽高缩小
+	transform = CATransform3DScale(transform, _behindViewScale, _behindViewScale, 1);
+	return transform;
+}
+
+- (void)dealloc {
+	RELEASE(_transitionContext);
+	RELEASE(_modalVC);
+    [super dealloc];
+}
+@end

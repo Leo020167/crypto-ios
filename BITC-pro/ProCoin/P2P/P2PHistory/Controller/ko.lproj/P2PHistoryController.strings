@@ -1,0 +1,9 @@
+
+/* Class = "UIButton"; normalTitle = "筛选"; ObjectID = "AND-6u-acl"; */
+"AND-6u-acl.normalTitle" = "篩選";
+
+/* Class = "UILabel"; text = "订单记录"; ObjectID = "LYs-vC-TAT"; */
+"LYs-vC-TAT.text" = "訂單記錄";
+
+/* Class = "UILabel"; text = "暂无该记录数据"; ObjectID = "bF3-GN-YzI"; */
+"bF3-GN-YzI.text" = "暫無該記錄數據";

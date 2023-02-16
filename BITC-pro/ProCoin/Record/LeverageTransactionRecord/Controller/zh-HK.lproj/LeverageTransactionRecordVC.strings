@@ -1,0 +1,18 @@
+
+/* Class = "UIButton"; normalTitle = "筛选"; ObjectID = "FIJ-f6-znK"; */
+"FIJ-f6-znK.normalTitle" = "篩選";
+
+/* Class = "UILabel"; text = "暂无该记录数据"; ObjectID = "KdE-3V-hGW"; */
+"KdE-3V-hGW.text" = "暫無該記錄數據";
+
+/* Class = "UILabel"; text = "暂无该记录数据"; ObjectID = "QUI-W7-hn8"; */
+"QUI-W7-hn8.text" = "暫無該記錄數據";
+
+/* Class = "UIButton"; normalTitle = "当前开仓"; ObjectID = "TGF-Od-bgs"; */
+"TGF-Od-bgs.normalTitle" = "當前開倉";
+
+/* Class = "UIButton"; normalTitle = "历史记录"; ObjectID = "gyD-hV-bKY"; */
+"gyD-hV-bKY.normalTitle" = "歷史記錄";
+
+/* Class = "UILabel"; text = "杠杆记录"; ObjectID = "oDu-Ad-sh1"; */
+"oDu-Ad-sh1.text" = "槓桿記錄";

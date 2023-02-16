@@ -1,0 +1,57 @@
+
+/* Class = "UIButton"; normalTitle = "0手续费购买"; ObjectID = "23N-GU-lTY"; */
+"23N-GU-lTY.normalTitle" = "Buy";
+
+/* Class = "UILabel"; text = "价格约"; ObjectID = "9rk-xS-8fi"; */
+"9rk-xS-8fi.text" = "Price";
+
+/* Class = "UILabel"; text = "USDT"; ObjectID = "DJ5-AQ-FaP"; */
+"DJ5-AQ-FaP.text" = "USDT";
+
+/* Class = "UIButton"; normalTitle = "支付方式"; ObjectID = "Fln-yw-2IS"; */
+"Fln-yw-2IS.normalTitle" = "Payments";
+
+/* Class = "UIButton"; selectedTitle = "支付方式"; ObjectID = "Fln-yw-2IS"; */
+"Fln-yw-2IS.selectedTitle" = "Payments";
+
+/* Class = "UILabel"; text = "余额 0.00 USDT"; ObjectID = "JbJ-E6-RFI"; */
+"JbJ-E6-RFI.text" = "Balance 0.00 USDT";
+
+/* Class = "UIButton"; normalTitle = "自选区"; ObjectID = "MYq-dy-4nO"; */
+"MYq-dy-4nO.normalTitle" = "P2P";
+
+/* Class = "UILabel"; text = "限额 -"; ObjectID = "O7h-pK-ho9"; */
+"O7h-pK-ho9.text" = "Limits";
+
+/* Class = "UILabel"; text = "暂无该记录数据"; ObjectID = "SXy-RC-VcJ"; */
+"SXy-RC-VcJ.text" = "No Data for this Record at the Moment";
+
+/* Class = "UIButton"; normalTitle = "我要卖"; ObjectID = "Tqd-sd-p62"; */
+"Tqd-sd-p62.normalTitle" = "Sell";
+
+/* Class = "UIButton"; normalTitle = "快捷区"; ObjectID = "TuZ-23-eBP"; */
+"TuZ-23-eBP.normalTitle" = "Express";
+
+/* Class = "UIButton"; normalTitle = "划转"; ObjectID = "UBE-fw-JfQ"; */
+"UBE-fw-JfQ.normalTitle" = "Transfer";
+
+/* Class = "UILabel"; text = "-"; ObjectID = "YcS-eU-imb"; */
+"YcS-eU-imb.text" = "-";
+
+/* Class = "UILabel"; text = "购买数量"; ObjectID = "Ynr-G2-JJB"; */
+"Ynr-G2-JJB.text" = "Amount";
+
+/* Class = "UIButton"; normalTitle = "全部"; ObjectID = "hHE-Up-pF7"; */
+"hHE-Up-pF7.normalTitle" = "All";
+
+/* Class = "UIButton"; normalTitle = "我要买"; ObjectID = "lCu-4k-thE"; */
+"lCu-4k-thE.normalTitle" = "Buy";
+
+/* Class = "UIButton"; normalTitle = "交易金额"; ObjectID = "rQB-IA-phv"; */
+"rQB-IA-phv.normalTitle" = "Amount";
+
+/* Class = "UIButton"; selectedTitle = "交易金额"; ObjectID = "rQB-IA-phv"; */
+"rQB-IA-phv.selectedTitle" = "Amount";
+
+/* Class = "UILabel"; text = "CNY/USDT"; ObjectID = "xx0-uk-KAe"; */
+"xx0-uk-KAe.text" = "HKD/USDT";

@@ -1,0 +1,9 @@
+
+/* Class = "UIButton"; normalTitle = "交易"; ObjectID = "J73-Vc-skA"; */
+"J73-Vc-skA.normalTitle" = "取引";
+
+/* Class = "UILabel"; text = "回购价走势图"; ObjectID = "P9s-hP-cgf"; */
+"P9s-hP-cgf.text" = "買い戻し価格の推移をグラフ化してみる";
+
+/* Class = "UIButton"; normalTitle = "回购"; ObjectID = "dXf-PX-VcC"; */
+"dXf-PX-VcC.normalTitle" = "買い戻し";

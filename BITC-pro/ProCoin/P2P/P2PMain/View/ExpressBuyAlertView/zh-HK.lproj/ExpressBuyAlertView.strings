@@ -1,0 +1,30 @@
+
+/* Class = "UILabel"; text = "银行卡"; ObjectID = "LpK-PY-yQJ"; */
+"LpK-PY-yQJ.text" = "銀行卡";
+
+/* Class = "UILabel"; text = "0.00 USDT"; ObjectID = "UUQ-Y3-ywj"; */
+"UUQ-Y3-ywj.text" = "0.00 USDT";
+
+/* Class = "UILabel"; text = "￥0.00"; ObjectID = "ZVF-wt-umB"; */
+"ZVF-wt-umB.text" = "HK$0.00";
+
+/* Class = "UILabel"; text = "数量"; ObjectID = "Zth-cy-w3X"; */
+"Zth-cy-w3X.text" = "數量";
+
+/* Class = "UIButton"; normalTitle = "确认购买"; ObjectID = "b3d-CA-99u"; */
+"b3d-CA-99u.normalTitle" = "確認購買";
+
+/* Class = "UILabel"; text = "确认购买"; ObjectID = "h5m-aA-dks"; */
+"h5m-aA-dks.text" = "確認購買";
+
+/* Class = "UILabel"; text = "银行卡"; ObjectID = "hff-H6-5eT"; */
+"hff-H6-5eT.text" = "銀行卡";
+
+/* Class = "UILabel"; text = "银行卡"; ObjectID = "klk-Gv-urU"; */
+"klk-Gv-urU.text" = "銀行卡";
+
+/* Class = "UILabel"; text = "价格"; ObjectID = "yZ0-wa-iZd"; */
+"yZ0-wa-iZd.text" = "價格";
+
+/* Class = "UILabel"; text = "0.00 CNY/USDT"; ObjectID = "zDi-Yz-mPC"; */
+"zDi-Yz-mPC.text" = "0.00 HKD/USDT";

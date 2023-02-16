@@ -1,0 +1,15 @@
+
+/* Class = "UIButton"; highlightedTitle = "保存"; ObjectID = "8"; */
+"8.highlightedTitle" = "Save";
+
+/* Class = "UIButton"; normalTitle = "保存"; ObjectID = "8"; */
+"8.normalTitle" = "Save";
+
+/* Class = "UIBarButtonItem"; title = "确定"; ObjectID = "9WK-WQ-L6o"; */
+"9WK-WQ-L6o.title" = "Confirm";
+
+/* Class = "UIBarButtonItem"; title = "取消"; ObjectID = "QlE-HN-M2k"; */
+"QlE-HN-M2k.title" = "Cancel";
+
+/* Class = "UILabel"; text = "我的资料"; ObjectID = "XRV-kZ-Ktp"; */
+"XRV-kZ-Ktp.text" = "My Profile";

@@ -1,0 +1,9 @@
+
+/* Class = "UIButton"; normalTitle = "快捷平仓"; ObjectID = "5GO-m3-Oaw"; */
+"5GO-m3-Oaw.normalTitle" = "迅速な清算";
+
+/* Class = "UILabel"; text = "---"; ObjectID = "Q89-YH-8Th"; */
+"Q89-YH-8Th.text" = "---";
+
+/* Class = "UIButton"; normalTitle = "普通平仓"; ObjectID = "Xf6-P7-pwi"; */
+"Xf6-P7-pwi.normalTitle" = "通常のクロージング";

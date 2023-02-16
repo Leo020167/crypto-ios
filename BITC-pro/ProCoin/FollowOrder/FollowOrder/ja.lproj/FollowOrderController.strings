@@ -1,0 +1,48 @@
+
+/* Class = "UIButton"; normalTitle = "确定"; ObjectID = "4He-5d-jPV"; */
+"4He-5d-jPV.normalTitle" = "もちろん";
+
+/* Class = "UIButton"; normalTitle = "《风险提示》"; ObjectID = "6hG-cF-T34"; */
+"6hG-cF-T34.normalTitle" = "《リスクのヒント》";
+
+/* Class = "UILabel"; text = "每笔跟单上限"; ObjectID = "FAF-Y4-sTc"; */
+"FAF-Y4-sTc.text" = "各コピー制限";
+
+/* Class = "UILabel"; text = "可用USDT:0"; ObjectID = "FzK-po-rJ1"; */
+"FzK-po-rJ1.text" = "利用可能USDT:0";
+
+/* Class = "UILabel"; text = "≈¥0.00"; ObjectID = "I7W-px-BAt"; */
+"I7W-px-BAt.text" = "≈¥0.00";
+
+/* Class = "UILabel"; text = "≈¥0.00"; ObjectID = "JOz-gp-0nv"; */
+"JOz-gp-0nv.text" = "≈¥0.00";
+
+/* Class = "UITextField"; placeholder = "0.00"; ObjectID = "KYR-bP-txx"; */
+"KYR-bP-txx.placeholder" = "0.00";
+
+/* Class = "UILabel"; text = "确定跟单即代表您已阅读并同意"; ObjectID = "UvT-fE-YjW"; */
+"UvT-fE-YjW.text" = "ドキュメンタリーがあなたが読んで同意したことを意味することを確認してください";
+
+/* Class = "UILabel"; text = "跟单投入"; ObjectID = "cQb-rJ-rGJ"; */
+"cQb-rJ-rGJ.text" = "コピー投資";
+
+/* Class = "UILabel"; text = "USDT"; ObjectID = "d2U-BY-tAo"; */
+"d2U-BY-tAo.text" = "USDT";
+
+/* Class = "UILabel"; text = "USDT"; ObjectID = "fHd-jF-36a"; */
+"fHd-jF-36a.text" = "USDT";
+
+/* Class = "UITextField"; placeholder = "0.00"; ObjectID = "l7A-o8-zLt"; */
+"l7A-o8-zLt.placeholder" = "0.00";
+
+/* Class = "UILabel"; text = "止盈 未设置"; ObjectID = "nN5-3j-PDK"; */
+"nN5-3j-PDK.text" = "締まりが設定されていません";
+
+/* Class = "UILabel"; text = "跟单设置"; ObjectID = "nUW-sF-sUP"; */
+"nUW-sF-sUP.text" = "フォールバック設定";
+
+/* Class = "UILabel"; text = "跟单"; ObjectID = "qXU-5b-Nhf"; */
+"qXU-5b-Nhf.text" = "ドキュメンタリー";
+
+/* Class = "UILabel"; text = "止损 未设置"; ObjectID = "yE3-15-AwA"; */
+"yE3-15-AwA.text" = "ストップロスが設定されていません";

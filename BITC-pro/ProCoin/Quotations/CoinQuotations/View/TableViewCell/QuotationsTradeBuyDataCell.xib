@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment version="2304" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="QuotationsTradeBuyDataCellIdentifier" rowHeight="22" id="Vp3-K2-gln">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="27"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Vp3-K2-gln" id="MQj-YA-50p">
+                <rect key="frame" x="0.0" y="0.0" width="414" height="27"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" tag="102" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Dxl-hW-Bu6">
+                        <rect key="frame" x="0.0" y="0.0" width="1" height="27"/>
+                        <color key="backgroundColor" red="0.85098039215686272" green="0.14901960784313725" blue="0.0" alpha="0.20000000000000001" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="1" id="Lm5-ps-HtD"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" tag="100" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="---" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6hk-A9-bHK">
+                        <rect key="frame" x="15" y="6" width="128" height="18"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="18" id="8lF-Ow-PJs"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" red="0.93725490196078431" green="0.93725490196078431" blue="0.93725490196078431" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" tag="101" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="---" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="Qc5-04-96L">
+                        <rect key="frame" x="153" y="6" width="256" height="18"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="18" id="ofc-Zo-xbd"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" red="0.85098039215686272" green="0.14901960784313725" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="Qc5-04-96L" secondAttribute="bottom" constant="3" id="7BR-JU-r6u"/>
+                    <constraint firstAttribute="trailing" secondItem="Qc5-04-96L" secondAttribute="trailing" constant="5" id="BGA-N6-oFN"/>
+                    <constraint firstItem="Qc5-04-96L" firstAttribute="leading" secondItem="6hk-A9-bHK" secondAttribute="trailing" constant="10" id="FVV-0s-1fP"/>
+                    <constraint firstAttribute="bottom" secondItem="Dxl-hW-Bu6" secondAttribute="bottom" id="Oqb-b8-2F7"/>
+                    <constraint firstAttribute="bottom" secondItem="6hk-A9-bHK" secondAttribute="bottom" constant="3" id="Qim-TG-EHn"/>
+                    <constraint firstItem="6hk-A9-bHK" firstAttribute="leading" secondItem="MQj-YA-50p" secondAttribute="leading" constant="15" id="eOw-eq-ySQ"/>
+                    <constraint firstItem="Dxl-hW-Bu6" firstAttribute="leading" secondItem="MQj-YA-50p" secondAttribute="leading" id="hMN-8Q-IKS"/>
+                    <constraint firstItem="6hk-A9-bHK" firstAttribute="width" secondItem="Qc5-04-96L" secondAttribute="width" multiplier="1:2" id="jgE-AF-yaK"/>
+                    <constraint firstItem="Dxl-hW-Bu6" firstAttribute="top" secondItem="MQj-YA-50p" secondAttribute="top" id="rOP-L4-THV"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" red="0.074509803921568626" green="0.11764705882352941" blue="0.19215686274509802" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <point key="canvasLocation" x="382.60869565217394" y="120.53571428571428"/>
+        </tableViewCell>
+    </objects>
+</document>

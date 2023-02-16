@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment version="2304" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="ZEa-al-yDn" customClass="CostChartHeaderView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="237"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="总数量：0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="MrD-fI-vRY">
+                    <rect key="frame" x="15" y="5" width="345" height="17"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" red="0.23921568627450979" green="0.22745098039215686" blue="0.31372549019607843" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="盈利比例：" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="6" translatesAutoresizingMaskIntoConstraints="NO" id="ScC-gu-4pK">
+                    <rect key="frame" x="190" y="37" width="170" height="15"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <color key="textColor" red="0.80392156862745101" green="0.31372549019607843" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="平均成本价：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="6" translatesAutoresizingMaskIntoConstraints="NO" id="VWd-Zk-tqp">
+                    <rect key="frame" x="15" y="37" width="170" height="15"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <color key="textColor" red="1" green="0.5607843137254902" blue="0.0039215686274509803" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gNx-j6-dyo" customClass="CostChartView">
+                    <rect key="frame" x="15" y="67" width="345" height="170"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="VWd-Zk-tqp" firstAttribute="top" secondItem="MrD-fI-vRY" secondAttribute="bottom" constant="15" id="0Ci-5S-W06"/>
+                <constraint firstItem="VWd-Zk-tqp" firstAttribute="leading" secondItem="ZEa-al-yDn" secondAttribute="leading" constant="15" id="5dQ-SQ-ta1"/>
+                <constraint firstItem="VWd-Zk-tqp" firstAttribute="centerY" secondItem="ScC-gu-4pK" secondAttribute="centerY" id="6To-4N-L2J"/>
+                <constraint firstAttribute="trailing" secondItem="MrD-fI-vRY" secondAttribute="trailing" constant="15" id="Gbm-hs-dK5"/>
+                <constraint firstAttribute="trailing" secondItem="gNx-j6-dyo" secondAttribute="trailing" constant="15" id="Hlr-YY-dxt"/>
+                <constraint firstItem="MrD-fI-vRY" firstAttribute="leading" secondItem="ZEa-al-yDn" secondAttribute="leading" constant="15" id="Ixy-XL-mAf"/>
+                <constraint firstItem="VWd-Zk-tqp" firstAttribute="width" secondItem="ScC-gu-4pK" secondAttribute="width" id="PfC-WC-jlC"/>
+                <constraint firstItem="ScC-gu-4pK" firstAttribute="leading" secondItem="VWd-Zk-tqp" secondAttribute="trailing" constant="5" id="V4V-0T-8au"/>
+                <constraint firstItem="gNx-j6-dyo" firstAttribute="leading" secondItem="ZEa-al-yDn" secondAttribute="leading" constant="15" id="f7a-Xx-8GB"/>
+                <constraint firstItem="gNx-j6-dyo" firstAttribute="top" secondItem="ScC-gu-4pK" secondAttribute="bottom" constant="15" id="tlQ-sM-E1A"/>
+                <constraint firstAttribute="trailing" secondItem="ScC-gu-4pK" secondAttribute="trailing" constant="15" id="y48-Vg-UDX"/>
+                <constraint firstAttribute="bottom" secondItem="gNx-j6-dyo" secondAttribute="bottom" id="yMN-gS-KVn"/>
+                <constraint firstItem="MrD-fI-vRY" firstAttribute="top" secondItem="ZEa-al-yDn" secondAttribute="top" constant="5" id="zf3-Ty-hyg"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="avgPirceLabel" destination="VWd-Zk-tqp" id="JX4-ga-TZQ"/>
+                <outlet property="chartView" destination="gNx-j6-dyo" id="tVd-XJ-yUB"/>
+                <outlet property="profitRateLabel" destination="ScC-gu-4pK" id="1mf-ku-xKW"/>
+                <outlet property="totalAmountLabel" destination="MrD-fI-vRY" id="96K-9t-rYS"/>
+            </connections>
+            <point key="canvasLocation" x="508" y="-535.23238380809596"/>
+        </view>
+    </objects>
+</document>

@@ -1,0 +1,30 @@
+
+/* Class = "UILabel"; text = "收款方式"; ObjectID = "SNr-lV-2uW"; */
+"SNr-lV-2uW.text" = "Collection Method";
+
+/* Class = "UILabel"; text = "0.00 CNY/USDT"; ObjectID = "Tuk-of-zxZ"; */
+"Tuk-of-zxZ.text" = "0.00 HKD/USDT";
+
+/* Class = "UILabel"; text = "0.00 USDT"; ObjectID = "UUQ-Y3-ywj"; */
+"UUQ-Y3-ywj.text" = "0.00 USDT";
+
+/* Class = "UILabel"; text = "￥0.00"; ObjectID = "ZVF-wt-umB"; */
+"ZVF-wt-umB.text" = "HK$0.00";
+
+/* Class = "UILabel"; text = "数量"; ObjectID = "Zth-cy-w3X"; */
+"Zth-cy-w3X.text" = "Quantity";
+
+/* Class = "UIButton"; normalTitle = "0手续费出售"; ObjectID = "b3d-CA-99u"; */
+"b3d-CA-99u.normalTitle" = "No Commission to Sell";
+
+/* Class = "UILabel"; text = "实收款"; ObjectID = "e30-EF-CCg"; */
+"e30-EF-CCg.text" = "Actual Payment";
+
+/* Class = "UILabel"; text = "确认出售"; ObjectID = "h5m-aA-dks"; */
+"h5m-aA-dks.text" = "Confirm sale";
+
+/* Class = "UILabel"; text = "-"; ObjectID = "hQy-sP-KLx"; */
+"hQy-sP-KLx.text" = "-";
+
+/* Class = "UILabel"; text = "单价"; ObjectID = "tbD-UC-8Q4"; */
+"tbD-UC-8Q4.text" = "Unit Price";

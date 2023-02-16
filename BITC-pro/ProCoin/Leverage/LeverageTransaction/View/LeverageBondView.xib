@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment version="2304" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="NbR-YZ-knp" customClass="LeverageBondView">
+            <rect key="frame" x="0.0" y="0.0" width="240" height="85"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <button opaque="NO" tag="100" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e8m-sv-g7D">
+                    <rect key="frame" x="0.0" y="0.0" width="73.5" height="35"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="35" id="ZCR-yG-vtX"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <state key="normal" title="---">
+                        <color key="titleColor" red="0.74509803919999995" green="0.74509803919999995" blue="0.74509803919999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                            <integer key="value" value="1"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="layer.borderUIColor">
+                            <color key="value" red="0.74509803921568629" green="0.74509803921568629" blue="0.74509803921568629" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="3"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="optionsButtonPressed:" destination="NbR-YZ-knp" eventType="touchUpInside" id="ks6-0d-bha"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="101" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CLG-be-6eh">
+                    <rect key="frame" x="83.5" y="0.0" width="73" height="35"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="35" id="hld-hU-mqI"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <state key="normal" title="---">
+                        <color key="titleColor" red="0.74509803921568629" green="0.74509803921568629" blue="0.74509803921568629" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                            <integer key="value" value="1"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="layer.borderUIColor">
+                            <color key="value" red="0.74509803919999995" green="0.74509803919999995" blue="0.74509803919999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="3"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="optionsButtonPressed:" destination="NbR-YZ-knp" eventType="touchUpInside" id="ZLb-kC-BqN"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="102" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mPl-of-dtM">
+                    <rect key="frame" x="166.5" y="0.0" width="73.5" height="35"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="35" id="kWM-gG-Dnn"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <state key="normal" title="---">
+                        <color key="titleColor" red="0.74509803921568629" green="0.74509803921568629" blue="0.74509803921568629" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                            <integer key="value" value="1"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="layer.borderUIColor">
+                            <color key="value" red="0.74509803919999995" green="0.74509803919999995" blue="0.74509803919999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="3"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="optionsButtonPressed:" destination="NbR-YZ-knp" eventType="touchUpInside" id="jGc-zR-dgz"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="103" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8V6-k6-7eh">
+                    <rect key="frame" x="0.0" y="50" width="73.5" height="35"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="35" id="Klx-ah-ObI"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <state key="normal" title="---">
+                        <color key="titleColor" red="0.74509803919999995" green="0.74509803919999995" blue="0.74509803919999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                            <integer key="value" value="1"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="layer.borderUIColor">
+                            <color key="value" red="0.74509803919999995" green="0.74509803919999995" blue="0.74509803919999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="3"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="optionsButtonPressed:" destination="NbR-YZ-knp" eventType="touchUpInside" id="ZFP-4H-bvF"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="104" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I9n-dX-VbB">
+                    <rect key="frame" x="83.5" y="50" width="73" height="35"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="35" id="KBN-mp-i7T"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <state key="normal" title="---">
+                        <color key="titleColor" red="0.74509803919999995" green="0.74509803919999995" blue="0.74509803919999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                            <integer key="value" value="1"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="layer.borderUIColor">
+                            <color key="value" red="0.74509803919999995" green="0.74509803919999995" blue="0.74509803919999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="3"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="optionsButtonPressed:" destination="NbR-YZ-knp" eventType="touchUpInside" id="JzZ-QA-WEy"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="105" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Jj-Il-7yT">
+                    <rect key="frame" x="166.5" y="50" width="73.5" height="35"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="35" id="Cvq-i2-wqy"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <state key="normal" title="---">
+                        <color key="titleColor" red="0.74509803919999995" green="0.74509803919999995" blue="0.74509803919999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                            <integer key="value" value="1"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="layer.borderUIColor">
+                            <color key="value" red="0.74509803919999995" green="0.74509803919999995" blue="0.74509803919999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="3"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="optionsButtonPressed:" destination="NbR-YZ-knp" eventType="touchUpInside" id="j9h-fZ-Wzy"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="mPl-of-dtM" firstAttribute="leading" secondItem="CLG-be-6eh" secondAttribute="trailing" constant="10" id="3jv-yl-331"/>
+                <constraint firstItem="I9n-dX-VbB" firstAttribute="top" secondItem="8V6-k6-7eh" secondAttribute="top" id="7xx-cD-Egr"/>
+                <constraint firstItem="mPl-of-dtM" firstAttribute="top" secondItem="6dB-cB-tDa" secondAttribute="top" id="9yR-Bj-wFt"/>
+                <constraint firstItem="CLG-be-6eh" firstAttribute="top" secondItem="6dB-cB-tDa" secondAttribute="top" id="Afm-gA-vGP"/>
+                <constraint firstItem="8V6-k6-7eh" firstAttribute="width" secondItem="5Jj-Il-7yT" secondAttribute="width" id="CmE-a3-bxF"/>
+                <constraint firstItem="5Jj-Il-7yT" firstAttribute="top" secondItem="8V6-k6-7eh" secondAttribute="top" id="Cmy-aj-PKm"/>
+                <constraint firstItem="8V6-k6-7eh" firstAttribute="top" secondItem="e8m-sv-g7D" secondAttribute="bottom" constant="15" id="JkC-RG-qpW"/>
+                <constraint firstItem="6dB-cB-tDa" firstAttribute="trailing" secondItem="mPl-of-dtM" secondAttribute="trailing" id="K8I-XR-RzZ"/>
+                <constraint firstItem="CLG-be-6eh" firstAttribute="leading" secondItem="e8m-sv-g7D" secondAttribute="trailing" constant="10" id="MlM-7V-0TF"/>
+                <constraint firstItem="8V6-k6-7eh" firstAttribute="leading" secondItem="6dB-cB-tDa" secondAttribute="leading" id="Qn8-G8-EQ0"/>
+                <constraint firstItem="5Jj-Il-7yT" firstAttribute="leading" secondItem="I9n-dX-VbB" secondAttribute="trailing" constant="10" id="WVW-di-jZc"/>
+                <constraint firstItem="8V6-k6-7eh" firstAttribute="width" secondItem="I9n-dX-VbB" secondAttribute="width" id="dpl-H0-CGG"/>
+                <constraint firstItem="e8m-sv-g7D" firstAttribute="top" secondItem="6dB-cB-tDa" secondAttribute="top" id="fv7-QB-4V6"/>
+                <constraint firstItem="e8m-sv-g7D" firstAttribute="width" secondItem="mPl-of-dtM" secondAttribute="width" id="gbd-sB-3Td"/>
+                <constraint firstItem="e8m-sv-g7D" firstAttribute="width" secondItem="CLG-be-6eh" secondAttribute="width" id="lii-kb-p8e"/>
+                <constraint firstItem="I9n-dX-VbB" firstAttribute="leading" secondItem="8V6-k6-7eh" secondAttribute="trailing" constant="10" id="rtl-to-VSi"/>
+                <constraint firstItem="e8m-sv-g7D" firstAttribute="leading" secondItem="6dB-cB-tDa" secondAttribute="leading" id="wvZ-wQ-dsk"/>
+                <constraint firstItem="6dB-cB-tDa" firstAttribute="trailing" secondItem="5Jj-Il-7yT" secondAttribute="trailing" id="zgO-FO-bIn"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="6dB-cB-tDa"/>
+            <point key="canvasLocation" x="-37.600000000000001" y="-326.98650674662673"/>
+        </view>
+    </objects>
+</document>

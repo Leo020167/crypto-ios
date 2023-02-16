@@ -1,0 +1,39 @@
+
+/* Class = "UILabel"; text = "可提现数量：0"; ObjectID = "2KT-Kd-PZq"; */
+"2KT-Kd-PZq.text" = "可提现数量：0";
+
+/* Class = "UILabel"; text = "USDT提现"; ObjectID = "2tm-oU-glx"; */
+"2tm-oU-glx.text" = "USDT提现";
+
+/* Class = "UIButton"; normalTitle = "全部"; ObjectID = "71g-5E-0vx"; */
+"71g-5E-0vx.normalTitle" = "全部";
+
+/* Class = "UILabel"; text = "中国建设银行(4751)"; ObjectID = "7XU-bR-TR0"; */
+"7XU-bR-TR0.text" = "中国建设银行(4751)";
+
+/* Class = "UIButton"; normalTitle = "提现"; ObjectID = "HmO-F2-8bq"; */
+"HmO-F2-8bq.normalTitle" = "提现";
+
+/* Class = "UILabel"; text = "提现单价：¥-----"; ObjectID = "KAZ-gH-dgj"; */
+"KAZ-gH-dgj.text" = "提现单价：¥-----";
+
+/* Class = "UILabel"; text = "¥0.00"; ObjectID = "MF1-9f-r3A"; */
+"MF1-9f-r3A.text" = "¥0.00";
+
+/* Class = "UILabel"; text = "+ 添加收款方式"; ObjectID = "Nu0-RD-RRX"; */
+"Nu0-RD-RRX.text" = "+ 添加收款方式";
+
+/* Class = "UILabel"; text = "储蓄卡"; ObjectID = "O6r-A5-TNS"; */
+"O6r-A5-TNS.text" = "储蓄卡";
+
+/* Class = "UITextField"; placeholder = "请输入提现数量"; ObjectID = "Vqk-Y1-XZ5"; */
+"Vqk-Y1-XZ5.placeholder" = "请输入提现数量";
+
+/* Class = "UILabel"; text = "提现金额"; ObjectID = "ZHz-uM-wKG"; */
+"ZHz-uM-wKG.text" = "提现金额";
+
+/* Class = "UILabel"; text = "USDT"; ObjectID = "lXO-qQ-9oP"; */
+"lXO-qQ-9oP.text" = "USDT";
+
+/* Class = "UILabel"; text = "张三风"; ObjectID = "oyZ-aX-s0R"; */
+"oyZ-aX-s0R.text" = "张三风";

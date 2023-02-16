@@ -1,0 +1,36 @@
+
+/* Class = "UILabel"; text = "冻结数量"; ObjectID = "5kA-5e-9mP"; */
+"5kA-5e-9mP.text" = "凍結數量";
+
+/* Class = "UILabel"; text = "---"; ObjectID = "Gnw-Eo-0BM"; */
+"Gnw-Eo-0BM.text" = "---";
+
+/* Class = "UIButton"; normalTitle = "全部"; ObjectID = "HfO-ZS-qxN"; */
+"HfO-ZS-qxN.normalTitle" = "全部";
+
+/* Class = "UILabel"; text = "转出"; ObjectID = "KVN-me-ghm"; */
+"KVN-me-ghm.text" = "轉出";
+
+/* Class = "UITextField"; placeholder = "请输入数量"; ObjectID = "YK4-8B-dHR"; */
+"YK4-8B-dHR.placeholder" = "請輸入數量";
+
+/* Class = "UILabel"; text = "---"; ObjectID = "ewV-KL-Wgc"; */
+"ewV-KL-Wgc.text" = "---";
+
+/* Class = "UILabel"; text = "---"; ObjectID = "fKf-N7-ycN"; */
+"fKf-N7-ycN.text" = "---";
+
+/* Class = "UILabel"; text = "转出--数量到持仓"; ObjectID = "gm1-sn-vvN"; */
+"gm1-sn-vvN.text" = "轉出--數量到持倉";
+
+/* Class = "UIButton"; normalTitle = "确认转入"; ObjectID = "i0k-ka-DQA"; */
+"i0k-ka-DQA.normalTitle" = "確認轉入";
+
+/* Class = "UILabel"; text = "---"; ObjectID = "jgd-85-8Dx"; */
+"jgd-85-8Dx.text" = "---";
+
+/* Class = "UILabel"; text = "可转出数量:"; ObjectID = "pfV-Hs-HuE"; */
+"pfV-Hs-HuE.text" = "可轉出數量:";
+
+/* Class = "UILabel"; text = "---"; ObjectID = "tdR-KB-3hA"; */
+"tdR-KB-3hA.text" = "---";

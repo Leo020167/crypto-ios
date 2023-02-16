@@ -1,0 +1,18 @@
+
+/* Class = "UIButton"; normalTitle = "确认"; ObjectID = "VPI-Su-5zX"; */
+"VPI-Su-5zX.normalTitle" = "Sure";
+
+/* Class = "UILabel"; text = "(以当前市价成交)"; ObjectID = "WRD-ZR-gD3"; */
+"WRD-ZR-gD3.text" = "(To trade at the current market price)";
+
+/* Class = "UITextField"; placeholder = "请输入平仓手数"; ObjectID = "X4M-6F-1JP"; */
+"X4M-6F-1JP.placeholder" = "Please enter the number of lots to close the position";
+
+/* Class = "UILabel"; text = "手"; ObjectID = "kUM-0t-TFk"; */
+"kUM-0t-TFk.text" = "Lot";
+
+/* Class = "UILabel"; text = "普通平仓"; ObjectID = "mi2-6f-Bxr"; */
+"mi2-6f-Bxr.text" = "Ordinary closing";
+
+/* Class = "UILabel"; text = "持仓手数:"; ObjectID = "ztP-sZ-7mC"; */
+"ztP-sZ-7mC.text" = "Position Opening Lot:";

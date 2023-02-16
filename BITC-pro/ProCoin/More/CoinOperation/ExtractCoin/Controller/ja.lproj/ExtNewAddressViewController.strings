@@ -1,0 +1,36 @@
+
+/* Class = "UIButton"; normalTitle = "+ 添加"; ObjectID = "3n7-FS-0f0"; */
+"3n7-FS-0f0.normalTitle" = "+ 追加";
+
+/* Class = "UILabel"; text = "选择提币网络"; ObjectID = "FNR-X5-gJx"; */
+"FNR-X5-gJx.text" = "出金ネットワークを選択";
+
+/* Class = "UILabel"; text = "▽"; ObjectID = "FYK-3z-gAG"; */
+"FYK-3z-gAG.text" = "▽";
+
+/* Class = "UILabel"; text = "添加提币地址"; ObjectID = "KOC-X3-XVU"; */
+"KOC-X3-XVU.text" = "出金先住所";
+
+/* Class = "UITextField"; placeholder = "请输入地址"; ObjectID = "O62-gL-W1S"; */
+"O62-gL-W1S.placeholder" = "住所を入力してください";
+
+/* Class = "UILabel"; text = "备注"; ObjectID = "UXM-6a-69y"; */
+"UXM-6a-69y.text" = "述べる";
+
+/* Class = "UILabel"; text = "提币地址"; ObjectID = "gSB-6T-XOK"; */
+"gSB-6T-XOK.text" = "出金先住所";
+
+/* Class = "UIButton"; normalTitle = "粘贴"; ObjectID = "gav-g8-0xS"; */
+"gav-g8-0xS.normalTitle" = "ペースト";
+
+/* Class = "UILabel"; text = "选择币种"; ObjectID = "jqT-al-fd1"; */
+"jqT-al-fd1.text" = "通貨を選択";
+
+/* Class = "UILabel"; text = "我的提幣地址"; ObjectID = "mDC-sv-Svg"; */
+"mDC-sv-Svg.text" = "私の引き出しアドレス";
+
+/* Class = "UIButton"; normalTitle = "BTC"; ObjectID = "rN6-wY-bdk"; */
+"rN6-wY-bdk.normalTitle" = "BTC";
+
+/* Class = "UITextField"; placeholder = "请输入备注"; ObjectID = "sii-Db-kCi"; */
+"sii-Db-kCi.placeholder" = "メモを入力してください";

@@ -1,0 +1,30 @@
+
+/* Class = "UIButton"; normalTitle = "订阅"; ObjectID = "3EY-cT-MZJ"; */
+"3EY-cT-MZJ.normalTitle" = "Subscription";
+
+/* Class = "UILabel"; text = "0 USDT"; ObjectID = "46i-hf-crX"; */
+"46i-hf-crX.text" = "0 USDT";
+
+/* Class = "UILabel"; text = "合计:"; ObjectID = "7KH-wo-ctK"; */
+"7KH-wo-ctK.text" = "Total:";
+
+/* Class = "UILabel"; text = "注:订阅/续费后将收到该用户的交易策略。"; ObjectID = "AzO-4s-Te9"; */
+"AzO-4s-Te9.text" = "Note:The trading strategy for this user will be received after you subscribe/renew your subscription.";
+
+/* Class = "UILabel"; text = "账户余额可用:"; ObjectID = "D2m-YL-uo2"; */
+"D2m-YL-uo2.text" = "The available balance of the account is:";
+
+/* Class = "UILabel"; text = "标题"; ObjectID = "HZ8-xB-yt2"; */
+"HZ8-xB-yt2.text" = "Title";
+
+/* Class = "UITextField"; placeholder = "请输入"; ObjectID = "QPB-K5-7dX"; */
+"QPB-K5-7dX.placeholder" = "Please Insert";
+
+/* Class = "UILabel"; text = "2000U/月"; ObjectID = "WGu-D3-awq"; */
+"WGu-D3-awq.text" = "2000U/Month";
+
+/* Class = "UILabel"; text = "月"; ObjectID = "jTJ-eE-Amc"; */
+"jTJ-eE-Amc.text" = "Month";
+
+/* Class = "UILabel"; text = "提示"; ObjectID = "oma-Vr-UUy"; */
+"oma-Vr-UUy.text" = "Reminder";

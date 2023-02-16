@@ -1,0 +1,30 @@
+
+/* Class = "UILabel"; text = "---"; ObjectID = "9SX-ex-FxP"; */
+"9SX-ex-FxP.text" = "---";
+
+/* Class = "UILabel"; text = "---"; ObjectID = "FuE-Ju-guV"; */
+"FuE-Ju-guV.text" = "---";
+
+/* Class = "UILabel"; text = "平仓价"; ObjectID = "HE7-VI-qtz"; */
+"HE7-VI-qtz.text" = "平仓价";
+
+/* Class = "UILabel"; text = "平仓手续费"; ObjectID = "PPR-d9-3c2"; */
+"PPR-d9-3c2.text" = "平仓手续费";
+
+/* Class = "UILabel"; text = "---"; ObjectID = "eHg-fF-q9N"; */
+"eHg-fF-q9N.text" = "---";
+
+/* Class = "UILabel"; text = "平仓时间"; ObjectID = "fAa-4R-xsl"; */
+"fAa-4R-xsl.text" = "平仓时间";
+
+/* Class = "UILabel"; text = "平仓金额"; ObjectID = "mwh-wd-lk5"; */
+"mwh-wd-lk5.text" = "平仓金额";
+
+/* Class = "UILabel"; text = "---"; ObjectID = "nIG-vv-uMZ"; */
+"nIG-vv-uMZ.text" = "---";
+
+/* Class = "UILabel"; text = "---"; ObjectID = "ov6-Gq-AhS"; */
+"ov6-Gq-AhS.text" = "---";
+
+/* Class = "UILabel"; text = "平仓数量"; ObjectID = "rVS-cT-e1D"; */
+"rVS-cT-e1D.text" = "平仓数量";

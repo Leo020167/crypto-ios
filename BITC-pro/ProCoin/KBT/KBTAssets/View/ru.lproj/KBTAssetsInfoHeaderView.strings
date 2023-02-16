@@ -1,0 +1,30 @@
+
+/* Class = "UILabel"; text = "---"; ObjectID = "0WR-oJ-xSM"; */
+"0WR-oJ-xSM.text" = "---";
+
+/* Class = "UILabel"; text = "锁仓"; ObjectID = "2cc-IL-OsD"; */
+"2cc-IL-OsD.text" = "锁仓";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "GdK-on-JKS"; */
+"GdK-on-JKS.text" = "0";
+
+/* Class = "UILabel"; text = "总数量"; ObjectID = "HK7-PG-Tm9"; */
+"HK7-PG-Tm9.text" = "总数量";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "Lns-ie-BA4"; */
+"Lns-ie-BA4.text" = "0";
+
+/* Class = "UILabel"; text = "0.00"; ObjectID = "Vav-US-px9"; */
+"Vav-US-px9.text" = "0.00";
+
+/* Class = "UILabel"; text = "≈¥0.00"; ObjectID = "bat-rZ-eLl"; */
+"bat-rZ-eLl.text" = "≈¥0.00";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "em3-SG-i5L"; */
+"em3-SG-i5L.text" = "0";
+
+/* Class = "UILabel"; text = "可用"; ObjectID = "hDz-Bh-Zdu"; */
+"hDz-Bh-Zdu.text" = "可用";
+
+/* Class = "UILabel"; text = "冻结"; ObjectID = "mLA-sw-ZoA"; */
+"mLA-sw-ZoA.text" = "冻结";

@@ -1,0 +1,3174 @@
+
+/* 成交 */
+" 获取简介异常" = "Obtain Exceptions for Introduction";
+
+/* 订阅状态 */
+"%@到期，续费后有效期延长" = "%@ expire, étendu après renouvellement";
+
+/* 为了您的账号安全，请验证身份 */
+"%@天%@时%@分%@秒" = "%@ Day%@ hour%@ minute%@ deuxième";
+
+
+"%@概要" = "%@Sommaire";
+
+/* 实收款 */
+"%lds后自动取消" = "AUTO AUTOS APRÈS le%lds";
+
+/* 确认订购 */
+"0天00时00分00秒" = "0 jours 00 heures 00 minutes 00 secondes";
+
+/* 余额 */
+"0手续费出售" = "0 Frais de traitement à vendre";
+
+/* 暂无关注的数字货币 */
+"0手续费购买" = "0 Frais de traitement à acheter";
+
+/* 1分 */
+"15分" = "15 minutes";
+
+/* 5日 */
+"1分" = "1 minute";
+
+/* 15分 */
+"1小时" = "1 heure";
+
+/* 分时 */
+"5日" = "5 jours";
+
+/* ////////////////////////////////  Util  //////////////////////////////////////////// */
+"AppName" = "Cropyme";
+
+/*  */
+"BITC认证商家" = "Marchand certifié Leader Coin";
+
+/* 重要 */
+"BYY官方" = "BYY OFFICIEL";
+
+/* 登录失败 */
+"Confirmed password" = "Confirmed password";
+
+
+"Done" = "Done";
+
+
+"FX" = "Devises";
+
+
+"Language" = "Language";
+
+
+"Last" = "Last";
+
+
+"Next" = "Next";
+
+/* 忘记了？找回密码 */
+"OK" = "OK";
+
+/*  */
+"OTC交易" = "Transaction OTC";
+
+
+"Please drag the validation images" = "Drag the validation images";
+
+
+"Please enter a mobile phone number" = "Cell-phone number";
+
+/* 登录密码 */
+"Please fill in the verification code" = "Verification Code";
+
+
+"Register" = "Register";
+
+
+"Safe" = "Safe";
+
+/* 邀请好友，开启环球数字资产交易 */
+"TA是" = "TA est";
+
+/* 我已在xxx一键跟上了TA的实盘交易 */
+"TA赚了多少 我就赚了多少" = "I make as much money as he/she makes";
+
+/*  */
+"TA赚了多少, 我就赚了多少" = "Combien TA a gagné, combien j'ai gagné";
+
+/*  */
+"TA赚了多少, 我就赚多少" = "Je gagne autant que Ta gagne";
+
+/* 我已在procoin一键跟上了TA的实盘交易 */
+"TA赚了多少  我就赚多少" = "I make as much money as he/she makes";
+
+
+"Tips" = "Tips";
+
+
+"Welcome to" = "Welcome to";
+
+/* 回购价 */
+"YYB说明" = "Description YYB";
+
+
+"You are logging..." = "You are logging...";
+
+/*  */
+"· 上传的证件照将进行防盗水印处理，我们严格遵照法律法规，保护您的个人私隐。" = "La photo téléchargée de votre carte d'identité sera filigranée pour protéger votre vie privée en stricte conformité aux lois et réglementations.";
+
+/* 选择国徽页 */
+"• 上传的证件照将进行防盗水印处理，我们严格遵照法律法规，保护您的个人私隐。" = "The uploaded ID photo will be processed with an anti-theft watermark. We strictly follow the laws and regulations to protect your privacy.";
+
+/* 确定即代表您同意并接受 */
+"《数字资产借贷服务器合同》" = "Le contrat de service de prêt d'actifs numériques";
+
+/* 和 */
+"《杠杆交易协议》" = "Accord de trading à effet de levier";
+
+/* 和 */
+"《跟单规则》" = "Normas";
+
+/* 跟单即代表您同意并接受 */
+"《风险提示》" = "Avertissement de risque";
+
+/* 交易次数 */
+"一个月" = "Un mois";
+
+/* 六个月 */
+"一年" = "Un ans";
+
+
+"一键跟单，无需盯盘" = "Commande en un clic suivant, pas besoin de garder un œil sur le marché";
+
+/* 一个月 */
+"三个月" = "Trois mois";
+
+
+"上一步" = "Étape précédente";
+
+
+"上传图片中" = "Télécharger une image";
+
+/*  */
+"上市交易时间" = "Listing Trading Time";
+
+/* 总收益 */
+"上月收益" = "Les revenus du mois dernier";
+
+
+"上架" = "Téléchargé";
+
+
+"下一步" = "L'étape suivante";
+
+/* 后自动取消 */
+"下单" = "Commander";
+
+/* 账户类型 */
+"下单成功" = "Orden realizado con éxito";
+
+
+"下架" = "Étouffé";
+
+/* 登录失败 */
+"不存在该用户" = "L'utilisateur n'existe pas";
+
+
+"不能设置高于%@%%的止损比例" = "Impossible de définir un rapport de perte d'arrêt supérieur à%@%%.";
+
+
+"不要" = "Non";
+
+/* 释义：高手最近30天跟单人数，数值越大，代表跟随者越多，人气越高。 */
+"业绩走势" = "Tendance des performances";
+
+/* 密码必须为8到16位数字与字母组合! */
+"两次密码不一样!" = "Les deux mots de passe ne sont pas les mêmes!";
+
+/* 设置交易密码 */
+"两次密码不相同" = "Deux mots de passe différents";
+
+/* 大V排行榜 */
+"个人主页" = " Maison personnelle";
+
+/* 交易收益 */
+"个人简介" = " Profil personnel";
+
+
+"中国" = "Chine";
+
+"美国" = "États - Unis";
+
+/* 安全验证 */
+"为了保证你的账号安全，请验证身份。" = "Pour assurer la sécurité de votre compte, veuillez vérifier votre identité.";
+
+/* 验证 */
+"为了您的账号安全，请验证身份" = "Pour la sécurité de votre compte, veuillez vérifier votre identité";
+
+
+"为保障资金安全，当您账户安全策略变更、密码修改、我们会对提币进行人工审核，请耐心等待工作人员电话或邮件联系。请务必确认电脑及浏览器安全，防止信息被篡改或泄露. " = "In order to preserve the safety of funds, when your account security policy is changed, the password is modified, or your account is not in good standing, we will conduct a manual review of the withdrawals. Please wait patiently for the staff to call, or please wait patiently for the staff to contact you by phone or email. Please make sure your computer and browser are secure to prevent information from being tampered with. ";
+
+/*  */
+"为保障资金安全，当您账户安全策略变更、密码修改、我们会对提币进行人工审核，请耐心等待工作人员电话或邮件联繫。请务必确认电脑及瀏览器安全，防止信息被篡改或洩露。" = "Afin de protéger la sécurité de vos fonds, lorsque la politique de sécurité de votre compte est modifiée ou que votre mot de passe est modifié, nous effectuerons un examen manuel des retraits, veuillez être patient et attendre un appel téléphonique ou un e-mail de notre personnel. Assurez-vous de vérifier la sécurité de votre ordinateur et de votre navigateur pour éviter la falsification ou la fuite d'informations.";
+
+/* 充值金额 */
+"买入" = "Buy-in";
+
+/* 数量(手) */
+"买入" = "Buy";
+
+/*  */
+"买入/卖出" = "Acheter vendre";
+
+/* 请求网络失败 */
+"买入总金额" = "Montant total acheté";
+
+/*  */
+"买家当日累计3笔取消，超出会影响当日买入功能" = "L'acheteur accumule 3 annulations en une journée, plus que cela affectera la fonction d'achat du jour";
+
+/* 如果您已向对方付款，请千万不要取消订单 */
+"买家当日累计3笔取消，超出会影响当日买入功能." = "If the buyer accumulates 3 cancellations on the same day, it will affect the function of buying on the same day.";
+
+/* 盈利分成 */
+"亏损补贴" = "Couverture de perte";
+
+/* 回购 */
+"交易" = "Transaction";
+
+/* 你正在提现操作 */
+"交易密码管理" = "Gestion des mots de passe";
+
+/* 申请绑定 */
+"交易收益" = "Revenus commerciaux";
+
+/* 累计盈亏 */
+"交易明细" = "Détails de la transaction";
+
+/* 跟单人气 */
+"交易次数" = "Nombre de métiers";
+
+/* 解除绑定 */
+"交易策略" = "Stratégie de négociation";
+
+
+"交易类型" = "Type de transaction";
+
+
+"交易规则" = "Règles commerciales";
+
+
+"交易记录" = "Historique des transactions";
+
+/* 微信 */
+"交易金额" = "Montant de la transaction";
+
+/* 新增客户数 */
+"人" = "Personnes";
+
+/* 跟单胜率 */
+"人气指数" = "Indice de popularité";
+
+/* 释义：跟随高手盈利的几率。数值越大，代表跟单获利的可能性就越高。 */
+"人气指数" = "Popularity Index";
+
+/* 昨日新增 */
+"今日新增" = "Les ajouts d'aujourd'hui";
+
+
+"从手机相册选择" = "Sélectionnez dans votre album de téléphone portable";
+
+/* 保存 */
+"从相册选择" = "Sélectionner dans l'album";
+
+/* 一年 */
+"他是" = "TA is";
+
+/* 外汇跟单交易记录 */
+"代理" = "Agent";
+
+/*  */
+"代理等级：" = "Niveau d'agent.";
+
+/*  */
+"代理规则" = "Règles d'agent";
+
+/* 支付代理费 */
+"代理费用为%@USDT" = "Les frais de proxy sont%@ USDT";
+
+/* 请输入平仓手数 */
+"以当前市价成交" = "Commerce au prix du marché actuel";
+
+/* 市场最优买 */
+"以当前最优价格交易" = "Échanger au meilleur prix actuel";
+
+/* 我想 */
+"价格" = "Prix";
+
+/* 流通总量 */
+"众筹价格" = "Crowdfunding Price";
+
+/*  */
+"优惠券" = "Coupon";
+
+/* 高 */
+"低" = "Bas";
+
+/* 购买数量 */
+"余额" = "Solde restant";
+
+/* 划出账户选择 */
+"余额账户" = "Solde du compte";
+
+/*  */
+"余额账户总资产(USDT)" = "Balance compte total des actifs (USDT)";
+
+
+"你将以%@USDT保证金开%@倍杠杆%@" = "Vous serez%@ en levier%@ avec%@ usdt marge";
+
+/* 转入成功 */
+"你尚未订阅该用户" = "Vous n'avez pas abonné à cet utilisateur";
+
+/*  */
+"你暂无可提币的币种" = "Vous n'avez pas de monnaie pour le retrait pour le moment";
+
+/* 保存二维码 */
+"你暂无可提币的币种." = "You don't have any currency to withdraw at the moment.";
+
+/* 输入交易密码 */
+"你正在提现操作" = "Vous retirez l'opération";
+
+/* 锁仓权益说明 */
+"你目前锁仓权益等级" = "Your current locked position equity level";
+
+/*  */
+"你目前锁仓权谥等级" = "Votre niveau de verrouillage actuel";
+
+/* 完成 */
+"保存" = "sauvegarder";
+
+
+"保存" = "save";
+
+/* 链类型 */
+"保存二维码" = "Enregistrer le code QR";
+
+
+"保存二维码到本地" = "Enregistrer le code QR vers local";
+
+/* 换取成功 */
+"保存图片失败" = "Échec de l'enregistrement de l'image";
+
+/* 保存图片失败 */
+"保存图片成功" = "Sauver le succès de l'image";
+
+/* 环球数字资产交易平台 */
+"保存并分享" = "Sauvegarder et partager";
+
+/* 是否确定要保存该收款方式? */
+"保存成功" = "Sauvé avec succès";
+
+/* / 語言設置 */
+"保存語言設置" = "Save";
+
+/* 请设置6位交易密码 */
+"修改交易密码" = "Modifier le mot de passe de la transaction";
+
+/* 换一张 */
+"修改密码失败" = "Le changement de mot de passe a échoué";
+
+
+"修改微信账号" = "Modifier le numéro de compte WeChat";
+
+/* 追加金额成功 */
+"修改成功" = "Modifié avec succès";
+
+
+"修改支付宝账号" = "Modifier le numéro de compte Alipay";
+
+/* 退出登录 */
+"修改绑定手机" = "Modifier le téléphone collé";
+
+
+"修改银行卡" = "Modifier la carte bancaire";
+
+/* 少于%@ USDT的币种 */
+"停止跟单将以市价卖出您所有的跟单持仓" = "Les commandes d'arrêt vendront tous vos postes au prix du marché";
+
+
+"充值确认" = "Deposit";
+
+/* 客户交易额 */
+"充值金额" = "Montant de recharge";
+
+/* 全部 */
+"充币" = "Recharger la monnaie numérique";
+
+/* 充币数量 */
+"充币地址" = "Adresse de remplissage";
+
+/* 确定要取消提币吗? */
+"充币数量" = "Nombre de pièces remplies";
+
+/*  */
+"兑换邀请码" = "Échangez le code d'invitation";
+
+/*  */
+"全球指数总资产(USDT)" = "Index mondial Total Asset (USDT)";
+
+/*  */
+"全球期指" = "Index mondial à terme";
+
+/*  */
+"全球期指交易记录" = "Historique mondial des trading à terme";
+
+/*  */
+"全球期指账户" = "Compte périodique mondial";
+
+/* 财务记录 */
+"全部" = "Tout";
+
+
+"全部买入" = "Tout acheter";
+
+/* 我的邀请码 */
+"全部佣金" = "Commission complète";
+
+/* 公告 */
+"全部公告" = "Toutes les annonces";
+
+/* 请输入出售数量 */
+"全部出售" = "Tout vendre";
+
+/* 跟单成交数量 */
+"全部成交" = "Toutes les offres";
+
+/*  */
+"全部申购" = "Tous les achats";
+
+/* 首页 */
+"公告" = "Annonce";
+
+/* 三个月 */
+"六个月" = "Six mois";
+
+/* 欢迎页 */
+"关于我们" = "À propos de nous";
+
+"冻结(USDT)" = "Frozen (USDT)";
+
+/*  */
+"冻结(USDT)" = "Frozen (USDT)";
+
+/*  */
+"冻结保证金(USDT)" = "Dépôt gelé (USDT)";
+
+/* 可转出数量 */
+"冻结数量" = "Quantité gelée";
+
+/* 排名 */
+"准确率" = "Précision";
+
+/* 购买 */
+"出售" = "Vendre";
+
+/* 填入 */
+"出售USDT时系统将会从余额账户中冻结该部分资金" = "Lors de la vente de l'USDT, le système gèlera les fonds du compte de solde.";
+
+
+"出售中" = "En soldes";
+
+/* 收款管理 */
+"出售数量" = "Vendre la quantité";
+
+
+"分享失败" = "Le partage a échoué";
+
+/* 帮助中心 */
+"分享应用" = "Partage";
+
+
+"分享成功" = "Partager le succès";
+
+/*  */
+"分享给朋友，让他们来雇您吧" = "Partagez-le avec vos amis et laissez-les vous embaucher!";
+
+/* 提示:密码必须是8-16位数字与字母组合 */
+"分享给朋友，让他们来雇您吧!" = "Share it with your friends and let them hire you!";
+
+/* 简介 */
+"分时" = "Partage de temps";
+
+
+"切换语言" = "Commutation de la langue";
+
+/* 筛选 */
+"划出账户选择" = "Transférer la sélection du compte";
+
+/* 提币 */
+"划转" = "Transferts";
+
+/* 取消 */
+"划转数量" = "Nombre de transferts";
+
+/*  */
+"划转数量不能超过可用数量" = "Le nombre de transferts ne peut pas dépasser le nombre disponible.";
+
+
+"划转数量不能超过可用数量." = "The number of transfers cannot exceed the available quantity.";
+
+/* 划转 */
+"划转记录" = "Record de transfert";
+
+/*  */
+"创新试验区" = "Zone pilote d'innovation";
+
+/* 默认 */
+"删除" = "Effacer";
+
+/* 外汇 */
+"删除历史" = "Effacer l'historique";
+
+/* 您还未添加收款方式，是否要去添加一个？ */
+"删除成功" = "Supprimé avec succès";
+
+/* 已借 */
+"利息" = "Intérêt";
+
+/* 订阅已过期 */
+"到期" = "Expiré";
+
+/* 亏损补贴 */
+"到期日" = "Fecha de caducidad";
+
+
+"到期时间" = "Date d'expiration";
+
+
+"刷新" = "Rafraîchir";
+
+
+"刷新频率设置" = "Rafraîchir le réglage de la fréquence";
+
+/* 两次密码不一样! */
+"剩余 %ld 秒" = "%ld secondes";
+
+/* 输入的回购数量不能超过可回购数量 */
+"剩余可回购YYB数量" = "Nombre de YYB laissé à racheter";
+
+/* 杠杆 */
+"功能介绍" = "Fonctionnalités";
+
+
+"加载失败，点击重试" = "Chargement a échoué, cliquez pour réessayer";
+
+/* 官网 */
+"区块链查询" = "Enquête de blockchain";
+
+
+"升级" = "Mise à niveau";
+
+/* 方式 */
+"单价" = "Prix";
+
+/* 出售/卖出 */
+"卖出" = "VENDRE";
+
+/* 买入/卖出 */
+"卖出" = "Sell";
+
+/* 未完成 */
+"历史记录" = "Histoire";
+
+
+"去划转" = "Se transférer";
+
+
+"去绑定" = "Liaison";
+
+/*  */
+"去认证" = "Vérifier";
+
+/* 请进行实名认证 */
+"去设置" = "Aller aux paramètres";
+
+/* 发行时间 */
+"发行总量" = "Volume total d'émission";
+
+/* 买入/卖出 */
+"发行时间" = "Temps de délivrance";
+
+/*  */
+"发起成员" = "Membre";
+
+/* 请输入邮箱 */
+"发送验证码" = "Envoyer le code de vérification";
+
+/* 确定 */
+"取消" = "Annuler";
+
+
+"取消分享" = "Annuler le partage";
+
+/* 如您已经向卖家付款，请不要取消订单 */
+"取消规则：买家当日累计4笔取消，会限制当日买入功能。" = "Règle d'annulation: les acheteurs qui accumulent 4 annulations en une journée seront limités à acheter ce jour-là.";
+
+
+"取消订单" = "Annuler la commande";
+
+/* 已成功复制到粘贴板 */
+"取消订单成功" = "Commande d'annulation réussie";
+
+/* 取消订单成功 */
+"取消订单错误" = "Erreur d'annulation de commande";
+
+
+"取消认证中" = "Annulation en cours";
+
+/*  */
+"只有将资产划转到相对应的账户次才能进行交易。账户间的划转不收取手续费" = "Les transactions ne peuvent être effectuées que si les actifs sont transférés sur le compte correspondant. Il n'y a aucun frais de traitement pour les transferts entre les comptes";
+
+/* 可用数量 */
+"只有将资产划转到相对应的账户次才能进行交易。账户间的划转不收取手续费." = "Transactions can only be operated if the assets are transferred to the corresponding account. No fees are charged for transfers between accounts.";
+
+
+"只有将资产划转到相对应的账户次才能进行交易。账户间的划转不收取手续费。" = "Les transactions ne peuvent être effectuées que si les actifs sont transférés sur le compte correspondant. Il n'y a aucun frais de traitement pour les transferts entre les comptes";
+
+/*  */
+"可买" = "Disponible pour acheter";
+
+/* 出售USDT时系统将会从余额账户中冻结该部分资金 */
+"可多选" = "Plus d'options disponibles";
+
+
+"可开%@手" = "Open%@ lot";
+
+
+"可提币数量" = "Pièces de reprise";
+
+/* 请输入提现数量 */
+"可提现数量" = "Montant de retrait";
+
+/* 是否以当前市价成交平仓%@手 */
+"可用" = "Disponible";
+
+/*  */
+"可用(USDT)" = "Disponible (USDT)";
+
+/* 追加资产不能低于%@USDT */
+"可用USDT" = "USDT disponible";
+
+/*  */
+"可用保证金(USDT)" = "Dépôt disponible (USDT)";
+
+/* 划转数量 */
+"可用数量" = "quantité disponible";
+
+/* 转出xx数量到持仓 */
+"可转出数量" = "Nombre de transferts disponibles";
+
+/*  */
+"可邀请人数" = "Nombre d'invités";
+
+
+"号码" = "Numéro";
+
+/*  */
+"合约" = "Contractes";
+
+/*  */
+"合约交易记录" = "Contractes";
+
+/*  */
+"合约总资产(USDT)" = "Contrat total d'actifs (USDT)";
+
+/*  */
+"合约账户" = "Compte de contrat";
+
+/* 注:订阅/续费后将收到该用户的交易策略。 */
+"合计" = "Total";
+
+/*  */
+"同种类型账户不能进行划转！请重新选择" = "Les transferts ne peuvent pas être effectués sur le même type de compte! Veuillez sélectionner à nouveau";
+
+
+"同种类型账户不能进行划转！请重新选择." = "Transfers cannot be made from the same type of account! Please select again.";
+
+/* 自选 */
+"名称" = "Nom";
+
+/* 日K */
+"周K" = "Hebdomadaire k";
+
+/* 《数字资产借贷服务器合同》 */
+"和" = "et";
+
+/* 《风险提示》 */
+"和" = "and";
+
+/* 请选择支付方式 */
+"商家认证" = "Authentification marchand";
+
+/* 回购价走势图 */
+"回购" = "Rachat";
+
+/* 资产 */
+"回购价" = "Prix ";
+
+/* 已产出YYB总量 */
+"回购价走势图" = "Tendance des prix de rachat";
+
+/* 涨跌幅 */
+"国际期货" = "Futurs international";
+
+/* 数字货币交易记录 */
+"国际期货交易记录" = "Histoire internationale de trading à terme";
+
+
+"国际期货总资产(USDT)" = "Total des actifs à terme internationaux (USDT)";
+
+/* 数字货币账户 */
+"国际期货账户" = "Compte à terme international";
+
+
+"国际期货跟单" = "Ordre des futurs internationaux";
+
+/* 数字货币跟单交易记录 */
+"国际期货跟单交易记录" = "L'histoire internationale de l'ordre des futurs";
+
+/* 数字货币跟单账户 */
+"国际期货跟单账户" = "Compte de commandes à terme international";
+
+/* 登录后可以关注自己喜欢的自选 */
+"国际期货跟单资产(USDT)" = "Actifs jumelés à terme internationaux (USDT)";
+
+/*  */
+"在线客服" = "un service en ligne";
+
+/* 当前出售最高价 */
+"填入" = "Remplir";
+
+/* 请输入手机号码 */
+"填写验证码" = "Remplissez le code de vérification";
+
+/* 如何交易 */
+"增加开仓保证金（USDT）" = "Ajout de marge (USDT) pour ouvrir une position";
+
+
+"声音" = "Du son";
+
+
+"复制成功" = "Copié avec succès";
+
+/* 请选择账户类型 */
+"外汇" = "Devises";
+
+/* 国际期货交易记录 */
+"外汇交易记录" = "Historique des transactions de change";
+
+
+"外汇总资产(USDT)" = "Total des actifs de change (USDT)";
+
+/* 国际期货账户 */
+"外汇账户" = "Compte de change";
+
+/*  */
+"外汇跟单" = "Placement des devises";
+
+/* 国际期货跟单交易记录 */
+"外汇跟单交易记录" = "Historique des ordres de change";
+
+/* 国际期货跟单账户 */
+"外汇跟单账户" = "Compte de suivi des changes";
+
+/* 国际期货跟单资产 */
+"外汇跟单资产(USDT)" = "Actif en cours des changes (USDT)";
+
+/* 全部公告 */
+"大V" = "Célébrité d'Internet";
+
+/* 大V */
+"大V排行榜" = "Classement des célébrités Internet";
+
+/* 已入驻 */
+"天" = "Journées";
+
+/* 我的资料 */
+"头像" = "Avatar";
+
+/*  */
+"奖励(TVC)" = "Récompense (TVC)";
+
+/* 男 */
+"女" = "Femelle";
+
+
+"如:xx银行xx省xx市县x支行" = "Par exemple: XX Bank XX City XX COUNTY X Branch";
+
+/* 功能介绍 */
+"如何交易" = "Comment échanger";
+
+
+"如您已付款，请务必先点击“我已付款成功”" = "If you have already paid, please make sure to click ‘I have paid successfully’ first";
+
+/*  */
+"如您已付款，请务必先点击「我已付款成功」" = "Si vous avez déjà payé, assurez-vous de cliquer sur \"J'ai payé avec succès\" d'abord";
+
+/* 确认取消订单 */
+"如您已经向卖家付款，请不要取消订单" = "Si vous avez déjà payé le vendeur, veuillez ne pas annuler votre commande";
+
+
+"如果你要关闭或开启procoin的新消息通知，请在iPhone的“设置”-“通知”功能中，找到应用程序“procoin”更改。" = "If you want to turn off or on procoin's new message notifications, please find the application \"procoin\" in the \"Settings\" - \"Notifications\" function of your iPhone and change it.";
+
+/*  */
+"如果你要关闭或开启procoin的新消息通知，请在iPhone的「设置」-「通知」功能中，找到应用程序「procoin」更改。" = "Si vous souhaitez fermer ou activer la nouvelle notification des nouvelles, trouvez l'application \"ProCoin\" pour le modifier dans la fonction \"Paramètres\" - \"Avis\" de l'iPhone.";
+
+/* 标记成功 */
+"如果您已向对方付款，请千万不要取消订单" = "Veuillez ne pas annuler votre commande si vous avez déjà payé l'autre partie.";
+
+/* 委托总额 */
+"委托价格" = "Prix ";
+
+/* 历史记录 */
+"委托总额" = "Montant total confié";
+
+/* 部分成交 */
+"委托手续费" = "Commission Fee";
+
+/* 我的委托 */
+"委托数量" = "Nombre de commandes";
+
+/* 筛选数据出错，请返回再重试 */
+"委托记录" = "Historique des commandes";
+
+/*  */
+"委托金额(USDT)" = "Montant confié (USDT)";
+
+/* 委托手续费 */
+"委托额" = "Montant de la commission";
+
+/* 收益 */
+"存币宝" = "Dépôt";
+
+/* 发送验证码 */
+"安全验证" = "Vérification de sécurité";
+
+/* 生日 */
+"完成" = "Finir";
+
+/* 请输入新的手机号码 */
+"完成验证获取验证码" = "Terminer la vérification et obtenir le code de vérification";
+
+/* 白皮书 */
+"官网" = "Site officiel";
+
+/*  */
+"实付款" = "Paiement réel";
+
+
+"实名认证" = "Vérifiez avec votre vrai nom";
+
+/*  */
+"实名认证中心" = "Centre de vérification du nom réel";
+
+/* 全部买入 */
+"实收款" = "Reçu";
+
+/* 跟单委托 */
+"实际成交" = "Transaction réelle";
+
+/* 申请成为代理 */
+"审核中" = "À l'étude";
+
+/* 返佣金额 */
+"客户交易额" = "Montant de la transaction du client";
+
+/* 分享应用 */
+"客服" = "Service Clients";
+
+/* 验证码为数字! */
+"密码必须为8到16位数字与字母组合!" = "Le mot de passe doit être une combinaison de 8 à 16 chiffres et lettres!";
+
+/* 跟单成功 */
+"少于%@ USDT的币种" = "Moins de%@ usdt devise";
+
+
+"已下架" = "Étouffé";
+
+/* 已销毁YYB总量 */
+"已产出YYB总量" = "Total YYB produit";
+
+/*  */
+"已使用" = "Utilisé";
+
+/* 盈利USDT */
+"已借" = "Emprunté";
+
+/* 正在停止跟单 */
+"已停止跟单" = "Commande arrêtée";
+
+/* 保存并分享 */
+"已入驻" = "Joint";
+
+
+"已入驻%@天" = "Rejoint%@ day";
+
+/* 已开启 */
+"已关闭" = "Fermé";
+
+
+"已复制" = "Copied";
+
+/*  */
+"已复製" = "Copié";
+
+
+"已完成" = "Complété";
+
+
+"已完成交易" = "Transaction terminée";
+
+/*  */
+"已实名认证" = "Authentifié";
+
+/* 关于我们 */
+"已开启" = "Activé";
+
+/* 订单状态 */
+"已成交" = "Rempli";
+
+/*  */
+"已成功" = "réussi";
+
+/* 当前账户可用保证金不足，可以尝试从其它账户划转或充值！ */
+"已成功发送撤销" = "L'annulation a été envoyée avec succès";
+
+/* 是否确定充值¥%@.%@金额的USD */
+"已成功复制到粘贴板" = "Copied to pasteboard successfully";
+
+/*  */
+"已成功复製到粘贴板" = "Copié avec succès dans le collier";
+
+/* 修改成功 */
+"已扣除跟单分成部分" = "La part de la commande a été déduite";
+
+/* 已停止跟单 */
+"已提交停止跟单处理" = "La commande d'arrêt a été soumise pour le traitement";
+
+
+"已撤销" = "Rejeté";
+
+
+"已标记付款" = "Le paiement a été marqué";
+
+
+"已用" = "Utilisé";
+
+/* 完成验证获取验证码 */
+"已绑定手机号" = "Numéro de téléphone portable lié";
+
+/* 确认密码 */
+"已绑定手机号" = "Bound Mobile Number";
+
+/*  */
+"已绑定手机号：" = "Numéro de téléphone portable lié.";
+
+/*  */
+"已绑定邮箱号" = "Numéro de boîte aux lettres lié";
+
+
+"已绑定邮箱号:" = "Numéro de boîte aux lettres lié:";
+
+/*  */
+"已结束" = "plus de";
+
+/* 到期 */
+"已订阅" = "Souscrit";
+
+
+"已过期" = "Expiré";
+
+
+"已通知卖家，请耐心等待卖家为你放币" = "Le vendeur a été informé, veuillez attendre patiemment que le vendeur divulgue les pièces pour vous";
+
+/* YYB说明 */
+"已销毁YYB总量" = "Total yyb détruit";
+
+/*  */
+"币币" = "Devise";
+
+/*  */
+"币币交易记录" = "Historique des échanges de devises";
+
+/*  */
+"币币账户" = "Compte de pièces";
+
+/* 委托记录 */
+"币种" = "Devise";
+
+/*  */
+"币种介绍" = "Introduction de la monnaie";
+
+
+"市价" = "Prix ";
+
+
+"市价委托" = "Prix ";
+
+/* 可用 */
+"市场最优买" = "Marché Best Buy";
+
+/* 系统通知 */
+"帮助中心" = "Centre d'aide";
+
+
+"平仓" = "Positionner";
+
+/* 平仓明细 */
+"平仓价" = "Prix ";
+
+/* 平仓价 */
+"平仓手数" = "Nombre de lots fermés";
+
+/* 平仓手数 */
+"平仓手续费" = "Frais de clôture";
+
+/* 平仓手续费 */
+"平仓时间" = "La période de fermeture";
+
+/* 现价 */
+"平仓明细" = "Fermer les détails";
+
+/* 当前版本 */
+"平台" = "Plateforme";
+
+/* 成交数量 */
+"平均成本价" = "Coût moyen";
+
+/* 总 */
+"开" = "Ouvert";
+
+/* 止盈价 */
+"开仓价" = "Prix ";
+
+/* 持仓手数 */
+"开仓手续费" = "Frais d'ouverture";
+
+/* 开仓价 */
+"开仓方向" = "Direction ouverte";
+
+/* 开仓手续费 */
+"开仓时间" = "Temps d'ouverture";
+
+/* 止盈价 */
+"开仓状态" = "Statut ouvert";
+
+/*  */
+"开始时间" = "Heure de début";
+
+
+"开户姓名" = "Nom du compte";
+
+
+"开户行" = "Banque de compte";
+
+
+"开通条件:总资产不低于%@USDT" = "État ouvert: les actifs totaux pas moins de%@ USDT";
+
+/* 利息 */
+"强平价" = "Parité forte";
+
+/*  */
+"当procoin在运行时，你可以设置在客服、私聊是否需要声音或者振动" = "Lorsque ProCoin est en cours d'exécution, vous pouvez le régler sur le service client, le chat privé, que ce soit le son ou les vibrations";
+
+
+"当procoin在运行时，你可以设置在客服、私聊是否需要声音或者振动。" = "When procoin is operating, you can set whether you want sound or vibration in customer service or private chat.";
+
+
+"当前" = "Courant";
+
+/* 当前购买最低价 */
+"当前出售最高价" = "Prix ";
+
+/* 输入的数量不能低于xx */
+"当前可用数量不足" = "La quantité disponible actuelle n'est pas suffisante";
+
+
+"当前开仓" = "Position ouverte actuelle";
+
+/* 重新获取 */
+"当前版本" = "Version actuelle";
+
+/* 认购数字货币 */
+"当前认购价" = "Prix ";
+
+/* 交易规则 */
+"当前账户可用保证金不足，可以尝试从其它账户划转或充值！" = "La marge disponible dans votre compte ne suffit pas, vous pouvez essayer de transférer ou de recharger à partir d'un autre compte!";
+
+/* 价格 */
+"当前购买最低价" = "Prix ";
+
+/*  */
+"待开始" = "Commencer";
+
+/* 支付宝 */
+"微信" = "Wechat";
+
+
+"微信" = "WeChat";
+
+/* 0天00时00分00秒 */
+"微信好友" = "Friends WeChat";
+
+
+"微信姓名" = "Nom de WeChat";
+
+/* 微信好友 */
+"微信朋友圈" = "Friends WeChat";
+
+
+"微信账号" = "Compte WeChat";
+
+/* 忘记密码？找回密码 */
+"忘记了? 找回密码" = "Forgotten? Retrieve password";
+
+/*  */
+"忘记了？找回密码" = "Oublié? Récupérer mot de passe";
+
+
+"忘记密码? 找回密码" = "Forgot your password? Retrieve password";
+
+/*  */
+"忘记密码？找回密码" = " Mot de passe oublié? Récupérer mot de passe";
+
+/* 昵称 */
+"性别" = "Le genre";
+
+/* 成交量 */
+"总" = "Total";
+
+/*  */
+"总交易手数" = "Numéro de transaction total";
+
+
+"总市值" = "Capitalisation boursière totale";
+
+/* 准确率 */
+"总收益" = "Revenu total";
+
+/* 正在登录 */
+"总数量" = "Nombre total";
+
+/*  */
+"总盈亏(USDT)" = "Bénéfice total et perte (USDT)";
+
+/*  */
+"总资产(TVC)" = "Actif total (TVC)";
+
+"总资产(USDT)" = "Actif total (USDT)";
+"总资产" = "Actif total";
+/*  */
+"总邀请人数" = "Invités totaux";
+
+
+"恭喜你开通带单功能成功" = "Félicitations, vous avez réussi à ouvrir votre compte.";
+
+/*  */
+"您可以写下您申诉的详细情况～～" = "Vous pouvez noter les détails de votre plainte ~~";
+
+
+"您可以写下您申诉的详细情况～～." = "You can write down the details of your complaint.";
+
+/*  */
+"您尚未订阅该用户" = "Vous n'avez pas abonné à cet utilisateur";
+
+/* xx到期，续费后有效期延长 */
+"您尚未订阅该用户." = "You have not subscribed to this user.";
+
+/*  */
+"您已通过实名认证" = "Vous avez passé l'authentification du vrai nom";
+
+/*  */
+"您是否需要花费%@USDT购买%@" = "Avez-vous besoin de dépenser%@ USDT pour acheter%@";
+
+/*  */
+"您暂无发佈广告" = "Vous n'avez aucune annonce publiée";
+
+/* 我的广告 */
+"您暂无发布广告" = "you have not posted ads";
+
+
+"您正在向BITC认证卖家购买%@ USDT" = "Vous achetez%@ USDT auprès d'un vendeur certifié Leader Coin";
+
+/* 申购失败转换 */
+"您正在向BITC认证卖家购买%@ USDT" = "You are buying %@ USDT from a BITC certified seller";
+
+/* 选择个人头像 */
+"您的资料已修改，是否要保存？" = "Votre profil a été modifié, voulez-vous l'enregistrer?";
+
+
+"您目前的邮箱是%@，想要把它更新为？" = "Votre adresse e-mail actuelle est%@, souhaitez-vous la mettre à jour?";
+
+/* 是否设置该收款方式为默认收款方式 */
+"您还未添加收款方式，是否要去添加一个？" = "Vous n'avez pas encore ajouté de mode de paiement, voulez-vous en ajouter un?";
+
+/* 深度 */
+"成交" = "Transaction";
+
+/* 成交时间 */
+"成交价" = "Prix";
+
+/* 委托额 */
+"成交均价" = "Prix ";
+
+/* 盈利 */
+"成交数量" = "Nombre de transactions";
+
+/* 技术服务费 */
+"成交时间" = "Temps de transaction";
+
+/* 成交价 */
+"成交明细" = "détails de la transaction";
+
+/* 每笔跟单上限不能为0 */
+"成交量" = "Le volume";
+
+/* 成交均价 */
+"成交额" = "Chiffre d'affaires";
+
+/*  */
+"成员" = "Membres";
+
+/*  */
+"成本" = "Coût";
+
+/*  */
+"成本均价" = "Coût moyen";
+
+/* 持有数量 */
+"成本均价t" = "Average Price of Cost";
+
+/* 我还没有付款给对方 */
+"我再想想" = "Laissez-moi réfléchir à nouveau";
+
+/*  */
+"我已在%@一键跟上了TA的实盘交易" = "J'ai suivi les métiers en direct de TA à%@ un clic";
+
+/* 他是 */
+"我已在W.W.C.T一键跟上了TA的实盘交易" = "J'ai suivi le trading en direct de l'AT dans \"Leader Coin\" en un seul clic";
+
+/* TA是 */
+"我已在procoin一键跟上了TA的实盘交易" = "I have followed his/her live trading at %@ with one clic";
+
+/*  */
+"我已申购" = "J'ai acheté";
+
+
+"我已阅读并同意" = "J'ai lu et convenu";
+
+/* 添加广告 */
+"我想" = "Je veux";
+
+/* 保存图片成功 */
+"我是" = "Je suis";
+
+/* 合计 */
+"我的" = "Mon";
+
+
+"我的佣金" = "Mes commissions";
+
+/* 买入总金额 */
+"我的委托" = "Mes commandes";
+
+/* 跟单分成 */
+"我的委托数量" = "Nombre de mes commandes";
+
+/* 去设置 */
+"我的广告" = "Mes annonces";
+
+/* 实际成交 */
+"我的成交" = "Mes offres";
+
+/* 跟单委托数量 */
+"我的成交数量" = "Nombre de mes offres";
+
+/* 成交额 */
+"我的盈利" = "Mon profit";
+
+/* TA赚了多少  我就赚多少 */
+"我的资料" = "Mon profil";
+
+/* 审核中 */
+"我的邀请码" = "Mon code d'invitation";
+
+/*  */
+"我知道了" = "je sais";
+
+/* 请务必登录网上银行或第三方支付账号确认收到该笔款项 */
+"我确定已登录收款账户，并核对收款无误" = "Je confirme que je me suis connecté à mon compte de paiement et que le paiement a été reçu correctement";
+
+/* 买家当日累计3笔取消，超出会影响当日买入功能 */
+"我确认没有付款给对方" = "Je confirme qu'aucun paiement n'a été effectué à l'autre partie";
+
+
+"我确认还没有付款给对方" = "Je confirme que je n'ai pas encore payé l'autre partie";
+
+/* 余额提现 */
+"我要买" = "je veux acheter";
+
+/* 我要买 */
+"我要卖" = "je veux vendre";
+
+/* 取消规则：买家当日累计4笔取消，会限制当日买入功能。 */
+"我还没有付款给对方" = "I confirm that I haven't paid the other party";
+
+/* 现价 */
+"手" = "beaucoup";
+
+/* 全部出售 */
+"手续费" = "Frais de gestion";
+
+/*  */
+"手续费()" = "Frais de gestion(%@)";
+
+/* 跟单成交 */
+"技术服务费" = "Frais de service technique";
+
+/* 从相册选择 */
+"拍照" = "Prendre une photo";
+
+/*  */
+"持仓" = "Position d'option";
+
+/* 开仓方向 */
+"持仓保证金" = "Marge";
+
+/*  */
+"持仓保证金(USDT)" = "Marge(USDT)";
+
+
+"持仓成本" = "Coût de position";
+
+/* 持仓保证金 */
+"持仓手数" = "Nombre de lots";
+
+/* 盈利分成 */
+"持仓手数" = "Number of lots in position";
+
+/*  */
+"持仓数量-跟单账户单个最高持有数量" = "Quantité de position - La quantité maximale de pièces qui peuvent être détenues dans un seul compte de suivi";
+
+/*  */
+"持仓随时提币，跟单持有的币种不能提币" = "Position détenue à tout moment pour retirer la devise, suivre l'ordonnance détenue dans la devise ne peut retirer la devise";
+
+
+"持仓随时提币，跟单持有的币种不能提币." = "Withdrawal of coins at any time for positions held, not for coins held by followers.";
+
+
+"持币市值" = "Capitalisation boursière";
+
+/* 认购金额 */
+"持有USDT数量" = "Número de USDT celebrado";
+
+/* 交易 */
+"持有YYB数量" = "Nombre d'Yybs détenus";
+
+/* 隐藏小额币种 */
+"持有数量" = "Nombre de participations";
+
+
+"振动" = "Vibration";
+
+/* 验证错误，重新获取图片！ */
+"换一张" = "Changer un";
+
+/* 设置 */
+"换取成功" = "Succès d'échange";
+
+/* 天 */
+"排名" = "Classement";
+
+
+"排行榜" = "Classement";
+
+
+"接收新消息通知" = "Recevoir des notifications de nouveaux messages";
+
+/* 状态 */
+"推荐" = "Recommander";
+
+
+"提交" = "Soumettre";
+
+
+"提交信息失败" = "Ne pas soumettre des informations";
+
+/* 请选择收款方式 */
+"提交成功" = "Soumettre avec succès";
+
+
+"提交时间" = "Temps de soumission";
+
+
+"提交申诉" = "Soumettre une plainte";
+
+/* 充币 */
+"提币" = "Retrait de la monnaie numérique";
+
+
+"提币二维码" = "Code QR de la monnaie de retrait";
+
+
+"提币地址" = "Adresse de retrait";
+
+/* / 提币 */
+"提币地址管理" = "提币地址管理";
+
+/* 充币地址 */
+"提币数量" = "Quantité de sevrage";
+
+/* 请输入大于0的数量 */
+"提币数量:%@%@\n确认前请仔细核对提币地址信息，以避免造成不必要的财产损失." = "Nombre de pièces à retirer:%@%@ \ nplease Vérifiez attentivement les informations d'adresse avant de confirmer pour éviter une perte de propriété inutile.";
+
+
+"提币数量不能超过可提币数量" = "Le nombre de pièces à retirer ne peut dépasser le nombre de pièces disponibles pour le retrait";
+
+
+"提现单价" = "Retirer le prix unitaire";
+
+
+"提现数量" = "Quantité de retrait en espèces";
+
+
+"提现申请处理已完成" = "Le traitement de la demande de retrait en espèces a été rempli";
+
+
+"提现申请已提交，等待平台放款" = "La demande de retrait a été soumise, en attendant que la plate-forme divulgue l'argent";
+
+/* 买入 */
+"提现金额" = "Montant de retrait";
+
+/* 下单 */
+"提示" = "Rapide";
+
+/* 请再次输入密码 */
+"提示:密码必须是8-16位数字与字母组合" = "Astuce: le mot de passe doit être une combinaison de 8 à 16 chiffres et lettres";
+
+
+"提起申诉后资产将会冻结，申诉专员将介入本次交易，直至申诉结束。恶意申诉属于扰乱平台正常运营秩序的行为，情节严重将冻结账户." = "Assets will be frozen after filing a complaint, and the ombudsman will intervene in this transaction until the end of the complaint. Malicious complaints are acts that disrupt the normal operation of the platform, and if the circumstances are serious, the account will be frozen.";
+
+/*  */
+"提起申诉后资产将会冻结，申诉专将介入本次交易，直至申诉结束。恶意申诉属于扰乱平台正常运营秩序的行为，情节严重将冻结账户。" = "Après avoir déposé une plainte, vos actifs seront gelés et le Médiateur interviendra dans cette transaction jusqu'à la clôture de la plainte. Les plaintes malveillantes sont considérées comme perturbant le fonctionnement normal de la plate-forme et entraîneront la congélation du compte dans les cas graves.";
+
+/* 盈利比例 */
+"操作成功" = "Opération réussie";
+
+/* 请求客服发生异常 */
+"支付代理费" = "Frais de proxy payant";
+
+/* 银行卡 */
+"支付宝" = "Alipay";
+
+
+"支付宝" = "Alipay";
+
+
+"支付宝姓名" = "Nom d'alipay";
+
+
+"支付宝账号" = "Numéro de compte Alipay";
+
+/* 我要卖 */
+"支付方式" = "Mode de paiement";
+
+/* 低 */
+"收" = "proche";
+
+
+"收款人" = "Destinataire";
+
+
+"收款方式" = "Mode de paiement";
+
+/* 商家认证 */
+"收款管理" = "Gestion des paiements";
+
+/* 请最低转入xx */
+"收益" = "Gains";
+
+/* 国际期货 */
+"数字货币" = "Monnaie numérique";
+
+/* 我的 */
+"数字货币交易记录" = "Historique de trading de la monnaie numérique";
+
+/* 暂无关注的自选 */
+"数字货币总资产(USDT)" = "Actifs totaux de monnaie numérique (USDT)";
+
+/* 余额账户 */
+"数字货币账户" = "Compte de monnaie numérique";
+
+
+"数字货币跟单" = "Commandes de monnaie numérique";
+
+/* 外汇交易记录 */
+"数字货币跟单交易记录" = "Historique des commandes de la monnaie numérique";
+
+/* 外汇账户 */
+"数字货币跟单账户" = "Compte de commande de devise numérique";
+
+/* 外汇跟单资产(USDT) */
+"数字货币跟单资产(USDT)" = "Actif en instance de monnaie numérique (USDT)";
+
+
+"数据不完整，请返回重试" = "Les données sont incomplètes, veuillez revenir et réessayer";
+
+
+"数据错误，请重新登录" = "Erreur de données, veuillez vous connecter à nouveau";
+
+/* 出售/卖出 */
+"数量" = "Quantité";
+
+/*  */
+"数量 (手)" = "Quantité (lots)";
+
+/* 涨跌幅 */
+"数量(手)" = "Quantity (lots)";
+
+
+"数量/可用" = "Quantité / disponibilité";
+
+/* 今日新增 */
+"新增客户数" = "Nombre de nouveaux clients";
+
+/*  */
+"新币申购" = "Singapour";
+
+/* 已关闭 */
+"新消息通知" = "Nouvelle notification de message";
+
+/* 限额 */
+"方式" = "Méthode";
+
+/* 请输入用户名! */
+"无搜索结果" = "Aucun résultat de recherche";
+
+/* 1小时 */
+"日K" = "Jour K";
+
+
+"日语" = "Japanese";
+
+/* 委托价格 */
+"时间" = "Temps";
+
+/*  */
+"明细>>" = "Détails >>";
+
+/* 全部佣金 */
+"昨日新增" = "Ajouté hier";
+
+/* 请输入大于0的平仓手数 */
+"是否以当前市价成交平仓%@手" = "S'il faut conclure la position au prix du marché actuel%@ lot";
+
+/* 删除 */
+"是否删除该收款方式?" = "Whether to delete this payment method?";
+
+/*  */
+"是否删除该收款方式？" = "Voulez-vous supprimer le mode de paiement?";
+
+
+"是否增加%@USDT的保证金？" = "Voulez-vous augmenter la marge de%@ USDT?";
+
+
+"是否撤销提币?" = "Les retraits seront-ils révoqués?";
+
+/* 请选择倍数 */
+"是否确定下单？" = "La commande est-elle confirmée?";
+
+/* 请输入姓名 */
+"是否确定保存该收款方式?" = "Êtes-vous sûr d'économiser le mode de paiement?";
+
+/* 购买单价 */
+"是否确定充值¥%@.%@金额的USDT" = "Are you sure to top up ¥%@. %@ amount of USDT";
+
+/*  */
+"是否确定充值￥%@.%@金额的USDT" = "Est-il confirmé que vous rechargez HK $%@. %@ montant d'USDT";
+
+
+"是否确定开通带单功能？" = "Êtes-vous sûr d'être ouvert aux commandes?";
+
+/* 操作成功 */
+"是否确定提现" = "S'il faut confirmer le retrait";
+
+/* 你尚未订阅该用户 */
+"是否确定要保存该收款方式?" = "Êtes-vous sûr de vouloir économiser ce mode de paiement?";
+
+/* 订阅/续费请求数据错误 */
+"是否确定订阅该用户？" = "Êtes-vous sûr d'être abonné à cet utilisateur?";
+
+/* 手 */
+"是否确定设置止损价" = "Un prix d'arrêt est-il fixé?";
+
+/* 是否确定设置止损价 */
+"是否确定设置止盈价" = "Est-il sûr de fixer un prix de bénéfice?";
+
+/* 当前可用数量不足 */
+"是否确定转入%@数量的%@" = "Est%@ de%@ quantité confirmée pour être transférée";
+
+/* 转出数量必须大于0！ */
+"是否确定转出%@数量的%@到持仓？" = "Est-il confirmé que%@ du montant%@ est transféré au poste?";
+
+/* 以当前市价成交 */
+"是否确定进行快捷平仓操作？" = "Êtes-vous sûr de vouloir clôturer votre position rapidement?";
+
+
+"是否确定进行跟单操作" = "Confirmer ou ne pas suivre la commande";
+
+
+"是否确定退出该账号?" = "Êtes-vous sûr de souhaiter quitter le compte?";
+
+
+"是否确认平仓？" = "Un fermeture est-il confirmé?";
+
+/* 正在平仓中 */
+"是否确认设置" = "Confirmer ou ne pas définir";
+
+/*  */
+"是否解除跟单绑定?" = "Est-il levé avec une seule reliure?";
+
+/* 是否删除该收款方式 */
+"是否设置该收款方式为默认收款方式?" = "Voulez-vous définir le mode de paiement comme mode de paiement de défaut?";
+
+/* 请上传身份证国徽页图片 */
+"是否资料确认无误？" = "Les informations sont-elles confirmées?";
+
+/* 已扣除跟单分成部分 */
+"是否追加%@USDT的跟单金额" = "S'il faut ajouter%@ USDT au montant de la commande";
+
+/* 头像 */
+"昵称" = "Surnom";
+
+/* 剩余 %ld 秒 */
+"昵称不能包含特殊字符!" = "Le surnom ne peut pas contenir de caractères spéciaux!";
+
+/* 资料修改成功 */
+"昵称过于简短" = "Le surnom est trop court";
+
+/* 昵称过于简短 */
+"昵称长度太长" = "La longueur du nom de l'écran est trop longue";
+
+/* 输入ID搜索 */
+"暂无关注列表" = "Aucune liste de notes pour l'instant";
+
+/* 数字货币总资产 */
+"暂无关注的数字货币" = "Devise numérique temporairement non réglementée";
+
+/* 数字货币跟单资产 */
+"暂无关注的自选" = "Options non enregistrées pour l'instant";
+
+
+"暂无可进行充币的币种" = "Pas de pièces disponibles pour la recharge";
+
+/* 成交明细 */
+"暂无开仓记录" = "Pas de positions ouvertes";
+
+/* 累计盈亏 */
+"暂无设置" = "Pas de paramètres";
+
+/* 删除历史 */
+"暂无该币种" = "Ce type de devise n'est pas disponible pour le moment";
+
+/* 划转记录 */
+"暂无该记录数据" = "Aucune donnée disponible pour le moment";
+
+/* 量 */
+"暂时无关注的自选" = "Temporairement sans surveillance facultatif";
+
+/* 请重新拖动验证图片 */
+"更换手机" = "Changer le téléphone portable";
+
+/* 更换手机号码/更换手机 */
+"更换手机号码" = "Modifier le numéro de téléphone portable";
+
+/* 修改绑定手机 */
+"更换语言" = "Changer de langue";
+
+
+"更新提示" = "Mettre à jour les conseils";
+
+/* 添加邮箱失败 */
+"更新邮箱失败" = "Échec de la mise à jour de la boîte aux lettres";
+
+/*  */
+"最低金额" = "Montant minimal";
+
+/*  */
+"最低限购" = "Achat minimum";
+
+/*  */
+"最小提币数量为:" = "La quantité de retrait minimale est:";
+
+
+"最小提币数量为：—" = "The minimum number of coins to be withdrawn is:";
+
+/*  */
+"最小申购量" = "Volume d'achat minimum";
+
+/* 名称 */
+"最新价" = "Dernier prix";
+
+/* 请输入 */
+"月" = "Mois";
+
+
+"服务条款" = "Conditions d'utilisation";
+
+/*  */
+"未使用" = "Inutilisé";
+
+/* 提现金额 */
+"未完成" = "Incomplet";
+
+/*  */
+"未实名不能申请商家认证" = "Vous ne pouvez pas demander la certification marchande sans un vrai nom";
+
+
+"未实名不能申请商家认证." = "You cannot apply for merchant certification because you do not have a certificate from a real-name system.";
+
+/*  */
+"未实现盈亏(USDT)" = "Impossible d'atteindre le profit et la perte (USDT)";
+
+/*  */
+"未开始" = "n'a pas commencé";
+
+
+"未绑定" = "Non lié";
+
+
+"未认证" = "Non certifié";
+
+/* 是否确定进行快捷平仓操作？ */
+"未设置" = "Pas encore défini";
+
+/*  */
+"本轮剩余申购量" = "Le volume d'achat excédentaire de ce tour";
+
+/*  */
+"本轮可申购总量" = "Le montant total d'achat peut être acheté dans ce tour";
+
+/*  */
+"本轮已申购" = "Ce tour a été acheté";
+
+/*  */
+"本轮开始申购时间" = "Le temps de soumission commence ce tour";
+
+/*  */
+"本轮结束申购时间" = "Fin de cette série d'achat";
+
+/* 当前认购价 */
+"本轮认购数量" = "Nombre d'abonnements dans ce tour";
+
+/* 本轮认购数量 */
+"本轮认购进度" = "Progrès actuel de l'abonnement";
+
+
+"杠杆" = "Effet de levier";
+
+/*  */
+"查看" = "Vérifier";
+
+/*  */
+"查看如何获取TVC？" = "Vérifiez comment obtenir TVC?";
+
+
+"查看导师" = "Afficher le tuteur";
+
+
+"标记已支付" = "Marqué comme payé";
+
+/* 取消订单错误 */
+"标记成功" = "Marqué comme réussi";
+
+/* 账户余额可用 */
+"标题" = "Titre";
+
+/*  */
+"欢迎来到BITC" = "Bienvenue à Leader Coin";
+
+/* 平台 */
+"欢迎页" = "Page d'accueil";
+
+/* 欢迎页 */
+"欢迎页" = "Welcome Page";
+
+/* 止损 未设置 */
+"止损" = "Perte d'arrêt";
+
+/* 止盈 */
+"止损 未设置" = "Stop Loss, pas réglé";
+
+/* 开仓时间 */
+"止损价" = "Prix ";
+
+/* 确认是否下架该广告记录 */
+"止损设置" = "Réglage de la perte d'arrêt";
+
+/* 止盈：不设置 */
+"止损：不设置" = "Perte d'arrêt: pas réglé";
+
+/* 止盈 未设置 */
+"止盈" = "Tirer profit";
+
+
+"止盈 未设置" = "Faire du profit, pas réglé";
+
+/* 请输入止盈价 */
+"止盈价" = "Arrêter le prix du bénéfice";
+
+/* 止损价 */
+"止盈价" = "Stop Profit Price";
+
+/* 止盈止损设置 */
+"止盈价" = "Take Profit Price";
+
+/* 离强平价还剩— */
+"止盈止损" = "Perte d'arrêt";
+
+/* 《杠杆交易协议》 */
+"止盈止损设置" = "Arrêtez la perte et prenez des paramètres de profit";
+
+/* 止损设置 */
+"止盈设置" = "Paramètres d'arrêt des pertes";
+
+/* 是否确认设置 */
+"止盈：不设置" = "Faites des profits: pas réglé";
+
+
+"正" = "À présent";
+
+/* 停止跟单将以市价卖出您所有的跟单持仓 */
+"正在停止跟单" = "Commandes d'arrêt";
+
+/* 止盈止损 */
+"正在平仓中" = "La position est fermée";
+
+/* 清除缓存成功 */
+"正在注销用户登录." = "Logging out the user.";
+
+/* 不存在该用户 */
+"正在登录" = "Connecte-toi maintenant";
+
+
+"正在获取数据" = "Obtenir des données";
+
+/*  */
+"正在註销用户登录." = "Connexion de la connexion de l'utilisateur.";
+
+/* 隐私条款 */
+"正在进入" = "Accès à l'accès";
+
+/* 请输入每笔跟单上限 */
+"每笔跟单上限不能为" = "The maximum amount per order cannot be 0";
+
+/*  */
+"每笔跟单上限不能为0" = "Le montant maximum par commande ne peut pas être 0";
+
+
+"每隔%d秒刷新" = "Actualiser chaque% d secondes";
+
+/* 刷新 */
+"每隔1秒刷新" = "Actualiser toutes les 1 secondes";
+
+/* 请输入划转的数量 */
+"余额提现" = "Trading de monnaie fiduciaire";
+
+
+"余额提现" = "OTC";
+
+/* 月 */
+"注:订阅/续费后将收到该用户的交易策略。" = "Remarque: vous recevrez la stratégie de trading de cet utilisateur après abonnement / renouvellement.";
+
+/* 分享给朋友，让他们来雇您吧 */
+"注册" = " S'inscrire";
+
+/* 正在进入 */
+"注册失败" = "Échec de l'enregistrement";
+
+
+"注册成功" = "L'enregistrement fut un succès";
+
+/* 是否确定退出该账号? */
+"注销失败" = "Failed to Logout";
+
+/* 发行总量 */
+"流通总量" = "Circulation totale";
+
+/* 刷新频率设置 */
+"消息推送" = "Poussée de message";
+
+/*  */
+"消耗TVC" = "Consommer TVC";
+
+
+"涨幅榜" = "Liste de hauts";
+
+/* 最新价 */
+"涨跌幅" = "Augmentation Diminution";
+
+/* 涨跌额 */
+"涨跌幅" = "Quote Change";
+
+
+"涨跌颜色" = "Couleur";
+
+/* 收 */
+"涨跌额" = "Augmentation Diminution";
+
+/* 看跌(做空) */
+"深度" = "Profondeur";
+
+/* 您暂无发布广告 */
+"添加广告" = "Ajouter une annonce";
+
+
+"添加微信收款" = "Ajouter le reçu de WeChat";
+
+
+"添加支付宝收款" = "Ajouter le reçu Alipay";
+
+/* 我确认没有付款给对方 */
+"添加收款方式" = "Ajouter le mode de paiement";
+
+
+"添加邮箱失败" = "Échec de l'ajout de boîte aux lettres";
+
+
+"添加银行卡" = "Ajouter une carte bancaire";
+
+
+"清除" = "Dégager";
+
+/* 消息推送 */
+"清除缓存" = "Vider le cache";
+
+/* 计算中 */
+"清除缓存后W.W.C.T上所有的头像、图片等要重新下载,是否清除?" = "Après avoir effacé le cache, tous les avatars et photos sur Leader Coin doivent être téléchargés à nouveau.";
+
+/* 注销失败 */
+"清除缓存成功" = "Effacer le cache avec succès";
+
+
+"温馨提示" = "Conseils chauds";
+
+/* 请填写邀请码(必填) */
+"点击注册" = "Cliquez sur Inscription";
+
+/* 点击注册 */
+"点击注册即表示您已经阅读并同意procoin的" = "En cliquant sur le registre, vous acceptez de «procurer»";
+
+/* 时间 */
+"状态" = "Statut";
+
+
+"环球数字资产交易平台" = "Plateforme mondiale de trading d'actifs numériques";
+
+/* 开仓状态 */
+"现价" = "Prix ";
+
+/* 未设置 */
+"现价" = "Current Price";
+
+/* 女 */
+"生日" = "Date d'anniversaire";
+
+
+"用户协议" = "Accord de l'utilisateur";
+
+/* 暂无关注列表 */
+"用户名称" = "Nom d'utilisateur";
+
+
+"申诉" = "Plainte";
+
+
+"申诉截图（可选)" = "Complaint screenshot (optional)";
+
+/*  */
+"申诉截图（可选）" = "Capture d'écran des plaintes (facultative)";
+
+
+"申诉提醒" = "Rappel";
+
+
+"申诉理由" = "Raison de la plainte";
+
+
+"申诉留言（可选)" = "Complaint message (optional)";
+
+/*  */
+"申诉留言（可选）" = "Message de plainte (facultatif)";
+
+
+"申请" = "Appliquer";
+
+
+"申请取消商家认证" = "Demande de décertifier un marchand";
+
+
+"申请商家认证" = "Postuler pour l'authentification des marchands";
+
+
+"申请开通带单功能发生错误" = "Il y a eu une erreur dans l'application pour ouvrir le bon de commande";
+
+/* 代理费用为%@USDT */
+"申请成为代理" = "Postuler pour devenir agent";
+
+/* 订阅 */
+"申请绑定" = "Liaison d'application";
+
+
+"申请认证中" = "Application en cours";
+
+/*  */
+"申请跟单绑定信息已成功发送，请耐心等待通过" = "Demande d'informations de liaison de commande a été envoyée avec succès, veuillez attendre patiemment l'approbation";
+
+/* 到期日 */
+"申请跟单绑定信息已成功发送，请耐心等待通过." = "Please wait patiently for the request to be approved.";
+
+/*  */
+"申购" = "S'abonner";
+
+/*  */
+"申购价格" = "Prix ";
+
+/* 下单成功 */
+"申购冻结" = "Commander gelé";
+
+/* 申购成功转换 */
+"申购失败转换" = "Conversion ratée";
+
+/*  */
+"申购总量" = "Achat total";
+
+/* 申购冻结 */
+"申购成功转换" = "Conversion réussie";
+
+/*  */
+"申购说明" = "Instructions d'achat";
+
+/* 性别 */
+"男" = "Homme";
+
+/* 可多选 */
+"留言内容" = "Message";
+
+
+"登录" = " Connexion";
+
+
+"登录后可以关注自己喜欢的自选" = "Après vous être connecté, vous pouvez suivre vos options préférées";
+
+
+"登录失败!" = "Échec de la connexion";
+
+/* 请求网络失败，请检查网络 */
+"登录失败!" = "Login Failed!";
+
+
+"登录密码" = "Mot de passe";
+
+/* 众筹价格 */
+"白皮书" = "Papier blanc";
+
+/* 手续费 */
+"盈利" = "Profit";
+
+/* 请输入止损比例 */
+"盈利USDT" = "Bénéfice USDT";
+
+/* 平仓时间 */
+"盈利分成" = "Partage des profits";
+
+/* 跟单类型 */
+"盈利分成" = "Profit Sharing";
+
+/* 平均成本价 */
+"盈利比例" = "Pourcentage de bénéfices";
+
+/* 释义：跟随高手的用户最近30天盈亏总金额。 */
+"盈利能力" = "Rentabilité";
+
+/* 周K */
+"看涨(做多)" = "Haussier (long)";
+
+/* 看涨(做多) */
+"看跌(做空)" = "Bajista (corto)";
+
+/*  */
+"真实姓名" = "Vrai nom";
+
+/*  */
+"眾筹价格" = "Prix ";
+
+/* 注册失败 */
+"短信验证码已经发送至%@*******%@" = "Le code de vérification SMS a été envoyé à%@ *******%@";
+
+/* 重置 */
+"确定" = "Confirmer";
+
+/* 增加开仓保证金（USDT） */
+"确定即代表您同意并接受" = "En confirmant, vous acceptez et acceptez";
+
+/* 获取简介异常 */
+"确定取消该委托订单吗" = "Are you sure to cancel the commission order?";
+
+/*  */
+"确定取消该委托订单吗?" = "Êtes-vous sûr que vous souhaitez annuler la commande?";
+
+/* 请输入订阅的周期数 */
+"确定续费%@%@吗？" = "Êtes-vous sûr de vouloir renouveler%@%@?";
+
+
+"确定要从\"%@\"划转数量%@%@到\"%@\"吗？" = "Êtes-vous sûr de vouloir transférer une quantité de%@ %@ de %@  à %@ ?";
+
+
+"确定要删除选中的收款方式吗?" = "Êtes-vous sûr de vouloir supprimer le mode de paiement sélectionné?";
+
+
+"确定要删除选中的自选吗?" = "Êtes-vous sûr de vouloir supprimer la coutume sélectionnée?";
+
+/* 已成交 */
+"确定要取消提币吗?" = "Êtes-vous sûr que vous souhaitez annuler le retrait?";
+
+/* BYY官方 */
+"确定要回购%@数量的KBT吗？" = "Êtes-vous sûr de souhaiter racheter%@ montant de KBT?";
+
+/* 请选择认购金额 */
+"确定要认购数量为%@的%@吗？" = "Êtes-vous sûr de vouloir vous abonner%@ de%@?";
+
+/*  */
+"确定要设置当前价格和数量吗？" = "Êtes-vous sûr de vouloir définir le prix et la quantité actuels?";
+
+
+"确定订阅%@%@吗？" = "¿Estás seguro de que te suscribes a %@ %@?";
+
+/*  */
+"确认发佈" = "Confirmer la publication";
+
+/* 请写入您想对卖家/买家说的话！ */
+"确认发布" = "confirm the release";
+
+/* 我确定已登录收款账户，并核对收款无误 */
+"确认取消订单" = "Confirmer l'annulation de la commande";
+
+/* 设置密码 */
+"确认密码" = "Confirmez le mot de passe";
+
+/* 保存成功 */
+"确认收款并放行" = "Confirmer le reçu et la libération";
+
+/* 确认是否删除该广告记录 */
+"确认是否上架该广告记录" = "Vérifiez si l'enregistrement d'annonce est répertorié";
+
+/* 确认是否上架该广告记录 */
+"确认是否下架该广告记录" = "Confirmer s'il faut rétrograder le dossier d'annonce";
+
+
+"确认是否删除该广告记录" = "Confirmer s'il faut supprimer le dossier d'annonce";
+
+
+"确认离开" = "Confirmer le départ";
+
+
+"确认离开支付" = "Confirmer pour laisser le paiement";
+
+/* 你目前锁仓权益等级 */
+"确认订购" = "Confirmer la commande";
+
+/* 冻结数量 */
+"确认转入" = "Confirmer le transfert dans";
+
+/* / 社区 */
+"社区" = "Communauté";
+
+/*  */
+"社区人数：%@" = "Nombre de communauté ：%@";
+
+/*  */
+"社区总奖励(TVC)" = "Total Community Award (TVC)";
+
+/*  */
+"离强平价还剩 -" = "Rester à une parité forte -";
+
+/* 强平价 */
+"离强平价还剩—" = "Remaining from strong parity -";
+
+/*  */
+"立即升级" = "Mettre à jour maintenant";
+
+/* 暂无该记录数据 */
+"筛选" = "Filtre";
+
+/* 转入账户选择 */
+"筛选数据出错，请返回再重试" = "Erreur dans le filtrage des données, veuillez revenir en arrière et réessayer";
+
+/* 区块链查询 */
+"简介" = "Introduction";
+
+
+"简体中文" = "简体中文";
+
+/* 止损：不设置 */
+"类型" = "Taper";
+
+/* 订单记录 */
+"类型选择" = "Sélection de type";
+
+/* 交易金额 */
+"系统会为您筛选包含目标金额的商品" = "Le système filtrera les produits qui contiennent le montant cible pour vous";
+
+
+"系统撤销" = "Système révoqué";
+
+/* 代理 */
+"系统通知" = "Notification système";
+
+/* 跟单总投入 */
+"累计盈亏" = "Profit / perte accumulé";
+
+/* 成本均价 */
+"累计盈亏" = "Accumulated Profit and Loss";
+
+
+"繁体中文" = "Traditional Chinese";
+
+
+"红涨绿跌" = "Red Up, vert";
+
+/*  */
+"绑定手机" = "Téléphone mobile contraignant";
+
+/* 更新邮箱失败 */
+"绑定邮箱" = "E-mail contraignant";
+
+/* 提币地址 */
+"结束时间" = "Heure de fin";
+
+/* 请求数据异常 */
+"续费" = "Frais de renouvellement";
+
+
+"绿涨红跌" = "Green et rouge";
+
+/* 已绑定手机号 */
+"网速不给力，请检查网络！" = "La vitesse Internet n'est pas forte, veuillez vérifier le réseau!";
+
+
+"网页由 %@ 提供" = "Page fournie par% @";
+
+
+"联系对方" = "Contact the Other Party";
+
+/*  */
+"联繫对方" = "Contacter l'autre partie";
+
+/* 行情 */
+"自选" = "Auto-sélection";
+
+
+"若你被跟单，则可提币数量=持仓数量-跟单账户单个最高持有数量." = "If you are followed, the number of withdrawable coins = the number of positions held - the maximum number of coins held in a single follower account.";
+
+
+"英语" = "English";
+
+/* 请输入正确的充值金额 */
+"获取他人收款方式错" = "Error in obtaining someone else's payment method";
+
+/*  */
+"获取他人收款方式错误" = "Mauvaise façon de recevoir de l'argent des autres";
+
+/*  */
+"获取简介异常" = "Obtenir une exception de profil";
+
+
+"获取验证码" = "Obtenez le code de vérification";
+
+
+"获取验证码失败" = "Échec de l'obtention du code de vérification";
+
+/*  */
+"获得TVC" = "Obtenez TVC";
+
+/* 上月收益 */
+"行情" = "Marché";
+
+
+"解绑" = "Délier";
+
+/*  */
+"解释：跟随高手的用户最近30天平均每笔交易的收益率。数值越大，代表跟随高手的用户收益越好。" = "Explication: Le rendement moyen par métier pour les 30 derniers jours pour les utilisateurs qui suivent le maître. Plus la valeur est élevée, meilleure est la rentabilité des abonnés.";
+
+/*  */
+"解释：跟随高手的用户最近30天盈亏总金额" = " Explication: Le montant total des bénéfices et des pertes pour les 30 derniers jours pour les utilisateurs qui suivent les experts";
+
+/*  */
+"解释：跟随高手盈利的几率。数值越大，代表跟单获利的可能性就越高。" = "Explication: La probabilité de suivre le profit d'un maître. Plus la valeur est élevée, plus les chances de gagner sont élevées.";
+
+/*  */
+"解释：高手最近30天平均每笔交易的收益率。数值越大，代表个人盈利能力越强。" = "Explication: La rentabilité moyenne de chaque métier au cours des 30 derniers jours. Plus la valeur est élevée, plus l'individu est rentable.";
+
+/*  */
+"解释：高手最近30天跟单人数，数值越大，代表跟随者越多，人气越高。" = "Explication: Le nombre d'adeptes au cours des 30 derniers jours, plus la valeur est grande, plus la popularité est élevée et plus la popularité.";
+
+/* 《跟单规则》 */
+"解除绑定" = "Qui n'est pas un peu";
+
+
+"解除绑定成功" = "Défendre avec succès";
+
+/*  */
+"註销失败" = "Échec de l'annulation";
+
+/* 清除缓存 */
+"计算中" = "Calcul en cours";
+
+
+"订单号" = "Numéro de commande";
+
+
+"订单将在%@后超时取消" = "La commande sera annulée après%@ timeout";
+
+
+"订单已撤销" = "La commande a été annulée";
+
+
+"订单已被系统撤销" = "La commande a été annulée par le système";
+
+
+"订单已过期" = "La commande a expiré";
+
+/* 请输入币种 */
+"订单状态" = "Statut de la commande";
+
+/* 系统会为您筛选包含目标金额的商品 */
+"订单记录" = "Historique des commandes";
+
+/* 跟单人数 */
+"订阅" = "S'abonner";
+
+/* 申请跟单绑定信息已成功发送，请耐心等待通过 */
+"订阅/续费请求数据错误" = "Erreur de données de demande d'abonnement / renouvellement";
+
+/* 续费 */
+"订阅已过期" = "L'abonnement a expiré";
+
+/* 个人主页 */
+"订阅数" = "Abonnements";
+
+/* 用户名称 */
+"订阅状态" = "État de l'abonnement";
+
+/*  */
+"认证日期" = "Date d'authentification";
+
+/*  */
+"认证状态" = "État d'authentification";
+
+/* 确定要回购xx数量的KBT吗？ */
+"认购数字货币" = "Abonnez-vous à la monnaie numérique";
+
+/* 选择认购xx数量 */
+"认购金额" = "Montant d'abonnement";
+
+/* 锁仓 */
+"认购锁仓" = "Position de verrouillage de l'abonnement";
+
+/* 客服 */
+"设置" = "D'installation";
+
+/* 修改交易密码 */
+"设置交易密码" = "Définir le mot de passe de transaction";
+
+/* 两次密码不相同 */
+"设置密码" = "Définir le mot de passe";
+
+
+"设置成功" = "Configurer avec succès";
+
+/* 填写验证码 */
+"设置新密码" = "Définir un nouveau mot de passe";
+
+/*  */
+"设置止盈止损" = "Définir la perte d'arrêt et réaliser des bénéfices";
+
+
+"设置语言" = "Définir la langue";
+
+/* 可提现数量 */
+"设置默认" = "Définir par defaut";
+
+/*  */
+"证件号" = "Numéro de certificat";
+
+/* 拍照 */
+"该操作需要验证交易密码，你还没设置交易密码，是否现在设置交易密码？" = "Vous n'avez pas encore de mot de passe de trading, voulez-vous en définir un maintenant?";
+
+/* 存币宝 */
+"该操作需要验证交易密码，你还没设置交易密码，是否现在设置交易密码？" = "This operation requires verification of the transaction password. Since you haven't set up a trading password yet, do you need to set up a trading password now?";
+
+/*  */
+"该版本暂不支持该功能，请更新版本" = "Cette version ne prend pas en charge cette fonction pour le moment, veuillez mettre à jour la version";
+
+/* 交易密码管理 */
+"该版本暂不支持该功能，请更新版本." = "This version does not support this function at the moment, please update the version.";
+
+/* 人气指数 */
+"说明" = " La description";
+
+
+"请上传充值截图" = "Veuillez télécharger une capture d'écran de recharge";
+
+
+"请上传提币二维码" = "Veuillez télécharger le code QR de la monnaie de retrait";
+
+/* 请输入身份证号码！ */
+"请上传身份证人像页图片" = "Veuillez télécharger l'image de votre page de portrait de carte d'identité";
+
+/* 请上传身份证人像页图片 */
+"请上传身份证国徽页图片" = "Veuillez télécharger l'image de la page d'emblème de la carte d'identité";
+
+/*  */
+"请先进行商家认证" = "Veuillez d'abord prendre la certification commerciale";
+
+/* 设置新密码 */
+"请再次输入密码" = "Veuillez saisir à nouveau le mot de passe";
+
+/* 请输入密码 */
+"请再次输入密码" = "Please enter your password again";
+
+
+"请写下您想对卖家/买家说的话！" = "Veuillez noter ce que vous voulez dire au vendeur / acheteur!";
+
+/* 留言内容 */
+"请写入您想对卖家/买家说的话！" = "Veuillez écrire ce que vous voulez dire au vendeur / acheteur!";
+
+/* 是否确定保存该收款方式? */
+"请务必使用与您注册手机号码一致的实名账号" = "Assurez-vous d'utiliser le même compte de nom réel que votre numéro de téléphone mobile enregistré.";
+
+/* 确认收款并放行 */
+"请务必登录网上银行或第三方支付账号确认收到该笔款项" = "Assurez-vous de vous connecter à votre compte bancaire en ligne ou à votre tiers pour confirmer la réception du paiement";
+
+
+"请在 %@:%@ 内付款给卖家" = "Veuillez payer le vendeur en%@:%@";
+
+
+"请填写开户行" = "Veuillez remplir la banque d'ouverture du compte";
+
+/* 请再次输入密码 */
+"请填写邀请码(必填)" = "Please fill in the invitation code (required)";
+
+/*  */
+"请填写邀请码（必填）" = "Veuillez remplir le code d'invitation (requis)";
+
+/* 转入xx数量到存币宝 */
+"请最低转入%@" = "Veuillez transférer un minimum de%@";
+
+
+"请检查网络" = "Veuillez vérifier votre réseau";
+
+
+"请求保存图片异常" = "Veuillez demander à enregistrer l'exception de l'image";
+
+
+"请求失败" = "Demande échoué";
+
+/* 该操作需要验证交易密码，你还没设置交易密码，是否现在设置交易密码？ */
+"请求客服发生异常" = "Veuillez demander à un service client pour une exception";
+
+/* 请输入数量 */
+"请求数据异常" = "Veuillez demander une exception de données";
+
+/* 跟单盈亏 */
+"请求网络失败" = "Solicitar falla de red";
+
+/* 无搜索结果 */
+"请求网络失败，请检查网络" = "Veuillez demander une défaillance du réseau, veuillez vérifier le réseau";
+
+
+"请登录账号" = "Veuillez enregistrer votre compte";
+
+
+"请确认协议书" = "Veuillez confirmer l'accord";
+
+/*  */
+"请稍后.." = "S'il vous plaît, attendez...";
+
+/* 正在注销用户登录. */
+"请稍后..." = "Please wait...";
+
+
+"请绑定手机号码" = "Veuillez lier le numéro de téléphone portable";
+
+
+"请绑定邮箱" = "Veuillez lier la boîte aux lettres";
+
+/* 已绑定手机号 */
+"请设置6位交易密码" = "Veuillez définir le mot de passe de transaction à 6 chiffres";
+
+/* 标题 */
+"请输入" = "Entrez s'il vous plait";
+
+/* 已成功发送撤销 */
+"请输入价格" = "Veuillez saisir un prix";
+
+
+"请输入倍数" = "Veuillez saisir un multiplicateur";
+
+
+"请输入充值数量" = "Veuillez saisir la quantité de recharge";
+
+/*  */
+"请输入兑换数量" = "Veuillez saisir la quantité d'échange";
+
+
+"请输入出售数量" = "Veuillez saisir la quantité à vendre";
+
+/*  */
+"请输入划转数量" = "Veuillez saisir le montant à transférer";
+
+
+"请输入划转数量." = "Please enter the amount to be transferred.";
+
+/* 只有将资产划转到相对应的账户次才能进行交易。账户间的划转不收取手续费。 */
+"请输入划转的数量" = "Veuillez saisir la quantité à transférer";
+
+
+"请输入划转的数量" = "Please enter the number of transfers";
+
+/* 剩余可回购YYB数量 */
+"请输入回购YYB数量" = "Veuillez saisir le nombre de YYB à racheter";
+
+/* 持有YYB数量 */
+"请输入回购数量" = "Veuillez saisir le nombre de rachats";
+
+
+"请输入大于0的倍数" = "Veuillez saisir un multiplicateur supérieur à 0";
+
+/* 请输入回购数量 */
+"请输入大于0的回购数量" = "Veuillez saisir le nombre de rachats supérieurs à 0";
+
+/* 是否确定设置止盈价 */
+"请输入大于0的平仓手数" = "Veuillez saisir le nombre de lots pour fermer la position supérieure à 0";
+
+/* 请输入提取数量 */
+"请输入大于0的数量" = "Veuillez saisir le montant supérieur à 0";
+
+/* 请输入开户行 */
+"请输入姓名" = "S'il vous plaît entrez votre nom";
+
+
+"请输入姓名" = "Please enter your name";
+
+/* 注册 */
+"请输入密码" = "s'il vous plait entrez votre mot de passe";
+
+/* 币种 */
+"请输入币种" = "Veuillez saisir la monnaie";
+
+/* 持仓手数 */
+"请输入平仓手数" = "Veuillez saisir le nombre de positions fermées";
+
+
+"请输入开户姓名" = "Veuillez saisir le nom de votre compte";
+
+/* 请输入银行卡号 */
+"请输入开户行" = "Veuillez saisir la banque d'ouverture de votre compte";
+
+/* 重置密码 */
+"请输入手机号码" = "Veuillez saisir votre numéro de téléphone portable";
+
+/* 请选择提币地址 */
+"请输入提取数量" = "Veuillez saisir la quantité de retrait";
+
+/* 添加收款方式 */
+"请输入提现数量" = "Veuillez saisir le montant du retrait en espèces";
+
+/* 0手续费出售 */
+"请输入数量" = "Veuillez saisir la quantité";
+
+/* 未认证 */
+"请输入文字!" = "¡Ingrese el texto!";
+
+/* 验证身份 */
+"请输入新的手机号码" = "Veuillez saisir votre nouveau numéro de téléphone portable";
+
+
+"请输入新邮箱" = "Veuillez saisir une nouvelle adresse e-mail";
+
+
+"请输入有效姓名！" = "Merci d'entrer un nom valide!";
+
+/* 止盈设置 */
+"请输入止损价格" = "Veuillez saisir le prix de perte d'arrêt";
+
+/*  */
+"请输入止损比例" = "Veuillez saisir un rapport de perte d'arrêt";
+
+/* 请输入止盈比例 */
+"请输入止损比例." = "Please enter the stop loss percentage.";
+
+/* 是否确定下单？ */
+"请输入止盈价" = "Veuillez saisir votre prix de profit";
+
+/* 请输入止损价格 */
+"请输入止盈价格" = "Veuillez saisir le prix de perte d'arrêt";
+
+/* 止盈价 */
+"请输入止盈比例" = "Veuillez saisir votre ratio de bénéfices";
+
+/* 推荐 */
+"请输入正确的充值金额" = "Veuillez saisir la quantité correcte de recharge";
+
+/* 追加金额 */
+"请输入每笔跟单上限" = "Veuillez saisir le montant maximum par commande";
+
+/* 昵称不能包含特殊字符! */
+"请输入用户名!" = "Veuillez saisir le nom d'utilisateur!";
+
+/*  */
+"请输入申购数量" = "Veuillez saisir la quantité d'achat";
+
+/* 是否确定订阅该用户？ */
+"请输入订阅的周期数" = "Please enter the number of subscription periods";
+
+/*  */
+"请输入订阅的週期数" = "Veuillez saisir le nombre de périodes d'abonnement";
+
+
+"请输入账户" = "Veuillez saisir le compte";
+
+/* 购买 USDT */
+"请输入购买数量" = "Veuillez saisir la quantité d'achat";
+
+/* 跟单投入 */
+"请输入跟单USDT" = "Veuillez saisir la commande USDT";
+
+/* 请输入有效姓名！ */
+"请输入身份证号码！" = "Veuillez saisir votre numéro d'identification!";
+
+/* 确认转入 */
+"请输入转入数量" = "Veuillez saisir la quantité à transférer dans";
+
+/* 微信朋友圈 */
+"请输入转出数量" = "Veuillez saisir le nombre de transferts";
+
+/* 可用USDT */
+"请输入追加的金额" = "Veuillez saisir le montant à ajouter";
+
+/* 绑定邮箱 */
+"请输入邮箱" = "Please insert your e-mail";
+
+
+"请输入邮箱验证码" = "Veuillez saisir votre code de vérification par e-mail";
+
+/* 该版本暂不支持该功能，请更新版本 */
+"请输入银行卡号" = "Veuillez saisir votre numéro de carte bancaire";
+
+
+"请输入银行卡号" = "and bank card number";
+
+
+"请输入验证码" = "Veuillez saisir le code de vérification";
+
+/* 提示 */
+"请进行实名认证" = "Veuillez vous authentifier avec votre vrai nom";
+
+
+"请选择二维码图片" = "Veuillez sélectionner l'image du code QR";
+
+
+"请选择保证金" = "Veuillez sélectionner la marge";
+
+/* 请输入价格 */
+"请选择倍数" = "Veuillez sélectionner un multiplicateur";
+
+/* 请选择提币币种 */
+"请选择提币地址" = "Please enter the withdrawal address";
+
+/* 你暂无可提币的币种 */
+"请选择提币币种" = "Veuillez sélectionner la monnaie de retrait";
+
+/* 确认发布 */
+"请选择支付方式" = "Veuillez choisir un moyen de paiement";
+
+/* 是否确定提现 */
+"请选择收款方式" = "Veuillez sélectionner le mode de paiement";
+
+
+"请选择正确的倍数" = "Veuillez sélectionner le bon multiplicateur";
+
+
+"请选择申诉原因" = "Veuillez sélectionner la raison de votre plainte";
+
+/* 持有USDT数量 */
+"请选择认购金额" = "Veuillez sélectionner le montant de l'abonnement";
+
+/* 去划转 */
+"请选择账户类型" = "Veuillez sélectionner le type de compte";
+
+/* 设置语言 */
+"请重新拖动验证图片" = "Veuillez redémarrer l'image de vérification";
+
+/* 账户总资产 */
+"财务记录" = "Histoire financière";
+
+
+"账号" = "Numéro de compte";
+
+/* 暂时无关注的自选 */
+"账户" = "Compte";
+
+/* 您尚未订阅该用户 */
+"账户余额可用" = "Solde du compte disponible";
+
+/* 账户 */
+"账户总资产" = "Actif total du compte";
+
+/*  */
+"账户未实名" = "Compte Unreal Nom";
+
+/* 我再想想 */
+"账户类型" = "Type de compte";
+
+/*  */
+"Defi专区" = "Defi zone spéciale";
+
+"质押记录" = "registre des promesses de dons";
+
+/* 类型选择 */
+"购买" = "Acheter";
+
+/* 单价 */
+"购买 USDT" = "Buy USDT";
+
+/*  */
+"购买USDT" = "Acheter USDT";
+
+
+"购买中" = "Achat";
+
+/* 获取他人收款方式错误 */
+"购买单价" = "Prix ";
+
+/*  */
+"购买成功" = "Acheter réussi";
+
+/* 出售数量 */
+"购买数量" = "Acheter la quantité";
+
+/* 认购锁仓 */
+"资产" = "Les atouts";
+
+
+"资产" = "Assets";
+
+/* 输入太多文字啦! */
+"资料修改失败" = "La modification des données a échoué";
+
+/* 资料修改失败 */
+"资料修改成功" = "Modifier les données avec succès";
+
+/* 不要 */
+"资料并没有任何修改哦~" = "Il n'y a aucun changement dans vos informations.";
+
+
+"超过最大倍数:%ld" = "Exceed the maximum multiplier: %ld";
+
+
+"跌幅榜" = "Inconvénient";
+
+/*  */
+"距离本轮申购结束还剩" = "Il reste à la fin de cette série d'achat";
+
+/*  */
+"跟单交易记录" = "Historique des commandes";
+
+/* 订阅数 */
+"跟单人数" = "Nombre d'adeptes";
+
+/* 业绩走势 */
+"跟单人气" = "Suiveurs";
+
+/*  */
+"跟单冻结资产(USDT)" = "Suivez l'actif congelé unique (USDT)";
+
+/* 我的成交 */
+"跟单分成" = "Partager";
+
+/* 请输入跟单USDT */
+"跟单即代表您同意并接受" = "En passant une commande, vous acceptez et acceptez";
+
+/* 委托数量 */
+"跟单委托" = "Placement des commandes";
+
+/* 我的委托数量 */
+"跟单委托数量" = "Nombre de commandes passées";
+
+/* 跟单明细 */
+"跟单总投入" = "Investissement total";
+
+/* 我的盈利 */
+"跟单成交" = "Transaction de suivi";
+
+/* 我的成交数量 */
+"跟单成交数量" = "Nombre d'ordres de suivi";
+
+/* 止损 */
+"跟单成功" = "Commander le succès";
+
+/* 跟单资产不能低于%@USDT */
+"跟单投入" = "Entrée de commande";
+
+/* 跟单设置 */
+"跟单持仓" = "Poste d'appel";
+
+/* 跟单盈利额 */
+"跟单收益率" = "Taux de profit";
+
+/* 释义：高手最近30天平均每笔交易的收益率。数值越大，代表个人盈利能力越强。 */
+"跟单收益率" = "Profitability of Follow-Up Orders";
+
+/* 跟单资产分布 */
+"跟单明细" = "Détails de la commande";
+
+/*  */
+"跟单机构" = "Organisation unique";
+
+/* 跟单止盈：暂无设置 */
+"跟单止损：暂无设置" = "Stop Loss ： Pas de réglage pour le moment";
+
+/* 跟单每笔上限 */
+"跟单止盈：暂无设置" = "PROFIBLEZ LE PROFESSE ： Pas de paramètre";
+
+/* 暂无设置 */
+"跟单每笔上限" = "Limiter par commande";
+
+/* 结束时间 */
+"跟单盈亏" = "Perte de profit";
+
+
+"跟单盈利额" = " Montant du bénéfice";
+
+/* 雷达图说明 */
+"跟单盈利额" = "Profitability of Follow-Up Orders";
+
+/* 交易策略 */
+"跟单类型" = "Types de commandes";
+
+/* 跟单收益率 */
+"跟单胜率" = "Taux de victoire de commande";
+
+/* 释义：跟随高手的用户最近30天平均每笔交易的收益率。数值越大，代表跟随高手的用户收益越好 */
+"跟单胜率" = "Winning Rate of Follow-up Orders";
+
+/* 跟单止损：暂无设置 */
+"跟单设置" = "Paramètres de commande";
+
+/*  */
+"跟单账户" = "Compte unique";
+
+/* 暂无开仓记录 */
+"跟单资产不能低于%@USDT" = "L'actif de la commande ne peut pas être inférieur à%@ USDT";
+
+/* 是否追加%@USDT的跟单金额 */
+"跟单资产分布" = "Distribution des actifs";
+
+
+"跟单资金" = "Capital suivi";
+
+/* 跟单收益率 */
+"跟随高手的用户最近30天平均每笔交易的收益率。数值越大，代表跟随高手的用户收益越好" = "Definition: the average profitability of each trade in the last 30 days for users who follow the master. The larger the value, the better the return for the user following the master.";
+
+/* 跟单盈利额 */
+"跟随高手的用户最近30天盈亏总金额." = "Definition: the total amount of profit and loss of users who followed the master in the the past 30 days.";
+
+/* 跟单胜率 */
+"跟随高手盈利的几率。数值越大，代表跟单获利的可能性就越高." = "Definition: the chance of following the master's profit. The larger the value, the higher the possibility of profitability.";
+
+/* 是否确定转入%@数量的%@ */
+"转入%@数量到存币宝" = "Transférer%@ quantité à la crypto-monnaie";
+
+/* 提交成功 */
+"转入成功" = "Le transfert a réussi";
+
+/* 外汇跟单账户 */
+"转入账户选择" = "Sélection du compte de transfert";
+
+/* 转出账户选择 */
+"转入账户选择" = "Selection of transfer in account";
+
+/* 转出成功 */
+"转出%@数量到持仓" = "Transfert%@ de quantité à positionner";
+
+/* 是否确定转出xxx数量的xxx到持仓？ */
+"转出成功" = "Transférer réussi";
+
+/* 转出数量超过当前持有数量！ */
+"转出数量必须大于0！" = "Le transfert de quantité doit être supérieur à 0!";
+
+/* 请输入转出数量 */
+"转出数量超过当前持有数量！" = "La quantité transférée est plus que la quantité actuelle maintenue!";
+
+/* 类型 */
+"转出账户选择" = "Transférer la sélection du compte";
+
+/* 已订阅 */
+"输入ID搜索" = "Entrez ID pour rechercher";
+
+/* 验证身份 */
+"输入交易密码" = "Entrez votre mot de passe de transaction";
+
+/* 请输入文字! */
+"输入太多文字啦!" = "Trop de texte!";
+
+
+"输入或长按粘贴地址" = "Entrez ou cliquez sur longtemps pour coller l'adresse";
+
+/* 请输入大于0的回购数量 */
+"输入的回购数量不能超过可回购数量" = "Le nombre de rachats établis ne peut dépasser le nombre de rachats disponibles";
+
+/* 请输入转入数量 */
+"输入的数量不能低于%@" = "La quantité entrée ne peut pas être inférieure à%@";
+
+/*  */
+"输入跟单倍数不能大于%ld!" = "Entrez un multiplicateur pas supérieur à%ld!";
+
+/*  */
+"输入跟单倍数不能小于%ld!" = "Entrez un multiplicateur pas moins de%ld!";
+
+/* 人 */
+"返佣金额" = "Montant de la commission";
+
+/* 个人简介 */
+"这个人很懒，未留下任何东西 ......" = "This person is very lazy, and do not leave anything ......";
+
+/*  */
+"这个人很懒，未留下任何东西......" = "Cette personne est très paresseuse, n'a rien laissé ......";
+
+
+"进入OTC市场" = "Accès au marché OTC";
+
+/*  */
+"进行中" = "En traitement";
+
+/* 请输入追加的金额 */
+"追加的金额不能为0" = "Le montant à ajouter ne peut pas être 0";
+
+/* 交易明细 */
+"追加资产不能低于%@USDT" = "Les actifs supplémentaires ne peuvent pas être inférieurs à%@ USDT";
+
+/* 追加的金额不能为0 */
+"追加金额" = "Ajouter le montant";
+
+/* 已提交停止跟单处理 */
+"追加金额成功" = "Ajouter le montant réussi";
+
+/* 每隔1秒刷新 */
+"退出登录" = "Se déconnecter";
+
+/*  */
+"选择个人头像" = "Sélectionnez Avatar personnel";
+
+/* 昵称长度太长 */
+"选择个人头像." = "Select your headshot.";
+
+/* 选择身份证照片 */
+"选择人像页" = "Sélectionnez la page Portrait";
+
+
+"选择保证金（USDT）" = "Sélectionner la marge (USDT)";
+
+/* 选择人像页 */
+"选择国徽页" = "Choose the national emblem page";
+
+
+"选择图片" = "Sélectionner l'image";
+
+
+"选择币种" = "Choisissez une monnaie";
+
+
+"选择截图" = "Sélectionnez une capture d'écran";
+
+/* 本轮认购进度 */
+"选择认购%@数量" = "Sélectionner%@ numéro";
+
+/* 确定要认购数量为xx的xx吗？ */
+"选择认购数量" = "Sélectionnez le nombre d'abonnements";
+
+/* 是否资料确认无误？ */
+"选择身份证照片" = "Sélectionnez la photo de la carte d'identité";
+
+/* 我是 */
+"邀请好友，开启环球数字资产交易" = "Invitez un ami à ouvrir un commerce mondial d'actifs numériques";
+
+/*  */
+"邀请码" = "code d'invitation";
+
+/*  */
+"邀请码数量：%@" = "Nombre de codes d'invitation:%@";
+
+
+"邮箱" = "Boites aux lettres";
+
+
+"邮箱或手机" = "E-mail ou mobile";
+
+
+"邮箱注册" = "Enregistrement de la boîte aux lettres";
+
+
+"邮箱验证码" = "Code de vérification par e-mail";
+
+/* 全部成交 */
+"部分成交" = "Transaction partielle";
+
+
+"重新登录" = "Remanier";
+
+/* 网速不给力，请检查网络！ */
+"重新获取" = "Récupérer";
+
+/* 转入账户选择 */
+"重置" = "Reprendre possession de";
+
+/* 修改密码失败 */
+"重置密码" = "Réinitialiser le mot de passe";
+
+/* 请输入回购YYB数量 */
+"重要" = "Important";
+
+/* 数字货币 */
+"量" = "Le volume";
+
+/*  */
+"金牌机构" = "Médaille d'or";
+
+
+"金额" = "Montant";
+
+/* 支付方式 */
+"银行卡" = "Carte bancaire";
+
+
+"银行卡" = "Bank Card";
+
+
+"银行卡号" = "Numéro de carte bancaire";
+
+
+"银行卡姓名" = "Nom de carte bancaire";
+
+
+"银行卡账号" = "Numéro de compte de carte bancaire";
+
+
+"链类型" = "Type de chaîne";
+
+/* 总数量 */
+"锁仓" = "position verrouillée";
+
+/* 选择认购数量 */
+"锁仓权益说明" = "Description of the Locked Interest";
+
+/*  */
+"锁仓权谥说明" = "Description de l'intérêt verrouillé";
+
+
+"限价委托" = "Limiter la commande";
+
+/* 数量 */
+"限额" = "Limite";
+
+/* 用户协议 */
+"隐私条款" = "Politique de confidentialité";
+
+/* 跟单持仓 */
+"隐藏小额币种" = "Petite monnaie cachée";
+
+"隐藏小金额" = "Petite monnaie cachée";
+
+/* 说明 */
+"雷达图说明" = " Graphique radar";
+
+/* 0手续费购买 */
+"非交易时间，暂不能操作。" = "Non disponible pendant les heures de non-trame.";
+
+/*  */
+"项目介绍" = "Introduction du projet";
+
+/*  */
+"项目参与条件" = "Conditions de participation du projet";
+
+/*  */
+"预热中" = "Préchauffage";
+
+/*  */
+"风险提示" = "avertissement de risque";
+
+
+"风险提示书" = "Formulaire de divulgation des risques";
+
+/*  */
+"风险率" = "Risque";
+
+/* 中国 */
+"首页" = "Maison";
+
+
+"香港" = "Hong Kong";
+
+/*  */
+"香港时间" = "Temps de Hong Kong";
+
+/* 请输入止盈价格 */
+"验证" = "Vérification";
+
+/* 短信验证码已经发送至%@*******%@ */
+"验证码为数字!" = "Le code de vérification est un nombre!";
+
+
+"验证码已发送至，%@" = "Le code de vérification a été envoyé à,%@";
+
+/* 删除成功 */
+"验证身份" = "Vérifiez Votre Identité";
+
+/* 更换手机号码/更换手机 */
+"验证身份" = "Verify Identity";
+
+/* 请稍后.. /正在清除中...... */
+"验证错误，重新获取图片！" = "Erreur vérifiée, obtenez une nouvelle image!";
+
+/* 开 */
+"高" = "Haute";
+
+/* 盈利能力 */
+"高手最近30天平均每笔交易的收益率。数值越大，代表个人盈利能力越强." = "Definition: the average rate of return per trade of the master in the past 30 days. The larger the value, the stronger the profitability of the individual.";
+
+/* 人气指数 */
+"高手最近30天跟单人数，数值越大，代表跟随者越多，人气越高." = "Definition: the number of followers of the master in the past 30 days. The larger the number, the more followers and the higher the popularity.";
+
+/* 设置默认 */
+"默认" = "Défaut";
+
+"只允许充值" = "Seule la recharge est autorisée%@";
+
+"最小充值金额()" = "Montant minimum de recharge(%@)";
+
+"可用余额()" = "Solde disponible (USDT)";
+
+"冻结金额()" = "quantité gelée(%@)";
+"到账数量()" = "Montant à l'arrivée(%@)";
+
+"最小质押数量" = "Montant minimum de l'engagement";
+
+"充值" = "Recharger";
+"提现" = "Retrait";

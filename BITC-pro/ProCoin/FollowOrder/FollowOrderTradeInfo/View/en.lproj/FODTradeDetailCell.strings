@@ -1,0 +1,63 @@
+
+/* Class = "UILabel"; text = "--"; ObjectID = "4FD-jX-TzS"; */
+"4FD-jX-TzS.text" = "--";
+
+/* Class = "UILabel"; text = "--"; ObjectID = "9KS-Au-wox"; */
+"9KS-Au-wox.text" = "--";
+
+/* Class = "UILabel"; text = "--"; ObjectID = "DYL-wH-jQk"; */
+"DYL-wH-jQk.text" = "--";
+
+/* Class = "UILabel"; text = "--"; ObjectID = "HUb-dV-0BS"; */
+"HUb-dV-0BS.text" = "--";
+
+/* Class = "UILabel"; text = "委托价格(USDT)"; ObjectID = "JKx-2U-bRt"; */
+"JKx-2U-bRt.text" = "Entrusted Price(USDT)";
+
+/* Class = "UILabel"; text = "--"; ObjectID = "KO5-lF-gZ8"; */
+"KO5-lF-gZ8.text" = "--";
+
+/* Class = "UILabel"; text = "跟单分成"; ObjectID = "KRN-0z-YRN"; */
+"KRN-0z-YRN.text" = "Share of Follow-Up Orders";
+
+/* Class = "UILabel"; text = "成交均价"; ObjectID = "Lac-qZ-PIb"; */
+"Lac-qZ-PIb.text" = "Average Price of Turnover";
+
+/* Class = "UILabel"; text = "状态"; ObjectID = "Lo7-JA-HW5"; */
+"Lo7-JA-HW5.text" = "Status";
+
+/* Class = "UILabel"; text = "委托数量"; ObjectID = "Lth-Bb-rpi"; */
+"Lth-Bb-rpi.text" = "Number of Commissions";
+
+/* Class = "UILabel"; text = "成交额"; ObjectID = "Otp-Oz-W7g"; */
+"Otp-Oz-W7g.text" = "Turnover";
+
+/* Class = "UILabel"; text = "盈利"; ObjectID = "VXD-cp-RQ2"; */
+"VXD-cp-RQ2.text" = "Profit";
+
+/* Class = "UILabel"; text = "卖出"; ObjectID = "Zgq-fS-3mV"; */
+"Zgq-fS-3mV.text" = "Sell";
+
+/* Class = "UILabel"; text = "成交数量"; ObjectID = "aoq-Pa-Rsr"; */
+"aoq-Pa-Rsr.text" = "The number of transactions";
+
+/* Class = "UILabel"; text = "时间"; ObjectID = "dlt-Rn-SwB"; */
+"dlt-Rn-SwB.text" = "Time";
+
+/* Class = "UILabel"; text = "--"; ObjectID = "grh-10-HYh"; */
+"grh-10-HYh.text" = "--";
+
+/* Class = "UILabel"; text = "--"; ObjectID = "hmr-AI-dWs"; */
+"hmr-AI-dWs.text" = "--";
+
+/* Class = "UILabel"; text = "--"; ObjectID = "llD-Rj-hdp"; */
+"llD-Rj-hdp.text" = "--";
+
+/* Class = "UILabel"; text = "手续费"; ObjectID = "rjC-wp-rHV"; */
+"rjC-wp-rHV.text" = "Handling fee";
+
+/* Class = "UILabel"; text = "--"; ObjectID = "sd3-lc-D5F"; */
+"sd3-lc-D5F.text" = "--";
+
+/* Class = "UILabel"; text = "BTC/USDT"; ObjectID = "sw5-vS-ZSh"; */
+"sw5-vS-ZSh.text" = "BTC/USDT";

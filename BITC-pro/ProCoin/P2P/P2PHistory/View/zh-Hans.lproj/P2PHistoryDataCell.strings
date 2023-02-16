@@ -1,0 +1,24 @@
+
+/* Class = "UILabel"; text = "交易金额(CNY)"; ObjectID = "D4M-og-vjH"; */
+"D4M-og-vjH.text" = "交易金额(HKD)";
+
+/* Class = "UILabel"; text = "2021-04-23 23:12"; ObjectID = "G6s-lM-p7s"; */
+"G6s-lM-p7s.text" = "2021-04-23 23:12";
+
+/* Class = "UILabel"; text = "出售USDT"; ObjectID = "JKi-DA-O0P"; */
+"JKi-DA-O0P.text" = "出售USDT";
+
+/* Class = "UILabel"; text = "已完成"; ObjectID = "Kgt-M9-eHQ"; */
+"Kgt-M9-eHQ.text" = "已完成";
+
+/* Class = "UILabel"; text = "时间"; ObjectID = "MOZ-3M-bkO"; */
+"MOZ-3M-bkO.text" = "时间";
+
+/* Class = "UILabel"; text = "数量(USDT)"; ObjectID = "Nkb-HN-ThI"; */
+"Nkb-HN-ThI.text" = "数量(USDT)";
+
+/* Class = "UILabel"; text = "2020.084023"; ObjectID = "ST4-fH-AXW"; */
+"ST4-fH-AXW.text" = "2020.084023";
+
+/* Class = "UILabel"; text = "50,000.00"; ObjectID = "iJo-Q2-cOM"; */
+"iJo-Q2-cOM.text" = "50,000.00";

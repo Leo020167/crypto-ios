@@ -1,0 +1,12 @@
+
+/* Class = "UITextView"; text = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et "; ObjectID = "4"; */
+"4.text" = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et ";
+
+/* Class = "UIButton"; highlightedTitle = "完成"; ObjectID = "8"; */
+"8.highlightedTitle" = "Completed";
+
+/* Class = "UIButton"; normalTitle = "完成"; ObjectID = "8"; */
+"8.normalTitle" = "Completed";
+
+/* Class = "UILabel"; text = "个人简介"; ObjectID = "JiP-90-Huc"; */
+"JiP-90-Huc.text" = "Personal Profile";

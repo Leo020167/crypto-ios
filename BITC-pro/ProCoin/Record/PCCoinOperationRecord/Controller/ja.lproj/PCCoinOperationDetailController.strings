@@ -1,0 +1,36 @@
+
+/* Class = "UILabel"; text = "手续费"; ObjectID = "5gv-8g-mzc"; */
+"5gv-8g-mzc.text" = "手数料";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "F4v-BJ-vji"; */
+"F4v-BJ-vji.text" = "Label";
+
+/* Class = "UILabel"; text = "详情"; ObjectID = "JqF-GU-VPY"; */
+"JqF-GU-VPY.text" = "詳細";
+
+/* Class = "UILabel"; text = "状态 "; ObjectID = "PGC-sF-CZ2"; */
+"PGC-sF-CZ2.text" = "ステータス ";
+
+/* Class = "UILabel"; text = "---"; ObjectID = "ZUP-BQ-eQx"; */
+"ZUP-BQ-eQx.text" = "---";
+
+/* Class = "UIButton"; normalTitle = "撤销"; ObjectID = "eGw-7X-YTh"; */
+"eGw-7X-YTh.normalTitle" = "取り消す";
+
+/* Class = "UILabel"; text = "时间"; ObjectID = "f31-qO-NzY"; */
+"f31-qO-NzY.text" = "時間";
+
+/* Class = "UILabel"; text = "---"; ObjectID = "ggf-Rc-DEk"; */
+"ggf-Rc-DEk.text" = "---";
+
+/* Class = "UILabel"; text = "提币地址"; ObjectID = "jFp-uT-R09"; */
+"jFp-uT-R09.text" = "コインアドレス";
+
+/* Class = "UILabel"; text = "---"; ObjectID = "tsN-ak-pi0"; */
+"tsN-ak-pi0.text" = "---";
+
+/* Class = "UILabel"; text = "提币数量"; ObjectID = "xnZ-fv-NYP"; */
+"xnZ-fv-NYP.text" = "つり銭高";
+
+/* Class = "UILabel"; text = "0USDT"; ObjectID = "ziO-vm-WVK"; */
+"ziO-vm-WVK.text" = "0USDT";

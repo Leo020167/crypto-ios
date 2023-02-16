@@ -1,0 +1,42 @@
+
+/* Class = "UIButton"; normalTitle = "+ 添加"; ObjectID = "3n7-FS-0f0"; */
+"3n7-FS-0f0.normalTitle" = "+ Ajouter à";
+
+/* Class = "UILabel"; text = "為保障資金安全，當您帳戶安全策略變更、密碼修改、使用新地址提幣，我們會對提幣進行人工審核，請耐心等待工作人員電話或郵件聯繫。 請務必確認電腦及瀏覽器安全，防止信息被篡改或洩露。"; ObjectID = "AQc-G1-tBo"; */
+"AQc-G1-tBo.text" = "Afin d'assurer la sécurité des fonds, lorsque la politique de sécurité de votre compte est modifiée, que votre mot de passe est modifié ou que vous utilisez une nouvelle adresse pour retirer des pièces, nous examinerons manuellement les retraits. Veuillez patienter et attendre que le personnel vous contacte par téléphone ou par e-mail. Assurez-vous de confirmer la sécurité de votre ordinateur et de votre navigateur pour éviter que des informations ne soient falsifiées ou divulguées.";
+
+/* Class = "UILabel"; text = "选择提币网络"; ObjectID = "FNR-X5-gJx"; */
+"FNR-X5-gJx.text" = "Choisissez le réseau de retrait";
+
+/* Class = "UILabel"; text = "▽"; ObjectID = "FYK-3z-gAG"; */
+"FYK-3z-gAG.text" = "▽";
+
+/* Class = "UILabel"; text = "添加提币地址"; ObjectID = "KOC-X3-XVU"; */
+"KOC-X3-XVU.text" = "Adresse de retrait";
+
+/* Class = "UITextField"; placeholder = "请输入地址"; ObjectID = "O62-gL-W1S"; */
+"O62-gL-W1S.placeholder" = "veuillez entrer l'adresse";
+
+/* Class = "UILabel"; text = "备注"; ObjectID = "UXM-6a-69y"; */
+"UXM-6a-69y.text" = "Remarque";
+
+/* Class = "UILabel"; text = "提币地址"; ObjectID = "gSB-6T-XOK"; */
+"gSB-6T-XOK.text" = "Adresse de retrait";
+
+/* Class = "UIButton"; normalTitle = "粘贴"; ObjectID = "gav-g8-0xS"; */
+"gav-g8-0xS.normalTitle" = "pâte";
+
+/* Class = "UILabel"; text = "选择币种"; ObjectID = "jqT-al-fd1"; */
+"jqT-al-fd1.text" = "Sélectionnez la devise";
+
+/* Class = "UILabel"; text = "我的提幣地址"; ObjectID = "mDC-sv-Svg"; */
+"mDC-sv-Svg.text" = "Mon adresse de retrait";
+
+/* Class = "UIButton"; normalTitle = "BTC"; ObjectID = "rN6-wY-bdk"; */
+"rN6-wY-bdk.normalTitle" = "BTC";
+
+/* Class = "UITextField"; placeholder = "请输入备注"; ObjectID = "sii-Db-kCi"; */
+"sii-Db-kCi.placeholder" = "Veuillez entrer une note";
+
+/* Class = "UILabel"; text = "充币"; ObjectID = "xue-PI-C0v"; */
+"xue-PI-C0v.text" = "Dépôt";

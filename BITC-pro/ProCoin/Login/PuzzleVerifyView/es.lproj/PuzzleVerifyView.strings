@@ -1,0 +1,9 @@
+
+/* Class = "UILabel"; text = "拖动图片完成验证"; ObjectID = "dIc-mH-jBE"; */
+"dIc-mH-jBE.text" = "拖动图片完成验证";
+
+/* Class = "UILabel"; text = "完成验证获取验证码"; ObjectID = "iIV-mv-hNF"; */
+"iIV-mv-hNF.text" = "完成验证获取验证码";
+
+/* Class = "UIButton"; normalTitle = "换一张"; ObjectID = "tpY-y3-dWl"; */
+"tpY-y3-dWl.normalTitle" = "换一张";

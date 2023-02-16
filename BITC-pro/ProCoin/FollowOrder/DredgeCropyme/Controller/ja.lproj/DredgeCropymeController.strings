@@ -1,0 +1,24 @@
+
+/* Class = "UILabel"; text = "点击立即开通即代表您已经阅读并同意"; ObjectID = "6Xy-ET-ck8"; */
+"6Xy-ET-ck8.text" = "クリックして今すぐアクティブ化することは、あなたが読んで同意したことを意味します";
+
+/* Class = "UILabel"; text = "带单功能"; ObjectID = "7wd-w0-Yqj"; */
+"7wd-w0-Yqj.text" = "単一機能付き";
+
+/* Class = "UILabel"; text = "开通条件:总资产不低于--USDT"; ObjectID = "8yt-7U-7VM"; */
+"8yt-7U-7VM.text" = "開業条件：総資産は -- USDT以上";
+
+/* Class = "UIButton"; normalTitle = "《BYY带单功能服务协议》"; ObjectID = "UJ8-lV-Ipn"; */
+"UJ8-lV-Ipn.normalTitle" = "《単一機能のBYYサービス契約》";
+
+/* Class = "UILabel"; text = "---"; ObjectID = "agf-Ze-wXD"; */
+"agf-Ze-wXD.text" = "---";
+
+/* Class = "UIButton"; normalTitle = "立即开通"; ObjectID = "kkg-8f-4wD"; */
+"kkg-8f-4wD.normalTitle" = "営業中";
+
+/* Class = "UILabel"; text = "开通须知"; ObjectID = "ofA-fP-i7d"; */
+"ofA-fP-i7d.text" = "開会のお知らせ";
+
+/* Class = "UILabel"; text = "开通带单"; ObjectID = "ynz-Ix-teo"; */
+"ynz-Ix-teo.text" = "ベルトリストを開く";

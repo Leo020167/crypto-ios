@@ -1,0 +1,33 @@
+
+/* Class = "UIButton"; normalTitle = "注册"; ObjectID = "6kw-ZH-x73"; */
+"6kw-ZH-x73.normalTitle" = "注册";
+
+/* Class = "UIButton"; normalTitle = "获取验证码"; ObjectID = "KKE-JH-v4f"; */
+"KKE-JH-v4f.normalTitle" = "获取验证码";
+
+/* Class = "UIButton"; normalTitle = "取消"; ObjectID = "N2G-gw-Wvk"; */
+"N2G-gw-Wvk.normalTitle" = "取消";
+
+/* Class = "UILabel"; text = "登录"; ObjectID = "UaJ-bs-VQO"; */
+"UaJ-bs-VQO.text" = "登录";
+
+/* Class = "UILabel"; text = "环球数字资产交易平台"; ObjectID = "ZHx-yO-KE0"; */
+"ZHx-yO-KE0.text" = "环球数字资产交易平台";
+
+/* Class = "UITextField"; placeholder = "请输入密码"; ObjectID = "bOi-cZ-mEh"; */
+"bOi-cZ-mEh.placeholder" = "请输入密码";
+
+/* Class = "UITextField"; placeholder = "请输入验证码"; ObjectID = "bhE-E4-zrH"; */
+"bhE-E4-zrH.placeholder" = "请输入验证码";
+
+/* Class = "UIButton"; normalTitle = "登录"; ObjectID = "cim-YH-S1p"; */
+"cim-YH-S1p.normalTitle" = "登录";
+
+/* Class = "UITextField"; placeholder = "Email or Phone "; ObjectID = "dth-1h-Xcf"; */
+"dth-1h-Xcf.placeholder" = "Email or Phone ";
+
+/* Class = "UILabel"; text = "Worldwide Coin Trade"; ObjectID = "kEI-0k-peu"; */
+"kEI-0k-peu.text" = "Worldwide Coin Trade";
+
+/* Class = "UIButton"; normalTitle = "忘记了？找回密码"; ObjectID = "lGT-Bn-Ezc"; */
+"lGT-Bn-Ezc.normalTitle" = "忘记了？找回密码";

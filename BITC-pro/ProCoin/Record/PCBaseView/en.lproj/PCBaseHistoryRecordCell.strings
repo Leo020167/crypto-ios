@@ -1,0 +1,24 @@
+
+/* Class = "UILabel"; text = "0"; ObjectID = "AMC-7U-5dt"; */
+"AMC-7U-5dt.text" = "0";
+
+/* Class = "UILabel"; text = "title"; ObjectID = "McD-Ju-BsE"; */
+"McD-Ju-BsE.text" = "title";
+
+/* Class = "UILabel"; text = "time"; ObjectID = "SJ7-ly-VVS"; */
+"SJ7-ly-VVS.text" = "time";
+
+/* Class = "UILabel"; text = "盈利USDT"; ObjectID = "WhR-tg-kIu"; */
+"WhR-tg-kIu.text" = "Profit USDT";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "eos-xH-bzA"; */
+"eos-xH-bzA.text" = "0";
+
+/* Class = "UILabel"; text = "手数"; ObjectID = "lrH-2I-VyW"; */
+"lrH-2I-VyW.text" = "Lot";
+
+/* Class = "UILabel"; text = "开仓价"; ObjectID = "qdu-x7-Wfc"; */
+"qdu-x7-Wfc.text" = "Opening Price";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "uug-te-XOi"; */
+"uug-te-XOi.text" = "0";

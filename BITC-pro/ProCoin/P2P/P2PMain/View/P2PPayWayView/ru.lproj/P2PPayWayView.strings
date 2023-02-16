@@ -1,0 +1,12 @@
+
+/* Class = "UIButton"; normalTitle = "支付宝"; ObjectID = "AVu-dm-3hv"; */
+"AVu-dm-3hv.normalTitle" = "支付宝";
+
+/* Class = "UIButton"; normalTitle = "银行卡"; ObjectID = "OdP-0q-8SA"; */
+"OdP-0q-8SA.normalTitle" = "银行卡";
+
+/* Class = "UIButton"; normalTitle = "全部"; ObjectID = "U1q-ez-wyp"; */
+"U1q-ez-wyp.normalTitle" = "全部";
+
+/* Class = "UIButton"; normalTitle = "微信"; ObjectID = "aPh-Si-Ajc"; */
+"aPh-Si-Ajc.normalTitle" = "微信";

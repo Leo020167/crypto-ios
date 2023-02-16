@@ -1,0 +1,12 @@
+
+/* Class = "UILabel"; text = "数量(手)"; ObjectID = "CtF-YL-Z1c"; */
+"CtF-YL-Z1c.text" = "Quantity (lots)";
+
+/* Class = "UILabel"; text = "方向"; ObjectID = "Sj1-56-Upx"; */
+"Sj1-56-Upx.text" = "Direction";
+
+/* Class = "UILabel"; text = "时间"; ObjectID = "dPo-iz-ehX"; */
+"dPo-iz-ehX.text" = "Time";
+
+/* Class = "UILabel"; text = "价格"; ObjectID = "yhJ-uo-RPI"; */
+"yhJ-uo-RPI.text" = "Price";

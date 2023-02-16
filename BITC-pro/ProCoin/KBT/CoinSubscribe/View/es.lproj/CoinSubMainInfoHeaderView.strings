@@ -1,0 +1,30 @@
+
+/* Class = "UILabel"; text = "0"; ObjectID = "0zk-U7-FzU"; */
+"0zk-U7-FzU.text" = "0";
+
+/* Class = "UILabel"; text = "本轮认购数量"; ObjectID = "3qF-t4-8WO"; */
+"3qF-t4-8WO.text" = "本轮认购数量";
+
+/* Class = "UILabel"; text = "---"; ObjectID = "42Y-WJ-zJg"; */
+"42Y-WJ-zJg.text" = "---";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "7W7-yo-ERl"; */
+"7W7-yo-ERl.text" = "0";
+
+/* Class = "UILabel"; text = "目前暂无可认购的数字货币，请密切关注公告信息"; ObjectID = "A3s-jO-nHb"; */
+"A3s-jO-nHb.text" = "目前暂无可认购的数字货币，请密切关注公告信息";
+
+/* Class = "UILabel"; text = "认购数字货币"; ObjectID = "EO2-Qu-pgB"; */
+"EO2-Qu-pgB.text" = "认购数字货币";
+
+/* Class = "UILabel"; text = "当前认购价(USDT)"; ObjectID = "Koh-mu-fm0"; */
+"Koh-mu-fm0.text" = "当前认购价(USDT)";
+
+/* Class = "UILabel"; text = "---"; ObjectID = "LPa-YL-Vlc"; */
+"LPa-YL-Vlc.text" = "---";
+
+/* Class = "UILabel"; text = "本轮认购进度：0%"; ObjectID = "SGA-cK-4W2"; */
+"SGA-cK-4W2.text" = "本轮认购进度：0%";
+
+/* Class = "UILabel"; text = "≈¥0.00"; ObjectID = "n0H-gU-6Hh"; */
+"n0H-gU-6Hh.text" = "≈¥0.00";

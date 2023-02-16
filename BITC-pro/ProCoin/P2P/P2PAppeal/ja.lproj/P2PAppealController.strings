@@ -1,0 +1,36 @@
+
+/* Class = "UILabel"; text = "提起申诉后资产将会冻结，申诉专员将介入本次交易，直至申诉结束。恶意申诉属于扰乱平台正常运营秩序的行为，情节严重将冻结账户。"; ObjectID = "AvE-u8-3c3"; */
+"AvE-u8-3c3.text" = "申し立てが行われると、資産は凍結され、申し立てが終了するまで、申し立てコミッショナーがこの取引に介入します。悪質な申し立てはプラットフォームの正常な運営秩序を乱す行為であり、情状が深刻な場合はアカウントを凍結する。";
+
+/* Class = "UILabel"; text = "申诉截图（可选）"; ObjectID = "Bkj-gR-nZz"; */
+"Bkj-gR-nZz.text" = "訴状のスクリーンショット（オプション）";
+
+/* Class = "UILabel"; text = "-"; ObjectID = "DVs-bo-wpj"; */
+"DVs-bo-wpj.text" = "-";
+
+/* Class = "UILabel"; text = "申诉理由"; ObjectID = "GdZ-Wc-KH1"; */
+"GdZ-Wc-KH1.text" = "訴えの理由";
+
+/* Class = "UILabel"; text = "-"; ObjectID = "JAy-T3-2Eb"; */
+"JAy-T3-2Eb.text" = "-";
+
+/* Class = "UILabel"; text = "申诉留言（可选）"; ObjectID = "Mo5-aN-dCW"; */
+"Mo5-aN-dCW.text" = "苦情メッセージ（オプション）";
+
+/* Class = "UILabel"; text = "您可以写下您申诉的详细情况～～"; ObjectID = "SRL-h1-SRC"; */
+"SRL-h1-SRC.text" = "あなたの訴えの詳細を書いてもいいですね~~";
+
+/* Class = "UIButton"; normalTitle = "提交申诉"; ObjectID = "Tuh-eu-H0K"; */
+"Tuh-eu-H0K.normalTitle" = "訴状を提出する";
+
+/* Class = "UILabel"; text = "-"; ObjectID = "VXx-yF-rQk"; */
+"VXx-yF-rQk.text" = "-";
+
+/* Class = "UILabel"; text = "-"; ObjectID = "WIe-Hq-Ndb"; */
+"WIe-Hq-Ndb.text" = "-";
+
+/* Class = "UILabel"; text = "申诉"; ObjectID = "dYx-SD-GTa"; */
+"dYx-SD-GTa.text" = "訴える";
+
+/* Class = "UILabel"; text = "申诉提醒"; ObjectID = "sQ0-04-ZLX"; */
+"sQ0-04-ZLX.text" = "訴えの注意喚起";

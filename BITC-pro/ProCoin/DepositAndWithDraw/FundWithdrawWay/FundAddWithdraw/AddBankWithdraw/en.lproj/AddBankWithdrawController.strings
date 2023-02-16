@@ -1,0 +1,30 @@
+
+/* Class = "UITextField"; placeholder = "请输入开户姓名"; ObjectID = "40L-fj-9My"; */
+"40L-fj-9My.placeholder" = "Please enter your account name";
+
+/* Class = "UITextField"; placeholder = "请输入银行卡号"; ObjectID = "4Lh-F8-x9H"; */
+"4Lh-F8-x9H.placeholder" = "Please insert your bank card number";
+
+/* Class = "UIButton"; normalTitle = "添加"; ObjectID = "EnG-Bj-o7J"; */
+"EnG-Bj-o7J.normalTitle" = "Add";
+
+/* Class = "UILabel"; text = "开户姓名"; ObjectID = "HkT-wK-ZAt"; */
+"HkT-wK-ZAt.text" = "Account Name";
+
+/* Class = "UILabel"; text = "银行卡号"; ObjectID = "OAl-X3-YnJ"; */
+"OAl-X3-YnJ.text" = "Bank Card Number";
+
+/* Class = "UILabel"; text = "开户行"; ObjectID = "TBg-mr-iOU"; */
+"TBg-mr-iOU.text" = "Bank Account Number";
+
+/* Class = "UILabel"; text = "如:xx银行xx省xx市县x支行"; ObjectID = "YQi-eQ-gPi"; */
+"YQi-eQ-gPi.text" = "For example, xx Branch of xx Bank in xx City, xx County";
+
+/* Class = "UILabel"; text = "添加银行卡收款"; ObjectID = "geA-om-knY"; */
+"geA-om-knY.text" = "Add bank card payment";
+
+/* Class = "UITextField"; placeholder = "请输入开户行"; ObjectID = "tzS-0q-Q2z"; */
+"tzS-0q-Q2z.placeholder" = "Please insert the bank account";
+
+/* Class = "UILabel"; text = "请务必使用与您注册手机号码一致的实名账号"; ObjectID = "v08-IJ-dQz"; */
+"v08-IJ-dQz.text" = "Please make sure to use the same name account as your registered cell phone number";

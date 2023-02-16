@@ -1,0 +1,42 @@
+
+/* Class = "UITextField"; placeholder = "设置密码"; ObjectID = "5B4-fc-lGm"; */
+"5B4-fc-lGm.placeholder" = "パスワードの設定";
+
+/* Class = "UIButton"; normalTitle = "《隐私条款》"; ObjectID = "8SW-xy-ePg"; */
+"8SW-xy-ePg.normalTitle" = "《プライバシー条項》";
+
+/* Class = "UILabel"; text = "中国"; ObjectID = "8tV-28-oYW"; */
+"8tV-28-oYW.text" = "US";
+
+/* Class = "UIButton"; normalTitle = "注册"; ObjectID = "AcM-qD-O7Q"; */
+"AcM-qD-O7Q.normalTitle" = "登録";
+
+/* Class = "UILabel"; text = "点击注册即表示您已经阅读并同意W.W.C.T的"; ObjectID = "Cx4-Iq-bhx"; */
+"Cx4-Iq-bhx.text" = "登録をクリックすると、BITCの";
+
+/* Class = "UILabel"; text = "Worldwide Coin Trade"; ObjectID = "NnP-1q-3Af"; */
+"NnP-1q-3Af.text" = "Worldwide Coin Trade";
+
+/* Class = "UITextField"; placeholder = "Email"; ObjectID = "PXQ-iX-lwV"; */
+"PXQ-iX-lwV.placeholder" = "郵便";
+
+/* Class = "UILabel"; text = "环球数字资产交易平台"; ObjectID = "de3-cf-cWj"; */
+"de3-cf-cWj.text" = "ユニバーサルデジタル資産取引プラットフォーム";
+
+/* Class = "UITextField"; placeholder = "请填写邀请码(必填)"; ObjectID = "hvf-ot-R8d"; */
+"hvf-ot-R8d.placeholder" = "招待コードを入力してください（必須）";
+
+/* Class = "UILabel"; text = "注册"; ObjectID = "igl-JR-GNi"; */
+"igl-JR-GNi.text" = "登録";
+
+/* Class = "UITextField"; placeholder = "请再次输入密码"; ObjectID = "qkM-1R-vQs"; */
+"qkM-1R-vQs.placeholder" = "パスワードを再入力してください";
+
+/* Class = "UIButton"; normalTitle = "《用户协议》"; ObjectID = "s1t-T0-Jsu"; */
+"s1t-T0-Jsu.normalTitle" = "《ユーザプロトコル》";
+
+/* Class = "UILabel"; text = "提示:密码必须是8-16位数字与字母组合"; ObjectID = "v6L-1T-qzS"; */
+"v6L-1T-qzS.text" = "ヒント:パスワードは8~16桁の数字と文字を組み合わせてください";
+
+/* Class = "UIButton"; normalTitle = "Register with Phone"; ObjectID = "zfC-gq-jJY"; */
+"zfC-gq-jJY.normalTitle" = "モバイル登録";

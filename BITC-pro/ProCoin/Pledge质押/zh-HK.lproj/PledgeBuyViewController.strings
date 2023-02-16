@@ -1,0 +1,24 @@
+
+/* Class = "UITextField"; placeholder = "請輸入質押數量"; ObjectID = "6Iu-lt-s7e"; */
+"6Iu-lt-s7e.placeholder" = "請輸入質押數量";
+
+/*  */
+"6ZV-0Z-hoa.text" = "每日收益";
+
+/* Class = "UILabel"; text = "質押周期"; ObjectID = "EEn-Kp-BVR"; */
+"EEn-Kp-BVR.text" = "質押周期";
+
+/* Class = "UILabel"; text = "最小質押數量"; ObjectID = "OGa-2k-OaV"; */
+"OGa-2k-OaV.text" = "最小質押數量";
+
+/* Class = "UILabel"; text = "預期收益"; ObjectID = "Rii-Yr-xU3"; */
+"Rii-Yr-xU3.text" = "預期收益";
+
+/* Class = "UILabel"; text = "參與質押"; ObjectID = "Tng-Gk-QGl"; */
+"Tng-Gk-QGl.text" = "參與質押";
+
+/* Class = "UIButton"; normalTitle = "确定"; ObjectID = "fgK-SZ-6HD"; */
+"fgK-SZ-6HD.normalTitle" = "確定";
+
+/* Class = "UILabel"; text = "質押數量"; ObjectID = "jGL-Ka-y7e"; */
+"jGL-Ka-y7e.text" = "質押數量";

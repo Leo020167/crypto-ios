@@ -1,0 +1,39 @@
+
+/* Class = "UILabel"; text = "限额 ￥2482.00 - ￥4342.00"; ObjectID = "3Zj-z4-Xs6"; */
+"3Zj-z4-Xs6.text" = "Limit HK$2482.00 - HK$4342.00";
+
+/* Class = "UILabel"; text = "3052 | 95%"; ObjectID = "8AQ-gC-l4I"; */
+"8AQ-gC-l4I.text" = "3052 | 95%";
+
+/* Class = "UILabel"; text = "￥7.01"; ObjectID = "Fk3-qS-ZQo"; */
+"Fk3-qS-ZQo.text" = "HK$7.01";
+
+/* Class = "UILabel"; text = "方式"; ObjectID = "HIv-rd-Z7N"; */
+"HIv-rd-Z7N.text" = "Way";
+
+/* Class = "UILabel"; text = "类型"; ObjectID = "OE1-Ca-qAR"; */
+"OE1-Ca-qAR.text" = "Type";
+
+/* Class = "UILabel"; text = "梅老师"; ObjectID = "b4U-CD-Hei"; */
+"b4U-CD-Hei.text" = "xxx";
+
+/* Class = "UIButton"; normalTitle = "删除"; ObjectID = "kn9-VU-spR"; */
+"kn9-VU-spR.normalTitle" = "Delete";
+
+/* Class = "UIButton"; normalTitle = "修改"; ObjectID = "pLC-Xz-eLN"; */
+"pLC-Xz-eLN.normalTitle" = "Modify";
+
+/* Class = "UILabel"; text = "单价"; ObjectID = "puN-4f-fY7"; */
+"puN-4f-fY7.text" = "Price";
+
+/* Class = "UILabel"; text = "已下架"; ObjectID = "rb6-HS-Hrm"; */
+"rb6-HS-Hrm.text" = "Has been removed";
+
+/* Class = "UILabel"; text = "出售"; ObjectID = "tzB-MP-Y8x"; */
+"tzB-MP-Y8x.text" = "sell";
+
+/* Class = "UILabel"; text = "数量 6843.2834 USDT"; ObjectID = "xLO-i1-0nv"; */
+"xLO-i1-0nv.text" = "Quantity 6843.2834 USDT";
+
+/* Class = "UIButton"; normalTitle = "下架"; ObjectID = "yMl-dM-ZPF"; */
+"yMl-dM-ZPF.normalTitle" = "Off shelf";

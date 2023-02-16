@@ -1,0 +1,3179 @@
+
+/* 成交 */
+" 获取简介异常" = "Obtain Exceptions for Introduction";
+
+/* 订阅状态 */
+"%@到期，续费后有效期延长" = "%@ expires, the validity period will be extended after renewal";
+
+/* 为了您的账号安全，请验证身份 */
+"%@天%@时%@分%@秒" = "%@day%@hour%@minute%@second";
+
+
+"%@概要" = "%@summary";
+
+/* 实收款 */
+"%lds后自动取消" = "Automatically canceled after %lds";
+
+/* 确认订购 */
+"0天00时00分00秒" = "0 day 00:00:00";
+
+/* 余额 */
+"0手续费出售" = "0 handling fee for sale";
+
+/* 暂无关注的数字货币 */
+"0手续费购买" = "0 handling fee to purchase";
+
+/* 1分 */
+"15分" = "15 points";
+
+/* 5日 */
+"1分" = "1 point";
+
+/* 15分 */
+"1小时" = "1 hour";
+
+/* 分时 */
+"5日" = "5 days";
+
+/* ////////////////////////////////  Util  //////////////////////////////////////////// */
+"AppName" = "Cropyme";
+
+/*  */
+"BITC认证商家" = "Leader Coin Certified Merchant";
+
+/* 重要 */
+"BYY官方" = "BYY official";
+
+/* 登录失败 */
+"Confirmed password" = "Confirmed password";
+
+
+"Done" = "Done";
+
+
+"FX" = "foreign exchange";
+
+
+"Language" = "Language";
+
+
+"Last" = "Last";
+
+
+"Next" = "Next";
+
+/* 忘记了？找回密码 */
+"OK" = "OK";
+
+/*  */
+"OTC交易" = "OTC transaction";
+
+
+"Please drag the validation images" = "Drag the validation images";
+
+
+"Please enter a mobile phone number" = "Cell-phone number";
+
+/* 登录密码 */
+"Please fill in the verification code" = "Verification Code";
+
+
+"Register" = "Register";
+
+
+"Safe" = "Safe";
+
+/* 邀请好友，开启环球数字资产交易 */
+"TA是" = "TA is";
+
+/* 我已在xxx一键跟上了TA的实盘交易 */
+"TA赚了多少 我就赚了多少" = "I make as much money as he/she makes";
+
+/*  */
+"TA赚了多少, 我就赚了多少" = "I earn as much as TA earns";
+
+/*  */
+"TA赚了多少, 我就赚多少" = "I earn as much as TA earns";
+
+/* 我已在procoin一键跟上了TA的实盘交易 */
+"TA赚了多少  我就赚多少" = "I make as much money as he/she makes";
+
+
+"Tips" = "Tips";
+
+
+"Welcome to" = "Welcome to";
+
+/* 回购价 */
+"YYB说明" = "Description of YYB";
+
+
+"You are logging..." = "You are logging...";
+
+/*  */
+"· 上传的证件照将进行防盗水印处理，我们严格遵照法律法规，保护您的个人私隐。" = "· The uploaded ID photos will be processed with anti-theft watermarks. We strictly abide by laws and regulations to protect your personal privacy.";
+
+/* 选择国徽页 */
+"• 上传的证件照将进行防盗水印处理，我们严格遵照法律法规，保护您的个人私隐。" = "The uploaded ID photo will be processed with an anti-theft watermark. We strictly follow the laws and regulations to protect your privacy.";
+
+/* 确定即代表您同意并接受 */
+"《数字资产借贷服务器合同》" = "\"Digital Asset Lending Server Contract\"";
+
+/* 和 */
+"《杠杆交易协议》" = "\"Leverage Trading Agreement\"";
+
+/* 和 */
+"《跟单规则》" = "\"Documentary Rules\"";
+
+/* 跟单即代表您同意并接受 */
+"《风险提示》" = "\"risk warning\"";
+
+/* 交易次数 */
+"一个月" = "a month";
+
+/* 六个月 */
+"一年" = "one year";
+
+
+"一键跟单，无需盯盘" = "One-click copy order, no need to watch the market";
+
+/* 一个月 */
+"三个月" = "three months";
+
+
+"上一步" = "Previous";
+
+
+"上传图片中" = "uploading pictures";
+
+/*  */
+"上市交易时间" = "Listing and trading hours";
+
+/* 总收益 */
+"上月收益" = "Earnings last month";
+
+
+"上架" = "put on shelves";
+
+
+"下一步" = "Next step";
+
+/* 后自动取消 */
+"下单" = "place an order";
+
+/* 账户类型 */
+"下单成功" = "successfully ordered";
+
+
+"下架" = "Take off the shelves";
+
+/* 登录失败 */
+"不存在该用户" = "This user does not exist";
+
+
+"不能设置高于%@%%的止损比例" = "Cannot set a stop loss ratio higher than %@%%";
+
+
+"不要" = "don't want";
+
+/* 释义：高手最近30天跟单人数，数值越大，代表跟随者越多，人气越高。 */
+"业绩走势" = "performance trend";
+
+/* 密码必须为8到16位数字与字母组合! */
+"两次密码不一样!" = "The two passwords are different!";
+
+/* 设置交易密码 */
+"两次密码不相同" = "two passwords are different";
+
+/* 大V排行榜 */
+"个人主页" = "Personal Page";
+
+/* 交易收益 */
+"个人简介" = "Personal Profile";
+
+
+"中国" = "China";
+
+/* 安全验证 */
+"为了保证你的账号安全，请验证身份。" = "To ensure the security of your account, please verify your identity.";
+
+/* 验证 */
+"为了您的账号安全，请验证身份" = "For your account security, please verify your identity";
+
+
+"为保障资金安全，当您账户安全策略变更、密码修改、我们会对提币进行人工审核，请耐心等待工作人员电话或邮件联系。请务必确认电脑及浏览器安全，防止信息被篡改或泄露. " = "In order to preserve the safety of funds, when your account security policy is changed, the password is modified, or your account is not in good standing, we will conduct a manual review of the withdrawals. Please wait patiently for the staff to call, or please wait patiently for the staff to contact you by phone or email. Please make sure your computer and browser are secure to prevent information from being tampered with. ";
+
+/*  */
+"为保障资金安全，当您账户安全策略变更、密码修改、我们会对提币进行人工审核，请耐心等待工作人员电话或邮件联繫。请务必确认电脑及瀏览器安全，防止信息被篡改或洩露。" = "In order to ensure the security of funds, when your account security policy is changed or your password is changed, we will manually review the withdrawals. Please wait patiently for the staff to contact you by phone or email. Please be sure to confirm the security of your computer and browser to prevent information from being tampered with or leaked.";
+
+/* 充值金额 */
+"买入" = "buy";
+
+/* 数量(手) */
+"买入" = "Buy";
+
+/*  */
+"买入/卖出" = "buy/sell";
+
+/* 请求网络失败 */
+"买入总金额" = "total purchase amount";
+
+/*  */
+"买家当日累计3笔取消，超出会影响当日买入功能" = "The buyer accumulatively has 3 cancellations on the same day, exceeding the limit will affect the purchase function of the day";
+
+/* 如果您已向对方付款，请千万不要取消订单 */
+"买家当日累计3笔取消，超出会影响当日买入功能." = "If the buyer accumulates 3 cancellations on the same day, it will affect the function of buying on the same day.";
+
+/* 盈利分成 */
+"亏损补贴" = "loss allowance";
+
+/* 回购 */
+"交易" = "trade";
+
+/* 你正在提现操作 */
+"交易密码管理" = "Transaction password management";
+
+/* 申请绑定 */
+"交易收益" = "The Profit of Trading";
+
+/* 累计盈亏 */
+"交易明细" = "Transaction details";
+
+/* 跟单人气 */
+"交易次数" = "Transactions";
+
+/* 解除绑定 */
+"交易策略" = "Trading straregy";
+
+
+"交易类型" = "Transaction Type";
+
+
+"交易规则" = "Trading Rules";
+
+
+"交易记录" = "Transaction Record";
+
+/* 微信 */
+"交易金额" = "Amount of the transaction";
+
+/* 新增客户数 */
+"人" = "people";
+
+/* 跟单胜率 */
+"人气指数" = "popularity index";
+
+/* 释义：跟随高手盈利的几率。数值越大，代表跟单获利的可能性就越高。 */
+"人气指数" = "Popularity Index";
+
+/* 昨日新增 */
+"今日新增" = "Added today";
+
+
+"从手机相册选择" = "Select from phone gallery";
+
+/* 保存 */
+"从相册选择" = "select from album";
+
+/* 一年 */
+"他是" = "TA is";
+
+/* 外汇跟单交易记录 */
+"代理" = "acting";
+
+/*  */
+"代理等级：" = "Agent level:";
+
+/*  */
+"代理规则" = "agency rules";
+
+/* 支付代理费 */
+"代理费用为%@USDT" = "Agency fee is %@USDT";
+
+/* 请输入平仓手数 */
+"以当前市价成交" = "Execute at the current market price";
+
+/* 市场最优买 */
+"以当前最优价格交易" = "Trade at the current best price";
+
+/* 我想 */
+"价格" = "price";
+
+/* 流通总量 */
+"众筹价格" = "Crowdfunding Price";
+
+/*  */
+"优惠券" = "coupon";
+
+/* 高 */
+"低" = "Low";
+
+/* 购买数量 */
+"余额" = "balance";
+
+/* 划出账户选择 */
+"余额账户" = "Account Balance";
+
+/*  */
+"余额账户总资产(USDT)" = "Balance Account Total Assets (USDT)";
+
+
+"你将以%@USDT保证金开%@倍杠杆%@" = "You will use %@USDT margin to open %@ times leverage %@";
+
+/* 转入成功 */
+"你尚未订阅该用户" = "You have not subscribed to this user";
+
+/*  */
+"你暂无可提币的币种" = "You have no currency that can be withdrawn";
+
+/* 保存二维码 */
+"你暂无可提币的币种." = "You don't have any currency to withdraw at the moment.";
+
+/* 输入交易密码 */
+"你正在提现操作" = "You are withdrawing cash";
+
+/* 锁仓权益说明 */
+"你目前锁仓权益等级" = "Your current locked position equity level";
+
+/*  */
+"你目前锁仓权谥等级" = "Your current lock-up equity level";
+
+/* 完成 */
+"保存" = "save";
+
+
+"保存" = "save";
+
+/* 链类型 */
+"保存二维码" = "Save the QR code";
+
+
+"保存二维码到本地" = "Save the QR code locally";
+
+/* 换取成功 */
+"保存图片失败" = "Failed to save image";
+
+/* 保存图片失败 */
+"保存图片成功" = "Save the picture successfully";
+
+/* 环球数字资产交易平台 */
+"保存并分享" = "save and share";
+
+/* 是否确定要保存该收款方式? */
+"保存成功" = "Successfully saved";
+
+/* / 語言設置 */
+"保存語言設置" = "Save";
+
+/* 请设置6位交易密码 */
+"修改交易密码" = "Modify transaction password";
+
+/* 换一张 */
+"修改密码失败" = "Failed to change password";
+
+
+"修改微信账号" = "Modify WeChat account";
+
+/* 追加金额成功 */
+"修改成功" = "Successfully modified";
+
+
+"修改支付宝账号" = "Modify Alipay account";
+
+/* 退出登录 */
+"修改绑定手机" = "Modify the bound mobile phone";
+
+
+"修改银行卡" = "Modify bank card";
+
+/* 少于%@ USDT的币种 */
+"停止跟单将以市价卖出您所有的跟单持仓" = "Stop copying will sell all your copying positions at the market price";
+
+
+"充值确认" = "Deposit";
+
+/* 客户交易额 */
+"充值金额" = "Recharge amount";
+
+/* 全部 */
+"充币" = "Deposit";
+
+/* 充币数量 */
+"充币地址" = "Deposit address";
+
+/* 确定要取消提币吗? */
+"充币数量" = "Deposit amount";
+
+/*  */
+"兑换邀请码" = "redeem invitation code";
+
+/*  */
+"全球指数总资产(USDT)" = "Global Index Total Assets (USDT)";
+
+/*  */
+"全球期指" = "Global futures";
+
+/*  */
+"全球期指交易记录" = "Global Index Futures Trading Records";
+
+/*  */
+"全球期指账户" = "Global futures account";
+
+/* 财务记录 */
+"全部" = "all";
+
+
+"全部买入" = "buy all";
+
+/* 我的邀请码 */
+"全部佣金" = "full commission";
+
+/* 公告 */
+"全部公告" = "All Announcements";
+
+/* 请输入出售数量 */
+"全部出售" = "sell all";
+
+/* 跟单成交数量 */
+"全部成交" = "All deal";
+
+/*  */
+"全部申购" = "Subscribe all";
+
+/* 首页 */
+"公告" = "Announcement";
+
+/* 三个月 */
+"六个月" = "six months";
+
+/* 欢迎页 */
+"关于我们" = "about us";
+
+"冻结" = "Freeze";
+/*  */
+"冻结(USDT)" = "Freeze(USDT)";
+
+/*  */
+"冻结保证金(USDT)" = "Freeze margin (USDT)";
+
+/* 可转出数量 */
+"冻结数量" = "frozen quantity";
+
+
+"冻结金额()" = "frozen amount(%@)";
+
+/* 排名 */
+"准确率" = "Accuracy";
+
+/* 购买 */
+"出售" = "sell";
+
+/* 填入 */
+"出售USDT时系统将会从余额账户中冻结该部分资金" = "When selling USDT, the system will freeze this part of the funds from the balance account";
+
+
+"出售中" = "for sale";
+
+/* 收款管理 */
+"出售数量" = "Sales Quantity";
+
+
+"分享失败" = "sharing failed";
+
+/* 帮助中心 */
+"分享应用" = "share app";
+
+
+"分享成功" = "share success";
+
+/*  */
+"分享给朋友，让他们来雇您吧" = "Share with your friends and get them to hire you";
+
+/* 提示:密码必须是8-16位数字与字母组合 */
+"分享给朋友，让他们来雇您吧!" = "Share it with your friends and let them hire you!";
+
+/* 简介 */
+"分时" = "time-sharing";
+
+
+"切换语言" = "switch language";
+
+/* 筛选 */
+"划出账户选择" = "debit account selection";
+
+/* 提币 */
+"划转" = "transfer";
+
+/* 取消 */
+"划转数量" = "transfer amount";
+
+/*  */
+"划转数量不能超过可用数量" = "The transfer quantity cannot exceed the available quantity";
+
+
+"划转数量不能超过可用数量." = "The number of transfers cannot exceed the available quantity.";
+
+/* 划转 */
+"划转记录" = "transfer record";
+
+/*  */
+"创新试验区" = "Innovation Pilot Area";
+
+/* 默认 */
+"删除" = "delete";
+
+/* 外汇 */
+"删除历史" = "delete history";
+
+/* 您还未添加收款方式，是否要去添加一个？ */
+"删除成功" = "successfully deleted";
+
+/* 已借 */
+"利息" = "Interest";
+
+/* 订阅已过期 */
+"到期" = "maturity";
+
+/* 亏损补贴 */
+"到期日" = "expiry date";
+
+
+"到期时间" = "Expire date";
+
+
+"到账数量()" = "Arrival amount(%@)";
+
+
+"刷新" = "to refresh";
+
+
+"刷新频率设置" = "Refresh frequency setting";
+
+/* 两次密码不一样! */
+"剩余 %ld 秒" = "%ld seconds remaining";
+
+/* 输入的回购数量不能超过可回购数量 */
+"剩余可回购YYB数量" = "The remaining amount of YYB that can be repurchased";
+
+/* 杠杆 */
+"功能介绍" = "Features";
+
+
+"加载失败，点击重试" = "Failed to load, click to try again";
+
+/* 官网 */
+"区块链查询" = "Blockchain query";
+
+
+"升级" = "upgrade";
+
+/* 方式 */
+"单价" = "unit price";
+
+/* 出售/卖出 */
+"卖出" = "sell";
+
+/* 买入/卖出 */
+"卖出" = "Sell";
+
+/* 未完成 */
+"历史记录" = "history record";
+
+
+"去划转" = "to transfer";
+
+
+"去绑定" = "to bind";
+
+/*  */
+"去认证" = "go to authentication";
+
+/* 请进行实名认证 */
+"去设置" = "go to settings";
+
+/* 发行时间 */
+"发行总量" = "Total issuance";
+
+/* 买入/卖出 */
+"发行时间" = "publish time";
+
+/*  */
+"发起成员" = "founding member";
+
+/* 请输入邮箱 */
+"发送验证码" = "Send the verification code";
+
+/* 确定 */
+"取消" = "Cancel";
+
+
+"取消分享" = "unshare";
+
+/* 如您已经向卖家付款，请不要取消订单 */
+"取消规则：买家当日累计4笔取消，会限制当日买入功能。" = "Cancellation rules: The buyer has accumulated 4 cancellations on the same day, which will limit the purchase function on the day.";
+
+
+"取消订单" = "cancel order";
+
+/* 已成功复制到粘贴板 */
+"取消订单成功" = "Order canceled successfully";
+
+/* 取消订单成功 */
+"取消订单错误" = "Error canceling order";
+
+
+"取消认证中" = "canceling certification";
+
+
+"只允许充值" = "Only recharge is allowed%@";
+
+/*  */
+"只有将资产划转到相对应的账户次才能进行交易。账户间的划转不收取手续费" = "Transactions can only be performed if assets are transferred to the corresponding account. There is no handling fee for transfers between accounts";
+
+/* 可用数量 */
+"只有将资产划转到相对应的账户次才能进行交易。账户间的划转不收取手续费." = "Transactions can only be operated if the assets are transferred to the corresponding account. No fees are charged for transfers between accounts.";
+
+
+"只有将资产划转到相对应的账户次才能进行交易。账户间的划转不收取手续费。" = "Transactions can only be performed if assets are transferred to the corresponding account. There is no handling fee for transfers between accounts.";
+
+/*  */
+"可买" = "can buy";
+
+/* 出售USDT时系统将会从余额账户中冻结该部分资金 */
+"可多选" = "Multiple choice";
+
+
+"可开%@手" = "Can open %@ hands";
+
+
+"可提币数量" = "The number of coins that can be withdrawn";
+
+/* 请输入提现数量 */
+"可提现数量" = "Amount that can be withdrawn";
+
+/* 是否以当前市价成交平仓%@手 */
+"可用" = "available";
+
+/*  */
+"可用(USDT)" = "Available (USDT)";
+
+/* 追加资产不能低于%@USDT */
+"可用USDT" = "USDT available";
+
+
+"可用余额()" = "Available balance (USDT)";
+
+/*  */
+"可用保证金(USDT)" = "Available Margin (USDT)";
+
+/* 划转数量 */
+"可用数量" = "Quantity Available";
+
+/* 转出xx数量到持仓 */
+"可转出数量" = "Quantity that can be transferred";
+
+/*  */
+"可邀请人数" = "Number of people you can invite";
+
+
+"号码" = "Number";
+
+/*  */
+"合约" = "contract";
+
+/*  */
+"合约交易记录" = "Contract transaction records";
+
+/*  */
+"合约总资产(USDT)" = "Total Contract Assets (USDT)";
+
+/*  */
+"合约账户" = "contract account";
+
+/* 注:订阅/续费后将收到该用户的交易策略。 */
+"合计" = "total";
+
+/*  */
+"同种类型账户不能进行划转！请重新选择" = "Accounts of the same type cannot be transferred! Please select again";
+
+
+"同种类型账户不能进行划转！请重新选择." = "Transfers cannot be made from the same type of account! Please select again.";
+
+/* 自选 */
+"名称" = "name";
+
+/* 日K */
+"周K" = "Zhou K";
+
+/* 《数字资产借贷服务器合同》 */
+"和" = "and";
+
+/* 《风险提示》 */
+"和" = "and";
+
+/* 请选择支付方式 */
+"商家认证" = "Merchant Authentication";
+
+/* 回购价走势图 */
+"回购" = "repurchase";
+
+/* 资产 */
+"回购价" = "repurchase price";
+
+/* 已产出YYB总量 */
+"回购价走势图" = "Repurchase price chart";
+
+/* 涨跌幅 */
+"国际期货" = "International futures";
+
+/* 数字货币交易记录 */
+"国际期货交易记录" = "International Futures Trading Records";
+
+
+"国际期货总资产(USDT)" = "International futures total assets (USDT)";
+
+/* 数字货币账户 */
+"国际期货账户" = "International futures account";
+
+
+"国际期货跟单" = "International futures documentary";
+
+/* 数字货币跟单交易记录 */
+"国际期货跟单交易记录" = "International futures documentary transaction records";
+
+/* 数字货币跟单账户 */
+"国际期货跟单账户" = "International futures documentary account";
+
+/* 登录后可以关注自己喜欢的自选 */
+"国际期货跟单资产(USDT)" = "International futures documentary assets (USDT)";
+
+/*  */
+"在线客服" = "online service";
+
+/* 当前出售最高价 */
+"填入" = "fill in";
+
+/* 请输入手机号码 */
+"填写验证码" = "Fill in the verification code";
+
+/* 如何交易 */
+"增加开仓保证金（USDT）" = "Increase opening margin (USDT)";
+
+
+"声音" = "sound";
+
+
+"复制成功" = "copy successfully";
+
+/* 请选择账户类型 */
+"外汇" = "foreign exchange";
+
+/* 国际期货交易记录 */
+"外汇交易记录" = "foreign exchange transaction records";
+
+
+"外汇总资产(USDT)" = "Total foreign exchange assets (USDT)";
+
+/* 国际期货账户 */
+"外汇账户" = "foreign exchange account";
+
+/*  */
+"外汇跟单" = "Forex documentary";
+
+/* 国际期货跟单交易记录 */
+"外汇跟单交易记录" = "Forex documentary transaction records";
+
+/* 国际期货跟单账户 */
+"外汇跟单账户" = "Forex documentary account";
+
+/* 国际期货跟单资产 */
+"外汇跟单资产(USDT)" = "Foreign exchange documentary assets (USDT)";
+
+/* 全部公告 */
+"大V" = "Internet Celebrity";
+
+/* 大V */
+"大V排行榜" = "Leaderboard of Internet Celebrity";
+
+/* 已入驻 */
+"天" = "sky";
+
+/* 我的资料 */
+"头像" = "avatar";
+
+/*  */
+"奖励(TVC)" = "Reward (TVC)";
+
+/* 男 */
+"女" = "Female";
+
+
+"如:xx银行xx省xx市县x支行" = "Such as: xx bank xx province xx city and county x branch";
+
+/* 功能介绍 */
+"如何交易" = "how to trade";
+
+
+"如您已付款，请务必先点击“我已付款成功”" = "If you have already paid, please make sure to click ‘I have paid successfully’ first";
+
+/*  */
+"如您已付款，请务必先点击「我已付款成功」" = "If you have already paid, please click \"I have paid successfully\" first";
+
+/* 确认取消订单 */
+"如您已经向卖家付款，请不要取消订单" = "If you have already paid the seller, please do not cancel the order";
+
+
+"如果你要关闭或开启procoin的新消息通知，请在iPhone的“设置”-“通知”功能中，找到应用程序“procoin”更改。" = "If you want to turn off or on procoin's new message notifications, please find the application \"procoin\" in the \"Settings\" - \"Notifications\" function of your iPhone and change it.";
+
+/*  */
+"如果你要关闭或开启procoin的新消息通知，请在iPhone的「设置」-「通知」功能中，找到应用程序「procoin」更改。" = "If you want to turn off or turn on procoin's new message notification, please find the app \"procoin\" change in the iPhone's \"Settings\" - \"Notifications\" function.";
+
+/* 标记成功 */
+"如果您已向对方付款，请千万不要取消订单" = "If you have already paid the other party, please do not cancel the order";
+
+/* 委托总额 */
+"委托价格" = "commission price";
+
+/* 历史记录 */
+"委托总额" = "Total amount entrusted";
+
+/* 部分成交 */
+"委托手续费" = "Commission Fee";
+
+/* 我的委托 */
+"委托数量" = "Order quantity";
+
+/* 筛选数据出错，请返回再重试 */
+"委托记录" = "Entrusted records";
+
+/*  */
+"委托金额(USDT)" = "Commission amount (USDT)";
+
+/* 委托手续费 */
+"委托额" = "entrusted amount";
+
+/* 收益 */
+"存币宝" = "Cunbibao";
+
+/* 发送验证码 */
+"安全验证" = "safety verification";
+
+/* 生日 */
+"完成" = "Finish";
+
+/* 请输入新的手机号码 */
+"完成验证获取验证码" = "Complete the verification to get the verification code";
+
+/* 白皮书 */
+"官网" = "official website";
+
+/*  */
+"实付款" = "real payment";
+
+
+"实名认证" = "Verified";
+
+/*  */
+"实名认证中心" = "Real-name authentication center";
+
+/* 全部买入 */
+"实收款" = "Cash received";
+
+/* 跟单委托 */
+"实际成交" = "Actual transaction";
+
+/* 申请成为代理 */
+"审核中" = "under review";
+
+/* 返佣金额 */
+"客户交易额" = "Customer transaction volume";
+
+/* 分享应用 */
+"客服" = "customer service";
+
+/* 验证码为数字! */
+"密码必须为8到16位数字与字母组合!" = "The password must be a combination of 8 to 16 digits and letters!";
+
+/* 跟单成功 */
+"少于%@ USDT的币种" = "Currencies less than %@ USDT";
+
+
+"已下架" = "Has been removed";
+
+/* 已销毁YYB总量 */
+"已产出YYB总量" = "The total output of YYB";
+
+/*  */
+"已使用" = "Used";
+
+/* 盈利USDT */
+"已借" = "Borrowed";
+
+/* 正在停止跟单 */
+"已停止跟单" = "Copying has been stopped";
+
+/* 保存并分享 */
+"已入驻" = "settled";
+
+
+"已入驻%@天" = "Has settled in for %@ days";
+
+/* 已开启 */
+"已关闭" = "closed";
+
+
+"已复制" = "Copied";
+
+/*  */
+"已复製" = "copied";
+
+
+"已完成" = "completed";
+
+
+"已完成交易" = "completed transaction";
+
+/*  */
+"已实名认证" = "Verified by real name";
+
+/* 关于我们 */
+"已开启" = "activated";
+
+/* 订单状态 */
+"已成交" = "Deal done";
+
+/*  */
+"已成功" = "succeeded";
+
+/* 当前账户可用保证金不足，可以尝试从其它账户划转或充值！ */
+"已成功发送撤销" = "Revocation sent successfully";
+
+/* 是否确定充值¥%@.%@金额的USD */
+"已成功复制到粘贴板" = "Copied to pasteboard successfully";
+
+/*  */
+"已成功复製到粘贴板" = "Copied to clipboard successfully";
+
+/* 修改成功 */
+"已扣除跟单分成部分" = "The documentary share has been deducted";
+
+/* 已停止跟单 */
+"已提交停止跟单处理" = "Submitted to stop copying";
+
+
+"已撤销" = "Revoked";
+
+
+"已标记付款" = "Payment marked";
+
+
+"已用" = "used";
+
+/* 完成验证获取验证码 */
+"已绑定手机号" = "Mobile phone number has been bound";
+
+/* 确认密码 */
+"已绑定手机号" = "Bound Mobile Number";
+
+/*  */
+"已绑定手机号：" = "Bound phone number:";
+
+/*  */
+"已绑定邮箱号" = "Binded mailbox number";
+
+
+"已绑定邮箱号:" = "Binded mailbox number:";
+
+/*  */
+"已结束" = "over";
+
+/* 到期 */
+"已订阅" = "subscribed";
+
+
+"已过期" = "expired";
+
+
+"已通知卖家，请耐心等待卖家为你放币" = "The seller has been notified, please wait patiently for the seller to release the coins for you";
+
+/* YYB说明 */
+"已销毁YYB总量" = "The total amount of YYB destroyed";
+
+/*  */
+"币币" = "Currency";
+
+/*  */
+"币币交易记录" = "Currency transaction records";
+
+/*  */
+"币币账户" = "currency account";
+
+/* 委托记录 */
+"币种" = "Currency";
+
+/*  */
+"币种介绍" = "Currency introduction";
+
+
+"市价" = "market price";
+
+
+"市价委托" = "market order";
+
+/* 可用 */
+"市场最优买" = "market best buy";
+
+/* 系统通知 */
+"帮助中心" = "help center";
+
+
+"平仓" = "close a position";
+
+/* 平仓明细 */
+"平仓价" = "Closing price";
+
+/* 平仓价 */
+"平仓手数" = "Number of lots to close";
+
+/* 平仓手数 */
+"平仓手续费" = "Closing fee";
+
+/* 平仓手续费 */
+"平仓时间" = "Closing time";
+
+/* 现价 */
+"平仓明细" = "Details of Closed Position";
+
+/* 当前版本 */
+"平台" = "platform";
+
+/* 成交数量 */
+"平均成本价" = "average cost price";
+
+/* 总 */
+"开" = "open";
+
+/* 止盈价 */
+"开仓价" = "opening price";
+
+/* 持仓手数 */
+"开仓手续费" = "Opening fee";
+
+/* 开仓价 */
+"开仓方向" = "Opening direction";
+
+/* 开仓手续费 */
+"开仓时间" = "opening time";
+
+/* 止盈价 */
+"开仓状态" = "open position";
+
+/*  */
+"开始时间" = "Starting time";
+
+
+"开户姓名" = "account name";
+
+
+"开户行" = "bank";
+
+
+"开通条件:总资产不低于%@USDT" = "Opening conditions: total assets not less than %@USDT";
+
+/* 利息 */
+"强平价" = "Forced parity";
+
+/*  */
+"当procoin在运行时，你可以设置在客服、私聊是否需要声音或者振动" = "When procoin is running, you can set whether to need sound or vibration in customer service and private chat";
+
+
+"当procoin在运行时，你可以设置在客服、私聊是否需要声音或者振动。" = "When procoin is operating, you can set whether you want sound or vibration in customer service or private chat.";
+
+
+"当前" = "current";
+
+/* 当前购买最低价 */
+"当前出售最高价" = "current highest selling price";
+
+/* 输入的数量不能低于xx */
+"当前可用数量不足" = "Insufficient quantity currently available";
+
+
+"当前开仓" = "Currently open position";
+
+/* 重新获取 */
+"当前版本" = "current version";
+
+/* 认购数字货币 */
+"当前认购价" = "Current Subscription Price";
+
+/* 交易规则 */
+"当前账户可用保证金不足，可以尝试从其它账户划转或充值！" = "The available margin of the current account is insufficient, you can try to transfer or recharge from other accounts!";
+
+/* 价格 */
+"当前购买最低价" = "Current lowest purchase price";
+
+/*  */
+"待开始" = "to be started";
+
+/* 支付宝 */
+"微信" = "WeChat";
+
+
+"微信" = "WeChat";
+
+/* 0天00时00分00秒 */
+"微信好友" = "WeChat friends";
+
+
+"微信姓名" = "WeChat name";
+
+/* 微信好友 */
+"微信朋友圈" = "WeChat circle of friends";
+
+
+"微信账号" = "WeChat account";
+
+/* 忘记密码？找回密码 */
+"忘记了? 找回密码" = "Forgotten? Retrieve password";
+
+/*  */
+"忘记了？找回密码" = "Forgotten?RetrievePassword";
+
+
+"忘记密码? 找回密码" = "Forgot your password? Retrieve password";
+
+/*  */
+"忘记密码？找回密码" = "Forgotyourpassword?RetrievePassword";
+
+/* 昵称 */
+"性别" = "gender";
+
+/* 成交量 */
+"总" = "total";
+
+/*  */
+"总交易手数" = "Total number of lots traded";
+
+
+"总市值" = "The total market capitalization";
+
+/* 准确率 */
+"总收益" = "Total revenue";
+
+/* 正在登录 */
+"总数量" = "The total number";
+
+/*  */
+"总盈亏(USDT)" = "Total profit and loss (USDT)";
+
+/*  */
+"总资产(TVC)" = "Total assets (TVC)";
+
+"总资产(USDT)" = "Total assets(USDT)";
+"总资产" = "Total assets";
+/*  */
+"总邀请人数" = "Total invites";
+
+
+"恭喜你开通带单功能成功" = "Congratulations, you have successfully activated the function of bringing orders";
+
+/*  */
+"您可以写下您申诉的详细情况～～" = "You can write down the details of your appeal~~";
+
+
+"您可以写下您申诉的详细情况～～." = "You can write down the details of your complaint.";
+
+/*  */
+"您尚未订阅该用户" = "You have not subscribed to this user";
+
+/* xx到期，续费后有效期延长 */
+"您尚未订阅该用户." = "You have not subscribed to this user.";
+
+/*  */
+"您已通过实名认证" = "You have passed real-name authentication";
+
+/*  */
+"您是否需要花费%@USDT购买%@" = "Do you need to spend %@USDT to buy %@";
+
+/*  */
+"您暂无发佈广告" = "You have no ads yet";
+
+/* 我的广告 */
+"您暂无发布广告" = "you have not posted ads";
+
+
+"您正在向BITC认证卖家购买%@ USDT" = "You are buying %@ USDT from a Leader Coin certified seller";
+
+/* 申购失败转换 */
+"您正在向BITC认证卖家购买%@ USDT" = "You are buying %@ USDT from a Leader Coin certified seller";
+
+/* 选择个人头像 */
+"您的资料已修改，是否要保存？" = "Your information has been modified, do you want to save it?";
+
+
+"您目前的邮箱是%@，想要把它更新为？" = "Your current email address is %@, want to update it to?";
+
+/* 是否设置该收款方式为默认收款方式 */
+"您还未添加收款方式，是否要去添加一个？" = "You haven't added a payment method yet, do you want to add one?";
+
+/* 深度 */
+"成交" = "make a deal";
+
+/* 成交时间 */
+"成交价" = "final price";
+
+/* 委托额 */
+"成交均价" = "Average transaction price";
+
+/* 盈利 */
+"成交数量" = "The number of transactions";
+
+/* 技术服务费 */
+"成交时间" = "transaction time";
+
+/* 成交价 */
+"成交明细" = "transaction details";
+
+/* 每笔跟单上限不能为0 */
+"成交量" = "turnover";
+
+/* 成交均价 */
+"成交额" = "turnover";
+
+/*  */
+"成员" = "member";
+
+/*  */
+"成本" = "cost";
+
+/*  */
+"成本均价" = "cost average price";
+
+/* 持有数量 */
+"成本均价t" = "Average Price of Cost";
+
+/* 我还没有付款给对方 */
+"我再想想" = "let me think again";
+
+/*  */
+"我已在%@一键跟上了TA的实盘交易" = "I have kept up with TA's real offer transaction with one click at %@";
+
+/* 他是 */
+"我已在W.W.C.T一键跟上了TA的实盘交易" = "I have kept up with TA's real trading with one click on Leader Coin";
+
+/* TA是 */
+"我已在procoin一键跟上了TA的实盘交易" = "I have followed his/her live trading at %@ with one clic";
+
+/*  */
+"我已申购" = "I have subscribed";
+
+
+"我已阅读并同意" = "I have read and agree";
+
+/* 添加广告 */
+"我想" = "I think";
+
+/* 保存图片成功 */
+"我是" = "I'm";
+
+/* 合计 */
+"我的" = "mine";
+
+
+"我的佣金" = "my commission";
+
+/* 买入总金额 */
+"我的委托" = "my commission";
+
+/* 跟单分成 */
+"我的委托数量" = "my order quantity";
+
+/* 去设置 */
+"我的广告" = "my ad";
+
+/* 实际成交 */
+"我的成交" = "my deal";
+
+/* 跟单委托数量 */
+"我的成交数量" = "my transaction quantity";
+
+/* 成交额 */
+"我的盈利" = "my profit";
+
+/* TA赚了多少  我就赚多少 */
+"我的资料" = "My Profile";
+
+/* 审核中 */
+"我的邀请码" = "my invitation code";
+
+/*  */
+"我知道了" = "I see";
+
+/* 请务必登录网上银行或第三方支付账号确认收到该笔款项 */
+"我确定已登录收款账户，并核对收款无误" = "I am sure I have logged into the receiving account and checked that the payment is correct";
+
+/* 买家当日累计3笔取消，超出会影响当日买入功能 */
+"我确认没有付款给对方" = "I confirm that no payment has been made to the other party";
+
+
+"我确认还没有付款给对方" = "I confirm that no payment has been made to the other party";
+
+/* 余额提现 */
+"我要买" = "I want to buy";
+
+/* 我要买 */
+"我要卖" = "i want to sell";
+
+/* 取消规则：买家当日累计4笔取消，会限制当日买入功能。 */
+"我还没有付款给对方" = "I confirm that I haven't paid the other party";
+
+/* 现价 */
+"手" = "hand";
+
+/* 全部出售 */
+"手续费" = "handling fee";
+
+
+"手续费()" = "handling fee(%@)";
+
+/* 跟单成交 */
+"技术服务费" = "Fees for technical services";
+
+/* 从相册选择 */
+"拍照" = "Photograph";
+
+/*  */
+"持仓" = "position";
+
+/* 开仓方向 */
+"持仓保证金" = "Margin";
+
+/*  */
+"持仓保证金(USDT)" = "Margin(USDT)";
+
+
+"持仓成本" = "Holding cost";
+
+/* 持仓保证金 */
+"持仓手数" = "Lot size";
+
+/* 盈利分成 */
+"持仓手数" = "Number of lots in position";
+
+/*  */
+"持仓数量-跟单账户单个最高持有数量" = "Position Quantity - the single maximum holding quantity of the documentary account";
+
+/*  */
+"持仓随时提币，跟单持有的币种不能提币" = "Withdraw currency at any time while holding a position, and the currency held by the documentary cannot be withdrawn";
+
+
+"持仓随时提币，跟单持有的币种不能提币." = "Withdrawal of coins at any time for positions held, not for coins held by followers.";
+
+
+"持币市值" = "Currency Market Value";
+
+/* 认购金额 */
+"持有USDT数量" = "The amount of USDT held";
+
+/* 交易 */
+"持有YYB数量" = "The amount of YYB held";
+
+
+/* 隐藏小额币种 */
+"持有数量" = "holding quantity";
+
+
+"振动" = "Vibration";
+
+/* 验证错误，重新获取图片！ */
+"换一张" = "change one";
+
+/* 设置 */
+"换取成功" = "in exchange for success";
+
+/* 天 */
+"排名" = "ranking";
+
+
+"排行榜" = "leaderboard";
+
+
+"接收新消息通知" = "Receive new message notifications";
+
+/* 状态 */
+"推荐" = "recommend";
+
+
+"提交" = "submit";
+
+
+"提交信息失败" = "Failed to submit information";
+
+/* 请选择收款方式 */
+"提交成功" = "Submitted successfully";
+
+
+"提交时间" = "submission time";
+
+
+"提交申诉" = "Submit a complaint";
+
+/* 充币 */
+"提币" = "Withdraw coins";
+
+
+"提币二维码" = "Withdraw QR code";
+
+
+"提币地址" = "Withdrawal address";
+
+/* / 提币 */
+"提币地址管理" = "提币地址管理";
+
+/* 充币地址 */
+"提币数量" = "Withdrawal amount";
+
+/* 请输入大于0的数量 */
+"提币数量:%@%@\n确认前请仔细核对提币地址信息，以避免造成不必要的财产损失." = "Withdrawal amount: %@%@\nPlease check the withdrawal address information carefully before confirming to avoid unnecessary property loss";
+
+
+"提币数量不能超过可提币数量" = "The amount of coins withdrawn cannot exceed the amount of coins that can be withdrawn";
+
+
+"提现单价" = "Withdrawal unit price";
+
+
+"提现数量" = "Withdrawal amount";
+
+
+"提现申请处理已完成" = "Withdrawal application processing has been completed";
+
+
+"提现申请已提交，等待平台放款" = "Withdrawal application has been submitted, waiting for the platform to release funds";
+
+/* 买入 */
+"提现金额" = "Withdrawal Amount";
+
+/* 下单 */
+"提示" = "hint";
+
+/* 请再次输入密码 */
+"提示:密码必须是8-16位数字与字母组合" = "Tip: The password must be a combination of 8-16 digits and letters";
+
+
+"提起申诉后资产将会冻结，申诉专员将介入本次交易，直至申诉结束。恶意申诉属于扰乱平台正常运营秩序的行为，情节严重将冻结账户." = "Assets will be frozen after filing a complaint, and the ombudsman will intervene in this transaction until the end of the complaint. Malicious complaints are acts that disrupt the normal operation of the platform, and if the circumstances are serious, the account will be frozen.";
+
+/*  */
+"提起申诉后资产将会冻结，申诉专将介入本次交易，直至申诉结束。恶意申诉属于扰乱平台正常运营秩序的行为，情节严重将冻结账户。" = "After the appeal is filed, the assets will be frozen, and the ombudsman will intervene in this transaction until the end of the appeal. Malicious complaints are behaviors that disrupt the normal operation of the platform, and if the circumstances are serious, the account will be frozen.";
+
+/* 盈利比例 */
+"操作成功" = "Successful operation";
+
+/* 请求客服发生异常 */
+"支付代理费" = "pay agency fee";
+
+/* 银行卡 */
+"支付宝" = "Alipay";
+
+
+"支付宝" = "Alipay";
+
+
+"支付宝姓名" = "Alipay name";
+
+
+"支付宝账号" = "Alipay account";
+
+/* 我要卖 */
+"支付方式" = "payment method";
+
+/* 低 */
+"收" = "receive";
+
+
+"收款人" = "payee";
+
+
+"收款方式" = "payment method";
+
+/* 商家认证 */
+"收款管理" = "Collection Management";
+
+/* 请最低转入xx */
+"收益" = "income";
+
+/* 国际期货 */
+"数字货币" = "digital currency";
+
+/* 我的 */
+"数字货币交易记录" = "Digital currency transaction records";
+
+/* 暂无关注的自选 */
+"数字货币总资产(USDT)" = "Digital Currency Total Assets (USDT)";
+
+/* 余额账户 */
+"数字货币账户" = "digital currency account";
+
+
+"数字货币跟单" = "digital currency documentary";
+
+/* 外汇交易记录 */
+"数字货币跟单交易记录" = "Digital currency documentary transaction records";
+
+/* 外汇账户 */
+"数字货币跟单账户" = "Digital currency documentary account";
+
+/* 外汇跟单资产(USDT) */
+"数字货币跟单资产(USDT)" = "Digital Currency Documentary Assets (USDT)";
+
+
+"数据不完整，请返回重试" = "The data is incomplete, please go back and try again";
+
+
+"数据错误，请重新登录" = "Data error, please log in again";
+
+/* 出售/卖出 */
+"数量" = "quantity";
+
+/*  */
+"数量 (手)" = "Quantity (lot)";
+
+/* 涨跌幅 */
+"数量(手)" = "Quantity (lots)";
+
+
+"数量/可用" = "Quantity/Available";
+
+/* 今日新增 */
+"新增客户数" = "New customers";
+
+/*  */
+"新币申购" = "SGD Subscription";
+
+/* 已关闭 */
+"新消息通知" = "new news notification";
+
+/* 限额 */
+"方式" = "Way";
+
+/* 请输入用户名! */
+"无搜索结果" = "no search results";
+
+/* 1小时 */
+"日K" = "Day K";
+
+
+"日语" = "Japanese";
+
+/* 委托价格 */
+"时间" = "time";
+
+/*  */
+"明细>>" = "Details>>";
+
+/* 全部佣金 */
+"昨日新增" = "Added yesterday";
+
+/* 请输入大于0的平仓手数 */
+"是否以当前市价成交平仓%@手" = "Whether to close the position %@ lot at the current market price";
+
+/* 删除 */
+"是否删除该收款方式?" = "Whether to delete this payment method?";
+
+/*  */
+"是否删除该收款方式？" = "Do you want to delete this payment method?";
+
+
+"是否增加%@USDT的保证金？" = "Do you want to increase the margin of %@USDT?";
+
+
+"是否撤销提币?" = "Do you want to cancel the withdrawal?";
+
+/* 请选择倍数 */
+"是否确定下单？" = "Are you sure to place an order?";
+
+/* 请输入姓名 */
+"是否确定保存该收款方式?" = "Are you sure to save this payment method?";
+
+/* 购买单价 */
+"是否确定充值¥%@.%@金额的USDT" = "Are you sure to top up ¥%@. %@ amount of USDT";
+
+/*  */
+"是否确定充值￥%@.%@金额的USDT" = "Are you sure to recharge USDT with the amount of HK$%@.%@";
+
+
+"是否确定开通带单功能？" = "Are you sure you want to enable the function of bringing orders?";
+
+/* 操作成功 */
+"是否确定提现" = "Are you sure to withdraw cash";
+
+/* 你尚未订阅该用户 */
+"是否确定要保存该收款方式?" = "Are you sure you want to save this payment method?";
+
+/* 订阅/续费请求数据错误 */
+"是否确定订阅该用户？" = "Are you sure to subscribe this user?";
+
+/* 手 */
+"是否确定设置止损价" = "Are you sure to set the stop loss price";
+
+/* 是否确定设置止损价 */
+"是否确定设置止盈价" = "Are you sure to set the take profit price";
+
+/* 当前可用数量不足 */
+"是否确定转入%@数量的%@" = "Are you sure to transfer the %@ amount of %@";
+
+/* 转出数量必须大于0！ */
+"是否确定转出%@数量的%@到持仓？" = "Are you sure you want to transfer %@ amount of %@ to the position?";
+
+/* 以当前市价成交 */
+"是否确定进行快捷平仓操作？" = "Are you sure to perform quick liquidation operation?";
+
+
+"是否确定进行跟单操作" = "Are you sure to follow the order";
+
+
+"是否确定退出该账号?" = "Are you sure to log out of this account?";
+
+
+"是否确认平仓？" = "Are you sure you want to close the position?";
+
+/* 正在平仓中 */
+"是否确认设置" = "Do you confirm the settings";
+
+/*  */
+"是否解除跟单绑定?" = "Do you want to unbind the copy order?";
+
+/* 是否删除该收款方式 */
+"是否设置该收款方式为默认收款方式?" = "Do you want to set this payment method as the default payment method?";
+
+/* 请上传身份证国徽页图片 */
+"是否资料确认无误？" = "Is the information confirmed correct?";
+
+/* 已扣除跟单分成部分 */
+"是否追加%@USDT的跟单金额" = "Whether to add the copy amount of %@USDT";
+
+/* 头像 */
+"昵称" = "Nick name";
+
+/* 剩余 %ld 秒 */
+"昵称不能包含特殊字符!" = "Nickname cannot contain special characters!";
+
+/* 资料修改成功 */
+"昵称过于简短" = "Nickname is too short";
+
+/* 昵称过于简短 */
+"昵称长度太长" = "nickname length is too long";
+
+/* 输入ID搜索 */
+"暂无关注列表" = "No watch list yet";
+
+/* 数字货币总资产 */
+"暂无关注的数字货币" = "No Digital Currency of Interest";
+
+/* 数字货币跟单资产 */
+"暂无关注的自选" = "There are no favorites to follow";
+
+
+"暂无可进行充币的币种" = "There are currently no currencies available for deposit";
+
+/* 成交明细 */
+"暂无开仓记录" = "No opening record";
+
+/* 累计盈亏 */
+"暂无设置" = "No settings yet";
+
+/* 删除历史 */
+"暂无该币种" = "There is no such currency";
+
+/* 划转记录 */
+"暂无该记录数据" = "There is no record data";
+
+/* 量 */
+"暂时无关注的自选" = "Temporarily unfollowed optional";
+
+/* 请重新拖动验证图片 */
+"更换手机" = "Replace your phone";
+
+/* 更换手机号码/更换手机 */
+"更换手机号码" = "change mobile number";
+
+/* 修改绑定手机 */
+"更换语言" = "change language";
+
+
+"更新提示" = "update reminder";
+
+/* 添加邮箱失败 */
+"更新邮箱失败" = "Failed to update mailbox";
+
+/*  */
+"最低金额" = "minimum amount";
+
+/*  */
+"最低限购" = "minimum purchase";
+
+
+"最小充值金额()" = "Minimum recharge amount(%@)";
+
+/*  */
+"最小提币数量为:" = "The minimum withdrawal amount is:";
+
+
+"最小提币数量为：—" = "The minimum number of coins to be withdrawn is:";
+
+/*  */
+"最小申购量" = "Minimum purchase amount";
+
+/* 名称 */
+"最新价" = "Latest price";
+
+/* 请输入 */
+"月" = "month";
+
+
+"服务条款" = "Terms of Service";
+
+/*  */
+"未使用" = "Unused";
+
+/* 提现金额 */
+"未完成" = "undone";
+
+/*  */
+"未实名不能申请商家认证" = "Cannot apply for business certification without real name";
+
+
+"未实名不能申请商家认证." = "You cannot apply for merchant certification because you do not have a certificate from a real-name system.";
+
+/*  */
+"未实现盈亏(USDT)" = "Unrealized profit and loss (USDT)";
+
+/*  */
+"未开始" = "has not started";
+
+
+"未绑定" = "unbound";
+
+
+"未认证" = "not certified";
+
+/* 是否确定进行快捷平仓操作？ */
+"未设置" = "not set";
+
+/*  */
+"本轮剩余申购量" = "The remaining purchase amount of this round";
+
+/*  */
+"本轮可申购总量" = "The total amount available for purchase in this round";
+
+/*  */
+"本轮已申购" = "This round has been purchased";
+
+/*  */
+"本轮开始申购时间" = "This round of purchase start time";
+
+/*  */
+"本轮结束申购时间" = "End of this round of purchase time";
+
+/* 当前认购价 */
+"本轮认购数量" = "The number of subscriptions in this round";
+
+/* 本轮认购数量 */
+"本轮认购进度" = "Progress of this round of subscription";
+
+
+"杠杆" = "lever";
+
+/*  */
+"查看" = "Check";
+
+/*  */
+"查看如何获取TVC？" = "See How to get TVC?";
+
+
+"查看导师" = "view tutor";
+
+
+"标记已支付" = "mark paid";
+
+/* 取消订单错误 */
+"标记成功" = "mark success";
+
+/* 账户余额可用 */
+"标题" = "title";
+
+/*  */
+"欢迎来到BITC" = "Welcome to Leader Coin";
+
+/* 平台 */
+"欢迎页" = "welcome page";
+
+/* 欢迎页 */
+"欢迎页" = "Welcome Page";
+
+/* 止损 未设置 */
+"止损" = "stop loss";
+
+/* 止盈 */
+"止损 未设置" = "Stop loss, not set";
+
+/* 开仓时间 */
+"止损价" = "Stop price";
+
+/* 确认是否下架该广告记录 */
+"止损设置" = "Stop loss setting";
+
+/* 止盈：不设置 */
+"止损：不设置" = "Stop loss: not set";
+
+/* 止盈 未设置 */
+"止盈" = "take profit";
+
+
+"止盈 未设置" = "Take profit, not set";
+
+/* 请输入止盈价 */
+"止盈价" = "Take Profit Price";
+
+/* 止损价 */
+"止盈价" = "Stop Profit Price";
+
+/* 止盈止损设置 */
+"止盈价" = "Take Profit Price";
+
+/* 离强平价还剩— */
+"止盈止损" = "Take Profit Stop Loss";
+
+/* 《杠杆交易协议》 */
+"止盈止损设置" = "Take profit and stop loss settings";
+
+/* 止损设置 */
+"止盈设置" = "Take Profit Setting";
+
+/* 是否确认设置 */
+"止盈：不设置" = "Take profit: not set";
+
+
+"正" = "just";
+
+/* 停止跟单将以市价卖出您所有的跟单持仓 */
+"正在停止跟单" = "Stop copying";
+
+/* 止盈止损 */
+"正在平仓中" = "closing position";
+
+/* 清除缓存成功 */
+"正在注销用户登录." = "Logging out the user.";
+
+/* 不存在该用户 */
+"正在登录" = "logging in";
+
+
+"正在获取数据" = "fetching data";
+
+/*  */
+"正在註销用户登录." = "Logging out user login.";
+
+/* 隐私条款 */
+"正在进入" = "entering";
+
+/* 请输入每笔跟单上限 */
+"每笔跟单上限不能为" = "The maximum amount per order cannot be 0";
+
+/*  */
+"每笔跟单上限不能为0" = "The upper limit of each order cannot be 0";
+
+
+"每隔%d秒刷新" = "Refresh every %d seconds";
+
+/* 刷新 */
+"每隔1秒刷新" = "Refresh every 1 second";
+
+/* 请输入划转的数量 */
+"余额提现" = "Fiat currency trading";
+
+
+"余额提现" = "OTC";
+
+/* 月 */
+"注:订阅/续费后将收到该用户的交易策略。" = "Note: The user's trading strategy will be received after subscription/renewal.";
+
+/* 分享给朋友，让他们来雇您吧 */
+"注册" = "Register";
+
+/* 正在进入 */
+"注册失败" = "registration failed";
+
+
+"注册成功" = "registration success";
+
+/* 是否确定退出该账号? */
+"注销失败" = "Failed to Logout";
+
+/* 发行总量 */
+"流通总量" = "Total circulation";
+
+/* 刷新频率设置 */
+"消息推送" = "message push";
+
+/*  */
+"消耗TVC" = "consume TVC";
+
+
+"涨幅榜" = "Gain list";
+
+/* 最新价 */
+"涨跌幅" = "Quote change";
+
+/* 涨跌额 */
+"涨跌幅" = "Quote Change";
+
+
+"涨跌颜色" = "up and down color";
+
+/* 收 */
+"涨跌额" = "Change amount";
+
+/* 看跌(做空) */
+"深度" = "depth";
+
+/* 您暂无发布广告 */
+"添加广告" = "add ad";
+
+
+"添加微信收款" = "Add WeChat payment";
+
+
+"添加支付宝收款" = "Add Alipay payment";
+
+/* 我确认没有付款给对方 */
+"添加收款方式" = "Add payment method";
+
+
+"添加邮箱失败" = "Failed to add mailbox";
+
+
+"添加银行卡" = "add bank card";
+
+
+"清除" = "to clear";
+
+/* 消息推送 */
+"清除缓存" = "clear cache";
+
+/* 计算中 */
+"清除缓存后W.W.C.T上所有的头像、图片等要重新下载,是否清除?" = "After clearing the cache, all avatars, pictures, etc. on Leader Coin need to be downloaded again. Do you want to clear it?";
+
+/* 注销失败 */
+"清除缓存成功" = "clear cache successfully";
+
+
+"温馨提示" = "Kind tips";
+
+/* 请填写邀请码(必填) */
+"点击注册" = "Click to register";
+
+/* 点击注册 */
+"点击注册即表示您已经阅读并同意procoin的" = "Clicking to register means that you have read and agreed to procoin's";
+
+/* 时间 */
+"状态" = "state";
+
+
+"环球数字资产交易平台" = "Global digital asset trading platform";
+
+/* 开仓状态 */
+"现价" = "current price";
+
+/* 未设置 */
+"现价" = "Current Price";
+
+/* 女 */
+"生日" = "Birthday";
+
+
+"用户协议" = "User Agreement";
+
+/* 暂无关注列表 */
+"用户名称" = "user name";
+
+
+"申诉" = "appeal";
+
+
+"申诉截图（可选)" = "Complaint screenshot (optional)";
+
+/*  */
+"申诉截图（可选）" = "Screenshot of appeal (optional)";
+
+
+"申诉提醒" = "Appeal Reminder";
+
+
+"申诉理由" = "Grounds for appeal";
+
+
+"申诉留言（可选)" = "Complaint message (optional)";
+
+/*  */
+"申诉留言（可选）" = "Appeal message (optional)";
+
+
+"申请" = "Application";
+
+
+"申请取消商家认证" = "Request to cancel merchant certification";
+
+
+"申请商家认证" = "Apply for Merchant Certification";
+
+
+"申请开通带单功能发生错误" = "An error occurred when applying for the function of bringing orders";
+
+/* 代理费用为%@USDT */
+"申请成为代理" = "apply to be an agent";
+
+/* 订阅 */
+"申请绑定" = "Apply for Binding";
+
+
+"申请认证中" = "Applying for certification";
+
+/*  */
+"申请跟单绑定信息已成功发送，请耐心等待通过" = "The application for copy binding information has been successfully sent, please wait patiently for approval";
+
+/* 到期日 */
+"申请跟单绑定信息已成功发送，请耐心等待通过." = "Please wait patiently for the request to be approved.";
+
+/*  */
+"申购" = "purchase";
+
+/*  */
+"申购价格" = "Subscription price";
+
+/* 下单成功 */
+"申购冻结" = "Subscription freeze";
+
+/* 申购成功转换 */
+"申购失败转换" = "Subscription failure conversion";
+
+/*  */
+"申购总量" = "Total purchase amount";
+
+/* 申购冻结 */
+"申购成功转换" = "Subscription successfully converted";
+
+/*  */
+"申购说明" = "Subscription instructions";
+
+/* 性别 */
+"男" = "male";
+
+/* 可多选 */
+"留言内容" = "Message content";
+
+
+"登录" = "Login";
+
+
+"登录后可以关注自己喜欢的自选" = "After logging in, you can follow your favorite self-selection";
+
+
+"登录失败!" = "Loginfailed";
+
+/* 请求网络失败，请检查网络 */
+"登录失败!" = "Login Failed!";
+
+
+"登录密码" = "LoginPassword";
+
+/* 众筹价格 */
+"白皮书" = "white paper";
+
+/* 手续费 */
+"盈利" = "profit";
+
+/* 请输入止损比例 */
+"盈利USDT" = "ProfitUSDT";
+
+/* 平仓时间 */
+"盈利分成" = "profit share";
+
+/* 跟单类型 */
+"盈利分成" = "Profit Sharing";
+
+/* 平均成本价 */
+"盈利比例" = "Profit ratio";
+
+/* 释义：跟随高手的用户最近30天盈亏总金额。 */
+"盈利能力" = "Profitability";
+
+/* 周K */
+"看涨(做多)" = "Bullish (go long)";
+
+/* 看涨(做多) */
+"看跌(做空)" = "봐 (짧은)";
+
+/*  */
+"真实姓名" = "actual name";
+
+/*  */
+"眾筹价格" = "crowdfunding price";
+
+/* 注册失败 */
+"短信验证码已经发送至%@*******%@" = "SMS verification code has been sent to %@*******%@";
+
+/* 重置 */
+"确定" = "Sure";
+
+/* 增加开仓保证金（USDT） */
+"确定即代表您同意并接受" = "OK means you agree and accept";
+
+/* 获取简介异常 */
+"确定取消该委托订单吗" = "Are you sure to cancel the commission order?";
+
+/*  */
+"确定取消该委托订单吗?" = "Are you sure to cancel this commission order?";
+
+/* 请输入订阅的周期数 */
+"确定续费%@%@吗？" = "Are you sure to renew %@%@?";
+
+
+"确定要从\"%@\"划转数量%@%@到\"%@\"吗？" = "Are you sure you want to transfer the amount %@%@ from %@ to %@?";
+
+
+"确定要删除选中的收款方式吗?" = "Are you sure you want to delete the selected payment method?";
+
+
+"确定要删除选中的自选吗?" = "Are you sure you want to delete the selected favorites?";
+
+/* 已成交 */
+"确定要取消提币吗?" = "Are you sure you want to cancel the withdrawal?";
+
+/* BYY官方 */
+"确定要回购%@数量的KBT吗？" = "Are you sure you want to repurchase %@ amount of KBT?";
+
+/* 请选择认购金额 */
+"确定要认购数量为%@的%@吗？" = "Are you sure you want to subscribe %@ with %@?";
+
+/*  */
+"确定要设置当前价格和数量吗？" = "Are you sure you want to set the current price and quantity?";
+
+
+"确定订阅%@%@吗？" = "Are you sure you want to subscribe to %@%@?";
+
+/*  */
+"确认发佈" = "Confirm release";
+
+/* 请写入您想对卖家/买家说的话！ */
+"确认发布" = "confirm the release";
+
+/* 我确定已登录收款账户，并核对收款无误 */
+"确认取消订单" = "Confirm order cancellation";
+
+/* 设置密码 */
+"确认密码" = "Confirm Password";
+
+/* 保存成功 */
+"确认收款并放行" = "Confirm payment and release";
+
+/* 确认是否删除该广告记录 */
+"确认是否上架该广告记录" = "Confirm whether to put the ad record on the shelf";
+
+/* 确认是否上架该广告记录 */
+"确认是否下架该广告记录" = "Confirm whether to remove the advertisement record";
+
+
+"确认是否删除该广告记录" = "Confirm whether to delete the advertisement record";
+
+
+"确认离开" = "confirm to leave";
+
+
+"确认离开支付" = "Confirm leave to pay";
+
+/* 你目前锁仓权益等级 */
+"确认订购" = "confirm order";
+
+/* 冻结数量 */
+"确认转入" = "Confirm transfer";
+
+/* / 社区 */
+"社区" = "Community";
+
+/*  */
+"社区人数：%@" = "Number of people in the community: %@";
+
+/*  */
+"社区总奖励(TVC)" = "Total Community Rewards (TVC)";
+
+/*  */
+"离强平价还剩 -" = "Remaining from liquidation price -";
+
+/* 强平价 */
+"离强平价还剩—" = "Remaining from strong parity -";
+
+/*  */
+"立即升级" = "upgrade immediately";
+
+/* 暂无该记录数据 */
+"筛选" = "filter";
+
+/* 转入账户选择 */
+"筛选数据出错，请返回再重试" = "Error filtering data, please go back and try again";
+
+/* 区块链查询 */
+"简介" = "Introduction";
+
+
+"简体中文" = "简体中文";
+
+/* 止损：不设置 */
+"类型" = "type";
+
+/* 订单记录 */
+"类型选择" = "type selection";
+
+/* 交易金额 */
+"系统会为您筛选包含目标金额的商品" = "The system will screen for you products that contain the target amount";
+
+
+"系统撤销" = "System undo";
+
+/* 代理 */
+"系统通知" = "system notification";
+
+/* 跟单总投入 */
+"累计盈亏" = "Accumulated profit and loss";
+
+/* 成本均价 */
+"累计盈亏" = "Accumulated Profit and Loss";
+
+
+"繁体中文" = "Traditional Chinese";
+
+
+"红涨绿跌" = "red up green down";
+
+/*  */
+"绑定手机" = "bind phone";
+
+/* 更新邮箱失败 */
+"绑定邮箱" = "Bind mailbox";
+
+/* 提币地址 */
+"结束时间" = "End Time";
+
+/* 请求数据异常 */
+"续费" = "Renew";
+
+
+"绿涨红跌" = "green up red down";
+
+/* 已绑定手机号 */
+"网速不给力，请检查网络！" = "The network speed is not strong, please check the network!";
+
+
+"网页由 %@ 提供" = "Web page provided by %@";
+
+
+"联系对方" = "Contact the Other Party";
+
+/*  */
+"联繫对方" = "Contact each other";
+
+/* 行情 */
+"自选" = "optional";
+
+
+"若你被跟单，则可提币数量=持仓数量-跟单账户单个最高持有数量." = "If you are followed, the number of withdrawable coins = the number of positions held - the maximum number of coins held in a single follower account.";
+
+
+"英语" = "English";
+
+/* 请输入正确的充值金额 */
+"获取他人收款方式错" = "Error in obtaining someone else's payment method";
+
+/*  */
+"获取他人收款方式错误" = "Obtaining the payment method of others is wrong";
+
+/*  */
+"获取简介异常" = "get profile exception";
+
+
+"获取验证码" = "get verification code";
+
+
+"获取验证码失败" = "Failed to get verification code";
+
+/*  */
+"获得TVC" = "Get TVC";
+
+/* 上月收益 */
+"行情" = "quotes";
+
+
+"解绑" = "untie";
+
+/*  */
+"解释：跟随高手的用户最近30天平均每笔交易的收益率。数值越大，代表跟随高手的用户收益越好。" = "Explanation: The average rate of return per transaction of users who follow the master in the last 30 days. The larger the value, the better the income of users who follow the master.";
+
+/*  */
+"解释：跟随高手的用户最近30天盈亏总金额" = "Explanation:Thetotalamountofprofitandlossforthelast30daysforuserswhofollowtheexperts";
+
+/*  */
+"解释：跟随高手盈利的几率。数值越大，代表跟单获利的可能性就越高。" = "Explanation: The probability of following a master to make a profit. The larger the value, the higher the possibility of copying a profit.";
+
+/*  */
+"解释：高手最近30天平均每笔交易的收益率。数值越大，代表个人盈利能力越强。" = "Explanation: The average rate of return of each transaction of the master in the last 30 days. The larger the value, the stronger the personal profitability.";
+
+/*  */
+"解释：高手最近30天跟单人数，数值越大，代表跟随者越多，人气越高。" = "Explanation: The number of followers of masters in the last 30 days. The larger the value, the more followers and the higher the popularity.";
+
+/* 《跟单规则》 */
+"解除绑定" = "unbind";
+
+
+"解除绑定成功" = "Unbind successfully";
+
+/*  */
+"註销失败" = "Logout failed";
+
+/* 清除缓存 */
+"计算中" = "calculating";
+
+
+"订单号" = "order number";
+
+
+"订单将在%@后超时取消" = "The order will be canceled after %@";
+
+
+"订单已撤销" = "order canceled";
+
+
+"订单已被系统撤销" = "The order has been canceled by the system";
+
+
+"订单已过期" = "order has expired";
+
+/* 请输入币种 */
+"订单状态" = "Order Status";
+
+/* 系统会为您筛选包含目标金额的商品 */
+"订单记录" = "order record";
+
+/* 跟单人数 */
+"订阅" = "Subscribe";
+
+/* 申请跟单绑定信息已成功发送，请耐心等待通过 */
+"订阅/续费请求数据错误" = "Subscription/renewal request data error";
+
+/* 续费 */
+"订阅已过期" = "Subscription has expired";
+
+/* 个人主页 */
+"订阅数" = "Subscriptions";
+
+/* 用户名称 */
+"订阅状态" = "subscription status";
+
+/*  */
+"认证日期" = "certification date";
+
+/*  */
+"认证状态" = "certification status";
+
+/* 确定要回购xx数量的KBT吗？ */
+"认购数字货币" = "Subscribe digital currency";
+
+/* 选择认购xx数量 */
+"认购金额" = "subscription amount";
+
+/* 锁仓 */
+"认购锁仓" = "Subscription Lockup";
+
+/* 客服 */
+"设置" = "set up";
+
+/* 修改交易密码 */
+"设置交易密码" = "Set transaction password";
+
+/* 两次密码不相同 */
+"设置密码" = "set password";
+
+
+"设置成功" = "successfully set";
+
+/* 填写验证码 */
+"设置新密码" = "set new password";
+
+/*  */
+"设置止盈止损" = "Set stop profit and stop loss";
+
+
+"设置语言" = "language setting";
+
+/* 可提现数量 */
+"设置默认" = "Set the default";
+
+/*  */
+"证件号" = "license number";
+
+/* 拍照 */
+"该操作需要验证交易密码，你还没设置交易密码，是否现在设置交易密码？" = "This operation needs to verify the transaction password, you have not set the transaction password, do you want to set the transaction password now?";
+
+/* 存币宝 */
+"该操作需要验证交易密码，你还没设置交易密码，是否现在设置交易密码？" = "This operation requires verification of the transaction password. Since you haven't set up a trading password yet, do you need to set up a trading password now?";
+
+/*  */
+"该版本暂不支持该功能，请更新版本" = "This version does not support this function, please update the version";
+
+/* 交易密码管理 */
+"该版本暂不支持该功能，请更新版本." = "This version does not support this function at the moment, please update the version.";
+
+/* 人气指数 */
+"说明" = "Description";
+
+
+"请上传充值截图" = "Please upload a recharge screenshot";
+
+
+"请上传提币二维码" = "Please upload the withdrawal QR code";
+
+/* 请输入身份证号码！ */
+"请上传身份证人像页图片" = "Please upload the picture of the portrait page of the ID card";
+
+/* 请上传身份证人像页图片 */
+"请上传身份证国徽页图片" = "Please upload the picture of the national emblem page of the ID card";
+
+/*  */
+"请先进行商家认证" = "Please verify the business first";
+
+/* 设置新密码 */
+"请再次输入密码" = "please enter password again";
+
+/* 请输入密码 */
+"请再次输入密码" = "Please enter your password again";
+
+
+"请写下您想对卖家/买家说的话！" = "Please write down what you want to say to the seller/buyer!";
+
+/* 留言内容 */
+"请写入您想对卖家/买家说的话！" = "Please write what you want to say to the seller/buyer!";
+
+/* 是否确定保存该收款方式? */
+"请务必使用与您注册手机号码一致的实名账号" = "Please be sure to use the same real-name account as your registered mobile phone number";
+
+/* 确认收款并放行 */
+"请务必登录网上银行或第三方支付账号确认收到该笔款项" = "Please be sure to log in to the online bank or third-party payment account to confirm receipt of the payment";
+
+
+"请在 %@:%@ 内付款给卖家" = "Please pay the seller within %@:%@";
+
+
+"请填写开户行" = "Please fill in the bank";
+
+/* 请再次输入密码 */
+"请填写邀请码(必填)" = "Please fill in the invitation code (required)";
+
+/*  */
+"请填写邀请码（必填）" = "Please fill in the invitation code (required)";
+
+/* 转入xx数量到存币宝 */
+"请最低转入%@" = "Please transfer at least %@";
+
+
+"请检查网络" = "please check the network";
+
+
+"请求保存图片异常" = "The request to save the picture is abnormal";
+
+
+"请求失败" = "Request failed";
+
+/* 该操作需要验证交易密码，你还没设置交易密码，是否现在设置交易密码？ */
+"请求客服发生异常" = "An exception occurred when requesting customer service";
+
+/* 请输入数量 */
+"请求数据异常" = "Request data exception";
+
+/* 跟单盈亏 */
+"请求网络失败" = "Network request failed";
+
+/* 无搜索结果 */
+"请求网络失败，请检查网络" = "Failed to request network, please check the network";
+
+
+"请登录账号" = "Please login account";
+
+
+"请确认协议书" = "Please confirm the agreement";
+
+/*  */
+"请稍后.." = "please wait..";
+
+/* 正在注销用户登录. */
+"请稍后..." = "Please wait...";
+
+
+"请绑定手机号码" = "Please bind mobile phone number";
+
+
+"请绑定邮箱" = "Please bind email";
+
+/* 已绑定手机号 */
+"请设置6位交易密码" = "Please set a 6-digit transaction password";
+
+/* 标题 */
+"请输入" = "please enter";
+
+/* 已成功发送撤销 */
+"请输入价格" = "Please enter a price";
+
+
+"请输入倍数" = "Please enter multiple";
+
+
+"请输入充值数量" = "Please enter the recharge amount";
+
+/*  */
+"请输入兑换数量" = "Please enter the exchange amount";
+
+
+"请输入出售数量" = "Please enter the sale quantity";
+
+/*  */
+"请输入划转数量" = "Please enter the transfer amount";
+
+
+"请输入划转数量." = "Please enter the amount to be transferred.";
+
+/* 只有将资产划转到相对应的账户次才能进行交易。账户间的划转不收取手续费。 */
+"请输入划转的数量" = "Please enter the transfer amount";
+
+
+"请输入划转的数量" = "Please enter the number of transfers";
+
+/* 剩余可回购YYB数量 */
+"请输入回购YYB数量" = "Please enter the repurchase YYB quantity";
+
+/* 持有YYB数量 */
+"请输入回购数量" = "Please enter the repurchase quantity";
+
+
+"请输入大于0的倍数" = "Please enter a multiple greater than 0";
+
+/* 请输入回购数量 */
+"请输入大于0的回购数量" = "Please enter a repurchase quantity greater than 0";
+
+/* 是否确定设置止盈价 */
+"请输入大于0的平仓手数" = "Please enter a liquidation lot greater than 0";
+
+/* 请输入提取数量 */
+"请输入大于0的数量" = "Please enter a quantity greater than 0";
+
+/* 请输入开户行 */
+"请输入姓名" = "Please type in your name";
+
+
+"请输入姓名" = "Please enter your name";
+
+/* 注册 */
+"请输入密码" = "please enter password";
+
+/* 币种 */
+"请输入币种" = "Please enter currency";
+
+/* 持仓手数 */
+"请输入平仓手数" = "Please enter the number of lots to close";
+
+
+"请输入开户姓名" = "Please enter account name";
+
+/* 请输入银行卡号 */
+"请输入开户行" = "Please enter the bank";
+
+/* 重置密码 */
+"请输入手机号码" = "Please enter the phone number";
+
+/* 请选择提币地址 */
+"请输入提取数量" = "Please enter the withdrawal quantity";
+
+/* 添加收款方式 */
+"请输入提现数量" = "Please enter the withdrawal amount";
+
+/* 0手续费出售 */
+"请输入数量" = "Please enter the quantity";
+
+/* 未认证 */
+"请输入文字!" = "please enter text!";
+
+/* 验证身份 */
+"请输入新的手机号码" = "Please enter a new mobile number";
+
+
+"请输入新邮箱" = "Please enter a new email address";
+
+
+"请输入有效姓名！" = "Please enter a valid name!";
+
+/* 止盈设置 */
+"请输入止损价格" = "Please enter a stop loss price";
+
+/*  */
+"请输入止损比例" = "Please enter the stop loss ratio";
+
+/* 请输入止盈比例 */
+"请输入止损比例." = "Please enter the stop loss percentage.";
+
+/* 是否确定下单？ */
+"请输入止盈价" = "Please enter the take profit price";
+
+/* 请输入止损价格 */
+"请输入止盈价格" = "Please enter the take profit price";
+
+/* 止盈价 */
+"请输入止盈比例" = "Please enter the take profit ratio";
+
+/* 推荐 */
+"请输入正确的充值金额" = "Please enter the correct recharge amount";
+
+/* 追加金额 */
+"请输入每笔跟单上限" = "Please enter the upper limit of each order";
+
+/* 昵称不能包含特殊字符! */
+"请输入用户名!" = "please enter user name!";
+
+/*  */
+"请输入申购数量" = "Please enter the purchase quantity";
+
+/* 是否确定订阅该用户？ */
+"请输入订阅的周期数" = "Please enter the number of subscription periods";
+
+/*  */
+"请输入订阅的週期数" = "Please enter the period of subscription";
+
+
+"请输入账户" = "Please enter account";
+
+/* 购买 USDT */
+"请输入购买数量" = "Please enter the purchase quantity";
+
+/* 跟单投入 */
+"请输入跟单USDT" = "Please enter the documentary USDT";
+
+/* 请输入有效姓名！ */
+"请输入身份证号码！" = "Please enter the ID number!";
+
+/* 确认转入 */
+"请输入转入数量" = "Please enter the transfer amount";
+
+/* 微信朋友圈 */
+"请输入转出数量" = "Please enter the transfer quantity";
+
+/* 可用USDT */
+"请输入追加的金额" = "Please enter the additional amount";
+
+/* 绑定邮箱 */
+"请输入邮箱" = "Please insert your e-mail";
+
+
+"请输入邮箱验证码" = "Please enter the email verification code";
+
+/* 该版本暂不支持该功能，请更新版本 */
+"请输入银行卡号" = "Please enter the bank card number";
+
+
+"请输入银行卡号" = "and bank card number";
+
+
+"请输入验证码" = "please enter verification code";
+
+/* 提示 */
+"请进行实名认证" = "Please perform real-name authentication";
+
+
+"请选择二维码图片" = "Please select a QR code image";
+
+
+"请选择保证金" = "Please select deposit";
+
+/* 请输入价格 */
+"请选择倍数" = "Please select multiple";
+
+/* 请选择提币币种 */
+"请选择提币地址" = "Please enter the withdrawal address";
+
+/* 你暂无可提币的币种 */
+"请选择提币币种" = "Please select the withdrawal currency";
+
+/* 确认发布 */
+"请选择支付方式" = "Please select the payment method";
+
+/* 是否确定提现 */
+"请选择收款方式" = "Please select payment method";
+
+
+"请选择正确的倍数" = "Please select the correct multiple";
+
+
+"请选择申诉原因" = "Please select the reason for appeal";
+
+/* 持有USDT数量 */
+"请选择认购金额" = "Please select the subscription amount";
+
+/* 去划转 */
+"请选择账户类型" = "Please select account type";
+
+/* 设置语言 */
+"请重新拖动验证图片" = "Please re-drag the verification image";
+
+/* 账户总资产 */
+"财务记录" = "financial records";
+
+
+"账号" = "account";
+
+/* 暂时无关注的自选 */
+"账户" = "account";
+
+/* 您尚未订阅该用户 */
+"账户余额可用" = "Account balance available";
+
+/* 账户 */
+"账户总资产" = "Total assets of the account";
+
+/*  */
+"账户未实名" = "Account is not real name";
+
+/* 我再想想 */
+"账户类型" = "account type";
+
+/* / 质押 */
+"Defi专区" = "Defi special area";
+
+"质押记录" = "pledge record";
+
+/* 类型选择 */
+"购买" = "Buy";
+
+/* 单价 */
+"购买 USDT" = "Buy USDT";
+
+/*  */
+"购买USDT" = "Buy USDT";
+
+
+"购买中" = "buying";
+
+/* 获取他人收款方式错误 */
+"购买单价" = "purchase unit price";
+
+/*  */
+"购买成功" = "successful purchase";
+
+/* 出售数量 */
+"购买数量" = "Purchase quantity";
+
+/* 认购锁仓 */
+"资产" = "assets";
+
+
+"资产" = "Assets";
+
+/* 输入太多文字啦! */
+"资料修改失败" = "Data modification failed";
+
+/* 资料修改失败 */
+"资料修改成功" = "데이터를 성공적으로 수정하십시오";
+
+/* 不要 */
+"资料并没有任何修改哦~" = "The information has not been modified~";
+
+
+"超过最大倍数:%ld" = "Exceed the maximum multiplier: %ld";
+
+
+"跌幅榜" = "drop list";
+
+/*  */
+"距离本轮申购结束还剩" = "Until the end of this round of purchase";
+
+/*  */
+"跟单交易记录" = "Documentary transaction records";
+
+/* 订阅数 */
+"跟单人数" = "Number of People Follow-Up the Order";
+
+/* 业绩走势 */
+"跟单人气" = "Follower popularity";
+
+/*  */
+"跟单冻结资产(USDT)" = "Documentary frozen assets (USDT)";
+
+/* 我的成交 */
+"跟单分成" = "documentary share";
+
+/* 请输入跟单USDT */
+"跟单即代表您同意并接受" = "Copying means that you agree and accept";
+
+/* 委托数量 */
+"跟单委托" = "Documentary entrustment";
+
+/* 我的委托数量 */
+"跟单委托数量" = "Quantity of documentary order";
+
+/* 跟单明细 */
+"跟单总投入" = "total investment in documentary";
+
+/* 我的盈利 */
+"跟单成交" = "Copy transaction";
+
+/* 我的成交数量 */
+"跟单成交数量" = "Copy transaction quantity";
+
+/* 止损 */
+"跟单成功" = "Successfully copy the order";
+
+/* 跟单资产不能低于%@USDT */
+"跟单投入" = "Documentary input";
+
+/* 跟单设置 */
+"跟单持仓" = "Documentary position";
+
+/* 跟单盈利额 */
+"跟单收益率" = "ProfitRate";
+
+/* 释义：高手最近30天平均每笔交易的收益率。数值越大，代表个人盈利能力越强。 */
+"跟单收益率" = "Profitability of Follow-Up Orders";
+
+/* 跟单资产分布 */
+"跟单明细" = "Documentation details";
+
+/*  */
+"跟单机构" = "documentary agency";
+
+/* 跟单止盈：暂无设置 */
+"跟单止损：暂无设置" = "Copy stop loss: no setting";
+
+/* 跟单每笔上限 */
+"跟单止盈：暂无设置" = "Copy take profit: no setting";
+
+/* 暂无设置 */
+"跟单每笔上限" = "Copy limit per transaction";
+
+/* 结束时间 */
+"跟单盈亏" = "Copy profit and loss";
+
+
+"跟单盈利额" = "Profit amount";
+
+/* 雷达图说明 */
+"跟单盈利额" = "Profitability of Follow-Up Orders";
+
+/* 交易策略 */
+"跟单类型" = "documentary type";
+
+/* 跟单收益率 */
+"跟单胜率" = "Copy win rate";
+
+/* 释义：跟随高手的用户最近30天平均每笔交易的收益率。数值越大，代表跟随高手的用户收益越好 */
+"跟单胜率" = "Winning Rate of Follow-up Orders";
+
+/* 跟单止损：暂无设置 */
+"跟单设置" = "Copy settings";
+
+/*  */
+"跟单账户" = "Documentary account";
+
+/* 暂无开仓记录 */
+"跟单资产不能低于%@USDT" = "The documentary asset cannot be lower than %@USDT";
+
+/* 是否追加%@USDT的跟单金额 */
+"跟单资产分布" = "Distribution of documentary assets";
+
+
+"跟单资金" = "Documentary funds";
+
+/* 跟单收益率 */
+"跟随高手的用户最近30天平均每笔交易的收益率。数值越大，代表跟随高手的用户收益越好" = "Definition: the average profitability of each trade in the last 30 days for users who follow the master. The larger the value, the better the return for the user following the master.";
+
+/* 跟单盈利额 */
+"跟随高手的用户最近30天盈亏总金额." = "Definition: the total amount of profit and loss of users who followed the master in the the past 30 days.";
+
+/* 跟单胜率 */
+"跟随高手盈利的几率。数值越大，代表跟单获利的可能性就越高." = "Definition: the chance of following the master's profit. The larger the value, the higher the possibility of profitability.";
+
+/* 是否确定转入%@数量的%@ */
+"转入%@数量到存币宝" = "Transfer %@ quantity to Cubibao";
+
+/* 提交成功 */
+"转入成功" = "transfer success";
+
+/* 外汇跟单账户 */
+"转入账户选择" = "transfer account selection";
+
+/* 转出账户选择 */
+"转入账户选择" = "Selection of transfer in account";
+
+/* 转出成功 */
+"转出%@数量到持仓" = "Transfer %@ amount to the position";
+
+/* 是否确定转出xxx数量的xxx到持仓？ */
+"转出成功" = "transfer out successfully";
+
+/* 转出数量超过当前持有数量！ */
+"转出数量必须大于0！" = "The transfer amount must be greater than 0!";
+
+/* 请输入转出数量 */
+"转出数量超过当前持有数量！" = "The amount transferred out exceeds the current holding amount!";
+
+/* 类型 */
+"转出账户选择" = "Transfer Account Selection";
+
+/* 已订阅 */
+"输入ID搜索" = "Enter ID to search";
+
+/* 验证身份 */
+"输入交易密码" = "Enter transaction password";
+
+/* 请输入文字! */
+"输入太多文字啦!" = "Enter too much text!";
+
+
+"输入或长按粘贴地址" = "Enter or long press to paste the address";
+
+/* 请输入大于0的回购数量 */
+"输入的回购数量不能超过可回购数量" = "The repurchase quantity entered cannot exceed the repurchase quantity";
+
+/* 请输入转入数量 */
+"输入的数量不能低于%@" = "The quantity entered cannot be less than %@";
+
+/*  */
+"输入跟单倍数不能大于%ld!" = "The input copy multiple cannot be greater than %ld!";
+
+/*  */
+"输入跟单倍数不能小于%ld!" = "The input copy multiple cannot be less than %ld!";
+
+/* 人 */
+"返佣金额" = "Rebate amount";
+
+/* 个人简介 */
+"这个人很懒，未留下任何东西 ......" = "This person is very lazy, and do not leave anything ......";
+
+/*  */
+"这个人很懒，未留下任何东西......" = "Thispersonisverylazy,didnotleaveanything......";
+
+
+"进入OTC市场" = "Enter the OTC market";
+
+/*  */
+"进行中" = "processing";
+
+/* 请输入追加的金额 */
+"追加的金额不能为0" = "The additional amount cannot be 0";
+
+/* 交易明细 */
+"追加资产不能低于%@USDT" = "Additional assets cannot be lower than %@USDT";
+
+/* 追加的金额不能为0 */
+"追加金额" = "additional amount";
+
+/* 已提交停止跟单处理 */
+"追加金额成功" = "Succeeded in adding amount";
+
+/* 每隔1秒刷新 */
+"退出登录" = "sign out";
+
+/*  */
+"选择个人头像" = "Choose profile picture";
+
+/* 昵称长度太长 */
+"选择个人头像." = "Select your headshot.";
+
+/* 选择身份证照片 */
+"选择人像页" = "Select portrait page";
+
+
+"选择保证金（USDT）" = "Select Margin (USDT)";
+
+/* 选择人像页 */
+"选择国徽页" = "Select the National Emblem Page";
+
+
+"选择图片" = "Select Image";
+
+
+"选择币种" = "select currency";
+
+
+"选择截图" = "select screenshot";
+
+/* 本轮认购进度 */
+"选择认购%@数量" = "Select subscription %@ quantity";
+
+/* 确定要认购数量为xx的xx吗？ */
+"选择认购数量" = "Select the subscription quantity";
+
+/* 是否资料确认无误？ */
+"选择身份证照片" = "Choose an ID photo";
+
+/* 我是 */
+"邀请好友，开启环球数字资产交易" = "Invite friends to start global digital asset transactions";
+
+/*  */
+"邀请码" = "Invitation code";
+
+/*  */
+"邀请码数量：%@" = "Number of invitation codes: %@";
+
+
+"邮箱" = "Email";
+
+
+"邮箱或手机" = "email or mobile";
+
+
+"邮箱注册" = "email registration";
+
+
+"邮箱验证码" = "E-mail verification code";
+
+/* 全部成交 */
+"部分成交" = "Partially sold";
+
+
+"重新登录" = "re-register";
+
+/* 网速不给力，请检查网络！ */
+"重新获取" = "Reacquire";
+
+/* 转入账户选择 */
+"重置" = "reset";
+
+/* 修改密码失败 */
+"重置密码" = "reset Password";
+
+/* 请输入回购YYB数量 */
+"重要" = "important";
+
+/* 数字货币 */
+"量" = "quantity";
+
+/*  */
+"金牌机构" = "Gold medal institution";
+
+
+"金额" = "the amount";
+
+/* 支付方式 */
+"银行卡" = "Bank card";
+
+
+"银行卡" = "Bank Card";
+
+
+"银行卡号" = "Bank card number";
+
+
+"银行卡姓名" = "Bank card name";
+
+
+"银行卡账号" = "bank card account";
+
+
+"链类型" = "chain type";
+
+/* 总数量 */
+"锁仓" = "Lock up";
+
+/* 选择认购数量 */
+"锁仓权益说明" = "Description of the Locked Interest";
+
+/*  */
+"锁仓权谥说明" = "Description of lock-up rights";
+
+
+"限价委托" = "limit order";
+
+/* 数量 */
+"限额" = "quota";
+
+/* 用户协议 */
+"隐私条款" = "Privacy Policy";
+
+/* 跟单持仓 */
+"隐藏小额币种" = "Hide small currency";
+
+"隐藏小金额" = "Hide small currency";
+
+/* 说明 */
+"雷达图说明" = "RadarChart";
+
+/* 0手续费购买 */
+"非交易时间，暂不能操作。" = "It is temporarily unavailable during non-trading hours.";
+
+/*  */
+"项目介绍" = "Project Introduction";
+
+/*  */
+"项目参与条件" = "Project Participation Conditions";
+
+/*  */
+"预热中" = "";
+
+/*  */
+"风险提示" = "risk warning";
+
+
+"风险提示书" = "Risk Reminder";
+
+/*  */
+"风险率" = "risk rate";
+
+/* 中国 */
+"首页" = "Home";
+
+
+"香港" = "Hongkong";
+
+/*  */
+"香港时间" = "Hong Kong time";
+
+/* 请输入止盈价格 */
+"验证" = "verify";
+
+/* 短信验证码已经发送至%@*******%@ */
+"验证码为数字!" = "The verification code is a number!";
+
+
+"验证码已发送至，%@" = "The verification code has been sent to, %@";
+
+/* 删除成功 */
+"验证身份" = "Verify identidy";
+
+/* 更换手机号码/更换手机 */
+"验证身份" = "Verify Identity";
+
+/* 请稍后.. /正在清除中...... */
+"验证错误，重新获取图片！" = "Verification error, get the picture again!";
+
+/* 开 */
+"高" = "high";
+
+/* 盈利能力 */
+"高手最近30天平均每笔交易的收益率。数值越大，代表个人盈利能力越强." = "Definition: the average rate of return per trade of the master in the past 30 days. The larger the value, the stronger the profitability of the individual.";
+
+/* 人气指数 */
+"高手最近30天跟单人数，数值越大，代表跟随者越多，人气越高." = "Definition: the number of followers of the master in the past 30 days. The larger the number, the more followers and the higher the popularity.";
+
+/* 设置默认 */
+"默认" = "default";
+
+"最小质押数量" = "Minimum pledge amount";
+
+
+"充值" = "Recharge";
+"提现" = "Withdrawal";

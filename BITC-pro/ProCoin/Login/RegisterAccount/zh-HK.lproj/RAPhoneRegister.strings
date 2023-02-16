@@ -1,0 +1,45 @@
+
+/* Class = "UIButton"; normalTitle = "注册"; ObjectID = "9"; */
+"9.normalTitle" = "註冊";
+
+/* Class = "UITextField"; placeholder = "设置密码"; ObjectID = "19"; */
+"19.placeholder" = "設置密碼";
+
+/* Class = "UITextField"; placeholder = "请输入手机号码"; ObjectID = "22"; */
+"22.placeholder" = "請輸入手機號碼";
+
+/* Class = "UITextField"; placeholder = "请再次输入密码"; ObjectID = "24"; */
+"24.placeholder" = "請再次輸入密碼";
+
+/* Class = "UILabel"; text = "Worldwide Coin Trade"; ObjectID = "0wh-5R-nch"; */
+"0wh-5R-nch.text" = "Worldwide Coin Trade";
+
+/* Class = "UIButton"; normalTitle = "《隐私条款》"; ObjectID = "22B-RW-1og"; */
+"22B-RW-1og.normalTitle" = "《隱私條款》";
+
+/* Class = "UILabel"; text = "+1"; ObjectID = "R4q-H0-EJS"; */
+"R4q-H0-EJS.text" = "+1";
+
+/* Class = "UILabel"; text = "点击注册即表示您已经阅读并同意W.W.C.T的"; ObjectID = "SeM-fo-ao2"; */
+"SeM-fo-ao2.text" = "點擊註冊即表示您已經閱讀並同意Leader Coin的";
+
+/* Class = "UILabel"; text = "提示:密码必须是8-16位数字与字母组合"; ObjectID = "Vgu-GU-vGZ"; */
+"Vgu-GU-vGZ.text" = "提示:密碼必須是8-16位數字與字母組合";
+
+/* Class = "UILabel"; text = "美国"; ObjectID = "WL3-ZB-WuB"; */
+"WL3-ZB-WuB.text" = "美國";
+
+/* Class = "UIButton"; normalTitle = "《用户协议》"; ObjectID = "YaW-Fy-iAk"; */
+"YaW-Fy-iAk.normalTitle" = "《用戶協議》";
+
+/* Class = "UILabel"; text = "注册"; ObjectID = "g7r-7x-iYI"; */
+"g7r-7x-iYI.text" = "註冊";
+
+/* Class = "UIButton"; normalTitle = "Register with Email"; ObjectID = "lEM-Ja-ATg"; */
+"lEM-Ja-ATg.normalTitle" = "郵箱註冊";
+
+/* Class = "UILabel"; text = "环球数字资产交易平台"; ObjectID = "sSZ-Tb-9Lo"; */
+"sSZ-Tb-9Lo.text" = "環球數字資產交易平台";
+
+/* Class = "UITextField"; placeholder = "请填写邀请码(必填)"; ObjectID = "vUt-E2-J20"; */
+"vUt-E2-J20.placeholder" = "請填寫邀請碼";

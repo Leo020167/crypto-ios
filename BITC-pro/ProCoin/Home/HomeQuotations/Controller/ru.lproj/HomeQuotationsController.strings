@@ -1,0 +1,15 @@
+
+/* Class = "UIButton"; normalTitle = "自选"; ObjectID = "0Sr-oK-44O"; */
+"0Sr-oK-44O.normalTitle" = "自选";
+
+/* Class = "UILabel"; text = "行情"; ObjectID = "PKE-Jc-uW8"; */
+"PKE-Jc-uW8.text" = "行情";
+
+/* Class = "UIButton"; normalTitle = "FX"; ObjectID = "bSO-3u-Ocv"; */
+"bSO-3u-Ocv.normalTitle" = "FX";
+
+/* Class = "UIButton"; normalTitle = "国际期货"; ObjectID = "gom-Gl-Jvs"; */
+"gom-Gl-Jvs.normalTitle" = "国际期货";
+
+/* Class = "UIButton"; normalTitle = "数字货币"; ObjectID = "mWk-LO-bza"; */
+"mWk-LO-bza.normalTitle" = "数字货币";

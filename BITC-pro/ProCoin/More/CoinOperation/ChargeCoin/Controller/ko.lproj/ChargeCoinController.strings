@@ -1,0 +1,54 @@
+
+/* Class = "UIButton"; normalTitle = "充值确认"; ObjectID = "2ep-c4-baR"; */
+"2ep-c4-baR.normalTitle" = "충전 확인";
+
+/* Class = "UIButton"; normalTitle = "复制"; ObjectID = "7Pg-b3-RS9"; */
+"7Pg-b3-RS9.normalTitle" = "复制";
+
+/* Class = "UILabel"; text = "▽"; ObjectID = "FRx-Wh-qEa"; */
+"FRx-Wh-qEa.text" = "▽";
+
+/* Class = "UILabel"; text = "充值數量"; ObjectID = "HaK-AM-nhl"; */
+"HaK-AM-nhl.text" = "충전량";
+
+/* Class = "UILabel"; text = "选择币种"; ObjectID = "OKy-dg-cQm"; */
+"OKy-dg-cQm.text" = "통화 선택";
+
+/* Class = "UIButton"; normalTitle = "充提币记录"; ObjectID = "REy-ab-7sH"; */
+"REy-ab-7sH.normalTitle" = "입출금 기록";
+
+/* Class = "UILabel"; text = "当前链路："; ObjectID = "TKy-It-7Oa"; */
+"TKy-It-7Oa.text" = "현재 링크:";
+
+/* Class = "UILabel"; text = "上传凭证"; ObjectID = "XjL-Qx-MDL"; */
+"XjL-Qx-MDL.text" = "上传凭证";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "crX-cD-7Vr"; */
+"crX-cD-7Vr.text" = "0";
+
+/* Class = "UILabel"; text = "可用余额（USDT）"; ObjectID = "dMT-fc-ILV"; */
+"dMT-fc-ILV.text" = "사용가능잔고(USDT)";
+
+/* Class = "UILabel"; text = "---"; ObjectID = "hld-7J-klP"; */
+"hld-7J-klP.text" = "---";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "nHx-fO-Abw"; */
+"nHx-fO-Abw.text" = "0";
+
+/* Class = "UILabel"; text = "选择充币网络"; ObjectID = "pAf-Ue-FNM"; */
+"pAf-Ue-FNM.text" = "입금 네트워크 선택";
+
+/* Class = "UILabel"; text = "只允許充值USDT"; ObjectID = "rSU-4l-vv0"; */
+"rSU-4l-vv0.text" = "충전 만 허용됩니다%@";
+
+/* Class = "UIButton"; normalTitle = "BTC"; ObjectID = "rcV-rG-9jR"; */
+"rcV-rG-9jR.normalTitle" = "BTC";
+
+/* Class = "UILabel"; text = "最小充值金额（USDT）"; ObjectID = "sKe-3A-fYT"; */
+"sKe-3A-fYT.text" = "최소 충전 금액（USDT）";
+
+/* Class = "UILabel"; text = "充币地址"; ObjectID = "ufW-He-ADA"; */
+"ufW-He-ADA.text" = "입금 주소";
+
+/* Class = "UILabel"; text = "充币"; ObjectID = "xue-PI-C0v"; */
+"xue-PI-C0v.text" = "보증금";

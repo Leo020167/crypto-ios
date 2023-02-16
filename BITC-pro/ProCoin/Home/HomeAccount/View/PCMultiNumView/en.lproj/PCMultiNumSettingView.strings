@@ -1,0 +1,12 @@
+
+/* Class = "UILabel"; text = "倍数"; ObjectID = "5Yp-GB-PY7"; */
+"5Yp-GB-PY7.text" = "multiple";
+
+/* Class = "UILabel"; text = "跟单倍数设置"; ObjectID = "NUA-zC-MZz"; */
+"NUA-zC-MZz.text" = "Copy single multiple setting";
+
+/* Class = "UILabel"; text = "倍"; ObjectID = "djv-Fv-vCC"; */
+"djv-Fv-vCC.text" = "multiple";
+
+/* Class = "UIButton"; normalTitle = "确定"; ObjectID = "f8p-yh-FO1"; */
+"f8p-yh-FO1.normalTitle" = "Sure";

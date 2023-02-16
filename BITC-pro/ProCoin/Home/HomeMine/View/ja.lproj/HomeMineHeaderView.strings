@@ -1,0 +1,21 @@
+
+/* Class = "UILabel"; text = "充币"; ObjectID = "2dc-Yr-3Kf"; */
+"2dc-Yr-3Kf.text" = "貨幣をチャージする";
+
+/* Class = "UILabel"; text = "提币"; ObjectID = "IzF-Pz-SnT"; */
+"IzF-Pz-SnT.text" = "貨幣をさげる";
+
+/* Class = "UILabel"; text = "余额提现"; ObjectID = "VHG-Oc-ouJ"; */
+"VHG-Oc-ouJ.text" = "法貨売買";
+
+/* Class = "UILabel"; text = "昵称"; ObjectID = "VYw-qt-Ut9"; */
+"VYw-qt-Ut9.text" = "ニックネーム";
+
+/* Class = "UILabel"; text = "ID："; ObjectID = "dnL-CF-Uom"; */
+"dnL-CF-Uom.text" = "ID：";
+
+/* Class = "UILabel"; text = "---"; ObjectID = "jx4-7z-06x"; */
+"jx4-7z-06x.text" = "---";
+
+/* Class = "UILabel"; text = "划转"; ObjectID = "wUc-ED-fCm"; */
+"wUc-ED-fCm.text" = "スイープ";

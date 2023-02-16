@@ -1,0 +1,36 @@
+
+/* Class = "UILabel"; text = "输入身份信息"; ObjectID = "8aB-P7-qyZ"; */
+"8aB-P7-qyZ.text" = "Enter ID information";
+
+/* Class = "UILabel"; text = "选择人像页"; ObjectID = "F0Z-V8-sf7"; */
+"F0Z-V8-sf7.text" = "Choose a portrait page";
+
+/* Class = "UILabel"; text = "证件号码"; ObjectID = "FWL-e9-Bqb"; */
+"FWL-e9-Bqb.text" = "ID number";
+
+/* Class = "UITextField"; placeholder = "请输入证件姓名"; ObjectID = "HUs-ng-c0s"; */
+"HUs-ng-c0s.placeholder" = "Please enter ID name";
+
+/* Class = "UILabel"; text = "姓名"; ObjectID = "Jtf-SW-w5k"; */
+"Jtf-SW-w5k.text" = "Name";
+
+/* Class = "UILabel"; text = "选择国徽页"; ObjectID = "Km8-v9-8ck"; */
+"Km8-v9-8ck.text" = "Select the national emblem page";
+
+/* Class = "UILabel"; text = "上传图片"; ObjectID = "QmJ-Hu-A37"; */
+"QmJ-Hu-A37.text" = "Upload ID photo";
+
+/* Class = "UITextField"; placeholder = "请输入证件号码"; ObjectID = "VHL-dz-iFJ"; */
+"VHL-dz-iFJ.placeholder" = "Please enter your ID number";
+
+/* Class = "UIButton"; normalTitle = "完成"; ObjectID = "YnX-yJ-0Dw"; */
+"YnX-yJ-0Dw.normalTitle" = "Completed";
+
+/* Class = "UILabel"; text = "• 上传的证件照将进行防盗水印处理，我们严格遵照法律法规，保护您的个人私隐。"; ObjectID = "doD-Eu-Fcs"; */
+"doD-Eu-Fcs.text" = "• The uploaded ID photo will be processed with an anti-theft watermark. We strictly follow the laws and regulations to protect your privacy";
+
+/* Class = "UILabel"; text = "实名认证"; ObjectID = "nmT-cL-cDJ"; */
+"nmT-cL-cDJ.text" = "Real-Name Verification";
+
+/* Class = "UILabel"; text = "状态"; ObjectID = "pLg-in-eTi"; */
+"pLg-in-eTi.text" = "Status";

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment version="2304" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="V7y-LN-cVo" customClass="RZFaceTextInputView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="498"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3em-lQ-iK5" customClass="UIControl">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="452"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <connections>
+                        <action selector="backgroundOperationEvent:" destination="V7y-LN-cVo" eventType="touchDown" id="1kS-Ei-Hra"/>
+                        <action selector="backgroundOperationEvent:" destination="V7y-LN-cVo" eventType="touchDragEnter" id="Tb6-7L-aK5"/>
+                    </connections>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sIL-a1-awH">
+                    <rect key="frame" x="0.0" y="452" width="375" height="46"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Y7M-0a-pHn" customClass="HPGrowingTextView">
+                            <rect key="frame" x="10" y="5" width="321" height="36"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </view>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5V5-EX-Og7">
+                            <rect key="frame" x="336" y="4" width="34" height="38"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="34" id="ARW-Dt-r8O"/>
+                                <constraint firstAttribute="height" constant="38" id="m2f-0H-7iz"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                            <state key="normal" image="circleChat_face_icon_btn">
+                                <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <state key="highlighted">
+                                <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="faceButtonPressed:" destination="V7y-LN-cVo" eventType="touchUpInside" id="hP3-RE-8TS"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="0.69803921570000005" green="0.69803921570000005" blue="0.69803921570000005" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstItem="5V5-EX-Og7" firstAttribute="leading" secondItem="Y7M-0a-pHn" secondAttribute="trailing" constant="5" id="CuC-6a-pzu"/>
+                        <constraint firstAttribute="height" constant="46" id="Z1b-7I-LvX"/>
+                        <constraint firstItem="Y7M-0a-pHn" firstAttribute="top" secondItem="sIL-a1-awH" secondAttribute="top" constant="5" id="ZPf-M8-8LX"/>
+                        <constraint firstItem="Y7M-0a-pHn" firstAttribute="leading" secondItem="sIL-a1-awH" secondAttribute="leading" constant="10" id="g3r-Xo-VWT"/>
+                        <constraint firstAttribute="bottom" secondItem="Y7M-0a-pHn" secondAttribute="bottom" constant="5" id="mAM-OO-zXP"/>
+                        <constraint firstItem="5V5-EX-Og7" firstAttribute="centerY" secondItem="sIL-a1-awH" secondAttribute="centerY" id="pMu-CO-u3T"/>
+                        <constraint firstAttribute="trailing" secondItem="5V5-EX-Og7" secondAttribute="trailing" constant="5" id="qEj-RM-8B6"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="3em-lQ-iK5" firstAttribute="top" secondItem="V7y-LN-cVo" secondAttribute="top" id="5ha-RB-pW8"/>
+                <constraint firstItem="sIL-a1-awH" firstAttribute="top" secondItem="3em-lQ-iK5" secondAttribute="bottom" id="Ds8-s1-h3K"/>
+                <constraint firstAttribute="bottom" secondItem="sIL-a1-awH" secondAttribute="bottom" id="GjL-zk-x7m"/>
+                <constraint firstItem="EMe-rB-BDA" firstAttribute="trailing" secondItem="3em-lQ-iK5" secondAttribute="trailing" id="VM5-B2-3vO"/>
+                <constraint firstItem="sIL-a1-awH" firstAttribute="trailing" secondItem="EMe-rB-BDA" secondAttribute="trailing" id="XNz-hy-ZPD"/>
+                <constraint firstItem="3em-lQ-iK5" firstAttribute="leading" secondItem="V7y-LN-cVo" secondAttribute="leading" id="qIo-pd-x1h"/>
+                <constraint firstItem="sIL-a1-awH" firstAttribute="leading" secondItem="EMe-rB-BDA" secondAttribute="leading" id="qJc-kR-Q6e"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="EMe-rB-BDA"/>
+            <connections>
+                <outlet property="backgroundView" destination="3em-lQ-iK5" id="1U0-Ku-HX6"/>
+                <outlet property="faceButton" destination="5V5-EX-Og7" id="dl7-vg-OL2"/>
+                <outlet property="growingTextView" destination="Y7M-0a-pHn" id="cSW-TV-aMa"/>
+                <outlet property="inputView" destination="sIL-a1-awH" id="c3r-9h-EGv"/>
+                <outlet property="inputViewLayoutBottomConstraint" destination="GjL-zk-x7m" id="FWG-w5-6fl"/>
+            </connections>
+            <point key="canvasLocation" x="557.60000000000002" y="-377.81109445277366"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="circleChat_face_icon_btn" width="30" height="30"/>
+    </resources>
+</document>

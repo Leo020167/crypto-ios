@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment version="2304" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="v3H-fk-RVx" customClass="PersonalLineHeaderView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="250"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uxU-Zo-7bs">
+                    <rect key="frame" x="0.0" y="15" width="95" height="35"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="35" id="1UM-HF-uz7"/>
+                        <constraint firstAttribute="width" constant="95" id="XZr-ff-l2n"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <state key="normal" title="业绩走势">
+                        <color key="titleColor" red="0.11372549019607843" green="0.19215686274509802" blue="0.33333333333333331" alpha="0.40000000000000002" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <state key="selected">
+                        <color key="titleColor" red="0.38039215686274508" green="0.45882352941176469" blue="0.68235294117647061" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="kindOptionsButtonPressed:" destination="v3H-fk-RVx" eventType="touchUpInside" id="rtg-3R-LSl"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ShB-lX-1k6">
+                    <rect key="frame" x="95" y="15" width="95" height="35"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="35" id="dpN-CF-mCV"/>
+                        <constraint firstAttribute="width" constant="95" id="jCe-tc-DY8"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <state key="normal" title="跟单人气">
+                        <color key="titleColor" red="0.11372549019607843" green="0.19215686274509802" blue="0.33333333333333331" alpha="0.40000000000000002" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <state key="selected">
+                        <color key="titleColor" red="0.38039215686274508" green="0.45882352941176469" blue="0.68235294117647061" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="kindOptionsButtonPressed:" destination="v3H-fk-RVx" eventType="touchUpInside" id="fHN-wn-L82"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BO6-oZ-B3t">
+                    <rect key="frame" x="190" y="15" width="95" height="35"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="95" id="93c-F9-Ypz"/>
+                        <constraint firstAttribute="height" constant="35" id="dYD-9z-GfW"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <state key="normal" title="交易次数">
+                        <color key="titleColor" red="0.11372549019607843" green="0.19215686274509802" blue="0.33333333333333331" alpha="0.40000000000000002" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <state key="selected">
+                        <color key="titleColor" red="0.38039215686274508" green="0.45882352941176469" blue="0.68235294117647061" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="kindOptionsButtonPressed:" destination="v3H-fk-RVx" eventType="touchUpInside" id="uM5-J4-wIg"/>
+                    </connections>
+                </button>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="6ZF-VQ-SNV">
+                    <rect key="frame" x="35" y="49" width="26" height="3"/>
+                    <color key="backgroundColor" red="0.38039215686274508" green="0.45882352941176469" blue="0.68235294117647061" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="26" id="j1N-EY-2Gr"/>
+                        <constraint firstAttribute="height" constant="3" id="oHg-3c-tlu"/>
+                    </constraints>
+                </imageView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kJi-Y5-zQ1">
+                    <rect key="frame" x="0.0" y="60" width="375" height="30"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WY6-Bt-MCG">
+                            <rect key="frame" x="0.0" y="0.0" width="94" height="30"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                            <state key="normal" title="一个月">
+                                <color key="titleColor" red="0.23921568627450979" green="0.22745098039215686" blue="0.31372549019607843" alpha="0.40000000000000002" colorSpace="deviceRGB"/>
+                            </state>
+                            <state key="selected">
+                                <color key="titleColor" red="0.38039215686274508" green="0.45882352941176469" blue="0.68235294117647061" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="dateOptionsButtonPressed:" destination="v3H-fk-RVx" eventType="touchUpInside" id="Ssf-lj-KQ8"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zWQ-7v-UHh">
+                            <rect key="frame" x="94" y="0.0" width="93.5" height="30"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                            <state key="normal" title="三个月">
+                                <color key="titleColor" red="0.23921568627450979" green="0.22745098039215686" blue="0.31372549019607843" alpha="0.40000000000000002" colorSpace="deviceRGB"/>
+                            </state>
+                            <state key="selected">
+                                <color key="titleColor" red="0.38039215686274508" green="0.45882352941176469" blue="0.68235294117647061" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="dateOptionsButtonPressed:" destination="v3H-fk-RVx" eventType="touchUpInside" id="cYm-xF-Lkz"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L12-bj-fQf">
+                            <rect key="frame" x="187.5" y="0.0" width="94" height="30"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                            <state key="normal" title="六个月">
+                                <color key="titleColor" red="0.23921568627450979" green="0.22745098039215686" blue="0.31372549019607843" alpha="0.40000000000000002" colorSpace="deviceRGB"/>
+                            </state>
+                            <state key="selected">
+                                <color key="titleColor" red="0.38039215686274508" green="0.45882352941176469" blue="0.68235294117647061" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="dateOptionsButtonPressed:" destination="v3H-fk-RVx" eventType="touchUpInside" id="GN8-Gm-f6P"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6V4-Dm-Fy5">
+                            <rect key="frame" x="281.5" y="0.0" width="93.5" height="30"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                            <state key="normal" title="一年">
+                                <color key="titleColor" red="0.23921568627450979" green="0.22745098039215686" blue="0.31372549019607843" alpha="0.40000000000000002" colorSpace="deviceRGB"/>
+                            </state>
+                            <state key="selected">
+                                <color key="titleColor" red="0.38039215686274508" green="0.45882352941176469" blue="0.68235294117647061" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="dateOptionsButtonPressed:" destination="v3H-fk-RVx" eventType="touchUpInside" id="zO3-ZN-uhV"/>
+                            </connections>
+                        </button>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="n43-z9-FpO">
+                            <rect key="frame" x="17" y="0.0" width="60" height="30"/>
+                            <color key="backgroundColor" red="0.38039215686274508" green="0.45882352941176469" blue="0.68235294117647061" alpha="0.10000000000000001" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="60" id="MoE-DJ-Uz0"/>
+                            </constraints>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                    <integer key="value" value="13"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="n43-z9-FpO" firstAttribute="leading" secondItem="kJi-Y5-zQ1" secondAttribute="leading" constant="17" id="2Ce-jN-GE5"/>
+                        <constraint firstItem="zWQ-7v-UHh" firstAttribute="leading" secondItem="WY6-Bt-MCG" secondAttribute="trailing" id="2dG-tf-XJC"/>
+                        <constraint firstItem="WY6-Bt-MCG" firstAttribute="width" secondItem="zWQ-7v-UHh" secondAttribute="width" id="D5S-2D-MD5"/>
+                        <constraint firstItem="n43-z9-FpO" firstAttribute="centerY" secondItem="kJi-Y5-zQ1" secondAttribute="centerY" id="DAQ-zq-xCd"/>
+                        <constraint firstAttribute="bottom" secondItem="zWQ-7v-UHh" secondAttribute="bottom" id="Dkl-Bg-7Xz"/>
+                        <constraint firstAttribute="height" constant="30" id="H0j-oN-Cn4"/>
+                        <constraint firstItem="L12-bj-fQf" firstAttribute="leading" secondItem="zWQ-7v-UHh" secondAttribute="trailing" id="I2C-q3-W8g"/>
+                        <constraint firstItem="WY6-Bt-MCG" firstAttribute="width" secondItem="6V4-Dm-Fy5" secondAttribute="width" id="Rfo-he-BRb"/>
+                        <constraint firstItem="6V4-Dm-Fy5" firstAttribute="leading" secondItem="L12-bj-fQf" secondAttribute="trailing" id="WKz-gV-Ihb"/>
+                        <constraint firstAttribute="bottom" secondItem="L12-bj-fQf" secondAttribute="bottom" id="Wd7-DB-y7I"/>
+                        <constraint firstItem="L12-bj-fQf" firstAttribute="top" secondItem="kJi-Y5-zQ1" secondAttribute="top" id="XoP-Ks-moQ"/>
+                        <constraint firstItem="L12-bj-fQf" firstAttribute="leading" secondItem="zWQ-7v-UHh" secondAttribute="trailing" id="ZtM-Ot-iXx"/>
+                        <constraint firstAttribute="trailing" secondItem="6V4-Dm-Fy5" secondAttribute="trailing" id="e1h-7W-Tb8"/>
+                        <constraint firstAttribute="bottom" secondItem="WY6-Bt-MCG" secondAttribute="bottom" id="fKo-sb-nIG"/>
+                        <constraint firstItem="6V4-Dm-Fy5" firstAttribute="top" secondItem="kJi-Y5-zQ1" secondAttribute="top" id="fbQ-pR-M2t"/>
+                        <constraint firstItem="WY6-Bt-MCG" firstAttribute="top" secondItem="kJi-Y5-zQ1" secondAttribute="top" id="hH4-Mf-4XE"/>
+                        <constraint firstItem="WY6-Bt-MCG" firstAttribute="leading" secondItem="kJi-Y5-zQ1" secondAttribute="leading" id="kNL-i9-UD0"/>
+                        <constraint firstItem="WY6-Bt-MCG" firstAttribute="width" secondItem="L12-bj-fQf" secondAttribute="width" id="lzb-G9-Fik"/>
+                        <constraint firstItem="zWQ-7v-UHh" firstAttribute="leading" secondItem="WY6-Bt-MCG" secondAttribute="trailing" id="p0m-U7-TZd"/>
+                        <constraint firstAttribute="bottom" secondItem="6V4-Dm-Fy5" secondAttribute="bottom" id="p21-at-Tzj"/>
+                        <constraint firstItem="6V4-Dm-Fy5" firstAttribute="leading" secondItem="L12-bj-fQf" secondAttribute="trailing" id="soV-BI-4ng"/>
+                        <constraint firstItem="n43-z9-FpO" firstAttribute="height" secondItem="WY6-Bt-MCG" secondAttribute="height" id="uYY-RR-nas"/>
+                        <constraint firstItem="zWQ-7v-UHh" firstAttribute="top" secondItem="kJi-Y5-zQ1" secondAttribute="top" id="wU4-Pu-pTT"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pAv-hZ-Wrg">
+                    <rect key="frame" x="0.0" y="90" width="375" height="160"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="ShB-lX-1k6" firstAttribute="top" secondItem="v3H-fk-RVx" secondAttribute="top" constant="15" id="3lV-hf-Rkj"/>
+                <constraint firstItem="ZGZ-mx-jex" firstAttribute="trailing" secondItem="kJi-Y5-zQ1" secondAttribute="trailing" id="3oX-TP-PCM"/>
+                <constraint firstItem="ZGZ-mx-jex" firstAttribute="bottom" secondItem="pAv-hZ-Wrg" secondAttribute="bottom" id="7Dd-j5-eiL"/>
+                <constraint firstItem="kJi-Y5-zQ1" firstAttribute="top" secondItem="uxU-Zo-7bs" secondAttribute="bottom" constant="10" id="9fv-VD-JGe"/>
+                <constraint firstItem="6ZF-VQ-SNV" firstAttribute="leading" secondItem="v3H-fk-RVx" secondAttribute="leading" constant="35" id="Hqo-io-6wd"/>
+                <constraint firstItem="BO6-oZ-B3t" firstAttribute="top" secondItem="v3H-fk-RVx" secondAttribute="top" constant="15" id="JKD-j6-PgD"/>
+                <constraint firstItem="pAv-hZ-Wrg" firstAttribute="top" secondItem="kJi-Y5-zQ1" secondAttribute="bottom" id="R0j-Oc-Avw"/>
+                <constraint firstItem="6ZF-VQ-SNV" firstAttribute="bottom" secondItem="uxU-Zo-7bs" secondAttribute="bottom" constant="2" id="Svu-HS-59K"/>
+                <constraint firstItem="ShB-lX-1k6" firstAttribute="leading" secondItem="uxU-Zo-7bs" secondAttribute="trailing" id="XYl-Ko-3A3"/>
+                <constraint firstItem="pAv-hZ-Wrg" firstAttribute="leading" secondItem="ZGZ-mx-jex" secondAttribute="leading" id="b4j-XW-O2I"/>
+                <constraint firstItem="uxU-Zo-7bs" firstAttribute="top" secondItem="v3H-fk-RVx" secondAttribute="top" constant="15" id="ckK-HF-mwq"/>
+                <constraint firstItem="ZGZ-mx-jex" firstAttribute="trailing" secondItem="pAv-hZ-Wrg" secondAttribute="trailing" id="gxV-Sg-UTk"/>
+                <constraint firstItem="BO6-oZ-B3t" firstAttribute="leading" secondItem="ShB-lX-1k6" secondAttribute="trailing" id="nNw-Ns-GtA"/>
+                <constraint firstItem="kJi-Y5-zQ1" firstAttribute="leading" secondItem="ZGZ-mx-jex" secondAttribute="leading" id="pxs-h9-Apr"/>
+                <constraint firstItem="uxU-Zo-7bs" firstAttribute="leading" secondItem="ZGZ-mx-jex" secondAttribute="leading" id="tc3-6M-RfF"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="ZGZ-mx-jex"/>
+            <connections>
+                <outlet property="followNumButton" destination="ShB-lX-1k6" id="WbS-z4-IqV"/>
+                <outlet property="indicatorIV" destination="6ZF-VQ-SNV" id="YAA-mL-mnZ"/>
+                <outlet property="indicatorLayoutConstraintLeading" destination="Hqo-io-6wd" id="QvP-Pt-t1Z"/>
+                <outlet property="lineChartView" destination="pAv-hZ-Wrg" id="RYs-mM-N4N"/>
+                <outlet property="oneMonthButton" destination="WY6-Bt-MCG" id="oZf-qE-oTq"/>
+                <outlet property="oneYearButton" destination="6V4-Dm-Fy5" id="agZ-aR-S9s"/>
+                <outlet property="secondaryIndicatorIVLayoutConstraintLeading" destination="2Ce-jN-GE5" id="8U1-bz-UQU"/>
+                <outlet property="sixMonthsButton" destination="L12-bj-fQf" id="hka-rh-mr5"/>
+                <outlet property="threeMonthsButton" destination="zWQ-7v-UHh" id="aOa-mc-doi"/>
+                <outlet property="tradeNumButton" destination="BO6-oZ-B3t" id="AGq-YF-qwR"/>
+                <outlet property="trendNumButton" destination="uxU-Zo-7bs" id="xBF-2s-XTY"/>
+            </connections>
+            <point key="canvasLocation" x="80.799999999999997" y="-477.66116941529236"/>
+        </view>
+    </objects>
+</document>

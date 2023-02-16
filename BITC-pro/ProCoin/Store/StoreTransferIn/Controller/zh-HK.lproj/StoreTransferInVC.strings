@@ -1,0 +1,21 @@
+
+/* Class = "UILabel"; text = "可用数量:"; ObjectID = "4bM-5n-GW1"; */
+"4bM-5n-GW1.text" = "可用數量:";
+
+/* Class = "UILabel"; text = "转入--数量到存币宝"; ObjectID = "9eB-pV-UZ5"; */
+"9eB-pV-UZ5.text" = "轉入--數量到存幣寶";
+
+/* Class = "UILabel"; text = "转入"; ObjectID = "NRA-46-QsN"; */
+"NRA-46-QsN.text" = "轉入";
+
+/* Class = "UITextField"; placeholder = "请最低转入100"; ObjectID = "NZf-Ke-Pyt"; */
+"NZf-Ke-Pyt.placeholder" = "請最低轉入100";
+
+/* Class = "UIButton"; normalTitle = "确认转入"; ObjectID = "cmq-FW-TGG"; */
+"cmq-FW-TGG.normalTitle" = "確認轉入";
+
+/* Class = "UIButton"; normalTitle = "全部"; ObjectID = "jzO-3q-iOL"; */
+"jzO-3q-iOL.normalTitle" = "全部";
+
+/* Class = "UILabel"; text = "USDT"; ObjectID = "yMz-8e-utn"; */
+"yMz-8e-utn.text" = "USDT";

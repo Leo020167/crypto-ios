@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment version="2304" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="K9x-XP-WPO">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="30"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="币种" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GcN-Qm-pdp">
+                    <rect key="frame" x="15" y="7.5" width="111.5" height="15"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <color key="textColor" red="0.23921568627450979" green="0.22745098039215686" blue="0.31372549019607843" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="数量" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QZO-Bt-vR0">
+                    <rect key="frame" x="131.5" y="8" width="112" height="14.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <color key="textColor" red="0.23921568627450979" green="0.22745098039215686" blue="0.31372549019607843" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="市值" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hix-Nx-B1Z">
+                    <rect key="frame" x="248.5" y="7.5" width="111.5" height="15"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <color key="textColor" red="0.23921568627450979" green="0.22745098039215686" blue="0.31372549019607843" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="QZO-Bt-vR0" firstAttribute="centerY" secondItem="GcN-Qm-pdp" secondAttribute="centerY" id="4xs-lp-M6g"/>
+                <constraint firstItem="GcN-Qm-pdp" firstAttribute="centerY" secondItem="K9x-XP-WPO" secondAttribute="centerY" id="7lN-s3-M3r"/>
+                <constraint firstItem="GcN-Qm-pdp" firstAttribute="width" secondItem="QZO-Bt-vR0" secondAttribute="width" id="UXD-aQ-4Nr"/>
+                <constraint firstItem="GcN-Qm-pdp" firstAttribute="width" secondItem="Hix-Nx-B1Z" secondAttribute="width" id="XYr-cd-dgM"/>
+                <constraint firstItem="QZO-Bt-vR0" firstAttribute="leading" secondItem="GcN-Qm-pdp" secondAttribute="trailing" constant="5" id="ftj-aX-juF"/>
+                <constraint firstItem="Hix-Nx-B1Z" firstAttribute="leading" secondItem="QZO-Bt-vR0" secondAttribute="trailing" constant="5" id="kNZ-08-qw3"/>
+                <constraint firstItem="GcN-Qm-pdp" firstAttribute="leading" secondItem="K9x-XP-WPO" secondAttribute="leading" constant="15" id="lJA-OO-2xd"/>
+                <constraint firstAttribute="trailing" secondItem="Hix-Nx-B1Z" secondAttribute="trailing" constant="15" id="pSH-xF-RZt"/>
+                <constraint firstItem="Hix-Nx-B1Z" firstAttribute="centerY" secondItem="GcN-Qm-pdp" secondAttribute="centerY" id="pT6-39-ia6"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="488.80000000000001" y="878.86056971514245"/>
+        </view>
+    </objects>
+</document>

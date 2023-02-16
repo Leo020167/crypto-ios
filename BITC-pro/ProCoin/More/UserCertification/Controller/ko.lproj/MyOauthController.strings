@@ -1,0 +1,36 @@
+
+/* Class = "UILabel"; text = "输入身份证信息"; ObjectID = "8aB-P7-qyZ"; */
+"8aB-P7-qyZ.text" = "輸入證件信息";
+
+/* Class = "UILabel"; text = "选择人像页"; ObjectID = "F0Z-V8-sf7"; */
+"F0Z-V8-sf7.text" = "選擇正面";
+
+/* Class = "UILabel"; text = "证件号码"; ObjectID = "FWL-e9-Bqb"; */
+"FWL-e9-Bqb.text" = "證件號碼";
+
+/* Class = "UITextField"; placeholder = "请输入证件姓名"; ObjectID = "HUs-ng-c0s"; */
+"HUs-ng-c0s.placeholder" = "請輸入證件姓名";
+
+/* Class = "UILabel"; text = "姓名"; ObjectID = "Jtf-SW-w5k"; */
+"Jtf-SW-w5k.text" = "姓名";
+
+/* Class = "UILabel"; text = "选择国徽页"; ObjectID = "Km8-v9-8ck"; */
+"Km8-v9-8ck.text" = "選擇反面";
+
+/* Class = "UILabel"; text = "上传图片"; ObjectID = "QmJ-Hu-A37"; */
+"QmJ-Hu-A37.text" = "上傳證件照片";
+
+/* Class = "UITextField"; placeholder = "请输入证件号码"; ObjectID = "VHL-dz-iFJ"; */
+"VHL-dz-iFJ.placeholder" = "輸入證件號碼";
+
+/* Class = "UIButton"; normalTitle = "完成"; ObjectID = "YnX-yJ-0Dw"; */
+"YnX-yJ-0Dw.normalTitle" = "完成";
+
+/* Class = "UILabel"; text = "• 上传的证件照将进行防盗水印处理，我们严格遵照法律法规，保护您的个人私隐。"; ObjectID = "doD-Eu-Fcs"; */
+"doD-Eu-Fcs.text" = "•上傳的證件照將進行防盜水印處理，我們嚴格遵照法律法規，保護您的個人私隱。";
+
+/* Class = "UILabel"; text = "实名认证"; ObjectID = "nmT-cL-cDJ"; */
+"nmT-cL-cDJ.text" = "實名認證";
+
+/* Class = "UILabel"; text = "状态"; ObjectID = "pLg-in-eTi"; */
+"pLg-in-eTi.text" = "狀態";

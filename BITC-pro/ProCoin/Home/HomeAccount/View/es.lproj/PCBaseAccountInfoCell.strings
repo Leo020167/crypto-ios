@@ -1,0 +1,39 @@
+
+/* Class = "UILabel"; text = "---"; ObjectID = "35A-T4-ZJG"; */
+"35A-T4-ZJG.text" = "---";
+
+/* Class = "UILabel"; text = "---%"; ObjectID = "7ba-ap-oy6"; */
+"7ba-ap-oy6.text" = "---%";
+
+/* Class = "UILabel"; text = "---总资产(USDT)"; ObjectID = "Dmb-ST-NIW"; */
+"Dmb-ST-NIW.text" = "---总资产(USDT)";
+
+/* Class = "UILabel"; text = "---"; ObjectID = "Pkf-vB-vBf"; */
+"Pkf-vB-vBf.text" = "---";
+
+/* Class = "UILabel"; text = "---"; ObjectID = "TUG-AL-IiJ"; */
+"TUG-AL-IiJ.text" = "---";
+
+/* Class = "UILabel"; text = "---"; ObjectID = "V7r-mL-oHM"; */
+"V7r-mL-oHM.text" = "---";
+
+/* Class = "UILabel"; text = "---"; ObjectID = "Wae-FA-QR9"; */
+"Wae-FA-QR9.text" = "---";
+
+/* Class = "UILabel"; text = "未实现盈亏(USDT)"; ObjectID = "a0V-bE-1PH"; */
+"a0V-bE-1PH.text" = "未实现盈亏(USDT)";
+
+/* Class = "UILabel"; text = "风险率"; ObjectID = "mrB-2T-C5c"; */
+"mrB-2T-C5c.text" = "风险率";
+
+/* Class = "UILabel"; text = "持仓保证金(USDT)"; ObjectID = "rY0-Ir-1rw"; */
+"rY0-Ir-1rw.text" = "持仓保证金(USDT)";
+
+/* Class = "UILabel"; text = "可用保证金(USDT)"; ObjectID = "tzn-GD-dOA"; */
+"tzn-GD-dOA.text" = "可用保证金(USDT)";
+
+/* Class = "UILabel"; text = "---"; ObjectID = "u9r-JW-OJe"; */
+"u9r-JW-OJe.text" = "---";
+
+/* Class = "UILabel"; text = "冻结保证金(USDT)"; ObjectID = "yT5-Ok-6rV"; */
+"yT5-Ok-6rV.text" = "冻结保证金(USDT)";

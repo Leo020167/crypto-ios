@@ -1,0 +1,9 @@
+
+/* Class = "UILabel"; text = "输入交易密码"; ObjectID = "Ibh-yV-Egl"; */
+"Ibh-yV-Egl.text" = "トランザクションパスワードの入力";
+
+/* Class = "UILabel"; text = "你正在提现操作，¥ 1"; ObjectID = "Wd5-Uw-DDK"; */
+"Wd5-Uw-DDK.text" = "キャッシュアウトしています，¥ 1";
+
+/* Class = "UIButton"; normalTitle = "交易密码管理"; ObjectID = "kOl-Vj-895"; */
+"kOl-Vj-895.normalTitle" = "トランザクションパスワード管理";

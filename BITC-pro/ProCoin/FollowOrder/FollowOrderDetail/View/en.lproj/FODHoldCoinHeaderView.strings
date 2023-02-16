@@ -1,0 +1,6 @@
+
+/* Class = "UILabel"; text = "隐藏小额币种"; ObjectID = "caO-sK-YWe"; */
+"caO-sK-YWe.text" = "Hide small amount of currency";
+
+/* Class = "UILabel"; text = "跟单持仓"; ObjectID = "si4-UK-HWJ"; */
+"si4-UK-HWJ.text" = "Follow-up Order Position";

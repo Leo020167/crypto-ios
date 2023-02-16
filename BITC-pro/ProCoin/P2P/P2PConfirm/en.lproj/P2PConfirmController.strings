@@ -1,0 +1,75 @@
+
+/* Class = "UILabel"; text = "-"; ObjectID = "5eX-jO-gB1"; */
+"5eX-jO-gB1.text" = "-";
+
+/* Class = "UILabel"; text = "订单时间"; ObjectID = "5i4-BE-uGA"; */
+"5i4-BE-uGA.text" = "Order time";
+
+/* Class = "UILabel"; text = "收款方式"; ObjectID = "AKS-fN-HkQ"; */
+"AKS-fN-HkQ.text" = "Collection Method";
+
+/* Class = "UILabel"; text = "￥0.00"; ObjectID = "Avq-od-dzf"; */
+"Avq-od-dzf.text" = "HK$0.00";
+
+/* Class = "UILabel"; text = "购买USDT"; ObjectID = "Bkj-gR-nZz"; */
+"Bkj-gR-nZz.text" = "Buy USDT";
+
+/* Class = "UIButton"; normalTitle = "申诉"; ObjectID = "CV6-eM-F2m"; */
+"CV6-eM-F2m.normalTitle" = "Complaint";
+
+/* Class = "UILabel"; text = "-"; ObjectID = "D0w-zR-fYC"; */
+"D0w-zR-fYC.text" = "-";
+
+/* Class = "UILabel"; text = "数量"; ObjectID = "DpB-o2-kHl"; */
+"DpB-o2-kHl.text" = "Quantity";
+
+/* Class = "UILabel"; text = "-"; ObjectID = "GdZ-Wc-KH1"; */
+"GdZ-Wc-KH1.text" = "-";
+
+/* Class = "UIButton"; normalTitle = "取消订单"; ObjectID = "HmH-ry-6q8"; */
+"HmH-ry-6q8.normalTitle" = "Cancel order";
+
+/* Class = "UIButton"; normalTitle = "我确认已收到货币"; ObjectID = "J5r-dx-drH"; */
+"J5r-dx-drH.normalTitle" = "I confirm that I have received the currency";
+
+/* Class = "UIButton"; normalTitle = "申诉"; ObjectID = "K7E-We-Rhf"; */
+"K7E-We-Rhf.normalTitle" = "Complaint";
+
+/* Class = "UILabel"; text = "价格"; ObjectID = "KDZ-OL-GkT"; */
+"KDZ-OL-GkT.text" = "Pirce";
+
+/* Class = "UILabel"; text = "0.00 CNY"; ObjectID = "LJT-2J-hNC"; */
+"LJT-2J-hNC.text" = "0.00 HKD";
+
+/* Class = "UIButton"; normalTitle = "去付款"; ObjectID = "OCv-lh-FHT"; */
+"OCv-lh-FHT.normalTitle" = "To pay";
+
+/* Class = "UILabel"; text = " "; ObjectID = "Pxq-bt-sfe"; */
+"Pxq-bt-sfe.text" = " ";
+
+/* Class = "UILabel"; text = "总价"; ObjectID = "QpY-bN-Mxb"; */
+"QpY-bN-Mxb.text" = "Total price";
+
+/* Class = "UILabel"; text = "-"; ObjectID = "VXx-yF-rQk"; */
+"VXx-yF-rQk.text" = "-";
+
+/* Class = "UILabel"; text = "-"; ObjectID = "Vuy-NS-ya1"; */
+"Vuy-NS-ya1.text" = "-";
+
+/* Class = "UILabel"; text = "0 USDT"; ObjectID = "Z0H-pZ-qdE"; */
+"Z0H-pZ-qdE.text" = "0 USDT";
+
+/* Class = "UILabel"; text = "买家昵称"; ObjectID = "e6Z-bH-q8j"; */
+"e6Z-bH-q8j.text" = "Buyer's nickname";
+
+/* Class = "UILabel"; text = "银行户名"; ObjectID = "eMo-sd-IJl"; */
+"eMo-sd-IJl.text" = "Bank account name";
+
+/* Class = "UILabel"; text = "订单号"; ObjectID = "it0-yx-uh7"; */
+"it0-yx-uh7.text" = "Order number";
+
+/* Class = "UILabel"; text = "-"; ObjectID = "s7N-pm-99Z"; */
+"s7N-pm-99Z.text" = "-";
+
+/* Class = "UILabel"; text = "-"; ObjectID = "xNF-4n-HmS"; */
+"xNF-4n-HmS.text" = "-";

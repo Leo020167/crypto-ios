@@ -1,0 +1,30 @@
+
+/* Class = "UIButton"; normalTitle = "全部"; ObjectID = "3gj-41-pWk"; */
+"3gj-41-pWk.normalTitle" = "全部";
+
+/* Class = "UILabel"; text = "跟单即代表您同意并接受"; ObjectID = "5SC-E5-67F"; */
+"5SC-E5-67F.text" = "跟单即代表您同意并接受";
+
+/* Class = "UILabel"; text = "USDT"; ObjectID = "BuZ-oX-Pvq"; */
+"BuZ-oX-Pvq.text" = "USDT";
+
+/* Class = "UIButton"; normalTitle = "《跟单规则》"; ObjectID = "Cxd-QU-PZK"; */
+"Cxd-QU-PZK.normalTitle" = "《跟单规则》";
+
+/* Class = "UITextField"; placeholder = "请输入跟单USDT"; ObjectID = "TJ3-wx-JtA"; */
+"TJ3-wx-JtA.placeholder" = "请输入跟单USDT";
+
+/* Class = "UILabel"; text = "可用USDT：0"; ObjectID = "ack-ft-4zr"; */
+"ack-ft-4zr.text" = "可用USDT：0";
+
+/* Class = "UILabel"; text = "和"; ObjectID = "dJL-rS-Dok"; */
+"dJL-rS-Dok.text" = "和";
+
+/* Class = "UILabel"; text = "跟单投入"; ObjectID = "qy3-cd-VWD"; */
+"qy3-cd-VWD.text" = "跟单投入";
+
+/* Class = "UIButton"; normalTitle = "立即跟单"; ObjectID = "vlO-Le-Xoh"; */
+"vlO-Le-Xoh.normalTitle" = "立即跟单";
+
+/* Class = "UIButton"; normalTitle = "《风险提示》"; ObjectID = "w1g-Xv-2Wc"; */
+"w1g-Xv-2Wc.normalTitle" = "《风险提示》";

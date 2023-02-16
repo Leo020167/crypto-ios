@@ -1,0 +1,9 @@
+
+/* Class = "UILabel"; text = "未绑定"; ObjectID = "Pco-0i-QKJ"; */
+"Pco-0i-QKJ.text" = "Unbound";
+
+/* Class = "UILabel"; text = "跟单导师:"; ObjectID = "Ynw-j9-Hmt"; */
+"Ynw-j9-Hmt.text" = "Order tutor:";
+
+/* Class = "UIButton"; normalTitle = "去绑定"; ObjectID = "nnN-5t-Ck6"; */
+"nnN-5t-Ck6.normalTitle" = "Unbind";

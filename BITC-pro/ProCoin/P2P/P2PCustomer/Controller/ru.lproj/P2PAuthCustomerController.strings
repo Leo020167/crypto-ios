@@ -1,0 +1,48 @@
+
+/* Class = "UILabel"; text = "已认证"; ObjectID = "4Cf-ZC-fcE"; */
+"4Cf-ZC-fcE.text" = "已认证";
+
+/* Class = "UILabel"; text = "证件号码"; ObjectID = "55T-FA-UXe"; */
+"55T-FA-UXe.text" = "证件号码";
+
+/* Class = "UILabel"; text = "-"; ObjectID = "5YM-aS-KXp"; */
+"5YM-aS-KXp.text" = "-";
+
+/* Class = "UILabel"; text = "保证金"; ObjectID = "5lV-ly-oaS"; */
+"5lV-ly-oaS.text" = "保证金";
+
+/* Class = "UILabel"; text = "同意冻结"; ObjectID = "Ecp-60-ES9"; */
+"Ecp-60-ES9.text" = "同意冻结";
+
+/* Class = "UILabel"; text = "实名信息"; ObjectID = "GdZ-Wc-KH1"; */
+"GdZ-Wc-KH1.text" = "实名信息";
+
+/* Class = "UILabel"; text = "保证金用于发布出售或购买USDT广告，提交认证信息即时从资产余额中进行冻结。"; ObjectID = "HYb-kX-vW2"; */
+"HYb-kX-vW2.text" = "保证金用于发布出售或购买USDT广告，提交认证信息即时从资产余额中进行冻结。";
+
+/* Class = "UILabel"; text = "-"; ObjectID = "Hp6-pG-dDN"; */
+"Hp6-pG-dDN.text" = "-";
+
+/* Class = "UILabel"; text = "-"; ObjectID = "RJb-5g-NtY"; */
+"RJb-5g-NtY.text" = "-";
+
+/* Class = "UILabel"; text = "作为广告方保证资产，且同意"; ObjectID = "RjC-Z5-0G7"; */
+"RjC-Z5-0G7.text" = "作为广告方保证资产，且同意";
+
+/* Class = "UIButton"; normalTitle = "申请取消商家认证"; ObjectID = "Tuh-eu-H0K"; */
+"Tuh-eu-H0K.normalTitle" = "申请取消商家认证";
+
+/* Class = "UILabel"; text = "姓名"; ObjectID = "VXx-yF-rQk"; */
+"VXx-yF-rQk.text" = "姓名";
+
+/* Class = "UIButton"; normalTitle = "《商家服务协议》"; ObjectID = "a4H-1l-nQd"; */
+"a4H-1l-nQd.normalTitle" = "《商家服务协议》";
+
+/* Class = "UILabel"; text = "商家认证"; ObjectID = "dYx-SD-GTa"; */
+"dYx-SD-GTa.text" = "商家认证";
+
+/* Class = "UILabel"; text = "认证失败：身份证照片不清晰，证件号码不对！"; ObjectID = "uBe-XI-QlP"; */
+"uBe-XI-QlP.text" = "认证失败：身份证照片不清晰，证件号码不对！";
+
+/* Class = "UILabel"; text = "-"; ObjectID = "zgA-u5-iKc"; */
+"zgA-u5-iKc.text" = "-";

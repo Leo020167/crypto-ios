@@ -1,0 +1,99 @@
+
+/* Class = "UILabel"; text = "---"; ObjectID = "0h3-r6-Jwi"; */
+"0h3-r6-Jwi.text" = "---";
+
+/* Class = "UILabel"; text = "---"; ObjectID = "0xB-gZ-6Uu"; */
+"0xB-gZ-6Uu.text" = "---";
+
+/* Class = "UILabel"; text = "---"; ObjectID = "1Gk-Lw-vm7"; */
+"1Gk-Lw-vm7.text" = "---";
+
+/* Class = "UIButton"; normalTitle = "取消订单"; ObjectID = "21P-mY-7oI"; */
+"21P-mY-7oI.normalTitle" = "取消订单";
+
+/* Class = "UILabel"; text = "¥0.00"; ObjectID = "5TD-KK-mLq"; */
+"5TD-KK-mLq.text" = "¥0.00";
+
+/* Class = "UILabel"; text = "开户行"; ObjectID = "7jD-Ka-CgN"; */
+"7jD-Ka-CgN.text" = "开户行";
+
+/* Class = "UILabel"; text = "请使用本人支付宝向以上转账，转账时请勿添加任何备\n注。\n请在规定时间内完成支付，支付完成后点击【标记已\n支付】"; ObjectID = "7lI-pH-tmb"; */
+"7lI-pH-tmb.text" = "请使用本人支付宝向以上转账，转账时请勿添加任何备\n注。\n请在规定时间内完成支付，支付完成后点击【标记已\n支付】";
+
+/* Class = "UILabel"; text = "1"; ObjectID = "7sb-sr-gTy"; */
+"7sb-sr-gTy.text" = "1";
+
+/* Class = "UILabel"; text = "账号"; ObjectID = "8lw-ou-LPn"; */
+"8lw-ou-LPn.text" = "账号";
+
+/* Class = "UILabel"; text = "¥0.00"; ObjectID = "9gW-oE-es3"; */
+"9gW-oE-es3.text" = "¥0.00";
+
+/* Class = "UIButton"; normalTitle = "复制金额"; ObjectID = "Aq9-mz-4dm"; */
+"Aq9-mz-4dm.normalTitle" = "复制金额";
+
+/* Class = "UILabel"; text = "下单时间"; ObjectID = "Cbw-eV-gtE"; */
+"Cbw-eV-gtE.text" = "下单时间";
+
+/* Class = "UILabel"; text = "联系对方"; ObjectID = "LXo-Gc-E98"; */
+"LXo-Gc-E98.text" = "联系对方";
+
+/* Class = "UILabel"; text = "0 USDT"; ObjectID = "Pyf-Ml-nMr"; */
+"Pyf-Ml-nMr.text" = "0 USDT";
+
+/* Class = "UILabel"; text = "收款人"; ObjectID = "Pzj-LS-9hf"; */
+"Pzj-LS-9hf.text" = "收款人";
+
+/* Class = "UILabel"; text = "-----"; ObjectID = "QVK-W5-BCp"; */
+"QVK-W5-BCp.text" = "-----";
+
+/* Class = "UIButton"; normalTitle = "标记为已支付"; ObjectID = "RbX-ju-NoJ"; */
+"RbX-ju-NoJ.normalTitle" = "标记为已支付";
+
+/* Class = "UILabel"; text = "---"; ObjectID = "TsQ-6f-s8F"; */
+"TsQ-6f-s8F.text" = "---";
+
+/* Class = "UILabel"; text = "---"; ObjectID = "Vte-AI-ZQt"; */
+"Vte-AI-ZQt.text" = "---";
+
+/* Class = "UILabel"; text = "支付金额"; ObjectID = "XNe-hz-J8U"; */
+"XNe-hz-J8U.text" = "支付金额";
+
+/* Class = "UILabel"; text = "订单号"; ObjectID = "aa9-5F-96f"; */
+"aa9-5F-96f.text" = "订单号";
+
+/* Class = "UILabel"; text = "购买金额"; ObjectID = "aoN-kd-Qmf"; */
+"aoN-kd-Qmf.text" = "购买金额";
+
+/* Class = "UILabel"; text = "收款二维码"; ObjectID = "cil-gg-1Y9"; */
+"cil-gg-1Y9.text" = "收款二维码";
+
+/* Class = "UILabel"; text = "请准确支付以上金额，否则导致订单失败"; ObjectID = "cvY-Mp-PYd"; */
+"cvY-Mp-PYd.text" = "请准确支付以上金额，否则导致订单失败";
+
+/* Class = "UILabel"; text = "---"; ObjectID = "dVt-nd-UMn"; */
+"dVt-nd-UMn.text" = "---";
+
+/* Class = "UIButton"; normalTitle = "取消订单"; ObjectID = "efi-u0-PkF"; */
+"efi-u0-PkF.normalTitle" = "取消订单";
+
+/* Class = "UIButton"; normalTitle = "知道了"; ObjectID = "exA-7C-UrT"; */
+"exA-7C-UrT.normalTitle" = "知道了";
+
+/* Class = "UIButton"; normalTitle = "去支付"; ObjectID = "g5q-Rf-PXr"; */
+"g5q-Rf-PXr.normalTitle" = "去支付";
+
+/* Class = "UILabel"; text = "---"; ObjectID = "lTT-oP-dis"; */
+"lTT-oP-dis.text" = "---";
+
+/* Class = "UILabel"; text = "---"; ObjectID = "tMF-6T-Pz0"; */
+"tMF-6T-Pz0.text" = "---";
+
+/* Class = "UIButton"; normalTitle = "标记为已支付"; ObjectID = "uVf-2r-GRa"; */
+"uVf-2r-GRa.normalTitle" = "标记为已支付";
+
+/* Class = "UILabel"; text = "买入单价"; ObjectID = "v1D-QX-jF2"; */
+"v1D-QX-jF2.text" = "买入单价";
+
+/* Class = "UILabel"; text = "购买数量"; ObjectID = "vgz-ZZ-Z7z"; */
+"vgz-ZZ-Z7z.text" = "购买数量";

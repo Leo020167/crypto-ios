@@ -1,0 +1,21 @@
+/* 
+  InfoPlist.strings
+  Encropy
+
+  Created by taojinroad on 2019/4/17.
+  Copyright © 2019 淘金路. All rights reserved.
+*/
+
+/*CFBundleDisplayName = "BYY";
+
+NSHumanReadableCopyright = "Copyright © 2019 硬果皮. All rights reserved.";
+
+NSCameraUsageDescription = "硬果皮在上传头像、发布动态等功能时访问您的摄像头。";
+
+NSMicrophoneUsageDescription = "硬果皮在语音回复等功能时访问您的麦克风。";
+
+NSPhotoLibraryUsageDescription = "硬果皮在上传头像、发布动态等功能时访问您的照片。";
+
+NSRemindersUsageDescription = "硬果皮请求开启推送权限，实时获取资讯通知。";
+ */
+

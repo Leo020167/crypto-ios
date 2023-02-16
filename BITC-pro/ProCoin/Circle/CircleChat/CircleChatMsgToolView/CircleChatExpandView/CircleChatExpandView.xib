@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CircleChatExpandView">
+            <connections>
+                <outlet property="allView" destination="ZHP-vT-kei" id="ZF2-Kb-pRb"/>
+                <outlet property="pageControl" destination="0fl-yG-Xn0" id="gdp-F5-OPB"/>
+                <outlet property="scrollView" destination="kDn-uA-eCa" id="21i-Uc-S48"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="ZHP-vT-kei">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="216"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3jH-Wj-qo4">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="216"/>
+                    <subviews>
+                        <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="2" translatesAutoresizingMaskIntoConstraints="NO" id="0fl-yG-Xn0">
+                            <rect key="frame" x="0.0" y="180" width="320" height="36"/>
+                            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="36" id="DUv-Pf-6kU"/>
+                            </constraints>
+                            <connections>
+                                <action selector="pageControlValueChanged:" destination="-1" eventType="valueChanged" id="2In-Tk-bx0"/>
+                            </connections>
+                        </pageControl>
+                        <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" alwaysBounceHorizontal="YES" pagingEnabled="YES" showsVerticalScrollIndicator="NO" bouncesZoom="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kDn-uA-eCa">
+                            <rect key="frame" x="0.0" y="0.0" width="320" height="194"/>
+                            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                            <connections>
+                                <outlet property="delegate" destination="-1" id="Ef7-dk-hLa"/>
+                            </connections>
+                        </scrollView>
+                    </subviews>
+                    <color key="backgroundColor" red="0.96862745100000003" green="0.96862745100000003" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstItem="kDn-uA-eCa" firstAttribute="leading" secondItem="3jH-Wj-qo4" secondAttribute="leading" id="5J4-Am-eEh"/>
+                        <constraint firstItem="kDn-uA-eCa" firstAttribute="trailing" secondItem="0fl-yG-Xn0" secondAttribute="trailing" id="63G-c8-576"/>
+                        <constraint firstAttribute="bottom" secondItem="0fl-yG-Xn0" secondAttribute="bottom" id="CVi-Ty-yO1"/>
+                        <constraint firstItem="kDn-uA-eCa" firstAttribute="top" secondItem="3jH-Wj-qo4" secondAttribute="top" id="Yzb-po-3qQ"/>
+                        <constraint firstAttribute="bottom" secondItem="kDn-uA-eCa" secondAttribute="bottom" constant="22" id="aMU-Lh-QXR"/>
+                        <constraint firstAttribute="trailing" secondItem="kDn-uA-eCa" secondAttribute="trailing" id="b51-0L-QQm"/>
+                        <constraint firstItem="0fl-yG-Xn0" firstAttribute="top" secondItem="3jH-Wj-qo4" secondAttribute="top" constant="182" id="bBY-GW-HJa"/>
+                        <constraint firstAttribute="bottom" secondItem="0fl-yG-Xn0" secondAttribute="bottom" constant="-7" id="j0K-zI-Af6"/>
+                        <constraint firstItem="kDn-uA-eCa" firstAttribute="leading" secondItem="0fl-yG-Xn0" secondAttribute="leading" id="lLE-a6-0b9"/>
+                        <constraint firstAttribute="height" constant="216" id="mcQ-Is-t3E"/>
+                        <constraint firstAttribute="width" constant="320" id="qnt-7E-5Ea"/>
+                    </constraints>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="qnt-7E-5Ea"/>
+                            <exclude reference="bBY-GW-HJa"/>
+                            <exclude reference="j0K-zI-Af6"/>
+                        </mask>
+                    </variation>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="3jH-Wj-qo4" firstAttribute="centerX" secondItem="ZHP-vT-kei" secondAttribute="centerX" id="DQS-MB-A1V"/>
+                <constraint firstAttribute="trailing" secondItem="3jH-Wj-qo4" secondAttribute="trailing" id="UDu-wG-X88"/>
+                <constraint firstItem="3jH-Wj-qo4" firstAttribute="leading" secondItem="ZHP-vT-kei" secondAttribute="leading" id="kQd-Ez-kKb"/>
+                <constraint firstItem="3jH-Wj-qo4" firstAttribute="centerY" secondItem="ZHP-vT-kei" secondAttribute="centerY" id="zgC-4g-qBk"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+        </view>
+    </objects>
+</document>

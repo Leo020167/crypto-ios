@@ -1,0 +1,15 @@
+
+/* Class = "UIButton"; normalTitle = "取消"; ObjectID = "886-aB-lvN"; */
+"886-aB-lvN.normalTitle" = "キャンセル";
+
+/* Class = "UIButton"; normalTitle = "确认"; ObjectID = "TDN-VI-mqq"; */
+"TDN-VI-mqq.normalTitle" = "確認";
+
+/* Class = "UILabel"; text = "我确认没有付款给对方"; ObjectID = "eGI-Ur-qj8"; */
+"eGI-Ur-qj8.text" = "私は相手に支払いをしていないことを確認した";
+
+/* Class = "UILabel"; text = "如果您已向对方付款，请千万不要取消订单"; ObjectID = "pJx-0h-J9C"; */
+"pJx-0h-J9C.text" = "先方に支払い済みの場合は、注文をキャンセルしないでください";
+
+/* Class = "UILabel"; text = "买家当日累计3笔取消，超出会影响当日买入功能"; ObjectID = "uIF-Uf-nhC"; */
+"uIF-Uf-nhC.text" = "購入者は当日累計3件のキャンセル、超過すると当日の購入機能に影響";

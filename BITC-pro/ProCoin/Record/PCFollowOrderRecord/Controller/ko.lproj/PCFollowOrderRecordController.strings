@@ -1,0 +1,18 @@
+
+/* Class = "UIButton"; normalTitle = "筛选"; ObjectID = "W1y-R3-HT9"; */
+"W1y-R3-HT9.normalTitle" = "篩選";
+
+/* Class = "UILabel"; text = " 跟单记录"; ObjectID = "bOt-FL-Umc"; */
+"bOt-FL-Umc.text" = " 跟單記錄";
+
+/* Class = "UIButton"; normalTitle = "历史记录"; ObjectID = "bTw-e9-ZcF"; */
+"bTw-e9-ZcF.normalTitle" = "歷史記錄";
+
+/* Class = "UILabel"; text = "暂无该记录数据"; ObjectID = "eyJ-kX-8JV"; */
+"eyJ-kX-8JV.text" = "暫無該記錄數據";
+
+/* Class = "UIButton"; normalTitle = "委托记录"; ObjectID = "iVX-4Q-Fb9"; */
+"iVX-4Q-Fb9.normalTitle" = "委託記錄";
+
+/* Class = "UILabel"; text = "暂无该记录数据"; ObjectID = "oqh-sG-0RC"; */
+"oqh-sG-0RC.text" = "暫無該記錄數據";

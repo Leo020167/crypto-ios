@@ -1,0 +1,27 @@
+
+/* Class = "UILabel"; text = "委托总额"; ObjectID = "DFD-gt-mFV"; */
+"DFD-gt-mFV.text" = "委托总额";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "E7f-Xq-nFG"; */
+"E7f-Xq-nFG.text" = "Label";
+
+/* Class = "UILabel"; text = "委托价"; ObjectID = "Nkj-ic-b5t"; */
+"Nkj-ic-b5t.text" = "委托价";
+
+/* Class = "UILabel"; text = "状态"; ObjectID = "OAC-5x-0Ba"; */
+"OAC-5x-0Ba.text" = "状态";
+
+/* Class = "UILabel"; text = "--"; ObjectID = "PfS-E9-J3U"; */
+"PfS-E9-J3U.text" = "--";
+
+/* Class = "UILabel"; text = "---"; ObjectID = "Qea-2O-hfp"; */
+"Qea-2O-hfp.text" = "---";
+
+/* Class = "UILabel"; text = "--"; ObjectID = "RGX-QV-Bx4"; */
+"RGX-QV-Bx4.text" = "--";
+
+/* Class = "UILabel"; text = "时间"; ObjectID = "gIv-6i-YBr"; */
+"gIv-6i-YBr.text" = "时间";
+
+/* Class = "UILabel"; text = "--"; ObjectID = "lAj-hS-zkY"; */
+"lAj-hS-zkY.text" = "--";

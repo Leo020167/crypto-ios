@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MicromarketMenuView">
+            <connections>
+                <outlet property="baseView" destination="iN0-l3-epB" id="RMY-dz-Fbg"/>
+                <outlet property="bgView" destination="svT-Fz-lSJ" id="yaM-AH-ztS"/>
+                <outlet property="btnPersonNew" destination="loX-6h-Dv9" id="58U-r2-Zlk"/>
+                <outlet property="menuView" destination="Nmr-IU-XU6" id="x94-Jl-2wU"/>
+                <outlet property="shareBtn" destination="6yd-84-rCq" id="y5B-Yz-KLr"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view alpha="0.20000000000000001" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="svT-Fz-lSJ">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Nmr-IU-XU6">
+                    <rect key="frame" x="148" y="66" width="150" height="175"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="micromarket_menu_icon_person" translatesAutoresizingMaskIntoConstraints="NO" id="3pn-M9-SeR">
+                            <rect key="frame" x="16" y="12" width="22" height="22"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kSy-xB-eXi">
+                            <rect key="frame" x="0.0" y="3" width="150" height="40"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="40" id="Kbs-Vm-nDd"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <state key="normal" title="          个人账户">
+                                <color key="titleColor" red="0.29803921570000003" green="0.29803921570000003" blue="0.29803921570000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <state key="highlighted">
+                                <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="personButtonClicked:" destination="-1" eventType="touchUpInside" id="5YL-HZ-XTr"/>
+                            </connections>
+                        </button>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="micromarket_menu_icon_order" translatesAutoresizingMaskIntoConstraints="NO" id="ry3-RC-La6">
+                            <rect key="frame" x="16" y="55" width="22" height="22"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g8g-Pr-KBj">
+                            <rect key="frame" x="0.0" y="46" width="150" height="40"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="40" id="1i4-I4-BpP"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <state key="normal" title="          盈亏记录">
+                                <color key="titleColor" red="0.29803921570000003" green="0.29803921570000003" blue="0.29803921570000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <state key="highlighted">
+                                <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="orderButtonClicked:" destination="-1" eventType="touchUpInside" id="NWB-XN-ucy"/>
+                            </connections>
+                        </button>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="micromarket_menu_icon_share" translatesAutoresizingMaskIntoConstraints="NO" id="ohe-l0-Vng">
+                            <rect key="frame" x="16" y="98" width="22" height="22"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6yd-84-rCq" customClass="WBShareButton">
+                            <rect key="frame" x="0.0" y="89" width="150" height="40"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="40" id="WXu-4C-hED"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <state key="normal" title="          截图分享">
+                                <color key="titleColor" red="0.29803921570000003" green="0.29803921570000003" blue="0.29803921570000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <state key="highlighted">
+                                <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="shareButtonClicked:" destination="-1" eventType="touchUpInside" id="7Lc-Ob-ZoO"/>
+                            </connections>
+                        </button>
+                        <button hidden="YES" opaque="NO" userInteractionEnabled="NO" tag="22" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="loX-6h-Dv9">
+                            <rect key="frame" x="122" y="12" width="16" height="17"/>
+                            <constraints>
+                                <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="16" id="3LA-iW-Zg9"/>
+                                <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="16" id="9CX-S9-1zt"/>
+                                <constraint firstAttribute="width" constant="16" id="9l1-1D-uWG"/>
+                                <constraint firstAttribute="height" constant="17" id="bFp-aK-CjB"/>
+                                <constraint firstAttribute="height" constant="17" id="qYb-Aq-45G"/>
+                            </constraints>
+                            <inset key="insetFor6xAndEarlier" minX="0.0" minY="20" maxX="0.0" maxY="-20"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                            <state key="normal" title="99" backgroundImage="circle_new_bg">
+                                <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <variation key="default">
+                                <mask key="constraints">
+                                    <exclude reference="3LA-iW-Zg9"/>
+                                    <exclude reference="9CX-S9-1zt"/>
+                                    <exclude reference="9l1-1D-uWG"/>
+                                    <exclude reference="bFp-aK-CjB"/>
+                                </mask>
+                            </variation>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6uI-Yd-vmp">
+                            <rect key="frame" x="0.0" y="132" width="150" height="40"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="40" id="E1w-We-DDO"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <state key="normal" title="          切换交易所">
+                                <color key="titleColor" red="0.29803921570000003" green="0.29803921570000003" blue="0.29803921570000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <state key="highlighted">
+                                <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="replaceButtonClicked:" destination="-1" eventType="touchUpInside" id="Wf1-g2-AAc"/>
+                            </connections>
+                        </button>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="micromarket_menu_icon_replace" translatesAutoresizingMaskIntoConstraints="NO" id="wjs-2k-35E">
+                            <rect key="frame" x="16" y="141" width="22" height="22"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="22" id="IHr-r3-QoR"/>
+                                <constraint firstAttribute="width" constant="22" id="Rqx-Ts-5SN"/>
+                            </constraints>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="kSy-xB-eXi" secondAttribute="trailing" id="69f-GR-uxo"/>
+                        <constraint firstAttribute="trailing" secondItem="6yd-84-rCq" secondAttribute="trailing" id="9Y9-ga-XbU"/>
+                        <constraint firstItem="kSy-xB-eXi" firstAttribute="leading" secondItem="Nmr-IU-XU6" secondAttribute="leading" id="AEc-nh-Ilb"/>
+                        <constraint firstItem="6yd-84-rCq" firstAttribute="leading" secondItem="Nmr-IU-XU6" secondAttribute="leading" id="Dbv-Dr-Zcr"/>
+                        <constraint firstItem="g8g-Pr-KBj" firstAttribute="leading" secondItem="Nmr-IU-XU6" secondAttribute="leading" id="EMr-ar-G3j"/>
+                        <constraint firstItem="g8g-Pr-KBj" firstAttribute="top" secondItem="kSy-xB-eXi" secondAttribute="bottom" constant="3" id="HBJ-i1-OBT"/>
+                        <constraint firstItem="6yd-84-rCq" firstAttribute="top" secondItem="g8g-Pr-KBj" secondAttribute="bottom" constant="3" id="I3O-ZR-dqi"/>
+                        <constraint firstItem="wjs-2k-35E" firstAttribute="centerY" secondItem="6uI-Yd-vmp" secondAttribute="centerY" id="IDB-1J-5dt"/>
+                        <constraint firstItem="wjs-2k-35E" firstAttribute="leading" secondItem="Nmr-IU-XU6" secondAttribute="leading" constant="16" id="KFh-F0-ALq"/>
+                        <constraint firstItem="kSy-xB-eXi" firstAttribute="top" secondItem="Nmr-IU-XU6" secondAttribute="top" constant="3" id="RSj-HW-V2B"/>
+                        <constraint firstItem="loX-6h-Dv9" firstAttribute="trailing" secondItem="kSy-xB-eXi" secondAttribute="trailing" constant="-12" id="dej-U6-U5k"/>
+                        <constraint firstAttribute="width" constant="150" id="egw-O6-yym"/>
+                        <constraint firstItem="6uI-Yd-vmp" firstAttribute="leading" secondItem="Nmr-IU-XU6" secondAttribute="leading" id="gOi-Vl-0qc"/>
+                        <constraint firstAttribute="trailing" secondItem="g8g-Pr-KBj" secondAttribute="trailing" id="kSg-wG-2Rd"/>
+                        <constraint firstAttribute="height" constant="175" id="ljP-8J-Guf"/>
+                        <constraint firstAttribute="trailing" secondItem="6uI-Yd-vmp" secondAttribute="trailing" id="nRj-jc-e0m"/>
+                        <constraint firstItem="6uI-Yd-vmp" firstAttribute="top" secondItem="6yd-84-rCq" secondAttribute="bottom" constant="3" id="nuF-fc-68r"/>
+                        <constraint firstItem="loX-6h-Dv9" firstAttribute="top" secondItem="kSy-xB-eXi" secondAttribute="top" constant="9" id="ry5-5Y-BJY"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="Nmr-IU-XU6" secondAttribute="bottom" constant="24" id="4wm-ZF-0Qp"/>
+                <constraint firstItem="svT-Fz-lSJ" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="QKc-Uc-Nj0"/>
+                <constraint firstItem="Nmr-IU-XU6" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="66" id="Xoe-E3-6J4"/>
+                <constraint firstAttribute="trailing" secondItem="Nmr-IU-XU6" secondAttribute="trailing" constant="22" id="mTN-JX-XVY"/>
+                <constraint firstAttribute="trailing" secondItem="svT-Fz-lSJ" secondAttribute="trailing" id="qkU-9Q-TAf"/>
+                <constraint firstItem="svT-Fz-lSJ" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="xAC-Hk-IYv"/>
+                <constraint firstAttribute="bottom" secondItem="svT-Fz-lSJ" secondAttribute="bottom" id="xty-Ot-zXA"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="4wm-ZF-0Qp"/>
+                </mask>
+            </variation>
+            <point key="canvasLocation" x="277" y="188"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="circle_new_bg" width="16" height="17"/>
+        <image name="micromarket_menu_icon_order" width="22" height="22"/>
+        <image name="micromarket_menu_icon_person" width="22" height="22"/>
+        <image name="micromarket_menu_icon_replace" width="22" height="22"/>
+        <image name="micromarket_menu_icon_share" width="22" height="22"/>
+    </resources>
+</document>

@@ -1,0 +1,27 @@
+
+/* Class = "UILabel"; text = "余额"; ObjectID = "38Q-WH-OBj"; */
+"38Q-WH-OBj.text" = "残高";
+
+/* Class = "UILabel"; text = "跟单资产分布"; ObjectID = "3St-dm-5VW"; */
+"3St-dm-5VW.text" = "アセット配布のコピー";
+
+/* Class = "UIButton"; normalTitle = "跟单明细"; ObjectID = "DU1-V6-kzv"; */
+"DU1-V6-kzv.normalTitle" = "荷為替明細";
+
+/* Class = "UILabel"; text = "累计盈亏"; ObjectID = "Ems-RM-OJu"; */
+"Ems-RM-OJu.text" = "損益を累計する";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "Fef-UA-XOB"; */
+"Fef-UA-XOB.text" = "0";
+
+/* Class = "UILabel"; text = " 跟单总投入"; ObjectID = "gD8-gJ-pBK"; */
+"gD8-gJ-pBK.text" = " 荷為替総投入";
+
+/* Class = "UILabel"; text = "(USDT)"; ObjectID = "nWP-pk-KHH"; */
+"nWP-pk-KHH.text" = "(USDT)";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "rSI-tt-WZw"; */
+"rSI-tt-WZw.text" = "0";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "ucK-Oa-Fhb"; */
+"ucK-Oa-Fhb.text" = "0";

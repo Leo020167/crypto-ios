@@ -1,0 +1,15 @@
+
+/* Class = "UIButton"; normalTitle = "取消"; ObjectID = "886-aB-lvN"; */
+"886-aB-lvN.normalTitle" = "Cancel";
+
+/* Class = "UIButton"; normalTitle = "确认"; ObjectID = "TDN-VI-mqq"; */
+"TDN-VI-mqq.normalTitle" = "Confirm";
+
+/* Class = "UILabel"; text = "我确认没有付款给对方"; ObjectID = "eGI-Ur-qj8"; */
+"eGI-Ur-qj8.text" = "I confirmed that no payment was made to the other part";
+
+/* Class = "UILabel"; text = "如果您已向对方付款，请千万不要取消订单"; ObjectID = "pJx-0h-J9C"; */
+"pJx-0h-J9C.text" = "Please do not cancel your order if you have already paid to the other party";
+
+/* Class = "UILabel"; text = "买家当日累计3笔取消，超出会影响当日买入功能"; ObjectID = "uIF-Uf-nhC"; */
+"uIF-Uf-nhC.text" = "If the buyer accumulates 3 cancellations on the same day, it will affect the function of buying on the same day";

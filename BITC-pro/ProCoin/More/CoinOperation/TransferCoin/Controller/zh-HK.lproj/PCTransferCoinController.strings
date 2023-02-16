@@ -1,0 +1,43 @@
+
+/* Class = "UILabel"; text = "可用数量:0"; ObjectID = "3Ed-8v-IWg"; */
+"3Ed-8v-IWg.text" = "可用數量:0";
+
+/* Class = "UILabel"; text = "USDT"; ObjectID = "3hb-S0-fdi"; */
+"3hb-S0-fdi.text" = "USDT";
+
+/* Class = "UILabel"; text = "划转数量"; ObjectID = "AKv-0f-yhz"; */
+"AKv-0f-yhz.text" = "劃轉數量";
+
+/* Class = "UIButton"; normalTitle = "划转"; ObjectID = "Gug-zk-NeK"; */
+"Gug-zk-NeK.normalTitle" = "劃轉";
+
+/* Class = "UILabel"; text = "---"; ObjectID = "MxJ-iP-yaC"; */
+"MxJ-iP-yaC.text" = "---";
+
+/* Class = "UILabel"; text = "只有将资产划转到相对应的账户次才能进行交易。账户间的划转不收取手续费。"; ObjectID = "SEc-6R-Cmt"; */
+"SEc-6R-Cmt.text" = "只有將資產劃轉到相對應的賬戶次才能進行交易。賬戶間的劃轉不收取手續費。";
+
+/* Class = "UIButton"; normalTitle = "全部"; ObjectID = "Uhx-DY-fyN"; */
+"Uhx-DY-fyN.normalTitle" = "全部";
+
+/* Class = "UIButton"; normalTitle = "记录"; ObjectID = "Vv3-ns-Eyv"; */
+"Vv3-ns-Eyv.normalTitle" = "記錄";
+
+/* Class = "UILabel"; text = "到"; ObjectID = "Z6i-ux-mWP"; */
+"Z6i-ux-mWP.text" = "到";
+
+/* Class = "UITextField"; placeholder = "请输入划转数量"; ObjectID = "hcG-7t-OXL"; */
+"hcG-7t-OXL.placeholder" = "請輸入劃轉數量";
+
+/* Class = "UILabel"; text = "---"; ObjectID = "joN-Nv-2VW"; */
+"joN-Nv-2VW.text" = "---";
+
+/* Class = "UILabel"; text = "划转"; ObjectID = "qBL-FD-rua"; */
+"qBL-FD-rua.text" = "劃轉";
+
+/* Class = "UILabel"; text = "从"; ObjectID = "sEn-s5-PJ0"; */
+"sEn-s5-PJ0.text" = "從";
+
+
+"IfG-4B-twT.text" = "選擇幣種";
+"lJW-33-KiV.text" = "選擇提幣網絡";

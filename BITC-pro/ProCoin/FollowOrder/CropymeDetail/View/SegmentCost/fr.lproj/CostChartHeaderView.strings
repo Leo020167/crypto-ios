@@ -1,0 +1,9 @@
+
+/* Class = "UILabel"; text = "总数量：0"; ObjectID = "MrD-fI-vRY"; */
+"MrD-fI-vRY.text" = "总数量：0";
+
+/* Class = "UILabel"; text = "盈利比例："; ObjectID = "ScC-gu-4pK"; */
+"ScC-gu-4pK.text" = "盈利比例：";
+
+/* Class = "UILabel"; text = "平均成本价："; ObjectID = "VWd-Zk-tqp"; */
+"VWd-Zk-tqp.text" = "平均成本价：";

@@ -1,0 +1,63 @@
+
+/* Class = "UIButton"; normalTitle = "BTC"; ObjectID = "0oC-BG-kTx"; */
+"0oC-BG-kTx.normalTitle" = "BTC";
+
+/* Class = "UILabel"; text = "提币"; ObjectID = "0vO-lW-dOV"; */
+"0vO-lW-dOV.text" = "Cantidad de";
+
+/* Class = "UILabel"; text = "手续费（USDT）"; ObjectID = "1e6-2N-hs3"; */
+"1e6-2N-hs3.text" = "Tasa de tramitación（USDT）";
+
+/* Class = "UILabel"; text = "為保障資金安全，當您帳戶安全策略變更、密碼修改、使用新地址提幣，我們會對提幣進行人工審核，請耐心等待工作人員電話或郵件聯繫。 請務必確認電腦及瀏覽器安全，防止信息被篡改或洩露。"; ObjectID = "AQc-G1-tBo"; */
+"AQc-G1-tBo.text" = "Para garantizar la seguridad de los fondos, cuando se cambie la política de seguridad de su cuenta, se cambie su contraseña o use una nueva dirección para retirar monedas, revisaremos manualmente los retiros. Tenga paciencia y espere a que el personal se comunique con usted. por teléfono o correo electrónico. Asegúrese de confirmar la seguridad de su computadora y navegador para evitar que la información sea manipulada o filtrada.";
+
+/* Class = "UITextField"; placeholder = "请输入提币数量"; ObjectID = "ChM-VP-gGu"; */
+"ChM-VP-gGu.placeholder" = "Por favor ingrese el monto del retiro";
+
+/* Class = "UIButton"; normalTitle = "提交"; ObjectID = "FjI-NO-OxA"; */
+"FjI-NO-OxA.normalTitle" = "Enviar";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "J3i-4x-APU"; */
+"J3i-4x-APU.text" = "0";
+
+/* Class = "UIButton"; normalTitle = "充提币记录"; ObjectID = "KJP-Vy-HoL"; */
+"KJP-Vy-HoL.normalTitle" = "Registros de depósitos y retiros";
+
+/* Class = "UILabel"; text = "到账数量（USDT）"; ObjectID = "N75-Xh-ojf"; */
+"N75-Xh-ojf.text" = "Importe de llegada（USDT）";
+
+/* Class = "UILabel"; text = "选择提币网络"; ObjectID = "PtH-eo-3b7"; */
+"PtH-eo-3b7.text" = "Elija la red de retiro";
+
+/* Class = "UILabel"; text = "选择币种"; ObjectID = "Q9X-U1-elQ"; */
+"Q9X-U1-elQ.text" = "Seleccione el tipo de moneda";
+
+/* Class = "UIButton"; normalTitle = "提币地址管理"; ObjectID = "XEQ-Ro-ggh"; */
+"XEQ-Ro-ggh.normalTitle" = "Gestión de direcciones de retiro";
+
+/* Class = "UILabel"; text = "提币地址"; ObjectID = "XaR-4l-6lL"; */
+"XaR-4l-6lL.text" = "dirección de retiro";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "Y1m-UA-aCg"; */
+"Y1m-UA-aCg.text" = "0";
+
+/* Class = "UITextField"; placeholder = "请选择提币地址"; ObjectID = "blx-wX-GRg"; */
+"blx-wX-GRg.placeholder" = "Por favor seleccione la dirección de retiro";
+
+/* Class = "UILabel"; text = "▽"; ObjectID = "cvf-ze-yi9"; */
+"cvf-ze-yi9.text" = "▽";
+
+/* Class = "UILabel"; text = "冻结金额（USDT）"; ObjectID = "lQk-IK-VwA"; */
+"lQk-IK-VwA.text" = "cantidad congelada（USDT）";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "luX-zZ-8gP"; */
+"luX-zZ-8gP.text" = "0";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "qO3-Zc-TA9"; */
+"qO3-Zc-TA9.text" = "0";
+
+/* Class = "UILabel"; text = "提币數量"; ObjectID = "tzV-4c-mUV"; */
+"tzV-4c-mUV.text" = "Cantidad de retiro";
+
+/* Class = "UILabel"; text = "可用餘額（USDT）"; ObjectID = "vDR-0B-yxc"; */
+"vDR-0B-yxc.text" = "Saldo disponible（USDT）";

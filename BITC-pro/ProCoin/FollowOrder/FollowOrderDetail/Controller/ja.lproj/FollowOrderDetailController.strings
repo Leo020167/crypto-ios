@@ -1,0 +1,12 @@
+
+/* Class = "UILabel"; text = "跟单详情"; ObjectID = "Zy6-Dz-Sjz"; */
+"Zy6-Dz-Sjz.text" = "詳細をコピーする";
+
+/* Class = "UIButton"; normalTitle = "正在停止跟单"; ObjectID = "flV-Og-Tj1"; */
+"flV-Og-Tj1.normalTitle" = "追跡を停止しています";
+
+/* Class = "UIButton"; normalTitle = "追加投入"; ObjectID = "qhy-Xa-aEL"; */
+"qhy-Xa-aEL.normalTitle" = "追加投資";
+
+/* Class = "UIButton"; normalTitle = "停止跟单"; ObjectID = "slK-qS-2jo"; */
+"slK-qS-2jo.normalTitle" = "コピーを停止します";

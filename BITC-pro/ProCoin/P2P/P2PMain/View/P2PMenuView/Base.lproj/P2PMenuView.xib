@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="P2PMenuView">
+            <connections>
+                <outlet property="baseView" destination="iN0-l3-epB" id="RMY-dz-Fbg"/>
+                <outlet property="bgView" destination="svT-Fz-lSJ" id="yaM-AH-ztS"/>
+                <outlet property="menuView" destination="Nmr-IU-XU6" id="x94-Jl-2wU"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view alpha="0.20000000000000001" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="svT-Fz-lSJ">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Nmr-IU-XU6">
+                    <rect key="frame" x="148" y="66" width="150" height="160"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kSy-xB-eXi">
+                            <rect key="frame" x="0.0" y="10" width="150" height="40"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="40" id="Kbs-Vm-nDd"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <inset key="titleEdgeInsets" minX="5" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            <state key="normal" title="我的广告" image="p2p_main_icon_ad">
+                                <color key="titleColor" red="0.29803921570000003" green="0.29803921570000003" blue="0.29803921570000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <state key="highlighted">
+                                <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="adButtonClicked:" destination="-1" eventType="touchUpInside" id="kRd-1a-9e2"/>
+                            </connections>
+                        </button>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xgH-dH-uK8">
+                            <rect key="frame" x="5" y="51" width="140" height="0.5"/>
+                            <color key="backgroundColor" red="0.93333333330000001" green="0.93333333330000001" blue="0.93333333330000001" alpha="1" colorSpace="deviceRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="0.5" id="OL6-O5-Ka7"/>
+                            </constraints>
+                        </view>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g8g-Pr-KBj">
+                            <rect key="frame" x="0.0" y="60" width="150" height="40"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="40" id="1i4-I4-BpP"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <inset key="titleEdgeInsets" minX="5" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            <state key="normal" title="商家认证" image="p2p_main_icon_customer">
+                                <color key="titleColor" red="0.29803921570000003" green="0.29803921570000003" blue="0.29803921570000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <state key="highlighted">
+                                <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="customerButtonClicked:" destination="-1" eventType="touchUpInside" id="7R5-a5-NKx"/>
+                            </connections>
+                        </button>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0Le-np-m8q">
+                            <rect key="frame" x="5" y="109.5" width="140" height="0.5"/>
+                            <color key="backgroundColor" red="0.93333333330000001" green="0.93333333330000001" blue="0.93333333330000001" alpha="1" colorSpace="deviceRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="0.5" id="S3X-A9-WMx"/>
+                            </constraints>
+                        </view>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6yd-84-rCq">
+                            <rect key="frame" x="0.0" y="110" width="150" height="40"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="40" id="WXu-4C-hED"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <inset key="titleEdgeInsets" minX="5" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            <state key="normal" title="收款管理" image="p2p_main_icon_money">
+                                <color key="titleColor" red="0.29803921570000003" green="0.29803921570000003" blue="0.29803921570000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <state key="highlighted">
+                                <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="moneyButtonClicked:" destination="-1" eventType="touchUpInside" id="1L7-Yn-xpw"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="kSy-xB-eXi" secondAttribute="trailing" id="69f-GR-uxo"/>
+                        <constraint firstAttribute="trailing" secondItem="6yd-84-rCq" secondAttribute="trailing" id="9Y9-ga-XbU"/>
+                        <constraint firstItem="kSy-xB-eXi" firstAttribute="leading" secondItem="Nmr-IU-XU6" secondAttribute="leading" id="AEc-nh-Ilb"/>
+                        <constraint firstItem="6yd-84-rCq" firstAttribute="leading" secondItem="Nmr-IU-XU6" secondAttribute="leading" id="Dbv-Dr-Zcr"/>
+                        <constraint firstItem="g8g-Pr-KBj" firstAttribute="leading" secondItem="Nmr-IU-XU6" secondAttribute="leading" id="EMr-ar-G3j"/>
+                        <constraint firstItem="g8g-Pr-KBj" firstAttribute="top" secondItem="kSy-xB-eXi" secondAttribute="bottom" constant="10" id="HBJ-i1-OBT"/>
+                        <constraint firstItem="6yd-84-rCq" firstAttribute="top" secondItem="g8g-Pr-KBj" secondAttribute="bottom" constant="10" id="I3O-ZR-dqi"/>
+                        <constraint firstItem="kSy-xB-eXi" firstAttribute="top" secondItem="Nmr-IU-XU6" secondAttribute="top" constant="10" id="RSj-HW-V2B"/>
+                        <constraint firstItem="xgH-dH-uK8" firstAttribute="leading" secondItem="Nmr-IU-XU6" secondAttribute="leading" constant="5" id="TVN-N9-4yv"/>
+                        <constraint firstItem="xgH-dH-uK8" firstAttribute="top" secondItem="kSy-xB-eXi" secondAttribute="bottom" constant="1" id="WG6-su-cXp"/>
+                        <constraint firstItem="6yd-84-rCq" firstAttribute="top" secondItem="0Le-np-m8q" secondAttribute="bottom" id="X3S-pq-a5U"/>
+                        <constraint firstItem="0Le-np-m8q" firstAttribute="leading" secondItem="Nmr-IU-XU6" secondAttribute="leading" constant="5" id="cH3-Qq-3EI"/>
+                        <constraint firstAttribute="trailing" secondItem="0Le-np-m8q" secondAttribute="trailing" constant="5" id="cqv-4v-jws"/>
+                        <constraint firstAttribute="width" constant="150" id="egw-O6-yym"/>
+                        <constraint firstAttribute="trailing" secondItem="g8g-Pr-KBj" secondAttribute="trailing" id="kSg-wG-2Rd"/>
+                        <constraint firstAttribute="height" constant="160" id="ljP-8J-Guf"/>
+                        <constraint firstAttribute="trailing" secondItem="xgH-dH-uK8" secondAttribute="trailing" constant="5" id="ne8-Mt-Twh"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="5"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="Nmr-IU-XU6" secondAttribute="bottom" constant="24" id="4wm-ZF-0Qp"/>
+                <constraint firstItem="svT-Fz-lSJ" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="QKc-Uc-Nj0"/>
+                <constraint firstItem="Nmr-IU-XU6" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="66" id="Xoe-E3-6J4"/>
+                <constraint firstAttribute="trailing" secondItem="Nmr-IU-XU6" secondAttribute="trailing" constant="22" id="mTN-JX-XVY"/>
+                <constraint firstAttribute="trailing" secondItem="svT-Fz-lSJ" secondAttribute="trailing" id="qkU-9Q-TAf"/>
+                <constraint firstItem="svT-Fz-lSJ" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="xAC-Hk-IYv"/>
+                <constraint firstAttribute="bottom" secondItem="svT-Fz-lSJ" secondAttribute="bottom" id="xty-Ot-zXA"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="4wm-ZF-0Qp"/>
+                </mask>
+            </variation>
+            <point key="canvasLocation" x="277" y="188"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="p2p_main_icon_ad" width="22" height="22"/>
+        <image name="p2p_main_icon_customer" width="22" height="22"/>
+        <image name="p2p_main_icon_money" width="22" height="22"/>
+    </resources>
+</document>

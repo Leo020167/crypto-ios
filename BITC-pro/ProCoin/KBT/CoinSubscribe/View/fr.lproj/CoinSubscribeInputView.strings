@@ -1,0 +1,21 @@
+
+/* Class = "UILabel"; text = "认购金额:0USDT"; ObjectID = "3HB-im-Xgn"; */
+"3HB-im-Xgn.text" = "认购金额:0USDT";
+
+/* Class = "UIButton"; normalTitle = "锁仓权益说明?"; ObjectID = "5lm-7D-emI"; */
+"5lm-7D-emI.normalTitle" = "锁仓权益说明?";
+
+/* Class = "UIButton"; normalTitle = "确定认购"; ObjectID = "Jn1-Ig-vqk"; */
+"Jn1-Ig-vqk.normalTitle" = "确定认购";
+
+/* Class = "UILabel"; text = "选择认购数量"; ObjectID = "Jtg-Md-oYY"; */
+"Jtg-Md-oYY.text" = "选择认购数量";
+
+/* Class = "UILabel"; text = "你目前锁仓权益等级0"; ObjectID = "LdO-kq-251"; */
+"LdO-kq-251.text" = "你目前锁仓权益等级0";
+
+/* Class = "UILabel"; text = "---"; ObjectID = "Z7g-ft-0wS"; */
+"Z7g-ft-0wS.text" = "---";
+
+/* Class = "UILabel"; text = "持有数量：0"; ObjectID = "zxk-8Q-rfc"; */
+"zxk-8Q-rfc.text" = "持有数量：0";

@@ -1,0 +1,18 @@
+
+/* Class = "UILabel"; text = "BTCBB"; ObjectID = "18e-dl-byS"; */
+"18e-dl-byS.text" = "BTCBB";
+
+/* Class = "UILabel"; text = "盈亏"; ObjectID = "4uN-Cj-IbT"; */
+"4uN-Cj-IbT.text" = "盈亏";
+
+/* Class = "UILabel"; text = "0.00%"; ObjectID = "DN0-2e-WMv"; */
+"DN0-2e-WMv.text" = "0.00%";
+
+/* Class = "UILabel"; text = "看涨(做多)"; ObjectID = "cCP-th-CdL"; */
+"cCP-th-CdL.text" = "看涨(做多)";
+
+/* Class = "UILabel"; text = "-30.66"; ObjectID = "tJ2-6R-fMC"; */
+"tJ2-6R-fMC.text" = "-30.66";
+
+/* Class = "UILabel"; text = "火币"; ObjectID = "yoj-sp-THH"; */
+"yoj-sp-THH.text" = "火币";

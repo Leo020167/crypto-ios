@@ -1,0 +1,24 @@
+
+/* Class = "UIButton"; normalTitle = "出售"; ObjectID = "3cN-IH-2cn"; */
+"3cN-IH-2cn.normalTitle" = "Sell";
+
+/* Class = "UILabel"; text = "限额 ￥2482.00 - ￥4342.00"; ObjectID = "4fv-ps-uab"; */
+"4fv-ps-uab.text" = "Quota HK$2482.00 - HK$4342.00";
+
+/* Class = "UILabel"; text = "梅老师"; ObjectID = "CK1-3F-IFy"; */
+"CK1-3F-IFy.text" = "xxx";
+
+/* Class = "UILabel"; text = "3052 | 95%"; ObjectID = "Nj5-Ug-892"; */
+"Nj5-Ug-892.text" = "3052 | 95%";
+
+/* Class = "UILabel"; text = "单价"; ObjectID = "QiO-Hl-gN1"; */
+"QiO-Hl-gN1.text" = "Price";
+
+/* Class = "UILabel"; text = "数量 6843.2834 USDT"; ObjectID = "Z9O-6a-H6L"; */
+"Z9O-6a-H6L.text" = "Quantity 6843.2834 USDT";
+
+/* Class = "UILabel"; text = "方式"; ObjectID = "mNu-nm-CCk"; */
+"mNu-nm-CCk.text" = "Method";
+
+/* Class = "UILabel"; text = "￥7.01"; ObjectID = "nu2-qe-jhI"; */
+"nu2-qe-jhI.text" = "HK$7.01";

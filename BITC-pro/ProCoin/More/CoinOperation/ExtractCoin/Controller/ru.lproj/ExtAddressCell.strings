@@ -1,0 +1,6 @@
+
+/* Class = "UILabel"; text = "備注"; ObjectID = "naR-Dl-yXc"; */
+"naR-Dl-yXc.text" = "Примечание";
+
+/* Class = "UITextField"; placeholder = "请输入备注"; ObjectID = "sii-Db-kCi"; */
+"sii-Db-kCi.placeholder" = "Пожалуйста, введите примечание";

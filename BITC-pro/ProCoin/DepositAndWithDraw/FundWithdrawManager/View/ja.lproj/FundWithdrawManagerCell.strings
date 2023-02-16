@@ -1,0 +1,15 @@
+
+/* Class = "UIButton"; normalTitle = "删除"; ObjectID = "1Bk-4y-RDV"; */
+"1Bk-4y-RDV.normalTitle" = "削除";
+
+/* Class = "UILabel"; text = "默认"; ObjectID = "1F9-bc-BZf"; */
+"1F9-bc-BZf.text" = "デフォルト";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "eDM-IB-Lfk"; */
+"eDM-IB-Lfk.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "hxF-rz-IMz"; */
+"hxF-rz-IMz.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "设置默认"; ObjectID = "iS1-kn-PLM"; */
+"iS1-kn-PLM.normalTitle" = "デフォルトの設定";

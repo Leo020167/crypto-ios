@@ -1,0 +1,66 @@
+
+/* Class = "UIButton"; normalTitle = "5日"; ObjectID = "070-nW-u9f"; */
+"070-nW-u9f.normalTitle" = "5日";
+
+/* Class = "UIButton"; normalTitle = "1分"; ObjectID = "0Ev-Vs-URM"; */
+"0Ev-Vs-URM.normalTitle" = "1分";
+
+/* Class = "UILabel"; text = "MA20："; ObjectID = "0Kt-Q6-KlX"; */
+"0Kt-Q6-KlX.text" = "MA20：";
+
+/* Class = "UILabel"; text = "≈¥---"; ObjectID = "5rH-Td-mLl"; */
+"5rH-Td-mLl.text" = "≈¥---";
+
+/* Class = "UIButton"; normalTitle = "1小时"; ObjectID = "AGC-IQ-xoX"; */
+"AGC-IQ-xoX.normalTitle" = "1小時";
+
+/* Class = "UILabel"; text = "---"; ObjectID = "FOM-qe-Xog"; */
+"FOM-qe-Xog.text" = "---";
+
+/* Class = "UIButton"; normalTitle = "日K"; ObjectID = "LaY-A8-Hca"; */
+"LaY-A8-Hca.normalTitle" = "日K";
+
+/* Class = "UILabel"; text = "24H"; ObjectID = "NQG-lI-4H7"; */
+"NQG-lI-4H7.text" = "24H";
+
+/* Class = "UILabel"; text = "---"; ObjectID = "NgN-gc-OTi"; */
+"NgN-gc-OTi.text" = "---";
+
+/* Class = "UIButton"; normalTitle = "周K"; ObjectID = "RIm-32-w55"; */
+"RIm-32-w55.normalTitle" = "周K";
+
+/* Class = "UILabel"; text = "MA10："; ObjectID = "cUb-EZ-LLN"; */
+"cUb-EZ-LLN.text" = "MA10：";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "cWy-z7-AfH"; */
+"cWy-z7-AfH.text" = "0";
+
+/* Class = "UILabel"; text = "低"; ObjectID = "f0G-IG-ibq"; */
+"f0G-IG-ibq.text" = "低";
+
+/* Class = "UILabel"; text = "0.00%"; ObjectID = "hBj-Z7-pDK"; */
+"hBj-Z7-pDK.text" = "0.00%";
+
+/* Class = "UILabel"; text = "高"; ObjectID = "ifl-zy-v7p"; */
+"ifl-zy-v7p.text" = "高";
+
+/* Class = "UILabel"; text = "MA5："; ObjectID = "lfd-uW-6dK"; */
+"lfd-uW-6dK.text" = "MA5：";
+
+/* Class = "UILabel"; text = "--"; ObjectID = "mCn-os-bWF"; */
+"mCn-os-bWF.text" = "--";
+
+/* Class = "UILabel"; text = "--"; ObjectID = "rhn-xe-t1N"; */
+"rhn-xe-t1N.text" = "--";
+
+/* Class = "UIButton"; normalTitle = "15分"; ObjectID = "stU-TI-NGK"; */
+"stU-TI-NGK.normalTitle" = "15分";
+
+/* Class = "UIButton"; normalTitle = "分时"; ObjectID = "vgK-Lt-7tS"; */
+"vgK-Lt-7tS.normalTitle" = "分時";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "wHF-lx-MTn"; */
+"wHF-lx-MTn.text" = "0";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "xgJ-VZ-SWZ"; */
+"xgJ-VZ-SWZ.text" = "0";

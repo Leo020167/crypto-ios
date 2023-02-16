@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment version="2304" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="bv8-Ba-6K4">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="36"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="时间" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dPo-iz-ehX">
+                    <rect key="frame" x="12" y="11" width="80.5" height="14.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <color key="textColor" red="0.38431372549999998" green="0.37647058820000001" blue="0.45098039220000002" alpha="1" colorSpace="deviceRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="方向" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sj1-56-Upx">
+                    <rect key="frame" x="102.5" y="11" width="80" height="14.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <color key="textColor" red="0.38431372549999998" green="0.37647058820000001" blue="0.45098039220000002" alpha="1" colorSpace="deviceRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="价格" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yhJ-uo-RPI">
+                    <rect key="frame" x="192.5" y="11" width="80.5" height="14.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <color key="textColor" red="0.38431372549999998" green="0.37647058820000001" blue="0.45098039220000002" alpha="1" colorSpace="deviceRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="数量(手)" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CtF-YL-Z1c">
+                    <rect key="frame" x="283" y="11" width="80" height="14.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <color key="textColor" red="0.38431372549999998" green="0.37647058820000001" blue="0.45098039220000002" alpha="1" colorSpace="deviceRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="0.074509803921568626" green="0.11764705882352941" blue="0.19215686274509802" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="yhJ-uo-RPI" firstAttribute="leading" secondItem="Sj1-56-Upx" secondAttribute="trailing" constant="10" id="G92-yD-f5K"/>
+                <constraint firstItem="dPo-iz-ehX" firstAttribute="centerY" secondItem="bv8-Ba-6K4" secondAttribute="centerY" id="L7o-6q-t8D"/>
+                <constraint firstItem="dPo-iz-ehX" firstAttribute="width" secondItem="Sj1-56-Upx" secondAttribute="width" id="VQj-W7-6Rd"/>
+                <constraint firstItem="dPo-iz-ehX" firstAttribute="leading" secondItem="hHZ-bo-1ku" secondAttribute="leading" constant="12" id="XxN-sB-kiU"/>
+                <constraint firstItem="CtF-YL-Z1c" firstAttribute="centerY" secondItem="dPo-iz-ehX" secondAttribute="centerY" id="cOa-jr-fj8"/>
+                <constraint firstItem="dPo-iz-ehX" firstAttribute="width" secondItem="CtF-YL-Z1c" secondAttribute="width" id="jGY-ix-gaq"/>
+                <constraint firstItem="Sj1-56-Upx" firstAttribute="leading" secondItem="dPo-iz-ehX" secondAttribute="trailing" constant="10" id="lED-cc-E0o"/>
+                <constraint firstItem="CtF-YL-Z1c" firstAttribute="leading" secondItem="yhJ-uo-RPI" secondAttribute="trailing" constant="10" id="pRN-zW-x8d"/>
+                <constraint firstItem="hHZ-bo-1ku" firstAttribute="trailing" secondItem="CtF-YL-Z1c" secondAttribute="trailing" constant="12" id="qiS-77-G0b"/>
+                <constraint firstItem="Sj1-56-Upx" firstAttribute="centerY" secondItem="dPo-iz-ehX" secondAttribute="centerY" id="tdq-3d-Dru"/>
+                <constraint firstItem="dPo-iz-ehX" firstAttribute="width" secondItem="yhJ-uo-RPI" secondAttribute="width" id="uw9-cT-rJO"/>
+                <constraint firstItem="yhJ-uo-RPI" firstAttribute="centerY" secondItem="dPo-iz-ehX" secondAttribute="centerY" id="xBZ-9O-16r"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="hHZ-bo-1ku"/>
+            <point key="canvasLocation" x="400.80000000000001" y="-343.62818590704649"/>
+        </view>
+    </objects>
+</document>

@@ -1,0 +1,21 @@
+
+/* Class = "UIButton"; normalTitle = "出售"; ObjectID = "6uM-w4-6AI"; */
+"6uM-w4-6AI.normalTitle" = "出售";
+
+/* Class = "UILabel"; text = "类型选择"; ObjectID = "Foc-ds-Xdp"; */
+"Foc-ds-Xdp.text" = "類型選擇";
+
+/* Class = "UIButton"; normalTitle = "取消"; ObjectID = "JtR-0o-k97"; */
+"JtR-0o-k97.normalTitle" = "取消";
+
+/* Class = "UILabel"; text = "筛选"; ObjectID = "M9f-kk-ITA"; */
+"M9f-kk-ITA.text" = "篩選";
+
+/* Class = "UIButton"; normalTitle = "购买"; ObjectID = "Zps-y9-ru7"; */
+"Zps-y9-ru7.normalTitle" = "購買";
+
+/* Class = "UIButton"; normalTitle = "重置"; ObjectID = "kQL-WN-zdL"; */
+"kQL-WN-zdL.normalTitle" = "重置";
+
+/* Class = "UIButton"; normalTitle = "确定"; ObjectID = "ox7-SV-G3V"; */
+"ox7-SV-G3V.normalTitle" = "確定";

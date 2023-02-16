@@ -1,0 +1,9 @@
+
+/* Class = "UIButton"; normalTitle = "当前开仓"; ObjectID = "ctf-VV-4MP"; */
+"ctf-VV-4MP.normalTitle" = "Current Open Position";
+
+/* Class = "UIButton"; normalTitle = "全部"; ObjectID = "gWU-R1-nab"; */
+"gWU-R1-nab.normalTitle" = "All";
+
+/* Class = "UIButton"; normalTitle = "当前委托"; ObjectID = "o7z-Yc-Gc0"; */
+"o7z-Yc-Gc0.normalTitle" = "Current commission";

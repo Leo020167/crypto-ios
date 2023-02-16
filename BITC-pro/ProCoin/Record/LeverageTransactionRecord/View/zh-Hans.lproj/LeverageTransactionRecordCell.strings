@@ -1,0 +1,24 @@
+
+/* Class = "UILabel"; text = "---"; ObjectID = "2iY-dc-Tg0"; */
+"2iY-dc-Tg0.text" = "---";
+
+/* Class = "UILabel"; text = "开仓方向"; ObjectID = "XJ1-QX-ZMa"; */
+"XJ1-QX-ZMa.text" = "开仓方向";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Y5w-e7-265"; */
+"Y5w-e7-265.text" = "Label";
+
+/* Class = "UILabel"; text = "开仓价(USDT)"; ObjectID = "ZPA-sT-Fet"; */
+"ZPA-sT-Fet.text" = "开仓价(USDT)";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "gqt-yA-hNz"; */
+"gqt-yA-hNz.text" = "Label";
+
+/* Class = "UILabel"; text = "---"; ObjectID = "iGd-2y-y8F"; */
+"iGd-2y-y8F.text" = "---";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "nVB-iQ-Z4k"; */
+"nVB-iQ-Z4k.text" = "Label";
+
+/* Class = "UILabel"; text = "盈利(USDT)"; ObjectID = "z55-EB-bGU"; */
+"z55-EB-bGU.text" = "盈利(USDT)";

@@ -1,0 +1,6 @@
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "XUM-n3-GLT"; */
+"XUM-n3-GLT.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "删除历史"; ObjectID = "iZO-ef-mIv"; */
+"iZO-ef-mIv.normalTitle" = "Delete History";

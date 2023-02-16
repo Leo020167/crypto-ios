@@ -1,0 +1,12 @@
+
+/* Class = "UILabel"; text = "买入"; ObjectID = "9f7-s0-M7y"; */
+"9f7-s0-M7y.text" = "買入";
+
+/* Class = "UILabel"; text = "数量(手)"; ObjectID = "JTm-3V-wTi"; */
+"JTm-3V-wTi.text" = "數量";
+
+/* Class = "UILabel"; text = "数量(手)"; ObjectID = "QL4-tv-fmp"; */
+"QL4-tv-fmp.text" = "數量";
+
+/* Class = "UILabel"; text = "卖出"; ObjectID = "h8O-3u-2iH"; */
+"h8O-3u-2iH.text" = "賣出";

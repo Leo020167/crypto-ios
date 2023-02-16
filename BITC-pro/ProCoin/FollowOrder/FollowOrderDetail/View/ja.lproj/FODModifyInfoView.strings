@@ -1,0 +1,21 @@
+
+/* Class = "UILabel"; text = "可用USDT:"; ObjectID = "2Mb-t9-02V"; */
+"2Mb-t9-02V.text" = "使用可能なUSDT:";
+
+/* Class = "UILabel"; text = "≈¥0.00"; ObjectID = "8kK-Jf-3uh"; */
+"8kK-Jf-3uh.text" = "≈¥0.00";
+
+/* Class = "UIButton"; normalTitle = "确定"; ObjectID = "AcV-5N-eLC"; */
+"AcV-5N-eLC.normalTitle" = "確定";
+
+/* Class = "UIButton"; normalTitle = "全部"; ObjectID = "G2o-Kb-od5"; */
+"G2o-Kb-od5.normalTitle" = "すべて";
+
+/* Class = "UITextField"; placeholder = "请输入追加跟单USDT"; ObjectID = "XsP-bG-MSb"; */
+"XsP-bG-MSb.placeholder" = "追加のドキュメンタリーを入力してくださいUSDT";
+
+/* Class = "UILabel"; text = "追加金额"; ObjectID = "arr-RY-hTp"; */
+"arr-RY-hTp.text" = "追加金額";
+
+/* Class = "UILabel"; text = "USDT"; ObjectID = "wUz-sA-QfN"; */
+"wUz-sA-QfN.text" = "USDT";

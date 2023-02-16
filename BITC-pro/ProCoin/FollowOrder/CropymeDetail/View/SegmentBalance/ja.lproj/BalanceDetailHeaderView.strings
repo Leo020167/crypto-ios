@@ -1,0 +1,15 @@
+
+/* Class = "UILabel"; text = "用户名"; ObjectID = "PqV-ch-ejC"; */
+"PqV-ch-ejC.text" = "ユーザー名";
+
+/* Class = "UILabel"; text = "总投入"; ObjectID = "RWA-kd-aoJ"; */
+"RWA-kd-aoJ.text" = "総投入";
+
+/* Class = "UILabel"; text = "盈利"; ObjectID = "lLY-2e-9ek"; */
+"lLY-2e-9ek.text" = "利益";
+
+/* Class = "UILabel"; text = "下笔可用"; ObjectID = "lTa-JV-VNF"; */
+"lTa-JV-VNF.text" = "次のペンで利用可能";
+
+/* Class = "UILabel"; text = "可用"; ObjectID = "zU3-bc-gMd"; */
+"zU3-bc-gMd.text" = "利用可能";

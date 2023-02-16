@@ -1,0 +1,24 @@
+
+/* Class = "UILabel"; text = "≈¥0.00"; ObjectID = "7rM-cM-9oR"; */
+"7rM-cM-9oR.text" = "≈¥0.00";
+
+/* Class = "UILabel"; text = "每笔跟单上限"; ObjectID = "C9A-B8-U7h"; */
+"C9A-B8-U7h.text" = "Each copy limit";
+
+/* Class = "UITextField"; placeholder = "请输入每笔跟单上限USDT"; ObjectID = "GpB-qp-BcX"; */
+"GpB-qp-BcX.placeholder" = "Please enter the maximum amount per order USDT";
+
+/* Class = "UITextField"; text = "0"; ObjectID = "GpB-qp-BcX"; */
+"GpB-qp-BcX.text" = "0";
+
+/* Class = "UILabel"; text = "USDT"; ObjectID = "Xld-pB-gAd"; */
+"Xld-pB-gAd.text" = "USDT";
+
+/* Class = "UILabel"; text = "止损 未设置"; ObjectID = "mVw-wF-8zo"; */
+"mVw-wF-8zo.text" = "Stop loss is not set";
+
+/* Class = "UIButton"; normalTitle = "确定"; ObjectID = "tYb-sy-uzN"; */
+"tYb-sy-uzN.normalTitle" = "Sure";
+
+/* Class = "UILabel"; text = "止盈 未设置"; ObjectID = "wfd-hY-1Ya"; */
+"wfd-hY-1Ya.text" = "Take profit is not set";

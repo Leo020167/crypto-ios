@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment version="2304" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="QuotationsTradeSellDataCellIdentifier" id="8G2-Q4-fIz">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="27"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="8G2-Q4-fIz" id="cbL-8m-NM3">
+                <rect key="frame" x="0.0" y="0.0" width="414" height="27"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" tag="102" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ou5-sH-w7P">
+                        <rect key="frame" x="413" y="0.0" width="1" height="27"/>
+                        <color key="backgroundColor" red="0.0" green="0.67843137254901964" blue="0.53333333333333333" alpha="0.20000000000000001" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="1" id="UFa-D0-38z"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" tag="101" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="---" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="pui-te-ZSU">
+                        <rect key="frame" x="5" y="6" width="256" height="18"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="18" id="l4f-KY-D88"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" red="0.0" green="0.67843137254901964" blue="0.53333333333333333" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" tag="100" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="---" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="jYc-ms-eZ1">
+                        <rect key="frame" x="271" y="6" width="128" height="18"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="18" id="uL1-Z2-tUs"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" red="0.93725490196078431" green="0.93725490196078431" blue="0.93725490196078431" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="ou5-sH-w7P" secondAttribute="trailing" id="2mh-Nk-119"/>
+                    <constraint firstAttribute="trailing" secondItem="jYc-ms-eZ1" secondAttribute="trailing" constant="15" id="7tq-lf-h8Z"/>
+                    <constraint firstItem="pui-te-ZSU" firstAttribute="leading" secondItem="cbL-8m-NM3" secondAttribute="leading" constant="5" id="9uo-Ku-M1p"/>
+                    <constraint firstItem="ou5-sH-w7P" firstAttribute="top" secondItem="cbL-8m-NM3" secondAttribute="top" id="Gzp-Ew-cRX"/>
+                    <constraint firstAttribute="bottom" secondItem="pui-te-ZSU" secondAttribute="bottom" constant="3" id="IyK-jG-KbJ"/>
+                    <constraint firstAttribute="bottom" secondItem="ou5-sH-w7P" secondAttribute="bottom" id="TfD-gX-hij"/>
+                    <constraint firstItem="pui-te-ZSU" firstAttribute="width" secondItem="jYc-ms-eZ1" secondAttribute="width" multiplier="2:1" id="cU9-Ul-cBt"/>
+                    <constraint firstItem="jYc-ms-eZ1" firstAttribute="leading" secondItem="pui-te-ZSU" secondAttribute="trailing" constant="10" id="cwT-e3-lAA"/>
+                    <constraint firstAttribute="bottom" secondItem="jYc-ms-eZ1" secondAttribute="bottom" constant="3" id="deo-jJ-Tt6"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" red="0.074509803921568626" green="0.11764705882352941" blue="0.19215686274509802" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <point key="canvasLocation" x="315.94202898550725" y="142.96875"/>
+        </tableViewCell>
+    </objects>
+</document>

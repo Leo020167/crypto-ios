@@ -1,0 +1,30 @@
+
+/* Class = "UIButton"; normalTitle = "提币"; ObjectID = "2LE-GZ-gis"; */
+"2LE-GZ-gis.normalTitle" = "提币";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "3Yj-Hn-Use"; */
+"3Yj-Hn-Use.text" = "0";
+
+/* Class = "UIButton"; normalTitle = "充币"; ObjectID = "7n3-8Z-uS3"; */
+"7n3-8Z-uS3.normalTitle" = "充币";
+
+/* Class = "UILabel"; text = "可用"; ObjectID = "J1w-Mc-XFh"; */
+"J1w-Mc-XFh.text" = "可用";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "MPX-GB-8UO"; */
+"MPX-GB-8UO.text" = "0";
+
+/* Class = "UILabel"; text = "---"; ObjectID = "g3x-po-ujj"; */
+"g3x-po-ujj.text" = "---";
+
+/* Class = "UILabel"; text = "冻结"; ObjectID = "ggM-Kl-5uK"; */
+"ggM-Kl-5uK.text" = "冻结";
+
+/* Class = "UILabel"; text = "≈¥0.00"; ObjectID = "rJ7-7g-mC8"; */
+"rJ7-7g-mC8.text" = "≈¥0.00";
+
+/* Class = "UILabel"; text = "账户余额(USDT)"; ObjectID = "s4L-Bk-2no"; */
+"s4L-Bk-2no.text" = "账户余额(USDT)";
+
+/* Class = "UIButton"; normalTitle = "法币购买 "; ObjectID = "uRh-NV-9nV"; */
+"uRh-NV-9nV.normalTitle" = "法币购买 ";

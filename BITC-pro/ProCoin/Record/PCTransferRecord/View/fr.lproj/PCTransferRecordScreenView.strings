@@ -1,0 +1,18 @@
+
+/* Class = "UILabel"; text = "筛选"; ObjectID = "VT3-Ip-9K9"; */
+"VT3-Ip-9K9.text" = "筛选";
+
+/* Class = "UIButton"; normalTitle = "重置"; ObjectID = "WHi-4q-DAe"; */
+"WHi-4q-DAe.normalTitle" = "重置";
+
+/* Class = "UILabel"; text = "转出账户选择"; ObjectID = "WdD-nr-PLL"; */
+"WdD-nr-PLL.text" = "转出账户选择";
+
+/* Class = "UIButton"; normalTitle = "确定"; ObjectID = "g7Y-om-9W0"; */
+"g7Y-om-9W0.normalTitle" = "确定";
+
+/* Class = "UILabel"; text = "转入账户选择"; ObjectID = "jN3-2B-aHc"; */
+"jN3-2B-aHc.text" = "转入账户选择";
+
+/* Class = "UIButton"; normalTitle = "取消"; ObjectID = "vxb-yq-JU3"; */
+"vxb-yq-JU3.normalTitle" = "取消";

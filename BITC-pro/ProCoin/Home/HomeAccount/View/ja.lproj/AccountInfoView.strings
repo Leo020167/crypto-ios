@@ -1,0 +1,21 @@
+
+/* Class = "UILabel"; text = "0.0000"; ObjectID = "7th-i3-XTj"; */
+"7th-i3-XTj.text" = "0.0000";
+
+/* Class = "UIButton"; normalTitle = "划转"; ObjectID = "L2R-f3-YAK"; */
+"L2R-f3-YAK.normalTitle" = "スイープ";
+
+/* Class = "UILabel"; text = "账户总资产(USDT)"; ObjectID = "Nbs-uQ-gSU"; */
+"Nbs-uQ-gSU.text" = "勘定科目の総資産(USDT)";
+
+/* Class = "UIButton"; normalTitle = "提币"; ObjectID = "fV3-8T-8I1"; */
+"fV3-8T-8I1.normalTitle" = "貨幣をさげる";
+
+/* Class = "UIButton"; normalTitle = "余额提现"; ObjectID = "hDX-rX-ViY"; */
+"hDX-rX-ViY.normalTitle" = "法貨売買";
+
+/* Class = "UILabel"; text = "≈0.00 CNY"; ObjectID = "izH-2Z-Q9v"; */
+"izH-2Z-Q9v.text" = "≈0.00 HKD";
+
+/* Class = "UIButton"; normalTitle = "充币"; ObjectID = "zcU-iq-ZyU"; */
+"zcU-iq-ZyU.normalTitle" = "貨幣をチャージする";

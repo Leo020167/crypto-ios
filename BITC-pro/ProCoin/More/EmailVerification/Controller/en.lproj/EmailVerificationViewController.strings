@@ -1,0 +1,15 @@
+
+/* Class = "UILabel"; text = "您目前的邮箱是12****@qq.com，想要把它更新为？"; ObjectID = "1Zq-Cv-fkG"; */
+"1Zq-Cv-fkG.text" = "Your current email address is xxx@126.com and would you like to update it to ?";
+
+/* Class = "UITextField"; placeholder = "请输入邮箱"; ObjectID = "WJg-Re-Ksl"; */
+"WJg-Re-Ksl.placeholder" = "Please enter your email";
+
+/* Class = "UILabel"; text = "+1"; ObjectID = "srM-Fg-cqX"; */
+"srM-Fg-cqX.text" = "+1";
+
+/* Class = "UILabel"; text = "邮箱"; ObjectID = "xLJ-2C-a9N"; */
+"xLJ-2C-a9N.text" = "Email";
+
+/* Class = "UIButton"; normalTitle = "发送验证码"; ObjectID = "yfV-aT-nUd"; */
+"yfV-aT-nUd.normalTitle" = "Send verification code";

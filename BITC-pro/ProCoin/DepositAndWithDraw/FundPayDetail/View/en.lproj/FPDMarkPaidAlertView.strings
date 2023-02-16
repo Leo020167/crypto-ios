@@ -1,0 +1,15 @@
+
+/* Class = "UIButton"; normalTitle = "取消"; ObjectID = "55Z-Qe-nBf"; */
+"55Z-Qe-nBf.normalTitle" = "Cancel";
+
+/* Class = "UILabel"; text = "恶意行为将被冻结现金支付功能24小时。"; ObjectID = "6t1-jh-hcl"; */
+"6t1-jh-hcl.text" = "Malicious behavior will be frozen for 24 hours with cash payment function.";
+
+/* Class = "UIButton"; normalTitle = "标记已付款"; ObjectID = "K7X-S0-XTG"; */
+"K7X-S0-XTG.normalTitle" = "Mark paid";
+
+/* Class = "UILabel"; text = "请确认已付款，否则订单将在30分钟后自动取消。每日3次自动取消将影响信用。"; ObjectID = "Lcr-1C-486"; */
+"Lcr-1C-486.text" = "Please confirm that the payment has been made, otherwise the order will be automatically cancelled after 30 minutes. Automatic cancellation 3 times a day will affect credit.";
+
+/* Class = "UILabel"; text = "我确认已付款给对方"; ObjectID = "veS-15-hBg"; */
+"veS-15-hBg.text" = "I confirm that I have paid to the other party";

@@ -1,0 +1,57 @@
+
+/* Class = "UILabel"; text = "个人简介 "; ObjectID = "0JT-Eq-foY"; */
+"0JT-Eq-foY.text" = "個人プロフィール";
+
+/* Class = "UILabel"; text = "订阅数"; ObjectID = "1JX-h9-MM5"; */
+"1JX-h9-MM5.text" = "購読数";
+
+/* Class = "UILabel"; text = "---"; ObjectID = "H0e-N7-rCv"; */
+"H0e-N7-rCv.text" = "---";
+
+/* Class = "UIButton"; normalTitle = "订阅"; ObjectID = "Iqi-ye-9p6"; */
+"Iqi-ye-9p6.normalTitle" = "購読";
+
+/* Class = "UILabel"; text = "---"; ObjectID = "KIK-1m-OS0"; */
+"KIK-1m-OS0.text" = "---";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "M55-51-HxO"; */
+"M55-51-HxO.text" = "0";
+
+/* Class = "UILabel"; text = "说明"; ObjectID = "OZK-eJ-DKe"; */
+"OZK-eJ-DKe.text" = "説明";
+
+/* Class = "UILabel"; text = "上月收益(USDT)"; ObjectID = "Oeq-en-6QO"; */
+"Oeq-en-6QO.text" = "先月の収益(USDT)";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "OjB-Ee-PwB"; */
+"OjB-Ee-PwB.text" = "0";
+
+/* Class = "UILabel"; text = "总收益(USDT)"; ObjectID = "Q8Q-0I-DbU"; */
+"Q8Q-0I-DbU.text" = "総利益(USDT)";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "TEO-92-8j5"; */
+"TEO-92-8j5.text" = "0";
+
+/* Class = "UILabel"; text = "交易收益"; ObjectID = "bhG-ph-1De"; */
+"bhG-ph-1De.text" = "取引収入";
+
+/* Class = "UILabel"; text = "准确率"; ObjectID = "c8g-bx-Yl7"; */
+"c8g-bx-Yl7.text" = "精度";
+
+/* Class = "UILabel"; text = "这个人很懒，未留下任何东西…"; ObjectID = "cXJ-Bj-gHD"; */
+"cXJ-Bj-gHD.text" = "この人はとても怠け者で、何も残していません......";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "nT0-0Z-t5d"; */
+"nT0-0Z-t5d.text" = "0";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "pvl-ta-q1P"; */
+"pvl-ta-q1P.text" = "0";
+
+/* Class = "UIButton"; normalTitle = "申请绑定"; ObjectID = "sVU-Ax-2aR"; */
+"sVU-Ax-2aR.normalTitle" = "アプリケーション・バインディング";
+
+/* Class = "UILabel"; text = "ID:--- 已入驻--天"; ObjectID = "u09-pm-PYC"; */
+"u09-pm-PYC.text" = "ID:--- 間滞在しています--日";
+
+/* Class = "UILabel"; text = "跟单人数"; ObjectID = "x4z-gT-cRb"; */
+"x4z-gT-cRb.text" = "荷為替人の数";

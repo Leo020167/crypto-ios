@@ -1,0 +1,12 @@
+
+/* Class = "UIButton"; normalTitle = "续费"; ObjectID = "B3a-Tj-nCf"; */
+"B3a-Tj-nCf.normalTitle" = "更新料";
+
+/* Class = "UILabel"; text = "已入驻--天"; ObjectID = "Go1-Pz-E2I"; */
+"Go1-Pz-E2I.text" = "已入驻--天";
+
+/* Class = "UILabel"; text = "到期:2020-20-20"; ObjectID = "SDH-F8-VH1"; */
+"SDH-F8-VH1.text" = "期限切れ:2020-20-20";
+
+/* Class = "UILabel"; text = "name"; ObjectID = "YuL-YU-gXA"; */
+"YuL-YU-gXA.text" = "name";

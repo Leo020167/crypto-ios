@@ -1,0 +1,6 @@
+
+/* Class = "UILabel"; text = "用户名称"; ObjectID = "kzs-yu-kaw"; */
+"kzs-yu-kaw.text" = "User Name";
+
+/* Class = "UILabel"; text = "订阅状态"; ObjectID = "tfz-AO-yRN"; */
+"tfz-AO-yRN.text" = "Subscription Status";

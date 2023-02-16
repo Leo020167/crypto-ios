@@ -1,0 +1,42 @@
+
+/* Class = "UITextField"; placeholder = "设置密码"; ObjectID = "5B4-fc-lGm"; */
+"5B4-fc-lGm.placeholder" = "Configurar la clave";
+
+/* Class = "UIButton"; normalTitle = "《隐私条款》"; ObjectID = "8SW-xy-ePg"; */
+"8SW-xy-ePg.normalTitle" = "《Política de privacidad》";
+
+/* Class = "UILabel"; text = "中国"; ObjectID = "8tV-28-oYW"; */
+"8tV-28-oYW.text" = "US";
+
+/* Class = "UIButton"; normalTitle = "注册"; ObjectID = "AcM-qD-O7Q"; */
+"AcM-qD-O7Q.normalTitle" = "Registro";
+
+/* Class = "UILabel"; text = "点击注册即表示您已经阅读并同意W.W.C.T的"; ObjectID = "Cx4-Iq-bhx"; */
+"Cx4-Iq-bhx.text" = "Al hacer clic en Registro, usted acepta 'ProCoin'";
+
+/* Class = "UILabel"; text = "Worldwide Coin Trade"; ObjectID = "NnP-1q-3Af"; */
+"NnP-1q-3Af.text" = "Worldwide Coin Trade";
+
+/* Class = "UITextField"; placeholder = "Email"; ObjectID = "PXQ-iX-lwV"; */
+"PXQ-iX-lwV.placeholder" = "Buzón";
+
+/* Class = "UILabel"; text = "环球数字资产交易平台"; ObjectID = "de3-cf-cWj"; */
+"de3-cf-cWj.text" = " Plataforma de comercio de activos digitales globales";
+
+/* Class = "UITextField"; placeholder = "请填写邀请码(必填)"; ObjectID = "hvf-ot-R8d"; */
+"hvf-ot-R8d.placeholder" = "Complete el código de invitación (requerido)";
+
+/* Class = "UILabel"; text = "注册"; ObjectID = "igl-JR-GNi"; */
+"igl-JR-GNi.text" = "Registro";
+
+/* Class = "UITextField"; placeholder = "请再次输入密码"; ObjectID = "qkM-1R-vQs"; */
+"qkM-1R-vQs.placeholder" = "Ingrese la contraseña nuevamente";
+
+/* Class = "UIButton"; normalTitle = "《用户协议》"; ObjectID = "s1t-T0-Jsu"; */
+"s1t-T0-Jsu.normalTitle" = "《Acuerdo del Usuario》";
+
+/* Class = "UILabel"; text = "提示:密码必须是8-16位数字与字母组合"; ObjectID = "v6L-1T-qzS"; */
+"v6L-1T-qzS.text" = "Consejo: la contraseña debe ser una combinación de 8-16 dígitos y letras";
+
+/* Class = "UIButton"; normalTitle = "Register with Phone"; ObjectID = "zfC-gq-jJY"; */
+"zfC-gq-jJY.normalTitle" = "Registro móvil";

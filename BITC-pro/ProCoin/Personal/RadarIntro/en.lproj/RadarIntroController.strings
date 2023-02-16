@@ -1,0 +1,33 @@
+
+/* Class = "UILabel"; text = "1.跟单盈利额"; ObjectID = "36F-Pc-RF2"; */
+"36F-Pc-RF2.text" = "1.Profitability of Follow-Up Orders";
+
+/* Class = "UILabel"; text = "4.跟单胜率"; ObjectID = "3lE-eZ-aY2"; */
+"3lE-eZ-aY2.text" = "4.Winning Rate of Follow-up Orders";
+
+/* Class = "UILabel"; text = "2.盈利能力"; ObjectID = "9If-XQ-7JA"; */
+"9If-XQ-7JA.text" = "2.Profitability";
+
+/* Class = "UILabel"; text = "释义：跟随高手的用户最近30天盈亏总金额。"; ObjectID = "Bnb-Sj-TGi"; */
+"Bnb-Sj-TGi.text" = "Definition: the total amount of profit and loss of users who followed the master in the the past 30 days.";
+
+/* Class = "UILabel"; text = "释义：高手最近30天跟单人数，数值越大，代表跟随者越多，人气越高。"; ObjectID = "C8Q-TO-VrS"; */
+"C8Q-TO-VrS.text" = "Definition: the number of followers of the master in the past 30 days. The larger the number, the more followers and the higher the popularity.";
+
+/* Class = "UILabel"; text = "释义：跟随高手的用户最近30天平均每笔交易的收益率。数值越大，代表跟随高手的用户收益越好。"; ObjectID = "Mw9-L7-vVc"; */
+"Mw9-L7-vVc.text" = "Definition: the average profitability of each trade in the last 30 days for users who follow the master. The larger the value, the better the return for the user following the master.";
+
+/* Class = "UILabel"; text = "3.跟单收益率"; ObjectID = "Xdb-ub-gmP"; */
+"Xdb-ub-gmP.text" = "3.Profitability of Follow-Up Orders";
+
+/* Class = "UILabel"; text = "5.人气指数"; ObjectID = "ZMm-2N-cYp"; */
+"ZMm-2N-cYp.text" = "5.Popularity Index";
+
+/* Class = "UILabel"; text = "释义：跟随高手盈利的几率。数值越大，代表跟单获利的可能性就越高。"; ObjectID = "dNN-Md-Ryz"; */
+"dNN-Md-Ryz.text" = "Definition: the chance of following the master's profit. The larger the value, the higher the possibility of profitability.";
+
+/* Class = "UILabel"; text = "释义：高手最近30天平均每笔交易的收益率。数值越大，代表个人盈利能力越强。"; ObjectID = "fu7-UP-4Z0"; */
+"fu7-UP-4Z0.text" = "Definition: the average rate of return per trade of the master in the past 30 days. The larger the value, the stronger the profitability of the individual.";
+
+/* Class = "UILabel"; text = "雷达图说明"; ObjectID = "uku-Wg-f3d"; */
+"uku-Wg-f3d.text" = "The Description of Radar Chart";

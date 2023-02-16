@@ -1,0 +1,9 @@
+
+/* Class = "UIButton"; normalTitle = "筛选"; ObjectID = "AND-6u-acl"; */
+"AND-6u-acl.normalTitle" = "Filter";
+
+/* Class = "UILabel"; text = "划转记录"; ObjectID = "LYs-vC-TAT"; */
+"LYs-vC-TAT.text" = "Transfer Record";
+
+/* Class = "UILabel"; text = "暂无该记录数据"; ObjectID = "bF3-GN-YzI"; */
+"bF3-GN-YzI.text" = "No Data for this Record at the Moment";

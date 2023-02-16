@@ -1,0 +1,15 @@
+
+/* Class = "UILabel"; text = "跟单盈亏(USDT)"; ObjectID = "4mJ-ZL-Jr0"; */
+"4mJ-ZL-Jr0.text" = "跟单盈亏(USDT)";
+
+/* Class = "UILabel"; text = "--"; ObjectID = "KFg-O5-VWm"; */
+"KFg-O5-VWm.text" = "--";
+
+/* Class = "UILabel"; text = "结束时间"; ObjectID = "egK-j7-Nf4"; */
+"egK-j7-Nf4.text" = "结束时间";
+
+/* Class = "UILabel"; text = "--"; ObjectID = "i1U-95-Php"; */
+"i1U-95-Php.text" = "--";
+
+/* Class = "UILabel"; text = "name"; ObjectID = "vTw-U3-JGV"; */
+"vTw-U3-JGV.text" = "name";

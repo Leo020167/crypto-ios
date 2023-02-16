@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment version="2304" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="FundWithdrawManagerController">
+            <connections>
+                <outlet property="addModeButton" destination="KaF-dc-yXq" id="vaG-vJ-lDv"/>
+                <outlet property="dataTableView" destination="UIA-0K-ytZ" id="tUs-V3-lxR"/>
+                <outlet property="tipsView" destination="aWO-p3-hdd" id="VFv-jl-FhS"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view tag="9999" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dUm-w1-bJb" customClass="TJRBaseTitleView">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="64"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="收款管理" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oFp-ii-Jrb">
+                            <rect key="frame" x="151" y="20" width="73.5" height="44"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="44" id="VTK-L2-s5W"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                            <color key="textColor" red="0.23921568630000001" green="0.2274509804" blue="0.31372549020000001" alpha="1" colorSpace="deviceRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OYR-za-2aT">
+                            <rect key="frame" x="5" y="20" width="46" height="44"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="46" id="wgl-Zy-Chy"/>
+                                <constraint firstAttribute="height" constant="44" id="yp5-9l-3e3"/>
+                            </constraints>
+                            <state key="normal" image="btn_back_black"/>
+                            <connections>
+                                <action selector="backButtonPressed:" destination="-1" eventType="touchUpInside" id="RrK-kh-o8i"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="oFp-ii-Jrb" secondAttribute="bottom" id="AZU-fn-APH"/>
+                        <constraint firstAttribute="height" constant="64" id="YGs-dX-Cr4"/>
+                        <constraint firstAttribute="bottom" secondItem="OYR-za-2aT" secondAttribute="bottom" id="bht-rq-X7m"/>
+                        <constraint firstItem="oFp-ii-Jrb" firstAttribute="centerX" secondItem="dUm-w1-bJb" secondAttribute="centerX" id="ck1-sX-y24"/>
+                        <constraint firstItem="OYR-za-2aT" firstAttribute="leading" secondItem="dUm-w1-bJb" secondAttribute="leading" constant="5" id="rph-dR-GpO"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KaF-dc-yXq">
+                    <rect key="frame" x="20" y="613" width="335" height="44"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="LAu-Bm-A4b"/>
+                    </constraints>
+                    <state key="normal" title="添加"/>
+                    <connections>
+                        <action selector="addWithdrawButtonPressed:" destination="-1" eventType="touchUpInside" id="aia-6W-Sby"/>
+                    </connections>
+                </button>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="UIA-0K-ytZ">
+                    <rect key="frame" x="0.0" y="64" width="375" height="549"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </tableView>
+                <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aWO-p3-hdd">
+                    <rect key="frame" x="67.5" y="114" width="240" height="200"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="未添加账户" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cj1-qm-MCl">
+                            <rect key="frame" x="76.5" y="146" width="87" height="21"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" red="0.74509803921568629" green="0.75294117647058822" blue="0.80784313725490198" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fund_withdraw_bg_no_account" translatesAutoresizingMaskIntoConstraints="NO" id="OEv-xz-gjT">
+                            <rect key="frame" x="29" y="0.0" width="182" height="136"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="136" id="Cjn-uK-Dng"/>
+                                <constraint firstAttribute="width" constant="182" id="VSR-bB-tLa"/>
+                            </constraints>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="OEv-xz-gjT" firstAttribute="top" secondItem="aWO-p3-hdd" secondAttribute="top" id="BzH-mA-2q7"/>
+                        <constraint firstAttribute="width" constant="240" id="IB8-eD-tHa"/>
+                        <constraint firstAttribute="height" constant="200" id="TXI-gm-5Bu"/>
+                        <constraint firstItem="OEv-xz-gjT" firstAttribute="centerX" secondItem="aWO-p3-hdd" secondAttribute="centerX" id="YYO-4r-3Bu"/>
+                        <constraint firstItem="cj1-qm-MCl" firstAttribute="centerX" secondItem="aWO-p3-hdd" secondAttribute="centerX" id="ugZ-q4-YPh"/>
+                        <constraint firstItem="cj1-qm-MCl" firstAttribute="top" secondItem="OEv-xz-gjT" secondAttribute="bottom" constant="10" id="xmP-x2-dg0"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="aWO-p3-hdd" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="2mB-qF-PQS"/>
+                <constraint firstItem="aWO-p3-hdd" firstAttribute="top" secondItem="dUm-w1-bJb" secondAttribute="bottom" constant="50" id="3Jo-WT-wMy"/>
+                <constraint firstItem="dUm-w1-bJb" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" id="88e-te-boj"/>
+                <constraint firstItem="KaF-dc-yXq" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" constant="20" id="Dqo-ir-S49"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="bottom" secondItem="KaF-dc-yXq" secondAttribute="bottom" constant="10" id="FHO-Yt-dKY"/>
+                <constraint firstItem="dUm-w1-bJb" firstAttribute="trailing" secondItem="Q5M-cg-NOt" secondAttribute="trailing" id="KTZ-Nu-IOM"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="UIA-0K-ytZ" secondAttribute="trailing" id="UI5-ec-2Fa"/>
+                <constraint firstItem="dUm-w1-bJb" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="YKo-Ve-0s5"/>
+                <constraint firstItem="UIA-0K-ytZ" firstAttribute="top" secondItem="dUm-w1-bJb" secondAttribute="bottom" id="edt-Zs-TiP"/>
+                <constraint firstItem="KaF-dc-yXq" firstAttribute="top" secondItem="UIA-0K-ytZ" secondAttribute="bottom" id="ggF-yH-6zb"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="KaF-dc-yXq" secondAttribute="trailing" constant="20" id="pcM-Fo-fBf"/>
+                <constraint firstItem="UIA-0K-ytZ" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" id="q3k-Wg-gfN"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
+            <point key="canvasLocation" x="80.799999999999997" y="81.409295352323838"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="btn_back_black" width="25" height="25"/>
+        <image name="fund_withdraw_bg_no_account" width="181.5" height="135.5"/>
+    </resources>
+</document>

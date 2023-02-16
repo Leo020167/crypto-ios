@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment version="2304" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TJRSetUpViewController">
+            <connections>
+                <outlet property="tvSetUp" destination="ah6-Cl-z7h" id="yFC-bI-ZyX"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="grouped" separatorStyle="default" rowHeight="56" sectionHeaderHeight="8" sectionFooterHeight="1" translatesAutoresizingMaskIntoConstraints="NO" id="ah6-Cl-z7h">
+                    <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                    <color key="backgroundColor" red="0.97647058823529409" green="0.97647058823529409" blue="0.97647058823529409" alpha="1" colorSpace="calibratedRGB"/>
+                    <color key="separatorColor" red="0.97647058823529409" green="0.97647058823529409" blue="0.97647058823529409" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="Nip-hi-Oo1"/>
+                        <outlet property="delegate" destination="-1" id="Ild-Tp-bre"/>
+                    </connections>
+                </tableView>
+                <view tag="3327" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7KU-VG-kZn" customClass="TJRBaseTitleView">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="64"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h10-yr-C6U">
+                            <rect key="frame" x="0.0" y="20" width="60" height="44"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="44" id="FIz-9F-pZ4"/>
+                                <constraint firstAttribute="width" constant="60" id="T7H-7n-xEi"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <inset key="imageEdgeInsets" minX="-20" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            <state key="normal" image="btn_back_black">
+                                <color key="titleColor" red="0.2784313725" green="0.2784313725" blue="0.2784313725" alpha="0.90000000000000002" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="titleShadowColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <state key="highlighted">
+                                <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="backAction:" destination="-1" eventType="touchUpInside" id="JwN-Xf-iHO"/>
+                            </connections>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="设置" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SGl-8h-mz3">
+                            <rect key="frame" x="170" y="33.5" width="35" height="20.5"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                            <color key="textColor" red="0.13725490200000001" green="0.13725490200000001" blue="0.13725490200000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="centerX" secondItem="SGl-8h-mz3" secondAttribute="centerX" id="5Rf-60-utB"/>
+                        <constraint firstAttribute="height" constant="64" id="AcL-ud-ncw"/>
+                        <constraint firstItem="h10-yr-C6U" firstAttribute="leading" secondItem="7KU-VG-kZn" secondAttribute="leading" id="BZk-Lo-hiL"/>
+                        <constraint firstAttribute="bottom" secondItem="SGl-8h-mz3" secondAttribute="bottom" constant="10" id="YP9-L5-C6W"/>
+                        <constraint firstAttribute="bottom" secondItem="h10-yr-C6U" secondAttribute="bottom" id="vj0-OG-eBP"/>
+                    </constraints>
+                    <inset key="insetFor6xAndEarlier" minX="0.0" minY="0.0" maxX="0.0" maxY="-20"/>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="pfy-bX-8UD"/>
+            <color key="backgroundColor" red="0.97647058823529409" green="0.97647058823529409" blue="0.97647058823529409" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="pfy-bX-8UD" firstAttribute="bottom" secondItem="ah6-Cl-z7h" secondAttribute="bottom" id="7eA-Qv-dLZ"/>
+                <constraint firstItem="pfy-bX-8UD" firstAttribute="trailing" secondItem="ah6-Cl-z7h" secondAttribute="trailing" id="Ujs-HD-yFB"/>
+                <constraint firstItem="7KU-VG-kZn" firstAttribute="leading" secondItem="pfy-bX-8UD" secondAttribute="leading" id="WNP-QX-dyH"/>
+                <constraint firstItem="ah6-Cl-z7h" firstAttribute="top" secondItem="7KU-VG-kZn" secondAttribute="bottom" id="cPh-BD-Qhh"/>
+                <constraint firstItem="ah6-Cl-z7h" firstAttribute="leading" secondItem="pfy-bX-8UD" secondAttribute="leading" id="rDr-Ox-cyO"/>
+                <constraint firstItem="7KU-VG-kZn" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="rrz-Sv-PHf"/>
+                <constraint firstItem="pfy-bX-8UD" firstAttribute="trailing" secondItem="7KU-VG-kZn" secondAttribute="trailing" id="tqj-xa-Dxp"/>
+            </constraints>
+            <point key="canvasLocation" x="-189" y="53"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="btn_back_black" width="25" height="25"/>
+    </resources>
+</document>

@@ -1,0 +1,9 @@
+
+/* Class = "UIButton"; normalTitle = "筛选"; ObjectID = "Tv2-aw-bTk"; */
+"Tv2-aw-bTk.normalTitle" = "Filter";
+
+/* Class = "UILabel"; text = "暂无该记录数据"; ObjectID = "Xad-BQ-VRq"; */
+"Xad-BQ-VRq.text" = "No Data for this Record at the Moment";
+
+/* Class = "UILabel"; text = "财务记录"; ObjectID = "xkF-vP-NxZ"; */
+"xkF-vP-NxZ.text" = "Financial Records";

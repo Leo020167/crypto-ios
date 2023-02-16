@@ -1,0 +1,21 @@
+
+/* Class = "UILabel"; text = "0"; ObjectID = "2sU-Ik-bu5"; */
+"2sU-Ik-bu5.text" = "0";
+
+/* Class = "UIButton"; normalTitle = "确定"; ObjectID = "Jn1-Ig-vqk"; */
+"Jn1-Ig-vqk.normalTitle" = "確定";
+
+/* Class = "UILabel"; text = "剩余可回购YYB数量"; ObjectID = "Jtg-Md-oYY"; */
+"Jtg-Md-oYY.text" = "残存レポ可能YYB数量";
+
+/* Class = "UIButton"; normalTitle = "全部"; ObjectID = "NWB-zS-5Ls"; */
+"NWB-zS-5Ls.normalTitle" = "すべて";
+
+/* Class = "UITextField"; placeholder = "请输入回购YYB数量"; ObjectID = "Vqo-YO-Sjl"; */
+"Vqo-YO-Sjl.placeholder" = "レポYYB数量を入力してください";
+
+/* Class = "UILabel"; text = "YYB"; ObjectID = "bPh-Fw-ivN"; */
+"bPh-Fw-ivN.text" = "YYB";
+
+/* Class = "UILabel"; text = "持有YYB数量：0"; ObjectID = "zxk-8Q-rfc"; */
+"zxk-8Q-rfc.text" = "保有YYB数量：0";

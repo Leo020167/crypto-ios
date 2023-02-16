@@ -1,0 +1,12 @@
+
+/* Class = "UILabel"; text = "質押到期時間"; ObjectID = "D7P-QA-5iG"; */
+"D7P-QA-5iG.text" = "プレッジの有効期限";
+
+/* Class = "UILabel"; text = "質押開始時間"; ObjectID = "Upk-1c-M4c"; */
+"Upk-1c-M4c.text" = "誓約開始時間";
+
+/* Class = "UILabel"; text = "纍計收益"; ObjectID = "YJS-F9-BWx"; */
+"YJS-F9-BWx.text" = "累積収入";
+
+/* Class = "UILabel"; text = "質押數量"; ObjectID = "hPO-mA-TOR"; */
+"hPO-mA-TOR.text" = "プレッジ額";

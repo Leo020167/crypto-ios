@@ -1,0 +1,12 @@
+
+/* Class = "UILabel"; text = "倍数"; ObjectID = "5Yp-GB-PY7"; */
+"5Yp-GB-PY7.text" = "倍数";
+
+/* Class = "UILabel"; text = "跟单倍数设置"; ObjectID = "NUA-zC-MZz"; */
+"NUA-zC-MZz.text" = "跟单倍数设置";
+
+/* Class = "UILabel"; text = "倍"; ObjectID = "djv-Fv-vCC"; */
+"djv-Fv-vCC.text" = "倍";
+
+/* Class = "UIButton"; normalTitle = "确定"; ObjectID = "f8p-yh-FO1"; */
+"f8p-yh-FO1.normalTitle" = "确定";

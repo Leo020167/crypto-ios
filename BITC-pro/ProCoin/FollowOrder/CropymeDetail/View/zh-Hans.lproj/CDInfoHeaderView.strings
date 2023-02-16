@@ -1,0 +1,18 @@
+
+/* Class = "UILabel"; text = "0"; ObjectID = "57s-pT-LJZ"; */
+"57s-pT-LJZ.text" = "0";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "Fdk-he-lAi"; */
+"Fdk-he-lAi.text" = "0";
+
+/* Class = "UILabel"; text = "跟单总额(USDT)"; ObjectID = "HdB-Rm-XsS"; */
+"HdB-Rm-XsS.text" = "跟单总额(USDT)";
+
+/* Class = "UILabel"; text = "预估跟单分成"; ObjectID = "UyB-tb-hbg"; */
+"UyB-tb-hbg.text" = "预估跟单分成";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "kjQ-3R-ZEe"; */
+"kjQ-3R-ZEe.text" = "0";
+
+/* Class = "UILabel"; text = "累计跟单净分成"; ObjectID = "oMm-uQ-NXf"; */
+"oMm-uQ-NXf.text" = "累计跟单净分成";

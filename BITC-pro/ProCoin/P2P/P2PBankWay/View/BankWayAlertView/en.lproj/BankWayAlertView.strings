@@ -1,0 +1,12 @@
+
+/* Class = "UILabel"; text = "支付宝"; ObjectID = "SNr-lV-2uW"; */
+"SNr-lV-2uW.text" = "Alipay";
+
+/* Class = "UILabel"; text = "微信"; ObjectID = "Zth-cy-w3X"; */
+"Zth-cy-w3X.text" = "WeChat";
+
+/* Class = "UILabel"; text = "添加收款方式"; ObjectID = "h5m-aA-dks"; */
+"h5m-aA-dks.text" = "Add Payment Method";
+
+/* Class = "UILabel"; text = "银行卡"; ObjectID = "tbD-UC-8Q4"; */
+"tbD-UC-8Q4.text" = "Bank Card";

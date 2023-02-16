@@ -1,0 +1,12 @@
+
+/* Class = "UILabel"; text = "排名"; ObjectID = "VEB-nV-tID"; */
+"VEB-nV-tID.text" = "排名";
+
+/* Class = "UILabel"; text = "综合评分"; ObjectID = "Vhs-sf-Dr7"; */
+"Vhs-sf-Dr7.text" = "総合評価";
+
+/* Class = "UILabel"; text = "高手排行榜"; ObjectID = "We6-RD-TCa"; */
+"We6-RD-TCa.text" = "マスターランキング";
+
+/* Class = "UILabel"; text = "用户名称"; ObjectID = "qhD-c3-kgs"; */
+"qhD-c3-kgs.text" = "ユーザー名";

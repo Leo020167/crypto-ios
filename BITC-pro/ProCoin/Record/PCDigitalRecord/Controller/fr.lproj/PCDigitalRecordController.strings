@@ -1,0 +1,21 @@
+
+/* Class = "UIButton"; normalTitle = "历史记录"; ObjectID = "E7F-Er-spf"; */
+"E7F-Er-spf.normalTitle" = "历史记录";
+
+/* Class = "UILabel"; text = "暂无该记录数据"; ObjectID = "FjT-uD-qZV"; */
+"FjT-uD-qZV.text" = "暂无该记录数据";
+
+/* Class = "UIButton"; normalTitle = "委托记录"; ObjectID = "RSH-3R-viH"; */
+"RSH-3R-viH.normalTitle" = "委托记录";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Ug4-iY-UU2"; */
+"Ug4-iY-UU2.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "暂无该记录数据"; ObjectID = "Zvo-2O-EgY"; */
+"Zvo-2O-EgY.text" = "暂无该记录数据";
+
+/* Class = "UILabel"; text = "数字货币记录"; ObjectID = "biL-oX-qQS"; */
+"biL-oX-qQS.text" = "数字货币记录";
+
+/* Class = "UIButton"; normalTitle = "筛选"; ObjectID = "x2U-aI-zzI"; */
+"x2U-aI-zzI.normalTitle" = "筛选";

@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CircleChatMenuView">
+            <connections>
+                <outlet property="baseView" destination="iN0-l3-epB" id="RMY-dz-Fbg"/>
+                <outlet property="btnNewGold" destination="d4e-EE-RJQ" id="rKb-8G-7g7"/>
+                <outlet property="btnNewStock" destination="oiY-eM-3hu" id="K7H-X8-ejQ"/>
+                <outlet property="goldView" destination="HGa-lM-uKJ" id="NlM-YE-qtD"/>
+                <outlet property="masterView" destination="HEL-gd-rMK" id="4O5-Il-BWA"/>
+                <outlet property="menuView" destination="Nmr-IU-XU6" id="x94-Jl-2wU"/>
+                <outlet property="stockView" destination="NQa-aW-cie" id="hw6-DC-paQ"/>
+                <outlet property="topConstraint" destination="0g7-D6-fgN" id="Hde-JR-VGa"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="80" height="175"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Nmr-IU-XU6">
+                    <rect key="frame" x="0.0" y="0.0" width="80" height="175"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NQa-aW-cie">
+                            <rect key="frame" x="0.0" y="48" width="80" height="55"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Glk-Yb-jVB">
+                                    <rect key="frame" x="15" y="0.0" width="55" height="55"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="55" id="0qn-la-HHD"/>
+                                        <constraint firstAttribute="width" constant="55" id="bFZ-ib-PAm"/>
+                                    </constraints>
+                                    <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <state key="normal" image="circleChat_top_menu_stock">
+                                        <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="stockButtonClicked:" destination="-1" eventType="touchUpInside" id="jVZ-6n-9PH"/>
+                                    </connections>
+                                </button>
+                                <button hidden="YES" opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oiY-eM-3hu">
+                                    <rect key="frame" x="58" y="3" width="16" height="17"/>
+                                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                    <state key="normal" title="1" backgroundImage="circle_new_bg">
+                                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </state>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstItem="oiY-eM-3hu" firstAttribute="top" secondItem="NQa-aW-cie" secondAttribute="top" constant="3" id="Cha-2u-5sN"/>
+                                <constraint firstAttribute="height" constant="55" id="Nbb-tN-QR5"/>
+                                <constraint firstItem="Glk-Yb-jVB" firstAttribute="centerY" secondItem="NQa-aW-cie" secondAttribute="centerY" id="WlQ-8m-G6a"/>
+                                <constraint firstItem="Glk-Yb-jVB" firstAttribute="centerX" secondItem="NQa-aW-cie" secondAttribute="centerX" constant="2.5" id="Xgo-e4-GAz"/>
+                                <constraint firstAttribute="trailing" secondItem="oiY-eM-3hu" secondAttribute="trailing" constant="6" id="daq-Y7-qfJ"/>
+                                <constraint firstAttribute="width" constant="80" id="iKu-II-CyB"/>
+                            </constraints>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HGa-lM-uKJ">
+                            <rect key="frame" x="0.0" y="111" width="80" height="55"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BSG-wn-KOg">
+                                    <rect key="frame" x="15" y="0.0" width="55" height="55"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="55" id="T2W-Gl-oSI"/>
+                                        <constraint firstAttribute="width" constant="55" id="dFU-TX-Sno"/>
+                                    </constraints>
+                                    <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <state key="normal" image="circleChat_top_menu_gold">
+                                        <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="goldButtonClicked:" destination="-1" eventType="touchUpInside" id="9ah-cM-rEw"/>
+                                    </connections>
+                                </button>
+                                <button hidden="YES" opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d4e-EE-RJQ">
+                                    <rect key="frame" x="58" y="3" width="16" height="17"/>
+                                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                    <state key="normal" title="1" backgroundImage="circle_new_bg">
+                                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </state>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="55" id="0aU-sE-7na"/>
+                                <constraint firstAttribute="trailing" secondItem="d4e-EE-RJQ" secondAttribute="trailing" constant="6" id="LCd-fA-dRm"/>
+                                <constraint firstItem="BSG-wn-KOg" firstAttribute="centerX" secondItem="HGa-lM-uKJ" secondAttribute="centerX" constant="2.5" id="d6S-Kk-UrI"/>
+                                <constraint firstItem="d4e-EE-RJQ" firstAttribute="top" secondItem="HGa-lM-uKJ" secondAttribute="top" constant="3" id="kYm-me-QOR"/>
+                                <constraint firstAttribute="width" constant="80" id="lqH-nj-mIr"/>
+                                <constraint firstItem="BSG-wn-KOg" firstAttribute="centerY" secondItem="HGa-lM-uKJ" secondAttribute="centerY" id="zFg-VZ-ep0"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstItem="NQa-aW-cie" firstAttribute="leading" secondItem="Nmr-IU-XU6" secondAttribute="leading" id="6YA-Q0-yMn"/>
+                        <constraint firstAttribute="height" constant="175" id="9j4-qg-Rob"/>
+                        <constraint firstItem="NQa-aW-cie" firstAttribute="top" secondItem="Nmr-IU-XU6" secondAttribute="top" constant="48" id="FA7-xG-Bj4"/>
+                        <constraint firstAttribute="width" constant="80" id="ofc-IR-4qA"/>
+                        <constraint firstItem="HGa-lM-uKJ" firstAttribute="leading" secondItem="Nmr-IU-XU6" secondAttribute="leading" id="pNb-bV-Rzt"/>
+                        <constraint firstItem="HGa-lM-uKJ" firstAttribute="top" secondItem="NQa-aW-cie" secondAttribute="bottom" constant="8" id="zpf-xG-d21"/>
+                    </constraints>
+                </view>
+                <view alpha="0.20000000000000001" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HEL-gd-rMK">
+                    <rect key="frame" x="1" y="0.0" width="80" height="45"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hpJ-Le-pql">
+                            <rect key="frame" x="0.0" y="0.0" width="80" height="45"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                            <state key="normal" title="Button" image="circleChat_top_opt_btn"/>
+                            <connections>
+                                <action selector="masterButtonClicked:" destination="-1" eventType="touchUpInside" id="mcd-08-BAY"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="45" id="Aqh-5g-yZA"/>
+                        <constraint firstAttribute="width" constant="80" id="ya7-43-93Z"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="Nmr-IU-XU6" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="0g7-D6-fgN"/>
+                <constraint firstAttribute="bottom" secondItem="Nmr-IU-XU6" secondAttribute="bottom" constant="24" id="4wm-ZF-0Qp"/>
+                <constraint firstItem="HEL-gd-rMK" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="Ciq-gZ-Sbr"/>
+                <constraint firstAttribute="trailing" secondItem="HEL-gd-rMK" secondAttribute="trailing" constant="-1" id="Pgp-V5-FHP"/>
+                <constraint firstAttribute="trailing" secondItem="Nmr-IU-XU6" secondAttribute="trailing" constant="22" id="mTN-JX-XVY"/>
+                <constraint firstAttribute="trailing" secondItem="Nmr-IU-XU6" secondAttribute="trailing" id="vTS-fR-xgv"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="4wm-ZF-0Qp"/>
+                    <exclude reference="mTN-JX-XVY"/>
+                </mask>
+            </variation>
+            <point key="canvasLocation" x="397" y="119.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="circleChat_top_menu_gold" width="67" height="67"/>
+        <image name="circleChat_top_menu_stock" width="67" height="67"/>
+        <image name="circleChat_top_opt_btn" width="79" height="45"/>
+        <image name="circle_new_bg" width="16" height="17"/>
+    </resources>
+</document>

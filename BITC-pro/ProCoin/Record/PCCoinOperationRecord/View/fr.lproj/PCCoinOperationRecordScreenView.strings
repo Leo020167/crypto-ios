@@ -1,0 +1,21 @@
+
+/* Class = "UIButton"; normalTitle = "确定"; ObjectID = "2KO-39-upH"; */
+"2KO-39-upH.normalTitle" = "确定";
+
+/* Class = "UIButton"; normalTitle = "重置"; ObjectID = "S0T-g7-4d2"; */
+"S0T-g7-4d2.normalTitle" = "重置";
+
+/* Class = "UILabel"; text = "筛选"; ObjectID = "UGw-2K-2q7"; */
+"UGw-2K-2q7.text" = "筛选";
+
+/* Class = "UIButton"; normalTitle = "取消"; ObjectID = "c57-MM-QvT"; */
+"c57-MM-QvT.normalTitle" = "取消";
+
+/* Class = "UIButton"; normalTitle = "提币"; ObjectID = "fSE-Go-ygK"; */
+"fSE-Go-ygK.normalTitle" = "提币";
+
+/* Class = "UILabel"; text = "类型选择"; ObjectID = "fVi-DD-TtC"; */
+"fVi-DD-TtC.text" = "类型选择";
+
+/* Class = "UIButton"; normalTitle = "充币"; ObjectID = "mya-pJ-Th8"; */
+"mya-pJ-Th8.normalTitle" = "充币";

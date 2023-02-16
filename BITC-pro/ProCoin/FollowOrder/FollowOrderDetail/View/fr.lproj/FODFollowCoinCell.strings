@@ -1,0 +1,21 @@
+
+/* Class = "UILabel"; text = "成本均价"; ObjectID = "2OB-nD-L8o"; */
+"2OB-nD-L8o.text" = "成本均价";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "3MD-Lx-Ubv"; */
+"3MD-Lx-Ubv.text" = "0";
+
+/* Class = "UILabel"; text = "累计盈亏"; ObjectID = "JcK-Or-EAo"; */
+"JcK-Or-EAo.text" = "累计盈亏";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "Jgk-h2-gx7"; */
+"Jgk-h2-gx7.text" = "0";
+
+/* Class = "UILabel"; text = "symbol"; ObjectID = "L2w-wL-ndy"; */
+"L2w-wL-ndy.text" = "symbol";
+
+/* Class = "UILabel"; text = "持有数量"; ObjectID = "aJn-Ah-n3N"; */
+"aJn-Ah-n3N.text" = "持有数量";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "yHl-BI-fBg"; */
+"yHl-BI-fBg.text" = "0";

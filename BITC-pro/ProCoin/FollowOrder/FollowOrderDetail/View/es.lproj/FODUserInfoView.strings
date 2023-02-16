@@ -1,0 +1,30 @@
+
+/* Class = "UILabel"; text = "跟单每笔上限："; ObjectID = "9uz-ye-oyW"; */
+"9uz-ye-oyW.text" = "跟单每笔上限：";
+
+/* Class = "UILabel"; text = "ID："; ObjectID = "Amb-10-U68"; */
+"Amb-10-U68.text" = "ID：";
+
+/* Class = "UILabel"; text = "暂无设置"; ObjectID = "GIt-v1-AjD"; */
+"GIt-v1-AjD.text" = "暂无设置";
+
+/* Class = "UIButton"; normalTitle = "跟单设置"; ObjectID = "Kbq-hn-deo"; */
+"Kbq-hn-deo.normalTitle" = "跟单设置";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "NaK-qe-JHU"; */
+"NaK-qe-JHU.text" = "0";
+
+/* Class = "UILabel"; text = "暂无设置"; ObjectID = "PNz-lO-zQQ"; */
+"PNz-lO-zQQ.text" = "暂无设置";
+
+/* Class = "UILabel"; text = "跟单止盈："; ObjectID = "hmD-X6-3da"; */
+"hmD-X6-3da.text" = "跟单止盈：";
+
+/* Class = "UILabel"; text = "Name"; ObjectID = "slD-1b-4tL"; */
+"slD-1b-4tL.text" = "Name";
+
+/* Class = "UILabel"; text = "0.00"; ObjectID = "vaM-OR-gza"; */
+"vaM-OR-gza.text" = "0.00";
+
+/* Class = "UILabel"; text = "跟单止损："; ObjectID = "yHN-n6-N3M"; */
+"yHN-n6-N3M.text" = "跟单止损：";

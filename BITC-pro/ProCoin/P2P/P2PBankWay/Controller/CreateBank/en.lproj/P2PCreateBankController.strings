@@ -1,0 +1,24 @@
+
+/* Class = "UILabel"; text = "银行名称"; ObjectID = "5a9-DQ-kgB"; */
+"5a9-DQ-kgB.text" = "Bank name";
+
+/* Class = "UILabel"; text = "收款码"; ObjectID = "EJJ-ld-TvD"; */
+"EJJ-ld-TvD.text" = "Receiving code";
+
+/* Class = "UILabel"; text = "银行卡姓名"; ObjectID = "HTD-OR-oGV"; */
+"HTD-OR-oGV.text" = "Bank card name";
+
+/* Class = "UILabel"; text = "请务必使用与您注册手机号码一致的实名账号"; ObjectID = "L9w-qC-ofX"; */
+"L9w-qC-ofX.text" = "Please make sure to use the same name account as your registered cell phone number";
+
+/* Class = "UIButton"; normalTitle = "保存"; ObjectID = "Tuh-eu-H0K"; */
+"Tuh-eu-H0K.normalTitle" = "Save";
+
+/* Class = "UILabel"; text = "如:xx银行xx省xx市县x支行"; ObjectID = "WmI-y0-WGO"; */
+"WmI-y0-WGO.text" = "For example, xx Branch of xx Bank in xx City, xx County";
+
+/* Class = "UILabel"; text = "添加银行卡"; ObjectID = "dYx-SD-GTa"; */
+"dYx-SD-GTa.text" = "Add a bank card";
+
+/* Class = "UILabel"; text = "银行卡账号"; ObjectID = "g1D-ay-u31"; */
+"g1D-ay-u31.text" = "Bank card account number";

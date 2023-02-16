@@ -1,0 +1,18 @@
+
+/* Class = "UILabel"; text = "限额"; ObjectID = "Cl1-3c-fCe"; */
+"Cl1-3c-fCe.text" = "限額";
+
+/* Class = "UILabel"; text = "--"; ObjectID = "gi6-rn-Aye"; */
+"gi6-rn-Aye.text" = "--";
+
+/* Class = "UILabel"; text = "¥0.00"; ObjectID = "jUw-1k-sR7"; */
+"jUw-1k-sR7.text" = "¥0.00";
+
+/* Class = "UILabel"; text = "¥0.00"; ObjectID = "lWd-10-DtC"; */
+"lWd-10-DtC.text" = "¥0.00";
+
+/* Class = "UIButton"; normalTitle = "购买"; ObjectID = "n3y-OQ-IUi"; */
+"n3y-OQ-IUi.normalTitle" = "購買";
+
+/* Class = "UILabel"; text = "单价"; ObjectID = "p0H-lQ-S0S"; */
+"p0H-lQ-S0S.text" = "單價";

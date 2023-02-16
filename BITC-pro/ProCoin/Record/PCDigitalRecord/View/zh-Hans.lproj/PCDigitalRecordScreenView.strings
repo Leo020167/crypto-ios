@@ -1,0 +1,27 @@
+
+/* Class = "UIButton"; normalTitle = "确定"; ObjectID = "1KM-nG-Rgg"; */
+"1KM-nG-Rgg.normalTitle" = "确定";
+
+/* Class = "UIButton"; normalTitle = "已撤销"; ObjectID = "2Fl-jb-VbN"; */
+"2Fl-jb-VbN.normalTitle" = "已撤销";
+
+/* Class = "UIButton"; normalTitle = "重置"; ObjectID = "GGd-Eo-m5I"; */
+"GGd-Eo-m5I.normalTitle" = "重置";
+
+/* Class = "UITextField"; placeholder = "请输入币种"; ObjectID = "Oxs-Nd-lMB"; */
+"Oxs-Nd-lMB.placeholder" = "请输入币种";
+
+/* Class = "UIButton"; normalTitle = "已成交"; ObjectID = "SCA-HO-wIc"; */
+"SCA-HO-wIc.normalTitle" = "已成交";
+
+/* Class = "UILabel"; text = "筛选"; ObjectID = "YCr-YG-hfK"; */
+"YCr-YG-hfK.text" = "筛选";
+
+/* Class = "UILabel"; text = "订单状态"; ObjectID = "chN-Vs-pO8"; */
+"chN-Vs-pO8.text" = "订单状态";
+
+/* Class = "UILabel"; text = "币种"; ObjectID = "oe3-jE-Q4S"; */
+"oe3-jE-Q4S.text" = "币种";
+
+/* Class = "UIButton"; normalTitle = "取消"; ObjectID = "sQW-9I-4jC"; */
+"sQW-9I-4jC.normalTitle" = "取消";

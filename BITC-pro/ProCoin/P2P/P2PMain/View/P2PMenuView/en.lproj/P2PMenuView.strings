@@ -1,0 +1,9 @@
+
+/* Class = "UIButton"; normalTitle = "收款管理"; ObjectID = "6yd-84-rCq"; */
+"6yd-84-rCq.normalTitle" = "Payment Management";
+
+/* Class = "UIButton"; normalTitle = "商家认证"; ObjectID = "g8g-Pr-KBj"; */
+"g8g-Pr-KBj.normalTitle" = "Merchant Authentication";
+
+/* Class = "UIButton"; normalTitle = "我的广告"; ObjectID = "kSy-xB-eXi"; */
+"kSy-xB-eXi.normalTitle" = "My Ads";

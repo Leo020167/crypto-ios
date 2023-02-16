@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment version="2304" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="kWW-iT-ZcN">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="40"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="hEc-id-egb">
+                    <rect key="frame" x="15" y="39.5" width="384" height="0.5"/>
+                    <color key="backgroundColor" red="0.38039215686274508" green="0.45882352941176469" blue="0.68235294117647061" alpha="0.10000000000000001" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="0.5" id="Ao3-TI-7Fg"/>
+                    </constraints>
+                </imageView>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="util_Icon_search_blue" translatesAutoresizingMaskIntoConstraints="NO" id="xkX-0d-drb">
+                    <rect key="frame" x="15" y="11.5" width="17" height="17"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="17" id="6J4-EJ-FQV"/>
+                        <constraint firstAttribute="height" constant="17" id="cVQ-ji-b6j"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="搜索币种" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r7Y-cj-s7R">
+                    <rect key="frame" x="42" y="10.5" width="65.5" height="19.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <color key="textColor" red="0.38039215686274508" green="0.45882352941176469" blue="0.68235294117647061" alpha="0.20000000000000001" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" tag="100" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vc3-mz-9SB">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="40"/>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="r7Y-cj-s7R" firstAttribute="leading" secondItem="xkX-0d-drb" secondAttribute="trailing" constant="10" id="Aw3-pW-MpS"/>
+                <constraint firstItem="hEc-id-egb" firstAttribute="leading" secondItem="oGk-OC-Ry6" secondAttribute="leading" constant="15" id="BYS-gW-daU"/>
+                <constraint firstItem="xkX-0d-drb" firstAttribute="centerY" secondItem="kWW-iT-ZcN" secondAttribute="centerY" id="CK1-VI-naa"/>
+                <constraint firstItem="xkX-0d-drb" firstAttribute="leading" secondItem="oGk-OC-Ry6" secondAttribute="leading" constant="15" id="K27-j8-bjF"/>
+                <constraint firstItem="oGk-OC-Ry6" firstAttribute="trailing" secondItem="hEc-id-egb" secondAttribute="trailing" constant="15" id="V5L-Ky-uqm"/>
+                <constraint firstItem="r7Y-cj-s7R" firstAttribute="centerY" secondItem="kWW-iT-ZcN" secondAttribute="centerY" id="eJp-Xq-ayP"/>
+                <constraint firstItem="vc3-mz-9SB" firstAttribute="top" secondItem="kWW-iT-ZcN" secondAttribute="top" id="iW5-uc-9wq"/>
+                <constraint firstItem="vc3-mz-9SB" firstAttribute="trailing" secondItem="oGk-OC-Ry6" secondAttribute="trailing" id="jRY-YX-yb1"/>
+                <constraint firstItem="vc3-mz-9SB" firstAttribute="bottom" secondItem="oGk-OC-Ry6" secondAttribute="bottom" id="pVC-pD-4KK"/>
+                <constraint firstItem="vc3-mz-9SB" firstAttribute="leading" secondItem="oGk-OC-Ry6" secondAttribute="leading" id="rja-oY-Yx0"/>
+                <constraint firstAttribute="bottom" secondItem="hEc-id-egb" secondAttribute="bottom" id="xOj-RK-ICW"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="oGk-OC-Ry6"/>
+            <point key="canvasLocation" x="473.60000000000002" y="-467.76611694152928"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="util_Icon_search_blue" width="16.5" height="16.5"/>
+    </resources>
+</document>

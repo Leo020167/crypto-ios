@@ -1,0 +1,27 @@
+
+/* Class = "UILabel"; text = "0"; ObjectID = "7XJ-uj-Lh7"; */
+"7XJ-uj-Lh7.text" = "0";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "CPG-Gp-npa"; */
+"CPG-Gp-npa.text" = "0";
+
+/* Class = "UILabel"; text = "可用"; ObjectID = "E9w-fm-DR3"; */
+"E9w-fm-DR3.text" = "Available";
+
+/* Class = "UILabel"; text = "冻结"; ObjectID = "O3C-NO-mgD"; */
+"O3C-NO-mgD.text" = "Freeze";
+
+/* Class = "UILabel"; text = "持仓盈利"; ObjectID = "RBr-pq-zjF"; */
+"RBr-pq-zjF.text" = "Position profit";
+
+/* Class = "UILabel"; text = "symbol"; ObjectID = "YeT-rX-phN"; */
+"YeT-rX-phN.text" = "symbol";
+
+/* Class = "UILabel"; text = "成本均价"; ObjectID = "mxR-tn-ouJ"; */
+"mxR-tn-ouJ.text" = "Average Price of Cost";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "qzT-OS-mfK"; */
+"qzT-OS-mfK.text" = "0";
+
+/* Class = "UILabel"; text = "+0"; ObjectID = "ySy-wk-ovM"; */
+"ySy-wk-ovM.text" = "+0";

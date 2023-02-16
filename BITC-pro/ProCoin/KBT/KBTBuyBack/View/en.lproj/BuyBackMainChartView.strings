@@ -1,0 +1,9 @@
+
+/* Class = "UIButton"; normalTitle = "交易"; ObjectID = "J73-Vc-skA"; */
+"J73-Vc-skA.normalTitle" = "Transactions";
+
+/* Class = "UILabel"; text = "回购价走势图"; ObjectID = "P9s-hP-cgf"; */
+"P9s-hP-cgf.text" = "Chart of Repurchase Price";
+
+/* Class = "UIButton"; normalTitle = "回购"; ObjectID = "dXf-PX-VcC"; */
+"dXf-PX-VcC.normalTitle" = "Repurchase";

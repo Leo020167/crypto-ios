@@ -1,0 +1,54 @@
+
+/* Class = "UIButton"; normalTitle = "充值确认"; ObjectID = "2ep-c4-baR"; */
+"2ep-c4-baR.normalTitle" = "Recharge Confirmation";
+
+/* Class = "UIButton"; normalTitle = "复制"; ObjectID = "7Pg-b3-RS9"; */
+"7Pg-b3-RS9.normalTitle" = "Copy";
+
+/* Class = "UILabel"; text = "▽"; ObjectID = "FRx-Wh-qEa"; */
+"FRx-Wh-qEa.text" = "▽";
+
+/* Class = "UILabel"; text = "充值數量"; ObjectID = "HaK-AM-nhl"; */
+"HaK-AM-nhl.text" = "Monto de recarga";
+
+/* Class = "UILabel"; text = "选择币种"; ObjectID = "OKy-dg-cQm"; */
+"OKy-dg-cQm.text" = "select currency";
+
+/* Class = "UIButton"; normalTitle = "充提币记录"; ObjectID = "REy-ab-7sH"; */
+"REy-ab-7sH.normalTitle" = "Deposit and withdrawal records";
+
+/* Class = "UILabel"; text = "当前链路："; ObjectID = "TKy-It-7Oa"; */
+"TKy-It-7Oa.text" = "Current link:";
+
+/* Class = "UILabel"; text = "上传凭证"; ObjectID = "XjL-Qx-MDL"; */
+"XjL-Qx-MDL.text" = "上传凭证";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "crX-cD-7Vr"; */
+"crX-cD-7Vr.text" = "0";
+
+/* Class = "UILabel"; text = "可用余额（USDT）"; ObjectID = "dMT-fc-ILV"; */
+"dMT-fc-ILV.text" = "Available balance (USDT)";
+
+/* Class = "UILabel"; text = "---"; ObjectID = "hld-7J-klP"; */
+"hld-7J-klP.text" = "---";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "nHx-fO-Abw"; */
+"nHx-fO-Abw.text" = "0";
+
+/* Class = "UILabel"; text = "选择充币网络"; ObjectID = "pAf-Ue-FNM"; */
+"pAf-Ue-FNM.text" = "Choose a deposit network";
+
+/* Class = "UILabel"; text = "只允許充值USDT"; ObjectID = "rSU-4l-vv0"; */
+"rSU-4l-vv0.text" = "Only recharge is allowed%@";
+
+/* Class = "UIButton"; normalTitle = "BTC"; ObjectID = "rcV-rG-9jR"; */
+"rcV-rG-9jR.normalTitle" = "BTC";
+
+/* Class = "UILabel"; text = "最小充值金额（USDT）"; ObjectID = "sKe-3A-fYT"; */
+"sKe-3A-fYT.text" = "Minimum recharge amount（USDT）";
+
+/* Class = "UILabel"; text = "充币地址"; ObjectID = "ufW-He-ADA"; */
+"ufW-He-ADA.text" = "Deposit address";
+
+/* Class = "UILabel"; text = "充币"; ObjectID = "xue-PI-C0v"; */
+"xue-PI-C0v.text" = "Deposit";

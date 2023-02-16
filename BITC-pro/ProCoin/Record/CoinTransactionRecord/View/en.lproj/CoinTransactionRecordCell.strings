@@ -1,0 +1,45 @@
+
+/* Class = "UILabel"; text = "BTC/USDT"; ObjectID = "2lI-XI-17v"; */
+"2lI-XI-17v.text" = "BTC/USDT";
+
+/* Class = "UIButton"; normalTitle = "撤销"; ObjectID = "5xT-j7-oWk"; */
+"5xT-j7-oWk.normalTitle" = "Revoke";
+
+/* Class = "UILabel"; text = "我的委托"; ObjectID = "9DF-PY-vnP"; */
+"9DF-PY-vnP.text" = "My Commissions";
+
+/* Class = "UILabel"; text = "--"; ObjectID = "Brt-3X-cET"; */
+"Brt-3X-cET.text" = "--";
+
+/* Class = "UILabel"; text = "--"; ObjectID = "Dte-o0-tco"; */
+"Dte-o0-tco.text" = "--";
+
+/* Class = "UILabel"; text = "--"; ObjectID = "GDS-tr-llJ"; */
+"GDS-tr-llJ.text" = "--";
+
+/* Class = "UILabel"; text = "---"; ObjectID = "PkS-nb-5xs"; */
+"PkS-nb-5xs.text" = "---";
+
+/* Class = "UILabel"; text = "委托数量"; ObjectID = "cbs-1P-wgD"; */
+"cbs-1P-wgD.text" = "Number of Commissions";
+
+/* Class = "UILabel"; text = "--"; ObjectID = "d38-fC-rqA"; */
+"d38-fC-rqA.text" = "--";
+
+/* Class = "UILabel"; text = "--"; ObjectID = "k0N-MO-SEG"; */
+"k0N-MO-SEG.text" = "--";
+
+/* Class = "UILabel"; text = "卖出"; ObjectID = "t8z-Ns-BTE"; */
+"t8z-Ns-BTE.text" = "Sell";
+
+/* Class = "UILabel"; text = "实际成交"; ObjectID = "tOc-yw-NYP"; */
+"tOc-yw-NYP.text" = "Actual Deals";
+
+/* Class = "UILabel"; text = "状态"; ObjectID = "wOT-9V-Zx6"; */
+"wOT-9V-Zx6.text" = "Status";
+
+/* Class = "UILabel"; text = "跟单委托"; ObjectID = "y3f-bc-NOu"; */
+"y3f-bc-NOu.text" = "Follow-up Commissions";
+
+/* Class = "UILabel"; text = "委托价格"; ObjectID = "zSK-aI-jvP"; */
+"zSK-aI-jvP.text" = "Entrusted Price";

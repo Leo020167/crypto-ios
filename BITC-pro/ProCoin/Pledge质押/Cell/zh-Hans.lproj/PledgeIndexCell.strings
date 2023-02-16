@@ -1,0 +1,15 @@
+
+/* Class = "UILabel"; text = "年化收益"; ObjectID = "6ZV-0Z-hoa"; */
+"6ZV-0Z-hoa.text" = "年化收益";
+
+/* Class = "UIButton"; normalTitle = "質押"; ObjectID = "Jsr-jk-YL7"; */
+"Jsr-jk-YL7.normalTitle" = "质押";
+
+/* Class = "UILabel"; text = "最小質押數量"; ObjectID = "RzZ-Gf-zZJ"; */
+"RzZ-Gf-zZJ.text" = "最小质押数量";
+
+/*  */
+"fgK-SZ-6HD.normalTitle" = "质押";
+
+/* Class = "UILabel"; text = "質押周期"; ObjectID = "sGF-pL-WzE"; */
+"sGF-pL-WzE.text" = "质押周期";

@@ -1,0 +1,18 @@
+
+/* Class = "UIButton"; normalTitle = "筛选"; ObjectID = "FIJ-f6-znK"; */
+"FIJ-f6-znK.normalTitle" = "ふるいわけ";
+
+/* Class = "UILabel"; text = "暂无该记录数据"; ObjectID = "KdE-3V-hGW"; */
+"KdE-3V-hGW.text" = "このログデータはありません";
+
+/* Class = "UILabel"; text = "暂无该记录数据"; ObjectID = "QUI-W7-hn8"; */
+"QUI-W7-hn8.text" = "このログデータはありません";
+
+/* Class = "UIButton"; normalTitle = "当前开仓"; ObjectID = "TGF-Od-bgs"; */
+"TGF-Od-bgs.normalTitle" = "げんざい開場";
+
+/* Class = "UIButton"; normalTitle = "历史记录"; ObjectID = "gyD-hV-bKY"; */
+"gyD-hV-bKY.normalTitle" = "履歴";
+
+/* Class = "UILabel"; text = "杠杆记录"; ObjectID = "oDu-Ad-sh1"; */
+"oDu-Ad-sh1.text" = "記録を活用する";

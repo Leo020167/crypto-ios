@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment version="2304" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="cvn-rc-65T" customClass="CoinSubOperationView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="70"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ONI-N6-YVd">
+                    <rect key="frame" x="16" y="11" width="161.5" height="48"/>
+                    <color key="backgroundColor" red="0.3803921569" green="0.45882352939999999" blue="0.68235294120000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="48" id="v5I-fI-EIs"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <state key="normal" title="认购"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="5"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="chL-lp-7iN">
+                    <rect key="frame" x="197.5" y="11" width="161.5" height="48"/>
+                    <color key="backgroundColor" red="0.3803921569" green="0.45882352939999999" blue="0.68235294120000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="48" id="54X-SR-JSe"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <state key="normal" title="交易"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="5"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="ONI-N6-YVd" firstAttribute="leading" secondItem="yD5-W6-Kna" secondAttribute="leading" constant="16" id="1Lu-JT-WlT"/>
+                <constraint firstItem="ONI-N6-YVd" firstAttribute="centerY" secondItem="cvn-rc-65T" secondAttribute="centerY" id="32x-Cj-b2b"/>
+                <constraint firstItem="chL-lp-7iN" firstAttribute="leading" secondItem="ONI-N6-YVd" secondAttribute="trailing" constant="20" id="8re-9T-K6n"/>
+                <constraint firstItem="chL-lp-7iN" firstAttribute="centerY" secondItem="cvn-rc-65T" secondAttribute="centerY" id="FdO-T5-Mwn"/>
+                <constraint firstItem="yD5-W6-Kna" firstAttribute="trailing" secondItem="chL-lp-7iN" secondAttribute="trailing" constant="16" id="ioB-rB-xT7"/>
+                <constraint firstItem="ONI-N6-YVd" firstAttribute="width" secondItem="chL-lp-7iN" secondAttribute="width" id="skZ-LJ-PNm"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="yD5-W6-Kna"/>
+            <connections>
+                <outlet property="buyButton" destination="ONI-N6-YVd" id="e67-Lu-bpR"/>
+                <outlet property="tradeButton" destination="chL-lp-7iN" id="agV-Zz-uV8"/>
+            </connections>
+            <point key="canvasLocation" x="127" y="-326"/>
+        </view>
+    </objects>
+</document>

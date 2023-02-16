@@ -1,0 +1,18 @@
+
+/* Class = "UILabel"; text = "取消规则：买家当日累计4笔取消，会限制当日买入功能。"; ObjectID = "602-0O-GYH"; */
+"602-0O-GYH.text" = "取消規則：買家當日累計4筆取消，會限制當日買入功能。";
+
+/* Class = "UILabel"; text = "确认取消订单"; ObjectID = "6PX-0H-FjW"; */
+"6PX-0H-FjW.text" = "確認取消訂單";
+
+/* Class = "UIButton"; normalTitle = "我在想想"; ObjectID = "Qtu-nx-acM"; */
+"Qtu-nx-acM.normalTitle" = "我在想想";
+
+/* Class = "UILabel"; text = "如您已经向卖家付款，请不要取消订单"; ObjectID = "SUe-xR-q70"; */
+"SUe-xR-q70.text" = "如您已經向賣家付款，請不要取消訂單";
+
+/* Class = "UIButton"; normalTitle = "确认"; ObjectID = "jie-jH-578"; */
+"jie-jH-578.normalTitle" = "確認";
+
+/* Class = "UILabel"; text = "我确认还没有付款给对方"; ObjectID = "lRI-i0-4yl"; */
+"lRI-i0-4yl.text" = "我確認還沒有付款給對方";

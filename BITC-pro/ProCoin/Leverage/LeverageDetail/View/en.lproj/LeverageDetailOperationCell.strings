@@ -1,0 +1,9 @@
+
+/* Class = "UIButton"; normalTitle = "平仓"; ObjectID = "CRh-EK-6ge"; */
+"CRh-EK-6ge.normalTitle" = "Closed";
+
+/* Class = "UILabel"; text = "---现价"; ObjectID = "hFb-S0-iUc"; */
+"hFb-S0-iUc.text" = "---Current Price";
+
+/* Class = "UILabel"; text = "---"; ObjectID = "nGN-w1-ebU"; */
+"nGN-w1-ebU.text" = "---";

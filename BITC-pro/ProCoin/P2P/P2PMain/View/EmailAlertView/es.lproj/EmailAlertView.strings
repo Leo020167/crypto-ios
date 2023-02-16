@@ -1,0 +1,12 @@
+
+/* Class = "UIButton"; normalTitle = "下一步"; ObjectID = "aZK-9U-O9Q"; */
+"aZK-9U-O9Q.normalTitle" = "下一步";
+
+/* Class = "UILabel"; text = "已绑定邮箱号:"; ObjectID = "bDI-IF-zy5"; */
+"bDI-IF-zy5.text" = "已绑定邮箱号:";
+
+/* Class = "UIButton"; normalTitle = "获取验证码"; ObjectID = "hA4-V9-jDe"; */
+"hA4-V9-jDe.normalTitle" = "获取验证码";
+
+/* Class = "UITextField"; placeholder = "请输入验证码"; ObjectID = "l3E-mO-FtJ"; */
+"l3E-mO-FtJ.placeholder" = "请输入验证码";

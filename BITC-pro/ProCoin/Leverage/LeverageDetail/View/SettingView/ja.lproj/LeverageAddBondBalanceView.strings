@@ -1,0 +1,24 @@
+
+/* Class = "UILabel"; text = "可用："; ObjectID = "Fxi-8t-7Db"; */
+"Fxi-8t-7Db.text" = "利用可能：";
+
+/* Class = "UIButton"; normalTitle = "取消"; ObjectID = "IKE-q7-rMb"; */
+"IKE-q7-rMb.normalTitle" = "キャンセル";
+
+/* Class = "UILabel"; text = "增加开仓保证金（USDT）"; ObjectID = "NZW-2B-qRb"; */
+"NZW-2B-qRb.text" = "在庫保有保証金(USDT)の増額";
+
+/* Class = "UIButton"; normalTitle = "确认"; ObjectID = "NeB-Dl-jtP"; */
+"NeB-Dl-jtP.normalTitle" = "確認";
+
+/* Class = "UILabel"; text = "和"; ObjectID = "WQp-e8-RLz"; */
+"WQp-e8-RLz.text" = "および";
+
+/* Class = "UIButton"; normalTitle = "《数字资产借贷服务器合同》"; ObjectID = "dpR-GF-hPN"; */
+"dpR-GF-hPN.normalTitle" = "《デジタル資産ローンサーバー契約》";
+
+/* Class = "UIButton"; normalTitle = "《杠杆交易协议》"; ObjectID = "nin-UJ-DTx"; */
+"nin-UJ-DTx.normalTitle" = "《レバレッジ取引協定》";
+
+/* Class = "UILabel"; text = "确定即代表您同意并接受"; ObjectID = "zdX-0f-98J"; */
+"zdX-0f-98J.text" = "決定することにより、お客様の同意と同意が得られます";

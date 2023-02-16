@@ -1,0 +1,15 @@
+
+/* Class = "UIButton"; normalTitle = "完成验证"; ObjectID = "9"; */
+"9.normalTitle" = "完成验证";
+
+/* Class = "UIButton"; normalTitle = "获取验证码"; ObjectID = "23"; */
+"23.normalTitle" = "获取验证码";
+
+/* Class = "UITextField"; placeholder = "请输入验证码"; ObjectID = "Yqu-Lf-hXr"; */
+"Yqu-Lf-hXr.placeholder" = "请输入验证码";
+
+/* Class = "UILabel"; text = "输入验证码"; ObjectID = "g7r-7x-iYI"; */
+"g7r-7x-iYI.text" = "输入验证码";
+
+/* Class = "UILabel"; text = "欢迎来到 BYY"; ObjectID = "sSZ-Tb-9Lo"; */
+"sSZ-Tb-9Lo.text" = "欢迎来到 BYY";

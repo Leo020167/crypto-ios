@@ -1,0 +1,42 @@
+
+/* Class = "UILabel"; text = "+1"; ObjectID = "14c-1v-nLe"; */
+"14c-1v-nLe.text" = "+1";
+
+/* Class = "UIButton"; normalTitle = "2.更换手机"; ObjectID = "49Q-4W-7Dl"; */
+"49Q-4W-7Dl.normalTitle" = "2.更換手機";
+
+/* Class = "UILabel"; text = "已绑定手机号"; ObjectID = "6ek-K3-xcK"; */
+"6ek-K3-xcK.text" = "已綁定手機號";
+
+/* Class = "UILabel"; text = "更换手机号码"; ObjectID = "8a9-UW-IV3"; */
+"8a9-UW-IV3.text" = "更換手機號碼";
+
+/* Class = "UIButton"; normalTitle = "完成"; ObjectID = "NZQ-tU-GOa"; */
+"NZQ-tU-GOa.normalTitle" = "完成";
+
+/* Class = "UIButton"; normalTitle = "获取验证码"; ObjectID = "NbC-Jv-LoL"; */
+"NbC-Jv-LoL.normalTitle" = "獲取驗證碼";
+
+/* Class = "UIButton"; normalTitle = "1.验证身份"; ObjectID = "P7N-rT-TZb"; */
+"P7N-rT-TZb.normalTitle" = "1.驗證身份";
+
+/* Class = "UITextField"; placeholder = "请输入新的手机号码"; ObjectID = "P7S-g7-UyE"; */
+"P7S-g7-UyE.placeholder" = "請輸入新的手機號碼";
+
+/* Class = "UIButton"; normalTitle = "下一步"; ObjectID = "VT6-C1-rtr"; */
+"VT6-C1-rtr.normalTitle" = "下一步";
+
+/* Class = "UITextField"; placeholder = "请输入验证码"; ObjectID = "jLO-OX-q2J"; */
+"jLO-OX-q2J.placeholder" = "請輸入驗證碼";
+
+/* Class = "UIButton"; normalTitle = "3.完成"; ObjectID = "jov-jA-9pw"; */
+"jov-jA-9pw.normalTitle" = "3.完成";
+
+/* Class = "UILabel"; text = "美国"; ObjectID = "nDN-tw-5xA"; */
+"nDN-tw-5xA.text" = "美國";
+
+/* Class = "UIButton"; normalTitle = "获取验证码"; ObjectID = "qbm-LP-Fcq"; */
+"qbm-LP-Fcq.normalTitle" = "獲取驗證碼";
+
+/* Class = "UITextField"; placeholder = "请输入验证码"; ObjectID = "yQg-aP-xYB"; */
+"yQg-aP-xYB.placeholder" = "請輸入驗證碼";

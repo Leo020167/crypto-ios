@@ -1,0 +1,6 @@
+module Pods_ProCoin {
+  umbrella header "Pods-ProCoin-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,20 @@
+/* 
+  InfoPlist.strings
+  Encropy
+
+  Created by taojinroad on 2019/4/17.
+  Copyright © 2019 淘金路. All rights reserved.
+*/
+
+/*CFBundleDisplayName = "Cropyme";
+
+NSHumanReadableCopyright = "Copyright © 2019 Encropy. All rights reserved.";
+
+NSCameraUsageDescription = "Encropy release and other functions in the upload picture and access your camera.";
+
+NSMicrophoneUsageDescription = "Encropy access your microphone in voice response functions.";
+
+NSPhotoLibraryUsageDescription = "Encropy release and other functions in the upload picture, access to your photos.";
+
+NSRemindersUsageDescription = "Encropy request to open push access, real-time access to information notification.";
+ */

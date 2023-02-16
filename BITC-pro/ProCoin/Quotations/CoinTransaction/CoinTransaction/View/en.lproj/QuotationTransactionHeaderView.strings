@@ -1,0 +1,60 @@
+
+/* Class = "UILabel"; text = "--X"; ObjectID = "0gP-pd-gdA"; */
+"0gP-pd-gdA.text" = "--X";
+
+/* Class = "UILabel"; text = "以当前最优价格交易"; ObjectID = "4yt-Ci-7dh"; */
+"4yt-Ci-7dh.text" = "Trade at the current best price";
+
+/* Class = "UILabel"; text = "限价委托"; ObjectID = "7Y3-Qs-do0"; */
+"7Y3-Qs-do0.text" = "Limit order";
+
+/* Class = "UIButton"; normalTitle = "看涨"; ObjectID = "8mt-nf-uhs"; */
+"8mt-nf-uhs.normalTitle" = "Bullish";
+
+/* Class = "UIButton"; normalTitle = "买入"; ObjectID = "AzK-QG-5Y7"; */
+"AzK-QG-5Y7.normalTitle" = "Buy";
+
+/* Class = "UIButton"; normalTitle = "划转"; ObjectID = "MFY-3r-VGE"; */
+"MFY-3r-VGE.normalTitle" = "Transfer";
+
+/* Class = "UILabel"; text = "0.00000000"; ObjectID = "Nle-ET-679"; */
+"Nle-ET-679.text" = "0.00000000";
+
+/* Class = "UILabel"; text = "▼"; ObjectID = "P1c-DT-oP3"; */
+"P1c-DT-oP3.text" = "▼";
+
+/* Class = "UILabel"; text = "≈¥0.00"; ObjectID = "R1Q-SP-oG0"; */
+"R1Q-SP-oG0.text" = "≈¥0.00";
+
+/* Class = "UITextField"; placeholder = "请输入数量"; ObjectID = "VHc-2r-QPF"; */
+"VHc-2r-QPF.placeholder" = "Please Enter the Quantity";
+
+/* Class = "UILabel"; text = "数量(手)"; ObjectID = "YWp-ru-o9w"; */
+"YWp-ru-o9w.text" = "Quantity (lots)";
+
+/* Class = "UILabel"; text = "价格"; ObjectID = "ZGk-Zd-EaP"; */
+"ZGk-Zd-EaP.text" = "Price";
+
+/* Class = "UILabel"; text = "开仓保证金0USDT"; ObjectID = "clS-f8-SKV"; */
+"clS-f8-SKV.text" = "Open guarantee 0USDT";
+
+/* Class = "UILabel"; text = "▼"; ObjectID = "mdr-xi-T0d"; */
+"mdr-xi-T0d.text" = "▼";
+
+/* Class = "UIButton"; normalTitle = "-"; ObjectID = "sCr-xx-Oqz"; */
+"sCr-xx-Oqz.normalTitle" = "-";
+
+/* Class = "UILabel"; text = "可开0手"; ObjectID = "tRB-Od-YdH"; */
+"tRB-Od-YdH.text" = "Can open 0 hands";
+
+/* Class = "UIButton"; normalTitle = "+"; ObjectID = "v0q-wf-R6g"; */
+"v0q-wf-R6g.normalTitle" = "+";
+
+/* Class = "UIButton"; normalTitle = "看跌"; ObjectID = "wP1-Og-X7H"; */
+"wP1-Og-X7H.normalTitle" = "Bearish";
+
+/* Class = "UITextField"; placeholder = "请输入价格"; ObjectID = "xOY-mz-JkH"; */
+"xOY-mz-JkH.placeholder" = "Please enter a price";
+
+/* Class = "UILabel"; text = "手"; ObjectID = "zjX-s7-2oG"; */
+"zjX-s7-2oG.text" = "lot";

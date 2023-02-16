@@ -1,0 +1,15 @@
+
+/* Class = "UILabel"; text = "您目前的邮箱是12****@qq.com，想要把它更新为？"; ObjectID = "1Zq-Cv-fkG"; */
+"1Zq-Cv-fkG.text" = "現在のメールアドレスはxx@qq.comで、次のメールアドレスに更新します？";
+
+/* Class = "UITextField"; placeholder = "请输入邮箱"; ObjectID = "WJg-Re-Ksl"; */
+"WJg-Re-Ksl.placeholder" = "メールボックスを入力してください";
+
+/* Class = "UILabel"; text = "+86"; ObjectID = "srM-Fg-cqX"; */
+"srM-Fg-cqX.text" = "+86";
+
+/* Class = "UILabel"; text = "邮箱"; ObjectID = "xLJ-2C-a9N"; */
+"xLJ-2C-a9N.text" = "郵箱";
+
+/* Class = "UIButton"; normalTitle = "发送验证码"; ObjectID = "yfV-aT-nUd"; */
+"yfV-aT-nUd.normalTitle" = "送信認証コード";

@@ -1,0 +1,12 @@
+
+/* Class = "UILabel"; text = "没有匹配结果"; ObjectID = "81z-nW-c2P"; */
+"81z-nW-c2P.text" = "没有匹配结果";
+
+/* Class = "UILabel"; text = "搜索"; ObjectID = "DU2-eL-Hb9"; */
+"DU2-eL-Hb9.text" = "搜索";
+
+/* Class = "UISearchBar"; placeholder = "输入用户ID"; ObjectID = "ZqQ-IV-eIW"; */
+"ZqQ-IV-eIW.placeholder" = "输入用户ID";
+
+/* Class = "UILabel"; text = "历史查询"; ObjectID = "aol-2i-dhV"; */
+"aol-2i-dhV.text" = "历史查询";

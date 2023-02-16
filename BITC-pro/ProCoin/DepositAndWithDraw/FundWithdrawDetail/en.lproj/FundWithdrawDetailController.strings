@@ -1,0 +1,60 @@
+
+/* Class = "UILabel"; text = "---"; ObjectID = "3n2-bZ-bab"; */
+"3n2-bZ-bab.text" = "---";
+
+/* Class = "UILabel"; text = "---"; ObjectID = "7Ht-1H-Zcb"; */
+"7Ht-1H-Zcb.text" = "---";
+
+/* Class = "UILabel"; text = "订单号"; ObjectID = "AFj-7g-GTo"; */
+"AFj-7g-GTo.text" = "Order Number";
+
+/* Class = "UILabel"; text = "¥0.00"; ObjectID = "HGg-Ju-JXg"; */
+"HGg-Ju-JXg.text" = "¥0.00";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "IbM-Ha-vMC"; */
+"IbM-Ha-vMC.text" = "0";
+
+/* Class = "UILabel"; text = "收款方式"; ObjectID = "KMf-kJ-aMT"; */
+"KMf-kJ-aMT.text" = "Payment method";
+
+/* Class = "UILabel"; text = "---"; ObjectID = "UJq-r0-TY5"; */
+"UJq-r0-TY5.text" = "---";
+
+/* Class = "UILabel"; text = "---"; ObjectID = "aT0-go-NbO"; */
+"aT0-go-NbO.text" = "---";
+
+/* Class = "UILabel"; text = "---"; ObjectID = "afJ-EI-reS"; */
+"afJ-EI-reS.text" = "---";
+
+/* Class = "UILabel"; text = "账号"; ObjectID = "alM-EV-5G9"; */
+"alM-EV-5G9.text" = "Account";
+
+/* Class = "UILabel"; text = "市价"; ObjectID = "dHn-Na-VpW"; */
+"dHn-Na-VpW.text" = "Market Price";
+
+/* Class = "UILabel"; text = "金额"; ObjectID = "dL9-hI-H7X"; */
+"dL9-hI-H7X.text" = "Price";
+
+/* Class = "UILabel"; text = "¥0.00"; ObjectID = "epg-Ab-rwD"; */
+"epg-Ab-rwD.text" = "¥0.00";
+
+/* Class = "UILabel"; text = "---"; ObjectID = "fhw-zq-sEY"; */
+"fhw-zq-sEY.text" = "---";
+
+/* Class = "UILabel"; text = "---"; ObjectID = "mRl-zn-D2q"; */
+"mRl-zn-D2q.text" = "---";
+
+/* Class = "UILabel"; text = "收款人"; ObjectID = "nhE-2p-ziD"; */
+"nhE-2p-ziD.text" = "Receiver";
+
+/* Class = "UILabel"; text = "1"; ObjectID = "qO9-nl-veA"; */
+"qO9-nl-veA.text" = "1";
+
+/* Class = "UILabel"; text = "联系对方"; ObjectID = "s6L-Lb-x9g"; */
+"s6L-Lb-x9g.text" = "Contact the Other Party";
+
+/* Class = "UILabel"; text = "提现数量"; ObjectID = "tG9-JS-LS8"; */
+"tG9-JS-LS8.text" = "Number of Withdrawals";
+
+/* Class = "UILabel"; text = "提交时间"; ObjectID = "x6T-gl-JpT"; */
+"x6T-gl-JpT.text" = "Time of Submission";

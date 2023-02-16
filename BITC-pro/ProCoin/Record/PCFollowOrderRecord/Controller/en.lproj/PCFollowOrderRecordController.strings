@@ -1,0 +1,18 @@
+
+/* Class = "UIButton"; normalTitle = "筛选"; ObjectID = "W1y-R3-HT9"; */
+"W1y-R3-HT9.normalTitle" = "Filter";
+
+/* Class = "UILabel"; text = " 跟单记录"; ObjectID = "bOt-FL-Umc"; */
+"bOt-FL-Umc.text" = " Copy record";
+
+/* Class = "UIButton"; normalTitle = "历史记录"; ObjectID = "bTw-e9-ZcF"; */
+"bTw-e9-ZcF.normalTitle" = "Historical Records";
+
+/* Class = "UILabel"; text = "暂无该记录数据"; ObjectID = "eyJ-kX-8JV"; */
+"eyJ-kX-8JV.text" = "No Data for this Record at the Moment";
+
+/* Class = "UIButton"; normalTitle = "委托记录"; ObjectID = "iVX-4Q-Fb9"; */
+"iVX-4Q-Fb9.normalTitle" = "Commission record";
+
+/* Class = "UILabel"; text = "暂无该记录数据"; ObjectID = "oqh-sG-0RC"; */
+"oqh-sG-0RC.text" = "No Data for this Record at the Moment";

@@ -1,0 +1,48 @@
+
+/* Class = "UILabel"; text = "---"; ObjectID = "1yw-a2-d2B"; */
+"1yw-a2-d2B.text" = "---";
+
+/* Class = "UILabel"; text = "--"; ObjectID = "2x4-pb-Msy"; */
+"2x4-pb-Msy.text" = "--";
+
+/* Class = "UILabel"; text = "--"; ObjectID = "JyY-Og-BwZ"; */
+"JyY-Og-BwZ.text" = "--";
+
+/* Class = "UILabel"; text = "--"; ObjectID = "NdZ-eH-gja"; */
+"NdZ-eH-gja.text" = "--";
+
+/* Class = "UILabel"; text = "卖出"; ObjectID = "TAB-jX-Ljw"; */
+"TAB-jX-Ljw.text" = "卖出";
+
+/* Class = "UILabel"; text = "跟单分成"; ObjectID = "UeE-1o-6X9"; */
+"UeE-1o-6X9.text" = "跟单分成";
+
+/* Class = "UILabel"; text = "--"; ObjectID = "UeR-78-Rgx"; */
+"UeR-78-Rgx.text" = "--";
+
+/* Class = "UILabel"; text = "--"; ObjectID = "Ybv-yS-Uh4"; */
+"Ybv-yS-Uh4.text" = "--";
+
+/* Class = "UILabel"; text = "状态"; ObjectID = "dPJ-0D-7Hn"; */
+"dPJ-0D-7Hn.text" = "状态";
+
+/* Class = "UILabel"; text = "实际成交"; ObjectID = "e6o-Eu-Tzs"; */
+"e6o-Eu-Tzs.text" = "实际成交";
+
+/* Class = "UILabel"; text = "委托数量"; ObjectID = "fnY-iB-MXg"; */
+"fnY-iB-MXg.text" = "委托数量";
+
+/* Class = "UILabel"; text = "我的成交"; ObjectID = "gge-Ph-hn2"; */
+"gge-Ph-hn2.text" = "我的成交";
+
+/* Class = "UILabel"; text = "--"; ObjectID = "gnh-Y5-iaj"; */
+"gnh-Y5-iaj.text" = "--";
+
+/* Class = "UILabel"; text = "跟单成交"; ObjectID = "go5-MM-P4g"; */
+"go5-MM-P4g.text" = "跟单成交";
+
+/* Class = "UILabel"; text = "委托价格"; ObjectID = "o9Q-Ev-V5u"; */
+"o9Q-Ev-V5u.text" = "委托价格";
+
+/* Class = "UILabel"; text = "BTC/USDT"; ObjectID = "sNn-ds-JRK"; */
+"sNn-ds-JRK.text" = "BTC/USDT";

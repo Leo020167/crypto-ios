@@ -1,0 +1,12 @@
+
+/* Class = "UISearchBar"; placeholder = "输入币种名称"; ObjectID = "2oH-ma-G2f"; */
+"2oH-ma-G2f.placeholder" = "輸入幣種名稱";
+
+/* Class = "UILabel"; text = "没有匹配结果"; ObjectID = "9hl-nj-1tf"; */
+"9hl-nj-1tf.text" = "沒有匹配結果";
+
+/* Class = "UILabel"; text = "搜索币种"; ObjectID = "D5q-lP-bVx"; */
+"D5q-lP-bVx.text" = "搜索幣種";
+
+/* Class = "UILabel"; text = "历史查询"; ObjectID = "ZsJ-XE-kVs"; */
+"ZsJ-XE-kVs.text" = "歷史查詢";

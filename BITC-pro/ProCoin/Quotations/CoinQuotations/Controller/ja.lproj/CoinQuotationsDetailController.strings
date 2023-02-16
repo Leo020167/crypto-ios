@@ -1,0 +1,12 @@
+
+/* Class = "UILabel"; text = "---"; ObjectID = "DtG-Px-CCs"; */
+"DtG-Px-CCs.text" = "---";
+
+/* Class = "UIButton"; normalTitle = "看跌（做空）"; ObjectID = "Mob-rY-87O"; */
+"Mob-rY-87O.normalTitle" = "弱気になる（空売りする）";
+
+/* Class = "UIButton"; normalTitle = "看涨（做多）"; ObjectID = "jvl-3b-CRh"; */
+"jvl-3b-CRh.normalTitle" = "強気である";
+
+/* Class = "UILabel"; text = "---"; ObjectID = "mcZ-Dx-jFW"; */
+"mcZ-Dx-jFW.text" = "---";

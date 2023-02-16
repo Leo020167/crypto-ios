@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment version="2304" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="EmailVerificationViewController">
+            <connections>
+                <outlet property="contentLab" destination="1Zq-Cv-fkG" id="ZIJ-vC-kSP"/>
+                <outlet property="emailLab" destination="srM-Fg-cqX" id="Cei-BV-RKn"/>
+                <outlet property="emailTF" destination="WJg-Re-Ksl" id="yKK-IO-jsd"/>
+                <outlet property="emailTFTopLayout" destination="fUe-gi-Y7q" id="t8g-Dh-fnL"/>
+                <outlet property="navTitle" destination="xLJ-2C-a9N" id="aHt-pX-NMH"/>
+                <outlet property="sendBtn" destination="yfV-aT-nUd" id="Qmp-cr-rYF"/>
+                <outlet property="view" destination="iN0-l3-epB" id="vxE-s4-8Od"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2Mj-ss-ABq" customClass="TJRBaseTitleView">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="64"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NaC-FG-w7h">
+                            <rect key="frame" x="0.0" y="20" width="60" height="44"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="44" id="O8G-zw-ISU"/>
+                                <constraint firstAttribute="width" constant="60" id="YUq-cy-kT9"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <inset key="imageEdgeInsets" minX="-20" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            <state key="normal" image="btn_back_black">
+                                <color key="titleColor" red="0.2784313725" green="0.2784313725" blue="0.2784313725" alpha="0.90000000000000002" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="titleShadowColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <state key="highlighted">
+                                <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="backAction:" destination="-1" eventType="touchUpInside" id="Wgp-DD-hrV"/>
+                            </connections>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="邮箱" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xLJ-2C-a9N">
+                            <rect key="frame" x="170" y="33.5" width="35" height="20.5"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                            <color key="textColor" red="0.13725490200000001" green="0.13725490200000001" blue="0.13725490200000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="NaC-FG-w7h" firstAttribute="leading" secondItem="2Mj-ss-ABq" secondAttribute="leading" id="B3j-oz-PUG"/>
+                        <constraint firstAttribute="height" constant="64" id="Kc1-qn-h8o"/>
+                        <constraint firstAttribute="bottom" secondItem="xLJ-2C-a9N" secondAttribute="bottom" constant="10" id="cDw-X6-tlZ"/>
+                        <constraint firstAttribute="centerX" secondItem="xLJ-2C-a9N" secondAttribute="centerX" id="nZQ-BW-u66"/>
+                        <constraint firstAttribute="bottom" secondItem="NaC-FG-w7h" secondAttribute="bottom" id="ud2-kR-ZOu"/>
+                    </constraints>
+                    <inset key="insetFor6xAndEarlier" minX="0.0" minY="0.0" maxX="0.0" maxY="-20"/>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="您目前的邮箱是12****@qq.com，想要把它更新为？" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Zq-Cv-fkG">
+                    <rect key="frame" x="34" y="108" width="307.5" height="16"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <color key="highlightedColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </label>
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="请输入邮箱" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="WJg-Re-Ksl">
+                    <rect key="frame" x="30" y="168" width="315" height="44"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="mCd-I6-9Ux"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yfV-aT-nUd">
+                    <rect key="frame" x="30" y="256" width="315" height="44"/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="Lto-hm-Qpc"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                    <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <state key="normal" title="发送验证码" backgroundImage="btn_bg_gradation_orange"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="4"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="sendEmailCode:" destination="-1" eventType="touchUpInside" id="PdE-Z7-QVQ"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="+86" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="srM-Fg-cqX">
+                    <rect key="frame" x="30" y="168" width="315" height="44"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="m40-zF-dSl"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="yfV-aT-nUd" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="30" id="5X8-2w-Ngh"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="srM-Fg-cqX" secondAttribute="trailing" constant="30" id="6Ji-PC-JtU"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="yfV-aT-nUd" secondAttribute="trailing" constant="30" id="8Tb-mb-Xus"/>
+                <constraint firstItem="2Mj-ss-ABq" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="Gb5-JL-h9G"/>
+                <constraint firstItem="1Zq-Cv-fkG" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="Gza-5o-lRc"/>
+                <constraint firstItem="WJg-Re-Ksl" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="30" id="IEM-HX-q4U"/>
+                <constraint firstItem="srM-Fg-cqX" firstAttribute="top" secondItem="1Zq-Cv-fkG" secondAttribute="bottom" constant="44" id="KdR-or-reT"/>
+                <constraint firstItem="yfV-aT-nUd" firstAttribute="top" secondItem="WJg-Re-Ksl" secondAttribute="bottom" constant="44" id="OSL-9I-cOx"/>
+                <constraint firstItem="2Mj-ss-ABq" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="YVW-Lt-yNS"/>
+                <constraint firstItem="WJg-Re-Ksl" firstAttribute="top" secondItem="1Zq-Cv-fkG" secondAttribute="bottom" constant="44" id="fUe-gi-Y7q"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="WJg-Re-Ksl" secondAttribute="trailing" constant="30" id="pbK-PS-hYc"/>
+                <constraint firstItem="1Zq-Cv-fkG" firstAttribute="top" secondItem="2Mj-ss-ABq" secondAttribute="bottom" constant="44" id="rN9-E1-bjn"/>
+                <constraint firstItem="srM-Fg-cqX" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="30" id="vBD-Hm-8LK"/>
+                <constraint firstItem="2Mj-ss-ABq" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="xSb-kl-lWR"/>
+            </constraints>
+            <point key="canvasLocation" x="139" y="83"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="btn_back_black" width="25" height="25"/>
+        <image name="btn_bg_gradation_orange" width="277" height="38"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

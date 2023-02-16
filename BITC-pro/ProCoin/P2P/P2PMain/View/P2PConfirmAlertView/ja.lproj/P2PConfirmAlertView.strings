@@ -1,0 +1,45 @@
+
+/* Class = "UILabel"; text = "限额 ￥0.00 - ￥0.00"; ObjectID = "DjG-0J-PQb"; */
+"DjG-0J-PQb.text" = "限度額 HK$0.00 - HK$0.00";
+
+/* Class = "UIButton"; normalTitle = "划转"; ObjectID = "Hxv-Oy-TLj"; */
+"Hxv-Oy-TLj.normalTitle" = "スイープ";
+
+/* Class = "UILabel"; text = "0 CNY/USDT"; ObjectID = "Tuk-of-zxZ"; */
+"Tuk-of-zxZ.text" = "0 HKD/USDT";
+
+/* Class = "UILabel"; text = "0 USDT"; ObjectID = "UUQ-Y3-ywj"; */
+"UUQ-Y3-ywj.text" = "0 USDT";
+
+/* Class = "UIButton"; normalTitle = "全部出售"; ObjectID = "ZQw-Mm-T0n"; */
+"ZQw-Mm-T0n.normalTitle" = "すべて売る";
+
+/* Class = "UILabel"; text = "￥0.00"; ObjectID = "ZVF-wt-umB"; */
+"ZVF-wt-umB.text" = "HK$0.00";
+
+/* Class = "UILabel"; text = "数量"; ObjectID = "Zth-cy-w3X"; */
+"Zth-cy-w3X.text" = "數量";
+
+/* Class = "UIButton"; normalTitle = "下单"; ObjectID = "b3d-CA-99u"; */
+"b3d-CA-99u.normalTitle" = "注文してください";
+
+/* Class = "UILabel"; text = "实收款"; ObjectID = "e30-EF-CCg"; */
+"e30-EF-CCg.text" = "入金";
+
+/* Class = "UILabel"; text = "USDT"; ObjectID = "gTz-vU-NRC"; */
+"gTz-vU-NRC.text" = "USDT";
+
+/* Class = "UILabel"; text = "出售USDT"; ObjectID = "h5m-aA-dks"; */
+"h5m-aA-dks.text" = "販売USDT";
+
+/* Class = "UIButton"; normalTitle = "- s后自动取消"; ObjectID = "hrh-7f-k2S"; */
+"hrh-7f-k2S.normalTitle" = "- s後に自動的にキャンセルしてください";
+
+/* Class = "UILabel"; text = "余额 0.00 USDT"; ObjectID = "lCY-cQ-4Ps"; */
+"lCY-cQ-4Ps.text" = "残高 0.00 USDT";
+
+/* Class = "UILabel"; text = "单价"; ObjectID = "tbD-UC-8Q4"; */
+"tbD-UC-8Q4.text" = "単価";
+
+/* Class = "UITextField"; placeholder = "请输入出售数量"; ObjectID = "xBh-FI-f2d"; */
+"xBh-FI-f2d.placeholder" = "販売数量を入力してください";

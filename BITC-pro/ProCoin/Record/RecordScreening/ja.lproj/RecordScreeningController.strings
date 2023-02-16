@@ -1,0 +1,36 @@
+
+/* Class = "UIButton"; normalTitle = "部分成交"; ObjectID = "2Xr-1u-Dud"; */
+"2Xr-1u-Dud.normalTitle" = "ぶぶん成約";
+
+/* Class = "UITextField"; placeholder = "请输入币种"; ObjectID = "6Ij-gL-Ja5"; */
+"6Ij-gL-Ja5.placeholder" = "通貨を入力してください";
+
+/* Class = "UIButton"; normalTitle = "已撤销"; ObjectID = "ase-vv-ZTR"; */
+"ase-vv-ZTR.normalTitle" = "取り消されました";
+
+/* Class = "UIButton"; normalTitle = "全部成交"; ObjectID = "b87-Aw-Hp5"; */
+"b87-Aw-Hp5.normalTitle" = "全部取引が成立した";
+
+/* Class = "UILabel"; text = "币种"; ObjectID = "blK-7e-Nr2"; */
+"blK-7e-Nr2.text" = "通貨";
+
+/* Class = "UIButton"; normalTitle = "确定"; ObjectID = "ctg-pT-YZ0"; */
+"ctg-pT-YZ0.normalTitle" = "確定";
+
+/* Class = "UILabel"; text = "订单状态"; ObjectID = "f7N-rh-nmd"; */
+"f7N-rh-nmd.text" = "オーダーステータス";
+
+/* Class = "UIButton"; normalTitle = "卖出"; ObjectID = "frq-5x-aA0"; */
+"frq-5x-aA0.normalTitle" = "売り";
+
+/* Class = "UIButton"; normalTitle = "取消"; ObjectID = "hvP-20-mFD"; */
+"hvP-20-mFD.normalTitle" = "キャンセル";
+
+/* Class = "UILabel"; text = "筛选"; ObjectID = "iMY-ad-dTC"; */
+"iMY-ad-dTC.text" = "ふるいわけ";
+
+/* Class = "UIButton"; normalTitle = "重置"; ObjectID = "tqR-d7-Uda"; */
+"tqR-d7-Uda.normalTitle" = "リセット";
+
+/* Class = "UIButton"; normalTitle = "买入"; ObjectID = "vyB-bR-dMq"; */
+"vyB-bR-dMq.normalTitle" = "買い入れる";

@@ -1,0 +1,45 @@
+
+/* Class = "UIButton"; normalTitle = "注册"; ObjectID = "9"; */
+"9.normalTitle" = "S'inscrire";
+
+/* Class = "UITextField"; placeholder = "设置密码"; ObjectID = "19"; */
+"19.placeholder" = "Définir le mot de passe";
+
+/* Class = "UITextField"; placeholder = "请输入手机号码"; ObjectID = "22"; */
+"22.placeholder" = "Veuillez saisir votre numéro de téléphone portable";
+
+/* Class = "UITextField"; placeholder = "请再次输入密码"; ObjectID = "24"; */
+"24.placeholder" = "Veuillez saisir à nouveau le mot de passe";
+
+/* Class = "UILabel"; text = "Worldwide Coin Trade"; ObjectID = "0wh-5R-nch"; */
+"0wh-5R-nch.text" = "Worldwide Coin Trade";
+
+/* Class = "UIButton"; normalTitle = "《隐私条款》"; ObjectID = "22B-RW-1og"; */
+"22B-RW-1og.normalTitle" = "《Politique de confidentialité》";
+
+/* Class = "UILabel"; text = "+1"; ObjectID = "R4q-H0-EJS"; */
+"R4q-H0-EJS.text" = "+1";
+
+/* Class = "UILabel"; text = "点击注册即表示您已经阅读并同意W.W.C.T的"; ObjectID = "SeM-fo-ao2"; */
+"SeM-fo-ao2.text" = " En cliquant sur le registre, vous acceptez de «procurer»";
+
+/* Class = "UILabel"; text = "提示:密码必须是8-16位数字与字母组合"; ObjectID = "Vgu-GU-vGZ"; */
+"Vgu-GU-vGZ.text" = "Astuce: le mot de passe doit être une combinaison de 8 à 16 chiffres et lettres";
+
+/* Class = "UILabel"; text = "美国"; ObjectID = "WL3-ZB-WuB"; */
+"WL3-ZB-WuB.text" = "US";
+
+/* Class = "UIButton"; normalTitle = "《用户协议》"; ObjectID = "YaW-Fy-iAk"; */
+"YaW-Fy-iAk.normalTitle" = "《Accord de l'utilisateur》";
+
+/* Class = "UILabel"; text = "注册"; ObjectID = "g7r-7x-iYI"; */
+"g7r-7x-iYI.text" = "S'inscrire";
+
+/* Class = "UIButton"; normalTitle = "Register with Email"; ObjectID = "lEM-Ja-ATg"; */
+"lEM-Ja-ATg.normalTitle" = "Enregistrement de la boîte aux lettres";
+
+/* Class = "UILabel"; text = "环球数字资产交易平台"; ObjectID = "sSZ-Tb-9Lo"; */
+"sSZ-Tb-9Lo.text" = "Plateforme mondiale de trading d'actifs numériques";
+
+/* Class = "UITextField"; placeholder = "请填写邀请码(必填)"; ObjectID = "vUt-E2-J20"; */
+"vUt-E2-J20.placeholder" = "Veuillez remplir le code d'invitation (requis)";

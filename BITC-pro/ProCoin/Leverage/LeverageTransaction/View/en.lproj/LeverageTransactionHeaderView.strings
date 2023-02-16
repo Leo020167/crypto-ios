@@ -1,0 +1,42 @@
+
+/* Class = "UILabel"; text = "--"; ObjectID = "1gx-eV-VPE"; */
+"1gx-eV-VPE.text" = "--";
+
+/* Class = "UIButton"; normalTitle = "看涨（做多）"; ObjectID = "750-EO-zTq"; */
+"750-EO-zTq.normalTitle" = "Bullish (long)";
+
+/* Class = "UIButton"; normalTitle = "看跌"; ObjectID = "Eg8-La-DQ2"; */
+"Eg8-La-DQ2.normalTitle" = "Bearish";
+
+/* Class = "UILabel"; text = "以当前最优价格交易"; ObjectID = "M4w-Rm-5X4"; */
+"M4w-Rm-5X4.text" = "Trade at the current best price";
+
+/* Class = "UILabel"; text = "≈¥0.00"; ObjectID = "MFh-wM-HNY"; */
+"MFh-wM-HNY.text" = "≈¥0.00";
+
+/* Class = "UILabel"; text = "价格(USDT)"; ObjectID = "Rah-uE-7pe"; */
+"Rah-uE-7pe.text" = "Price(USDT)";
+
+/* Class = "UILabel"; text = "0.00000000"; ObjectID = "W7a-rW-Cuf"; */
+"W7a-rW-Cuf.text" = "0.00000000";
+
+/* Class = "UIButton"; normalTitle = "看涨"; ObjectID = "asD-pB-wuG"; */
+"asD-pB-wuG.normalTitle" = "Bullish";
+
+/* Class = "UILabel"; text = "市场最优买"; ObjectID = "hFW-Q7-Qzf"; */
+"hFW-Q7-Qzf.text" = "Best Buy at Market";
+
+/* Class = "UILabel"; text = "可用："; ObjectID = "rsX-Rz-JYx"; */
+"rsX-Rz-JYx.text" = "Available：";
+
+/* Class = "UILabel"; text = "数量"; ObjectID = "uHZ-ev-KFt"; */
+"uHZ-ev-KFt.text" = "Quantity";
+
+/* Class = "UILabel"; text = "跟单买入总额：0"; ObjectID = "wvu-i9-FyA"; */
+"wvu-i9-FyA.text" = "Total copy purchase：0";
+
+/* Class = "UILabel"; text = "选择保证金（USDT）"; ObjectID = "ydl-4e-c6m"; */
+"ydl-4e-c6m.text" = "Select margin（USDT）";
+
+/* Class = "UILabel"; text = "▼"; ObjectID = "zSS-DF-hvW"; */
+"zSS-DF-hvW.text" = "▼";

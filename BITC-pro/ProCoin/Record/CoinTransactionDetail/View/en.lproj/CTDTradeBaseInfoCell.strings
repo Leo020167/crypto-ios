@@ -1,0 +1,57 @@
+
+/* Class = "UILabel"; text = "卖出"; ObjectID = "5p8-dI-0Bl"; */
+"5p8-dI-0Bl.text" = "Sell";
+
+/* Class = "UILabel"; text = "成交均价"; ObjectID = "ASe-XN-KkD"; */
+"ASe-XN-KkD.text" = "Average Price of Turnover";
+
+/* Class = "UILabel"; text = "--"; ObjectID = "D5Y-Oe-fRk"; */
+"D5Y-Oe-fRk.text" = "--";
+
+/* Class = "UILabel"; text = "--"; ObjectID = "Gj9-1G-WDe"; */
+"Gj9-1G-WDe.text" = "--";
+
+/* Class = "UILabel"; text = "BTC/USDT"; ObjectID = "IFw-et-zI3"; */
+"IFw-et-zI3.text" = "BTC/USDT";
+
+/* Class = "UILabel"; text = "成交额"; ObjectID = "KXb-Bc-80E"; */
+"KXb-Bc-80E.text" = "Turnover";
+
+/* Class = "UILabel"; text = "--"; ObjectID = "RFu-k0-P4i"; */
+"RFu-k0-P4i.text" = "--";
+
+/* Class = "UILabel"; text = "--"; ObjectID = "WbA-XN-JST"; */
+"WbA-XN-JST.text" = "--";
+
+/* Class = "UILabel"; text = "--"; ObjectID = "dwx-uM-HmU"; */
+"dwx-uM-HmU.text" = "--";
+
+/* Class = "UILabel"; text = "--"; ObjectID = "egn-2N-4FY"; */
+"egn-2N-4FY.text" = "--";
+
+/* Class = "UILabel"; text = "委托数量"; ObjectID = "ffw-JR-Phh"; */
+"ffw-JR-Phh.text" = "Number of Commissions";
+
+/* Class = "UILabel"; text = "--"; ObjectID = "mOj-YD-0Q2"; */
+"mOj-YD-0Q2.text" = "--";
+
+/* Class = "UILabel"; text = "成交数量"; ObjectID = "nCK-SR-N1W"; */
+"nCK-SR-N1W.text" = "The number of transactions";
+
+/* Class = "UILabel"; text = "我的盈利(USDT)"; ObjectID = "pKv-pn-QhN"; */
+"pKv-pn-QhN.text" = "My Profit(USDT)";
+
+/* Class = "UILabel"; text = "状态"; ObjectID = "qcU-ww-Es4"; */
+"qcU-ww-Es4.text" = "Status";
+
+/* Class = "UILabel"; text = "委托时间"; ObjectID = "u7j-pa-mtz"; */
+"u7j-pa-mtz.text" = "Commission time";
+
+/* Class = "UILabel"; text = "--"; ObjectID = "uRz-zb-3jm"; */
+"uRz-zb-3jm.text" = "--";
+
+/* Class = "UILabel"; text = "委托价格"; ObjectID = "xat-pB-UQG"; */
+"xat-pB-UQG.text" = "Entrusted Price";
+
+/* Class = "UILabel"; text = "手续费"; ObjectID = "yX6-Nh-hNb"; */
+"yX6-Nh-hNb.text" = "Handling fee";

@@ -1,0 +1,9 @@
+
+/* Class = "UIButton"; normalTitle = "删除"; ObjectID = "XsB-VX-lMj"; */
+"XsB-VX-lMj.normalTitle" = "Delete";
+
+/* Class = "UIButton"; normalTitle = "全选"; ObjectID = "dUg-5y-JNI"; */
+"dUg-5y-JNI.normalTitle" = "Select all";
+
+/* Class = "UILabel"; text = "编辑自选"; ObjectID = "daC-HR-xVt"; */
+"daC-HR-xVt.text" = "Editor's Choice";

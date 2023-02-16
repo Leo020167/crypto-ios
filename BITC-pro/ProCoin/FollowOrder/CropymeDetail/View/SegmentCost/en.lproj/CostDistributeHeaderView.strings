@@ -1,0 +1,9 @@
+
+/* Class = "UILabel"; text = "成本区间"; ObjectID = "KxX-I6-bUx"; */
+"KxX-I6-bUx.text" = "Cost range";
+
+/* Class = "UILabel"; text = "比例"; ObjectID = "Nh1-fG-e71"; */
+"Nh1-fG-e71.text" = "Proportion";
+
+/* Class = "UILabel"; text = "数量"; ObjectID = "b5s-GY-WBg"; */
+"b5s-GY-WBg.text" = "quantity";

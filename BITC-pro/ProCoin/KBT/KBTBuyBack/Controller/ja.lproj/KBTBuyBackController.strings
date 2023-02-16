@@ -1,0 +1,9 @@
+
+/* Class = "UILabel"; text = "KBT回购"; ObjectID = "Dla-ub-BsP"; */
+"Dla-ub-BsP.text" = "KBTの買戻し";
+
+/* Class = "UIButton"; normalTitle = "规则说明"; ObjectID = "dnz-a3-FD3"; */
+"dnz-a3-FD3.normalTitle" = "ルールの説明";
+
+/* Class = "UIButton"; normalTitle = "去回购"; ObjectID = "ig9-wd-5QM"; */
+"ig9-wd-5QM.normalTitle" = "買い戻しに行く";

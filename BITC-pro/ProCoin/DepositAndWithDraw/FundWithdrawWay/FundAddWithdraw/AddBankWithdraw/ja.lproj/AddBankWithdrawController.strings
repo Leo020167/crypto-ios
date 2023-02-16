@@ -1,0 +1,30 @@
+
+/* Class = "UITextField"; placeholder = "请输入开户姓名"; ObjectID = "40L-fj-9My"; */
+"40L-fj-9My.placeholder" = "口座番号を入力してください";
+
+/* Class = "UITextField"; placeholder = "请输入银行卡号"; ObjectID = "4Lh-F8-x9H"; */
+"4Lh-F8-x9H.placeholder" = "口座番号を入力してください";
+
+/* Class = "UIButton"; normalTitle = "添加"; ObjectID = "EnG-Bj-o7J"; */
+"EnG-Bj-o7J.normalTitle" = "追加";
+
+/* Class = "UILabel"; text = "开户姓名"; ObjectID = "HkT-wK-ZAt"; */
+"HkT-wK-ZAt.text" = "口座開設名";
+
+/* Class = "UILabel"; text = "银行卡号"; ObjectID = "OAl-X3-YnJ"; */
+"OAl-X3-YnJ.text" = "銀行カード番号";
+
+/* Class = "UILabel"; text = "开户行"; ObjectID = "TBg-mr-iOU"; */
+"TBg-mr-iOU.text" = "口座開設銀行";
+
+/* Class = "UILabel"; text = "如:xx银行xx省xx市县x支行"; ObjectID = "YQi-eQ-gPi"; */
+"YQi-eQ-gPi.text" = "例:xx銀行xx省xx市県x支店";
+
+/* Class = "UILabel"; text = "添加银行卡收款"; ObjectID = "geA-om-knY"; */
+"geA-om-knY.text" = "銀行カードによる支払いを追加する";
+
+/* Class = "UITextField"; placeholder = "请输入开户行"; ObjectID = "tzS-0q-Q2z"; */
+"tzS-0q-Q2z.placeholder" = "口座番号を入力してください";
+
+/* Class = "UILabel"; text = "请务必使用与您注册手机号码一致的实名账号"; ObjectID = "v08-IJ-dQz"; */
+"v08-IJ-dQz.text" = "登録した携帯電話番号と一致する実名アカウントを必ずご利用ください";
