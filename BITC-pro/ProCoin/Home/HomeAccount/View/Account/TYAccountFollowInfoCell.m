@@ -121,7 +121,6 @@
     self.availableLabel.text = followModel.eableBail;
     
     self.freezeLabel.text = followModel.profit;
-    self.freezeLabel.textColor = [TradeUtil textColorWithQuotationNumber:[followModel.profit doubleValue]];
     
     self.priceLabel.text = followModel.openBail;
     
@@ -142,7 +141,6 @@
     self.availableLabel.text = indexModel.eableBail;
     
     self.freezeLabel.text = indexModel.profit;
-    self.freezeLabel.textColor = [TradeUtil textColorWithQuotationNumber:[indexModel.profit doubleValue]];
     
     self.priceLabel.text = indexModel.openBail;
     
@@ -164,7 +162,6 @@
     self.availableLabel.text = contractModel.eableBail;
     
     self.freezeLabel.text = contractModel.profit;
-    self.freezeLabel.textColor = [TradeUtil textColorWithQuotationNumber:[contractModel.profit doubleValue]];
     
     self.priceLabel.text = contractModel.openBail;
     

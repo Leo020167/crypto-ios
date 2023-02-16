@@ -29,9 +29,9 @@ NS_ASSUME_NONNULL_BEGIN
 @property (assign, nonatomic) BOOL displayed;
 
 /// 币种类型
-//@property (nonatomic, copy) NSString *coinType;
-//
-//@property (nonatomic, strong) NSMutableArray *coinTypeArray;
+@property (nonatomic, copy) NSString *coinType;
+
+@property (nonatomic, strong) NSMutableArray *coinTypeArray;
 
 @end
 

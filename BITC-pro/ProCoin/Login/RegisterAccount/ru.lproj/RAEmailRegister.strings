@@ -24,7 +24,7 @@
 "de3-cf-cWj.text" = "Глобальная платформа для торговли цифровыми активами";
 
 /* Class = "UITextField"; placeholder = "请填写邀请码(必填)"; ObjectID = "hvf-ot-R8d"; */
-"hvf-ot-R8d.placeholder" = "Пожалуйста, заполните код приглашения (требуется)";
+"hvf-ot-R8d.placeholder" = "Пожалуйста, заполните код приглашения";
 
 /* Class = "UILabel"; text = "注册"; ObjectID = "igl-JR-GNi"; */
 "igl-JR-GNi.text" = "регистр";

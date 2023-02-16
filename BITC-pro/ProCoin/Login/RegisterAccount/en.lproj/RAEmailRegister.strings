@@ -24,7 +24,7 @@
 "de3-cf-cWj.text" = "Global Digital Currency Platform";
 
 /* Class = "UITextField"; placeholder = "请填写邀请码(必填)"; ObjectID = "hvf-ot-R8d"; */
-"hvf-ot-R8d.placeholder" = "Please fill in the invitation code (required)";
+"hvf-ot-R8d.placeholder" = "Please fill in the invitation code";
 
 /* Class = "UILabel"; text = "注册"; ObjectID = "igl-JR-GNi"; */
 "igl-JR-GNi.text" = "Register";

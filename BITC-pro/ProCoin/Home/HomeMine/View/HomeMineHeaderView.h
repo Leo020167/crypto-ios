@@ -14,7 +14,7 @@ typedef enum {
     MineHeaderViewChargeCoinEvent,              //转入
     MineHeaderViewExtractCoinEvent,             //转出
     MineHeaderViewTransferCoinEvent,            //划转
-    MineHeaderViewP2PInOutEvent,            //余额提现
+    MineHeaderViewP2PInOutEvent,            //法币买卖
 }MineHeaderViewEvent;
 
 @protocol HomeMineHeaderViewDelegate <NSObject>
@@ -35,7 +35,6 @@ typedef enum {
 #pragma mark - reload更新数据
 - (void)reloadHeaderViewBaseData;
 
-- (void)reloadAccount;
 @end
 
 

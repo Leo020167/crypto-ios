@@ -39,7 +39,7 @@
 "AppName" = "Cropyme";
 
 /*  */
-"BITC认证商家" = "Leader Coin Certified Merchant";
+"BITC认证商家" = "FireUp Certified Merchant";
 
 /* 重要 */
 "BYY官方" = "BYY official";
@@ -802,7 +802,7 @@
 "头像" = "avatar";
 
 /*  */
-"奖励(TVC)" = "Reward (TVC)";
+"奖励(TFU)" = "Reward (TFU)";
 
 /* 男 */
 "女" = "Female";
@@ -1168,7 +1168,7 @@
 "总盈亏(USDT)" = "Total profit and loss (USDT)";
 
 /*  */
-"总资产(TVC)" = "Total assets (TVC)";
+"总资产(TFU)" = "Total assets (TFU)";
 
 "总资产(USDT)" = "Total assets(USDT)";
 "总资产" = "Total assets";
@@ -1203,10 +1203,10 @@
 "您暂无发布广告" = "you have not posted ads";
 
 
-"您正在向BITC认证卖家购买%@ USDT" = "You are buying %@ USDT from a Leader Coin certified seller";
+"您正在向BITC认证卖家购买%@ USDT" = "You are buying %@ USDT from a FireUp certified seller";
 
 /* 申购失败转换 */
-"您正在向BITC认证卖家购买%@ USDT" = "You are buying %@ USDT from a Leader Coin certified seller";
+"您正在向BITC认证卖家购买%@ USDT" = "You are buying %@ USDT from a BITC certified seller";
 
 /* 选择个人头像 */
 "您的资料已修改，是否要保存？" = "Your information has been modified, do you want to save it?";
@@ -1260,7 +1260,7 @@
 "我已在%@一键跟上了TA的实盘交易" = "I have kept up with TA's real offer transaction with one click at %@";
 
 /* 他是 */
-"我已在W.W.C.T一键跟上了TA的实盘交易" = "I have kept up with TA's real trading with one click on Leader Coin";
+"我已在W.W.C.T一键跟上了TA的实盘交易" = "I have kept up with TA's real trading with one click on FireUp";
 
 /* TA是 */
 "我已在procoin一键跟上了TA的实盘交易" = "I have followed his/her live trading at %@ with one clic";
@@ -1319,7 +1319,7 @@
 
 "我确认还没有付款给对方" = "I confirm that no payment has been made to the other party";
 
-/* 余额提现 */
+/* 法币买卖 */
 "我要买" = "I want to buy";
 
 /* 我要买 */
@@ -1789,7 +1789,7 @@
 "查看" = "Check";
 
 /*  */
-"查看如何获取TVC？" = "See How to get TVC?";
+"查看如何获取TFU？" = "See How to get TFU?";
 
 
 "查看导师" = "view tutor";
@@ -1804,7 +1804,7 @@
 "标题" = "title";
 
 /*  */
-"欢迎来到BITC" = "Welcome to Leader Coin";
+"欢迎来到BITC" = "Welcome to FireUp";
 
 /* 平台 */
 "欢迎页" = "welcome page";
@@ -1891,10 +1891,10 @@
 "每隔1秒刷新" = "Refresh every 1 second";
 
 /* 请输入划转的数量 */
-"余额提现" = "Fiat currency trading";
+"法币买卖" = "Fiat currency trading";
 
 
-"余额提现" = "OTC";
+"法币买卖" = "OTC";
 
 /* 月 */
 "注:订阅/续费后将收到该用户的交易策略。" = "Note: The user's trading strategy will be received after subscription/renewal.";
@@ -1918,7 +1918,7 @@
 "消息推送" = "message push";
 
 /*  */
-"消耗TVC" = "consume TVC";
+"消耗TFU" = "consume TFU";
 
 
 "涨幅榜" = "Gain list";
@@ -1963,7 +1963,7 @@
 "清除缓存" = "clear cache";
 
 /* 计算中 */
-"清除缓存后W.W.C.T上所有的头像、图片等要重新下载,是否清除?" = "After clearing the cache, all avatars, pictures, etc. on Leader Coin need to be downloaded again. Do you want to clear it?";
+"清除缓存后W.W.C.T上所有的头像、图片等要重新下载,是否清除?" = "After clearing the cache, all avatars, pictures, etc. on FireUp need to be downloaded again. Do you want to clear it?";
 
 /* 注销失败 */
 "清除缓存成功" = "clear cache successfully";
@@ -2206,7 +2206,7 @@
 "社区人数：%@" = "Number of people in the community: %@";
 
 /*  */
-"社区总奖励(TVC)" = "Total Community Rewards (TVC)";
+"社区总奖励(TFU)" = "Total Community Rewards (TFU)";
 
 /*  */
 "离强平价还剩 -" = "Remaining from liquidation price -";
@@ -2308,7 +2308,7 @@
 "获取验证码失败" = "Failed to get verification code";
 
 /*  */
-"获得TVC" = "Get TVC";
+"获得TFU" = "Get TFU";
 
 /* 上月收益 */
 "行情" = "quotes";
@@ -2752,7 +2752,7 @@
 "账户类型" = "account type";
 
 /* / 质押 */
-"Defi专区" = "Defi special area";
+"质押生息" = "Pledge interest";
 
 "质押记录" = "pledge record";
 
@@ -3173,7 +3173,3 @@
 "默认" = "default";
 
 "最小质押数量" = "Minimum pledge amount";
-
-
-"充值" = "Recharge";
-"提现" = "Withdrawal";

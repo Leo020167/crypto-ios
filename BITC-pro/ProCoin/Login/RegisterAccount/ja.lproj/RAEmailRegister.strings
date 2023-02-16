@@ -12,7 +12,7 @@
 "AcM-qD-O7Q.normalTitle" = "登録";
 
 /* Class = "UILabel"; text = "点击注册即表示您已经阅读并同意W.W.C.T的"; ObjectID = "Cx4-Iq-bhx"; */
-"Cx4-Iq-bhx.text" = "登録をクリックすると、BITCの";
+"Cx4-Iq-bhx.text" = "登録をクリックすると、Encryptedの";
 
 /* Class = "UILabel"; text = "Worldwide Coin Trade"; ObjectID = "NnP-1q-3Af"; */
 "NnP-1q-3Af.text" = "Worldwide Coin Trade";
@@ -24,7 +24,7 @@
 "de3-cf-cWj.text" = "ユニバーサルデジタル資産取引プラットフォーム";
 
 /* Class = "UITextField"; placeholder = "请填写邀请码(必填)"; ObjectID = "hvf-ot-R8d"; */
-"hvf-ot-R8d.placeholder" = "招待コードを入力してください（必須）";
+"hvf-ot-R8d.placeholder" = "招待コードを入力してください";
 
 /* Class = "UILabel"; text = "注册"; ObjectID = "igl-JR-GNi"; */
 "igl-JR-GNi.text" = "登録";

@@ -74,7 +74,7 @@
     }];
 }
 
-- (void)bindModel:(HomeQuoteModel *)model index: (NSInteger)index {
+- (void)bindModel:(HomeQuoteModel *)model {
     self.nameLabel.text = [NSString stringWithFormat:@"%@", model.symbol];
     self.descLabel.text = model.name;
     self.rateLabel.text = [NSString stringWithFormat:@"%@%@", model.rate, @"%"];
@@ -84,8 +84,7 @@
     self.rateLabel.backgroundColor = [TradeUtil textColorWithQuotationNumber:model.rate.doubleValue];
     
     if (model.changedRate != 0) {
-        [self upDownAnimation: [TradeUtil textColorWithQuotationNumber:model.changedRate]
-                        delay: [model.rate doubleValue] == model.changedRate ? (0.3 - 0.3 / index) : 0];
+        [self upDownAnimation: [TradeUtil textColorWithQuotationNumber:model.changedRate]];
     }
 
     itemModel = [[HomeQuoteModel alloc] init];
@@ -112,8 +111,8 @@
 }
 
 
-- (void)upDownAnimation: (UIColor *)highlightColor delay: (double)delay {
-    [UIView animateKeyframesWithDuration:0.7 delay: delay options:UIViewKeyframeAnimationOptionCalculationModeLinear animations:^{
+- (void)upDownAnimation: (UIColor *)highlightColor {
+    [UIView animateKeyframesWithDuration:0.7 delay:drand48() options:UIViewKeyframeAnimationOptionCalculationModeLinear animations:^{
         [UIView addKeyframeWithRelativeStartTime:0.f relativeDuration:1.0 / 2 animations:^{
             self.cellView.backgroundColor = [highlightColor colorWithAlphaComponent:0.3];
         }];

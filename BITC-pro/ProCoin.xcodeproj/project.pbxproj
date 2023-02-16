@@ -1289,8 +1289,6 @@
 		67C1D99B22AA6F1600CFECAC /* WithdrawWayCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 67C1D99A22AA6F1600CFECAC /* WithdrawWayCell.xib */; };
 		67C1D99F22AA7EC600CFECAC /* OwnReceiptEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 67C1D99E22AA7EC600CFECAC /* OwnReceiptEntity.m */; };
 		67EDE9C71F7BCC7E00680135 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF594EE91C0C3CA900FDAD98 /* CoreLocation.framework */; };
-		7324E2142999C3EA00EDAA95 /* P2PCoinFilterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7324E2132999C3EA00EDAA95 /* P2PCoinFilterView.m */; };
-		7324E2162999C3F400EDAA95 /* P2PCoinFilterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7324E2152999C3F400EDAA95 /* P2PCoinFilterView.xib */; };
 		733FDE76291A982100F26AC4 /* PledgeIndexViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 733FDE74291A982100F26AC4 /* PledgeIndexViewController.m */; };
 		733FDE7C291AA00A00F26AC4 /* PledgeRecordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 733FDE7B291AA00A00F26AC4 /* PledgeRecordViewController.m */; };
 		73621E88293D79CC005D2514 /* ExtAddressCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 73621E8A293D79CC005D2514 /* ExtAddressCell.xib */; };
@@ -4269,9 +4267,6 @@
 		67C1D99D22AA7EC600CFECAC /* OwnReceiptEntity.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OwnReceiptEntity.h; sourceTree = "<group>"; };
 		67C1D99E22AA7EC600CFECAC /* OwnReceiptEntity.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OwnReceiptEntity.m; sourceTree = "<group>"; };
 		6A71EEDA7295E2903830B296 /* Pods-ProCoin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProCoin.debug.xcconfig"; path = "Target Support Files/Pods-ProCoin/Pods-ProCoin.debug.xcconfig"; sourceTree = "<group>"; };
-		7324E2122999C3EA00EDAA95 /* P2PCoinFilterView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = P2PCoinFilterView.h; sourceTree = "<group>"; };
-		7324E2132999C3EA00EDAA95 /* P2PCoinFilterView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = P2PCoinFilterView.m; sourceTree = "<group>"; };
-		7324E2152999C3F400EDAA95 /* P2PCoinFilterView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = P2PCoinFilterView.xib; sourceTree = "<group>"; };
 		733FDE73291A982100F26AC4 /* PledgeIndexViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PledgeIndexViewController.h; sourceTree = "<group>"; };
 		733FDE74291A982100F26AC4 /* PledgeIndexViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PledgeIndexViewController.m; sourceTree = "<group>"; };
 		733FDE7A291AA00A00F26AC4 /* PledgeRecordViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PledgeRecordViewController.h; sourceTree = "<group>"; };
@@ -7144,7 +7139,6 @@
 		0C85D82E261AD3E8009DC8AA /* View */ = {
 			isa = PBXGroup;
 			children = (
-				7324E2112999C34100EDAA95 /* P2PCoinFilterView */,
 				0C7C7428262DCF0F006460C8 /* P2PPayMoneyView */,
 				0C9E5CAC261DFD8B00448213 /* P2PMenuView */,
 				0C85D869261B5BBB009DC8AA /* P2PConfirmAlertView */,
@@ -12043,16 +12037,6 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
-		7324E2112999C34100EDAA95 /* P2PCoinFilterView */ = {
-			isa = PBXGroup;
-			children = (
-				7324E2122999C3EA00EDAA95 /* P2PCoinFilterView.h */,
-				7324E2132999C3EA00EDAA95 /* P2PCoinFilterView.m */,
-				7324E2152999C3F400EDAA95 /* P2PCoinFilterView.xib */,
-			);
-			path = P2PCoinFilterView;
-			sourceTree = "<group>";
-		};
 		733FDE72291A96EE00F26AC4 /* Pledge质押 */ = {
 			isa = PBXGroup;
 			children = (
@@ -12830,7 +12814,6 @@
 				395A8E6927583C9C00B0235D /* CoinQuotationsLandScapeController.xib in Resources */,
 				616A91F5202413C6003441B7 /* TJRFace_106@2x.png in Resources */,
 				616A911A202413C6003441B7 /* CircleChatFaceView.xib in Resources */,
-				7324E2162999C3F400EDAA95 /* P2PCoinFilterView.xib in Resources */,
 				395A917D2758770100B0235D /* MyHomeDescInfoCell.xib in Resources */,
 				616CDBFE22169AC300FD6029 /* CircleChatController.xib in Resources */,
 				616A9113202413C6003441B7 /* CircleChatVoiceLeftCell.xib in Resources */,
@@ -12923,7 +12906,6 @@
 				616A929C202413C7003441B7 /* TJRCommonTabBar.m in Sources */,
 				4EC2E98828C3788300ADEDA4 /* TYQuotationDetailDataView.m in Sources */,
 				04CA08CD243B140900EB56FE /* NetWorkManage+Quotation.m in Sources */,
-				7324E2142999C3EA00EDAA95 /* P2PCoinFilterView.m in Sources */,
 				0453AC732431FEFD005235CE /* UIView+ForLMJVerticalScrollText.m in Sources */,
 				61FBEFEF2073661600641DD5 /* TJRVoicePlayView.m in Sources */,
 				61FBF26520736AAF00641DD5 /* ASMediaFocusController.m in Sources */,

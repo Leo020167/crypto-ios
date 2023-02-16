@@ -3,7 +3,7 @@
 "6Iu-lt-s7e.placeholder" = "Пожалуйста, введите сумму залога";
 
 /*  */
-"6ZV-0Z-hoa.text" = "ежедневный доход";
+"6ZV-0Z-hoa.text" = "ежедневный процент";
 
 /* Class = "UILabel"; text = "質押周期"; ObjectID = "EEn-Kp-BVR"; */
 "EEn-Kp-BVR.text" = "Цикл залога";

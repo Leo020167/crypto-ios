@@ -12,7 +12,7 @@
 "AcM-qD-O7Q.normalTitle" = "등록하다";
 
 /* Class = "UILabel"; text = "点击注册即表示您已经阅读并同意W.W.C.T的"; ObjectID = "Cx4-Iq-bhx"; */
-"Cx4-Iq-bhx.text" = "레지스터를 클릭하면 'Procoin'에 동의합니다.";
+"Cx4-Iq-bhx.text" = "레지스터를 클릭하면 'Encrypted'에 동의합니다.";
 
 /* Class = "UILabel"; text = "Worldwide Coin Trade"; ObjectID = "NnP-1q-3Af"; */
 "NnP-1q-3Af.text" = "Worldwide Coin Trade";
@@ -24,7 +24,7 @@
 "de3-cf-cWj.text" = "글로벌 디지털 자산 거래 플랫폼";
 
 /* Class = "UITextField"; placeholder = "请填写邀请码(必填)"; ObjectID = "hvf-ot-R8d"; */
-"hvf-ot-R8d.placeholder" = "초대장 코드를 작성하십시오 (필수)";
+"hvf-ot-R8d.placeholder" = "초대장 코드를 작성하십시오";
 
 /* Class = "UILabel"; text = "注册"; ObjectID = "igl-JR-GNi"; */
 "igl-JR-GNi.text" = "등록하다";

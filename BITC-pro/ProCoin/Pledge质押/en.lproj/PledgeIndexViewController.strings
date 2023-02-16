@@ -1,9 +1,9 @@
 
-/* Class = "UILabel"; text = "每日收益"; ObjectID = "6ZV-0Z-hoa"; */
-"6ZV-0Z-hoa.text" = "daily income";
+/* Class = "UILabel"; text = "每日利息"; ObjectID = "6ZV-0Z-hoa"; */
+"6ZV-0Z-hoa.text" = "daily interest";
 
-/* Class = "UILabel"; text = "Defi专区"; ObjectID = "Gsm-cT-9px"; */
-"Gsm-cT-9px.text" = "Defi special area";
+/* Class = "UILabel"; text = "质押生息"; ObjectID = "Gsm-cT-9px"; */
+"Gsm-cT-9px.text" = "Pledge interest";
 
 /* Class = "UILabel"; text = "質押數量"; ObjectID = "jGL-Ka-y7e"; */
 "jGL-Ka-y7e.text" = "Pledge amount";

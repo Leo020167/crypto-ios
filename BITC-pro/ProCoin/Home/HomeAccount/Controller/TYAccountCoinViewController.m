@@ -124,7 +124,6 @@
     }
     PCCoinOperationRecordModel *recordEntity = [self.financeArray objectAtIndex:indexPath.row];
     if (recordEntity.inOut == 2 || recordEntity.inOut == 3 || recordEntity.inOut == 4) {
-        /// 财务记录
         TYAccountSubscribeCell *cell = [tableView dequeueReusableCellWithIdentifier:NSStringFromClass([TYAccountSubscribeCell class]) forIndexPath:indexPath];
         cell.model = recordEntity;
         return cell;

@@ -21,7 +21,7 @@
 @property (retain, nonatomic) IBOutlet UITextField *tfMoney;
 
 /// 币种类型
-//@property (retain, nonatomic) IBOutlet UILabel *coinTypeLabel;
+@property (retain, nonatomic) IBOutlet UILabel *coinTypeLabel;
 
 @end
 
@@ -39,11 +39,9 @@
     toolBar = [[TextFieldToolBar alloc]initWithDelegate:self numOfTextField:1];
     _tfMoney.inputAccessoryView = toolBar;
     
-//    self.coinTypeLabel.text = [NSString stringWithFormat: @"%@ ▽", NSLocalizedStringForKey(@"全部")];
-//    self.coinTypeLabel.layer.cornerRadius = 2;
-//    self.coinTypeLabel.backgroundColor = UIColorMakeWithHex(@"f2f5ff");
-//    self.coinTypeLabel.userInteractionEnabled = YES;
-//    [self.coinTypeLabel addGestureRecognizer:[[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(getCoinTypeAction:)]];
+    self.coinTypeLabel.text = @"CNY ▽";
+    self.coinTypeLabel.userInteractionEnabled = YES;
+    [self.coinTypeLabel addGestureRecognizer:[[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(getCoinTypeAction:)]];
 }
 
 
@@ -55,59 +53,53 @@
     [_touchView release];
     [_contentViewLayoutConstraintTop release];
     [_tfMoney release];
-//    [_coinTypeLabel release];
+    [_coinTypeLabel release];
     [super dealloc];
 }
 
-//- (void)setCoinTypeArray:(NSMutableArray *)coinTypeArray{
-//    _coinTypeArray = coinTypeArray;
-//}
-//
-//- (void)getCoinTypeAction:(UITapGestureRecognizer *)tap{
-//    if (self.coinTypeArray.count > 0) {
-//        [self popShowAction];
-//    }else{
-//        [YYRequestUtility Post:@"/otc/mainad/config.do" addParameters:nil progress:nil success:^(NSDictionary *responseDict) {
-//            if ([responseDict[@"code"] intValue] == 200) {
-//                self.coinTypeArray = [NSMutableArray arrayWithArray:responseDict[@"data"][@"currencies"]];
-//                [self popShowAction];
-//            }else{
-//                [QMUITips showError:responseDict[@"msg"]];
-//            }
-//        } failure:^(NSError *error) {
-//        }];
-//    }
-//}
+- (void)setCoinTypeArray:(NSMutableArray *)coinTypeArray{
+    _coinTypeArray = coinTypeArray;
+}
 
-//- (void)popShowAction{
-//    QMUIPopupMenuView *pop = [[QMUIPopupMenuView alloc] init];
-//    pop.preferLayoutDirection = QMUIPopupContainerViewLayoutDirectionBelow;
-//    pop.automaticallyHidesWhenUserTap = YES;
-//    pop.maximumWidth = 100;
-//    pop.shouldShowItemSeparator = YES;
-//    pop.itemSeparatorColor = UIColorMakeWithHex(@"696969");
-//    pop.itemTitleColor = UIColor.whiteColor;
-//    pop.backgroundColor = UIColorMakeWithHex(@"4D4CE6");
-//    pop.highlightedBackgroundColor = UIColor.clearColor;
-//    NSMutableArray *items = [NSMutableArray array];
-//    QMUIPopupMenuButtonItem *item = [QMUIPopupMenuButtonItem itemWithImage:nil title:NSLocalizedStringForKey(@"全部") handler:^(__kindof QMUIPopupMenuButtonItem * _Nonnull aItem) {
-//        self.coinType = @"";
-//        self.coinTypeLabel.text = [NSString stringWithFormat:@"%@ ▽", NSLocalizedStringForKey(@"全部")];
-//        [pop hideWithAnimated:YES];
-//    }];
-//    [items addObject:item];
-//    for (NSString *currencyItem in self.coinTypeArray) {
-//        QMUIPopupMenuButtonItem *item = [QMUIPopupMenuButtonItem itemWithImage:nil title:currencyItem handler:^(__kindof QMUIPopupMenuButtonItem * _Nonnull aItem) {
-//            self.coinType = currencyItem;
-//            self.coinTypeLabel.text = [NSString stringWithFormat:@"%@ ▽", currencyItem];
-//            [pop hideWithAnimated:YES];
-//        }];
-//        [items addObject:item];
-//    }
-//    pop.items = items;
-//    pop.sourceView = self.coinTypeLabel;
-//    [pop showWithAnimated:YES];
-//}
+- (void)getCoinTypeAction:(UITapGestureRecognizer *)tap{
+    if (self.coinTypeArray.count > 0) {
+        [self popShowAction];
+    }else{
+        [YYRequestUtility Post:@"/otc/mainad/config.do" addParameters:nil progress:nil success:^(NSDictionary *responseDict) {
+            if ([responseDict[@"code"] intValue] == 200) {
+                self.coinTypeArray = [NSMutableArray arrayWithArray:responseDict[@"data"][@"currencies"]];
+                [self popShowAction];
+            }else{
+                [QMUITips showError:responseDict[@"msg"]];
+            }
+        } failure:^(NSError *error) {
+        }];
+    }
+}
+
+- (void)popShowAction{
+    QMUIPopupMenuView *pop = [[QMUIPopupMenuView alloc] init];
+    pop.preferLayoutDirection = QMUIPopupContainerViewLayoutDirectionBelow;
+    pop.automaticallyHidesWhenUserTap = YES;
+    pop.maximumWidth = 100;
+    pop.shouldShowItemSeparator = YES;
+    pop.itemSeparatorColor = UIColorMakeWithHex(@"696969");
+    pop.itemTitleColor = UIColor.whiteColor;
+    pop.backgroundColor = UIColorMakeWithHex(@"4D4CE6");
+    pop.highlightedBackgroundColor = UIColor.clearColor;
+    NSMutableArray *items = [NSMutableArray array];
+    for (NSString *currencyItem in self.coinTypeArray) {
+        QMUIPopupMenuButtonItem *item = [QMUIPopupMenuButtonItem itemWithImage:nil title:currencyItem handler:^(__kindof QMUIPopupMenuButtonItem * _Nonnull aItem) {
+            self.coinType = currencyItem;
+            self.coinTypeLabel.text = [NSString stringWithFormat:@"%@ ▽", currencyItem];
+            [pop hideWithAnimated:YES];
+        }];
+        [items addObject:item];
+    }
+    pop.items = items;
+    pop.sourceView = self.coinTypeLabel;
+    [pop showWithAnimated:YES];
+}
 
 #pragma mark - 按钮点击事件
 - (void)backgroundTapEvent:(UIGestureRecognizer *)recognizer
@@ -116,11 +108,8 @@
 }
 
 - (IBAction)resetBtnClicked:(id)sender {
-//    self.coinType = @"";
-//    self.coinTypeLabel.text = [NSString stringWithFormat: @"%@ ▽", NSLocalizedStringForKey(@"全部") ];
-    //self.coinType = @"CNY";
-    //self.coinTypeLabel.text = @"CNY ▽";
-    
+    self.coinType = @"CNY";
+    self.coinTypeLabel.text = @"CNY ▽";
     for (int i = 100; i<105; i++) {
         UIButton* btn = (UIButton*)[self viewWithTag:i];
         btn.selected = NO;

@@ -340,7 +340,7 @@
                                                 <constraint firstAttribute="height" constant="1" id="q1c-pY-ODH"/>
                                             </constraints>
                                         </view>
-                                        <textField opaque="NO" clipsSubviews="YES" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="请填写邀请码(必填)" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="vUt-E2-J20">
+                                        <textField opaque="NO" clipsSubviews="YES" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="请填写邀请码" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="vUt-E2-J20">
                                             <rect key="frame" x="0.0" y="9" width="315" height="55"/>
                                             <constraints>
                                                 <constraint firstAttribute="height" constant="55" id="mhU-3W-pew"/>

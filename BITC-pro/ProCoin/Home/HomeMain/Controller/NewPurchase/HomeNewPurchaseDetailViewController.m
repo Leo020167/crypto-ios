@@ -10,6 +10,7 @@
 #import "HomeNewPurchaseDetailContentCell.h"
 #import "HomeNewPurchaseDetailDemandCell.h"
 #import "HomeNewPurchaseDetailTopCell.h"
+#import "UIViewController+PublicMethods.h"
 
 @interface HomeNewPurchaseDetailViewController ()<UITableViewDelegate, UITableViewDataSource>
 
@@ -22,6 +23,8 @@
 @property (nonatomic, strong) HomeNewPurchaseModel *model;
 
 @property (nonatomic, strong) QMUITextField *textField;
+
+@property (nonatomic, strong) UIButton *buyBtn;
 
 @end
 
@@ -133,6 +136,12 @@
 }
 
 - (void)joinBtnAction{
+    [self putValueToParamDictionary:CoinTradeDic value:self.model.symbol forKey:@"CoinTransactionSymbol"];
+    [self putValueToParamDictionary:CoinTradeDic value:@"1" forKey:@"CoinTransactionBuySell"];
+    [self pageToViewControllerForName:@"TYCoinTransactionController"];
+}
+
+- (void)joinBtnAction2{
     QMUIModalPresentationViewController *modalViewController = [[QMUIModalPresentationViewController alloc] init];
     UIView *contentView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, SCREEN_WIDTH - 75, 150)];
     contentView.backgroundColor = UIColor.whiteColor;
@@ -229,64 +238,106 @@
 }
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView{
-    return 3;
+    return 1;
+}
+
+- (UIView *)tableView:(UITableView *)tableView viewForFooterInSection:(NSInteger)section {
+    UIView *view = [[[UIView alloc] init] autorelease];
+    view.frame = CGRectMake(0, 0, tableView.qmui_width, 60);
+    [view addSubview:self.buyBtn];
+    [self.buyBtn mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.centerX.mas_equalTo(view);
+        make.size.mas_equalTo(CGSizeMake(200, 40));
+        make.top.mas_equalTo(10);
+    }];
+    self.buyBtn.enabled = NO;
+    if (self.model.state == 0) {
+        self.buyBtn.backgroundColor = UIColor.grayColor;
+        [self.buyBtn setTitle:NSLocalizedStringForKey(@"预热中") forState:0];
+    }else if (self.model.state == 1) {
+        self.buyBtn.enabled = YES;
+        self.buyBtn.backgroundColor = UIColorMakeWithHex(@"#5FCE64");
+        [self.buyBtn setTitle:NSLocalizedStringForKey(@"立即参与") forState:0];
+    }else if (self.model.state == 2) {
+        self.buyBtn.backgroundColor = UIColor.grayColor;
+        [self.buyBtn setTitle:NSLocalizedStringForKey(@"已结束") forState:0];
+    }
+    return view;
+}
+
+- (CGFloat)tableView:(UITableView *)tableView heightForFooterInSection:(NSInteger)section {
+    return 60;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
     if (section == 0) {
-        return 1;
-    }else if (section == 1) {
-        return 12;
+        return 8;
     }
-    return 6;
+    return 0;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
-    if (indexPath.section == 0) {
+    if (indexPath.row == 0) {
         HomeNewPurchaseDetailTopCell *cell = [tableView dequeueReusableCellWithIdentifier:NSStringFromClass([HomeNewPurchaseDetailTopCell class]) forIndexPath:indexPath];
         cell.model = self.model;
-        cell.buyBtnActionBlock = ^{
-            [self joinBtnAction];
-        };
+//        cell.buyBtnActionBlock = ^{
+//            [self joinBtnAction];
+//        };
         return cell;
-    }else if (indexPath.section == 1) {
+    }else if (indexPath.row >= 1) {
         HomeNewPurchaseDetailContentCell *cell = [tableView dequeueReusableCellWithIdentifier:NSStringFromClass([HomeNewPurchaseDetailContentCell class]) forIndexPath:indexPath];
-        if (indexPath.row == 0) {
-            cell.titleLabel.text = NSLocalizedStringForKey(@"本轮可申购总量");
-            cell.descLabel.text = self.model.sum;
-        }else if (indexPath.row == 1) {
-            cell.titleLabel.text = NSLocalizedStringForKey(@"本轮已申购");
-            cell.descLabel.text = self.model.alCount;
+//        if (indexPath.row == 0) {
+//            cell.titleLabel.text = NSLocalizedStringForKey(@"本轮可申购总量");
+//            cell.descLabel.text = self.model.sum;
+//        }else if (indexPath.row == 1) {
+//            cell.titleLabel.text = NSLocalizedStringForKey(@"本轮已申购");
+//            cell.descLabel.text = self.model.alCount;
+//        }else if (indexPath.row == 2) {
+//            cell.titleLabel.text = NSLocalizedStringForKey(@"本轮剩余申购量");
+//            cell.descLabel.text = [NSString stringWithFormat:@"%d", self.model.sum.intValue - self.model.alCount.intValue];
+        if (indexPath.row == 1) {
+            cell.titleLabel.text = NSLocalizedStringForKey(@"状态");
+            /// 状态：0 待开始，1 申购中，2 已结束
+            if (self.model.state == 0) {
+                cell.descLabel.text = NSLocalizedStringForKey(@"待开始");
+            }else if (self.model.state == 1) {
+                cell.descLabel.text = NSLocalizedStringForKey(@"进行中");
+            }else if (self.model.state == 2) {
+                cell.descLabel.text = NSLocalizedStringForKey(@"已结束");
+            }
         }else if (indexPath.row == 2) {
-            cell.titleLabel.text = NSLocalizedStringForKey(@"本轮剩余申购量");
-            cell.descLabel.text = [NSString stringWithFormat:@"%d", self.model.sum.intValue - self.model.alCount.intValue];
-        }else if (indexPath.row == 3) {
-            cell.titleLabel.text = NSLocalizedStringForKey(@"距离本轮申购结束还剩");
-            cell.descLabel.text = self.model.timeStr;
-        }else if (indexPath.row == 4) {
             cell.titleLabel.text = NSLocalizedStringForKey(@"申购总量");
-            cell.descLabel.text = self.model.allSum;
-        }else if (indexPath.row == 5) {
-            cell.titleLabel.text = NSLocalizedStringForKey(@"本轮开始申购时间");
-            cell.descLabel.text = [NSString stringWithFormat:@"%@(%@)", [VeDateUtil formatterDate:self.model.startTime inStytle:nil outStytle:@"yyyy-MM-dd HH:mm:ss" isTimestamp:YES], NSLocalizedStringForKey(@"香港时间")];
-        }else if (indexPath.row == 6) {
-            cell.titleLabel.text = NSLocalizedStringForKey(@"本轮结束申购时间");
-            cell.descLabel.text = [NSString stringWithFormat:@"%@(%@)", [VeDateUtil formatterDate:self.model.endTime inStytle:nil outStytle:@"yyyy-MM-dd HH:mm:ss" isTimestamp:YES], NSLocalizedStringForKey(@"香港时间")];
-        }else if (indexPath.row == 7) {
-            cell.titleLabel.text = NSLocalizedStringForKey(@"上市交易时间");
-            cell.descLabel.text = [NSString stringWithFormat:@"%@(%@)", [VeDateUtil formatterDate:self.model.tradeTime inStytle:nil outStytle:@"yyyy-MM-dd HH:mm:ss" isTimestamp:YES], NSLocalizedStringForKey(@"香港时间")];
-        }else if (indexPath.row == 8) {
-            cell.titleLabel.text = NSLocalizedStringForKey(@"上市解仓时间");
-            cell.descLabel.text = [NSString stringWithFormat:@"%@(%@)", [VeDateUtil formatterDate:self.model.liftBanTime inStytle:nil outStytle:@"yyyy-MM-dd HH:mm:ss" isTimestamp:YES], NSLocalizedStringForKey(@"香港时间")];
-        }else if (indexPath.row == 9) {
+            cell.descLabel.text = self.model.sum;
+        }else if (indexPath.row == 3) {
             cell.titleLabel.text = NSLocalizedStringForKey(@"申购价格");
             cell.descLabel.text = [NSString stringWithFormat:@"%@USDT", self.model.rate];
-        }else if (indexPath.row == 10) {
-            cell.titleLabel.text = NSLocalizedStringForKey(@"我已申购");
-            cell.descLabel.text = self.model.userCount;
-        }else if (indexPath.row == 11) {
-            cell.titleLabel.text = NSLocalizedStringForKey(@"最小申购量");
-            cell.descLabel.text = self.model.min;
+        }else if (indexPath.row == 4) {
+            cell.titleLabel.text = NSLocalizedStringForKey(@"活动币种");
+            cell.descLabel.text = self.model.symbol;
+        }else if (indexPath.row == 5) {
+            cell.titleLabel.text = NSLocalizedStringForKey(@"接受币种");
+            cell.descLabel.text = @"USDT";
+        }else if (indexPath.row == 6) {
+            cell.titleLabel.text = NSLocalizedStringForKey(@"本轮开始申购时间");
+            cell.descLabel.text = [NSString stringWithFormat:@"%@", [VeDateUtil formatterDate:self.model.startTime inStytle:nil outStytle:@"yyyy-MM-dd HH:mm:ss" isTimestamp:YES]];
+        }else if (indexPath.row == 7) {
+            cell.titleLabel.text = NSLocalizedStringForKey(@"本轮结束申购时间");
+            cell.descLabel.text = [NSString stringWithFormat:@"%@", [VeDateUtil formatterDate:self.model.endTime inStytle:nil outStytle:@"yyyy-MM-dd HH:mm:ss" isTimestamp:YES]];
+//        }else if (indexPath.row == 7) {
+//            cell.titleLabel.text = NSLocalizedStringForKey(@"上市交易时间");
+//            cell.descLabel.text = [NSString stringWithFormat:@"%@(%@)", [VeDateUtil formatterDate:self.model.tradeTime inStytle:nil outStytle:@"yyyy-MM-dd HH:mm:ss" isTimestamp:YES], NSLocalizedStringForKey(@"香港时间")];
+//        }else if (indexPath.row == 8) {
+//            cell.titleLabel.text = NSLocalizedStringForKey(@"上市解仓时间");
+//            cell.descLabel.text = [NSString stringWithFormat:@"%@(%@)", [VeDateUtil formatterDate:self.model.liftBanTime inStytle:nil outStytle:@"yyyy-MM-dd HH:mm:ss" isTimestamp:YES], NSLocalizedStringForKey(@"香港时间")];
+//        }else if (indexPath.row == 9) {
+//            cell.titleLabel.text = NSLocalizedStringForKey(@"申购价格");
+//            cell.descLabel.text = [NSString stringWithFormat:@"%@USDT", self.model.rate];
+//        }else if (indexPath.row == 10) {
+//            cell.titleLabel.text = NSLocalizedStringForKey(@"我已申购");
+//            cell.descLabel.text = self.model.userCount;
+//        }else if (indexPath.row == 11) {
+//            cell.titleLabel.text = NSLocalizedStringForKey(@"最小申购量");
+//            cell.descLabel.text = self.model.min;
         }
         return cell;
     }
@@ -337,5 +388,19 @@
         [_tableView registerClass:[HomeNewPurchaseDetailDemandCell class] forCellReuseIdentifier:NSStringFromClass([HomeNewPurchaseDetailDemandCell class])];
     }
     return _tableView;
+}
+
+- (UIButton *)buyBtn{
+    if (!_buyBtn) {
+        _buyBtn = [[UIButton alloc] init];
+        [_buyBtn setTitle:NSLocalizedStringForKey(@"立即参与") forState:0];
+        [_buyBtn setTitleColor:UIColor.whiteColor forState:0];
+        _buyBtn.titleLabel.font = UIFontMake(15);
+        _buyBtn.backgroundColor = UIColorMakeWithHex(@"#5FCE64");
+        _buyBtn.layer.cornerRadius = 5;
+        _buyBtn.layer.masksToBounds = YES;
+        [_buyBtn addTarget:self action:@selector(joinBtnAction) forControlEvents:UIControlEventTouchUpInside];
+    }
+    return _buyBtn;
 }
 @end

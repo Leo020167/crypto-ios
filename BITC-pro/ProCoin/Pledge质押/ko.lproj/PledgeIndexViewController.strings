@@ -2,8 +2,8 @@
 /*  */
 "6ZV-0Z-hoa.text" = "일일 이자";
 
-/* Class = "UILabel"; text = "Defi专区"; ObjectID = "Gsm-cT-9px"; */
-"Gsm-cT-9px.text" = "Defi 특수 지역";
+/* Class = "UILabel"; text = "质押生息"; ObjectID = "Gsm-cT-9px"; */
+"Gsm-cT-9px.text" = "약정이자";
 
 /*  */
 "jGL-Ka-y7e.text" = "약정금액";

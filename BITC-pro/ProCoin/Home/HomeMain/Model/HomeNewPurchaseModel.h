@@ -80,6 +80,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic, copy) NSString *timeStr;
 
+/// 进度
+@property (nonatomic, copy) NSString *progress;
+
 
 @end
 
@@ -114,6 +117,12 @@ NS_ASSUME_NONNULL_BEGIN
 
 /// 申购总量
 @property (nonatomic, copy) NSString *sumAmount;
+
+/// 进度
+@property (nonatomic, copy) NSString *progress;
+
+/// 兑换比例，如设置成100，则表示1新币=100USDT
+@property (nonatomic, copy) NSString *rate;
 
 @end
 

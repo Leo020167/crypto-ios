@@ -152,6 +152,8 @@ NSString *const ISKEYBOARDJUMP = @"isKeyboardJump";
 
 #pragma mark - dealloc
 - (void)dealloc {
+    NSLog(@"\n---------------Dealloc:  %@\n---------------", NSStringFromClass(self.class));
+    
     objc_removeAssociatedObjects(self);
     
 	RELEASE(_titleViewBackgroundImageName);

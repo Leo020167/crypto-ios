@@ -59,7 +59,7 @@ NSString *const StatusBarClick = @"StatusBarClick";
     
     //[[NSUserDefaults standardUserDefaults] setObject:@"xi0824.com" forKey:@"ipInfo"];
     //[[NSUserDefaults standardUserDefaults] setObject:@"piglobalexchanges.com" forKey:@"ipInfo"];
-    [[NSUserDefaults standardUserDefaults] setObject:@"bjchjscl.com" forKey:@"ipInfo"];
+    [[NSUserDefaults standardUserDefaults] setObject:@"encryptedex.com" forKey:@"ipInfo"];
     [[NSUserDefaults standardUserDefaults] synchronize];
     
     self.window = [[[TJRWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
@@ -74,7 +74,11 @@ NSString *const StatusBarClick = @"StatusBarClick";
     }
     [[UIApplication sharedApplication] setStatusBarOrientation:UIInterfaceOrientationPortrait animated:NO];
     
-    
+    /// 绿涨红跌
+    NSString *color = [[NSUserDefaults standardUserDefaults] objectForKey:@"appColor"];
+    if (color == nil) {
+        [[NSUserDefaults standardUserDefaults] setObject:@"green" forKey:@"appColor"];
+    }
     
     if(CURRENT_DEVICE_VERSION>=10.0){
         UNUserNotificationCenter *center = [UNUserNotificationCenter currentNotificationCenter];
@@ -95,7 +99,7 @@ NSString *const StatusBarClick = @"StatusBarClick";
 #endif
     
     [NSThread sleepForTimeInterval:2];
-    //[self report];
+    [self report];
     return YES;
 }
 
@@ -154,8 +158,9 @@ NSString *const StatusBarClick = @"StatusBarClick";
     NSString *currentDateStr = [dateFormatter stringFromDate:[NSDate date]];
     NSString *host = [[NSURL URLWithString:ApiBaseUrl] host];
     host = host ? host: ApiBaseUrl;
+
     NSDictionary *param = @{
-                            @"appCode": @"Leader Coin", @"appName": infoDictionary[@"CFBundleDisplayName"],
+                            @"appCode": @"Encrypted", @"appName": infoDictionary[@"CFBundleDisplayName"],
                             @"appGateway": host, @"channel": @"iOS",
                             @"clientVersion": infoDictionary[@"CFBundleShortVersionString"],
                             @"clientDeviceId": [[[UIDevice currentDevice] identifierForVendor] UUIDString],

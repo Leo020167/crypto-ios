@@ -1,6 +1,6 @@
 
-/* Class = "UILabel"; text = "年化收益"; ObjectID = "6ZV-0Z-hoa"; */
-"6ZV-0Z-hoa.text" = "年化收益";
+/* Class = "UILabel"; text = "每日利息"; ObjectID = "6ZV-0Z-hoa"; */
+"6ZV-0Z-hoa.text" = "每日利息";
 
 /* Class = "UIButton"; normalTitle = "質押"; ObjectID = "Jsr-jk-YL7"; */
 "Jsr-jk-YL7.normalTitle" = "質押";

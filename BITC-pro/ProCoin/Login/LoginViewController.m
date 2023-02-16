@@ -99,8 +99,8 @@
     [_loginBtn setTitle:NSLocalizedStringForKey(@"登录") forState:UIControlStateNormal];
     
 #ifdef DEBUG
-    _accountTextField.text = @"2036";
-    _passwordTextField.text  = @"123456";
+    _accountTextField.text = @"iostest4@gmail.com";
+    _passwordTextField.text  = @"qwer1234";
 #else
     
 #endif

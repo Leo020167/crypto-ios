@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment version="2304" identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -21,8 +21,6 @@
                 <outlet property="btnPayWay" destination="Fln-yw-2IS" id="yow-De-WTY"/>
                 <outlet property="btnPayWayLogo" destination="uve-wL-Uvh" id="nda-in-5L1"/>
                 <outlet property="btnSell" destination="Tqd-sd-p62" id="17z-WZ-5jU"/>
-                <outlet property="btnSymbolFilter" destination="Bny-iP-AT8" id="cNA-QW-7Vq"/>
-                <outlet property="btnSymbolFilterLogo" destination="cV6-Bo-3do" id="zMs-ho-FA7"/>
                 <outlet property="coinLabel" destination="xx0-uk-KAe" id="3BK-8D-nka"/>
                 <outlet property="expressView" destination="36f-Os-O1o" id="mua-w5-ArT"/>
                 <outlet property="historyBtn" destination="HwP-Ud-DQQ" id="SQR-1o-DXH"/>
@@ -387,22 +385,6 @@
                                         <action selector="payMoneyBtnClicked:" destination="-1" eventType="touchUpInside" id="gii-Dq-Efs"/>
                                     </connections>
                                 </button>
-                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bny-iP-AT8">
-                                    <rect key="frame" x="265" y="5" width="95" height="30"/>
-                                    <constraints>
-                                        <constraint firstAttribute="height" constant="30" id="KYa-3G-955"/>
-                                    </constraints>
-                                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                    <state key="normal" title="币种">
-                                        <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                    </state>
-                                    <state key="selected">
-                                        <color key="titleColor" red="0.3803921569" green="0.45882352939999999" blue="0.68235294120000001" alpha="1" colorSpace="calibratedRGB"/>
-                                    </state>
-                                    <connections>
-                                        <action selector="coinFilterBtnClicked:" destination="-1" eventType="touchUpInside" id="gaS-2u-M2S"/>
-                                    </connections>
-                                </button>
                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="OiG-x2-cEb">
                                     <rect key="frame" x="0.0" y="39.5" width="375" height="0.5"/>
                                     <color key="backgroundColor" red="0.90196078430000004" green="0.90196078430000004" blue="0.90196078430000004" alpha="1" colorSpace="calibratedRGB"/>
@@ -418,13 +400,6 @@
                                         <constraint firstAttribute="width" constant="15" id="dab-cH-Di7"/>
                                     </constraints>
                                 </button>
-                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cV6-Bo-3do" customClass="FRDLivelyButton">
-                                    <rect key="frame" x="335" y="12.5" width="15" height="15"/>
-                                    <constraints>
-                                        <constraint firstAttribute="height" constant="15" id="WCR-xI-VyG"/>
-                                        <constraint firstAttribute="width" constant="15" id="hMV-jT-QXI"/>
-                                    </constraints>
-                                </button>
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uve-wL-Uvh" customClass="FRDLivelyButton">
                                     <rect key="frame" x="92" y="12.5" width="15" height="15"/>
                                     <constraints>
@@ -438,17 +413,12 @@
                                 <constraint firstItem="rQB-IA-phv" firstAttribute="centerY" secondItem="AOB-A1-ZvD" secondAttribute="centerY" id="6d0-Y5-BWO"/>
                                 <constraint firstItem="ek3-D2-aMV" firstAttribute="trailing" secondItem="rQB-IA-phv" secondAttribute="trailing" constant="-18" id="6pM-4y-Wau"/>
                                 <constraint firstItem="uve-wL-Uvh" firstAttribute="centerY" secondItem="Fln-yw-2IS" secondAttribute="centerY" id="7K0-Ds-oWh"/>
-                                <constraint firstItem="Bny-iP-AT8" firstAttribute="top" secondItem="rQB-IA-phv" secondAttribute="top" id="C5w-du-eJk"/>
                                 <constraint firstItem="Fln-yw-2IS" firstAttribute="leading" secondItem="AOB-A1-ZvD" secondAttribute="leading" constant="5" id="Dlh-2G-B8Q"/>
                                 <constraint firstItem="OiG-x2-cEb" firstAttribute="leading" secondItem="AOB-A1-ZvD" secondAttribute="leading" id="EL9-tV-EMw"/>
                                 <constraint firstAttribute="trailing" secondItem="OiG-x2-cEb" secondAttribute="trailing" id="J1z-Xr-AZ1"/>
                                 <constraint firstItem="uve-wL-Uvh" firstAttribute="trailing" secondItem="Fln-yw-2IS" secondAttribute="trailing" constant="-18" id="MOX-c3-wYp"/>
                                 <constraint firstAttribute="bottom" secondItem="OiG-x2-cEb" secondAttribute="bottom" id="WIN-ds-XoB"/>
                                 <constraint firstItem="ek3-D2-aMV" firstAttribute="centerY" secondItem="rQB-IA-phv" secondAttribute="centerY" id="bHn-h2-AGQ"/>
-                                <constraint firstItem="cV6-Bo-3do" firstAttribute="trailing" secondItem="Bny-iP-AT8" secondAttribute="trailing" constant="-10" id="fBH-Un-j9K"/>
-                                <constraint firstAttribute="trailing" secondItem="Bny-iP-AT8" secondAttribute="trailing" constant="15" id="fGh-oY-Tda"/>
-                                <constraint firstItem="cV6-Bo-3do" firstAttribute="centerY" secondItem="Bny-iP-AT8" secondAttribute="centerY" id="fwl-lo-aRX"/>
-                                <constraint firstItem="Bny-iP-AT8" firstAttribute="leading" secondItem="rQB-IA-phv" secondAttribute="trailing" constant="15" id="gzs-kF-fjS"/>
                                 <constraint firstItem="rQB-IA-phv" firstAttribute="leading" secondItem="Fln-yw-2IS" secondAttribute="trailing" constant="5" id="kvG-xD-eq0"/>
                                 <constraint firstItem="Fln-yw-2IS" firstAttribute="centerY" secondItem="AOB-A1-ZvD" secondAttribute="centerY" id="ni7-pa-hTZ"/>
                                 <constraint firstAttribute="height" constant="40" id="x1h-zV-wdT"/>

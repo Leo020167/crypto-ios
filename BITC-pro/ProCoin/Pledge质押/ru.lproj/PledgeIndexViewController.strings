@@ -1,9 +1,9 @@
 
 /*  */
-"6ZV-0Z-hoa.text" = "ежедневный доход";
+"6ZV-0Z-hoa.text" = "ежедневный процент";
 
-/* Class = "UILabel"; text = "Defi专区"; ObjectID = "Gsm-cT-9px"; */
-"Gsm-cT-9px.text" = "Defi особая зона";
+/* Class = "UILabel"; text = "质押生息"; ObjectID = "Gsm-cT-9px"; */
+"Gsm-cT-9px.text" = "Залог процентов";
 
 /*  */
 "jGL-Ka-y7e.text" = "Сумма залога";

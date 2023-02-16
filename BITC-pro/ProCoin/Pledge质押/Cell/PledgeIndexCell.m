@@ -19,7 +19,7 @@
 @property (retain, nonatomic) IBOutlet UILabel *minNumLabel;
 @property (retain, nonatomic) IBOutlet UILabel *daysLabel;
 //@property (retain, nonatomic) IBOutlet UILabel *earningLabel;
-@property (retain, nonatomic) IBOutlet UILabel *evdayFeeLabel;   //每日收益
+@property (retain, nonatomic) IBOutlet UILabel *evdayFeeLabel;   //每日利息
 
 @end
 

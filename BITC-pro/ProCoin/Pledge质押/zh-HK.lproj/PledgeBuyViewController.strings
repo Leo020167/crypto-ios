@@ -3,7 +3,7 @@
 "6Iu-lt-s7e.placeholder" = "請輸入質押數量";
 
 /*  */
-"6ZV-0Z-hoa.text" = "每日收益";
+"6ZV-0Z-hoa.text" = "每日利息";
 
 /* Class = "UILabel"; text = "質押周期"; ObjectID = "EEn-Kp-BVR"; */
 "EEn-Kp-BVR.text" = "質押周期";

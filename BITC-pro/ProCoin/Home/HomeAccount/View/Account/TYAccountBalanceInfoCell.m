@@ -130,7 +130,6 @@
     
     self.profitTitleLabel.text = NSLocalizedStringForKey(@"总盈亏(USDT)");
     self.profitLabel.text = coinModel.profit;
-    self.profitLabel.textColor = [TradeUtil textColorWithQuotationNumber:[coinModel.profit doubleValue]];
     
     self.availableTitleLabel.text = NSLocalizedStringForKey(@"可用(USDT)");
     self.availableLabel.text = coinModel.holdAmount;

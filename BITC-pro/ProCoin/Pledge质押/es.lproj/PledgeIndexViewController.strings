@@ -1,9 +1,9 @@
 
 /*  */
-"6ZV-0Z-hoa.text" = "ingresos diarios";
+"6ZV-0Z-hoa.text" = "Intereses diarios";
 
-/* Class = "UILabel"; text = "Defi专区"; ObjectID = "Gsm-cT-9px"; */
-"Gsm-cT-9px.text" = "Defi área especial";
+/* Class = "UILabel"; text = "质押生息"; ObjectID = "Gsm-cT-9px"; */
+"Gsm-cT-9px.text" = "interés de promesa";
 
 /*  */
 "jGL-Ka-y7e.text" = "Monto de la promesa";

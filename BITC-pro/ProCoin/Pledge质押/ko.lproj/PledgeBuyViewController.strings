@@ -3,7 +3,7 @@
 "6Iu-lt-s7e.placeholder" = "후원금액을 입력해주세요";
 
 /*  */
-"6ZV-0Z-hoa.text" = "일일 수입";
+"6ZV-0Z-hoa.text" = "일일 이자";
 
 /* Class = "UILabel"; text = "質押周期"; ObjectID = "EEn-Kp-BVR"; */
 "EEn-Kp-BVR.text" = "서약 주기";

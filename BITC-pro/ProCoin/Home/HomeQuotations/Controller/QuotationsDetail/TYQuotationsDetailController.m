@@ -333,8 +333,8 @@
         [self putValueToParamDictionary:CoinTradeDic value:_symbol forKey:@"CoinTransactionSymbol"];
         [self putValueToParamDictionary:CoinTradeDic value:_originSymbol forKey:@"CoinTransactionOriginSymbol"];
         [self putValueToParamDictionary:CoinTradeDic value:@"-1" forKey:@"CoinTransactionBuySell"];
-        [self pageToViewControllerForName:@"TYCoinTransactionController"];
         //[self pageToViewControllerForName:@"CoinTransactionController"];
+        [self pageToViewControllerForName:@"TYCoinTransactionController"];
     }
     
 }

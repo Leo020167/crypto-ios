@@ -39,7 +39,7 @@
 "AppName" = "Cropyme";
 
 /*  */
-"BITC认证商家" = "Marchand certifié Leader Coin";
+"BITC认证商家" = "Marchand certifié Fireup";
 
 /* 重要 */
 "BYY官方" = "BYY OFFICIEL";
@@ -793,7 +793,7 @@
 "头像" = "Avatar";
 
 /*  */
-"奖励(TVC)" = "Récompense (TVC)";
+"奖励(TFU)" = "Récompense (TFU)";
 
 /* 男 */
 "女" = "Femelle";
@@ -1159,7 +1159,7 @@
 "总盈亏(USDT)" = "Bénéfice total et perte (USDT)";
 
 /*  */
-"总资产(TVC)" = "Actif total (TVC)";
+"总资产(TFU)" = "Actif total (TFU)";
 
 "总资产(USDT)" = "Actif total (USDT)";
 "总资产" = "Actif total";
@@ -1194,7 +1194,7 @@
 "您暂无发布广告" = "you have not posted ads";
 
 
-"您正在向BITC认证卖家购买%@ USDT" = "Vous achetez%@ USDT auprès d'un vendeur certifié Leader Coin";
+"您正在向BITC认证卖家购买%@ USDT" = "Vous achetez%@ USDT auprès d'un vendeur certifié Fireup";
 
 /* 申购失败转换 */
 "您正在向BITC认证卖家购买%@ USDT" = "You are buying %@ USDT from a BITC certified seller";
@@ -1251,7 +1251,7 @@
 "我已在%@一键跟上了TA的实盘交易" = "J'ai suivi les métiers en direct de TA à%@ un clic";
 
 /* 他是 */
-"我已在W.W.C.T一键跟上了TA的实盘交易" = "J'ai suivi le trading en direct de l'AT dans \"Leader Coin\" en un seul clic";
+"我已在W.W.C.T一键跟上了TA的实盘交易" = "J'ai suivi le trading en direct de l'AT dans \"Fireup\" en un seul clic";
 
 /* TA是 */
 "我已在procoin一键跟上了TA的实盘交易" = "I have followed his/her live trading at %@ with one clic";
@@ -1310,7 +1310,7 @@
 
 "我确认还没有付款给对方" = "Je confirme que je n'ai pas encore payé l'autre partie";
 
-/* 余额提现 */
+/* 法币买卖 */
 "我要买" = "je veux acheter";
 
 /* 我要买 */
@@ -1776,7 +1776,7 @@
 "查看" = "Vérifier";
 
 /*  */
-"查看如何获取TVC？" = "Vérifiez comment obtenir TVC?";
+"查看如何获取TFU？" = "Vérifiez comment obtenir TFU?";
 
 
 "查看导师" = "Afficher le tuteur";
@@ -1791,7 +1791,7 @@
 "标题" = "Titre";
 
 /*  */
-"欢迎来到BITC" = "Bienvenue à Leader Coin";
+"欢迎来到BITC" = "Bienvenue à Fireup";
 
 /* 平台 */
 "欢迎页" = "Page d'accueil";
@@ -1878,10 +1878,10 @@
 "每隔1秒刷新" = "Actualiser toutes les 1 secondes";
 
 /* 请输入划转的数量 */
-"余额提现" = "Trading de monnaie fiduciaire";
+"法币买卖" = "Trading de monnaie fiduciaire";
 
 
-"余额提现" = "OTC";
+"法币买卖" = "OTC";
 
 /* 月 */
 "注:订阅/续费后将收到该用户的交易策略。" = "Remarque: vous recevrez la stratégie de trading de cet utilisateur après abonnement / renouvellement.";
@@ -1905,7 +1905,7 @@
 "消息推送" = "Poussée de message";
 
 /*  */
-"消耗TVC" = "Consommer TVC";
+"消耗TFU" = "Consommer TFU";
 
 
 "涨幅榜" = "Liste de hauts";
@@ -1950,7 +1950,7 @@
 "清除缓存" = "Vider le cache";
 
 /* 计算中 */
-"清除缓存后W.W.C.T上所有的头像、图片等要重新下载,是否清除?" = "Après avoir effacé le cache, tous les avatars et photos sur Leader Coin doivent être téléchargés à nouveau.";
+"清除缓存后W.W.C.T上所有的头像、图片等要重新下载,是否清除?" = "Après avoir effacé le cache, tous les avatars et photos sur Encrypted doivent être téléchargés à nouveau.";
 
 /* 注销失败 */
 "清除缓存成功" = "Effacer le cache avec succès";
@@ -2193,7 +2193,7 @@
 "社区人数：%@" = "Nombre de communauté ：%@";
 
 /*  */
-"社区总奖励(TVC)" = "Total Community Award (TVC)";
+"社区总奖励(TFU)" = "Total Community Award (TFU)";
 
 /*  */
 "离强平价还剩 -" = "Rester à une parité forte -";
@@ -2295,7 +2295,7 @@
 "获取验证码失败" = "Échec de l'obtention du code de vérification";
 
 /*  */
-"获得TVC" = "Obtenez TVC";
+"获得TFU" = "Obtenez TFU";
 
 /* 上月收益 */
 "行情" = "Marché";
@@ -2739,7 +2739,7 @@
 "账户类型" = "Type de compte";
 
 /*  */
-"Defi专区" = "Defi zone spéciale";
+"质押生息" = "Gage";
 
 "质押记录" = "registre des promesses de dons";
 
@@ -3169,6 +3169,3 @@
 "到账数量()" = "Montant à l'arrivée(%@)";
 
 "最小质押数量" = "Montant minimum de l'engagement";
-
-"充值" = "Recharger";
-"提现" = "Retrait";

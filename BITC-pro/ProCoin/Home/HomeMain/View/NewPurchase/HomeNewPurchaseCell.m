@@ -109,18 +109,20 @@
     }else if (model.state == 2) {
         self.statusLabel.text = NSLocalizedStringForKey(@"已结束");
     }
-    
-    if (model.alAmount.floatValue >= model.amount.floatValue) {
-        self.progressView.progress = 1;
-        self.progressLabel.text = @"100%";
-    }else{
-        self.progressView.progress = model.alAmount.floatValue / model.amount.floatValue;
-        self.progressLabel.text = [NSString stringWithFormat:@"%.2f%@", (model.alAmount.floatValue / model.amount.floatValue) * 100, @"%"];
-    }
-    self.canLabel.text = [NSString stringWithFormat:@"%@:%@", NSLocalizedStringForKey(@"本轮可申购总量"), model.amount];
+    self.progressView.progress = model.progress ? model.progress.floatValue / 100.0: 0;
+    self.progressLabel.text = [NSString stringWithFormat:@"%@%%", model.progress ];
+//    if (model.alAmount.floatValue >= model.amount.floatValue) {
+//        self.progressView.progress = 1;
+//        self.progressLabel.text = @"100%";
+//    }else{
+//        self.progressView.progress = model.alAmount.floatValue / model.amount.floatValue;
+//        self.progressLabel.text = [NSString stringWithFormat:@"%.2f%@", (model.alAmount.floatValue / model.amount.floatValue) * 100, @"%"];
+//    }
+//    self.canLabel.text = [NSString stringWithFormat:@"%@:%@", NSLocalizedStringForKey(@"本轮可申购总量"), model.amount];
+    self.canLabel.text = [NSString stringWithFormat:@"%@:%@ USDT", NSLocalizedStringForKey(@"价格"), model.rate];
     self.totalLabel.text = [NSString stringWithFormat:@"%@:%@", NSLocalizedStringForKey(@"申购总量"),  model.sumAmount];
-    self.startTimeLabel.text = [NSString stringWithFormat:@"%@：%@(%@)", NSLocalizedStringForKey(@"开始时间"), [VeDateUtil formatterDate:model.startTime inStytle:nil outStytle:@"yyyy-MM-dd HH:mm:ss" isTimestamp:YES], NSLocalizedStringForKey(@"香港时间")];
-    self.endTimeLabel.text = [NSString stringWithFormat:@"%@：%@(%@)", NSLocalizedStringForKey(@"结束时间"), [VeDateUtil formatterDate:model.endTime inStytle:nil outStytle:@"yyyy-MM-dd HH:mm:ss" isTimestamp:YES], NSLocalizedStringForKey(@"香港时间")];
+    self.startTimeLabel.text = [NSString stringWithFormat:@"%@：%@", NSLocalizedStringForKey(@"开始时间"), [VeDateUtil formatterDate:model.startTime inStytle:nil outStytle:@"yyyy-MM-dd HH:mm:ss" isTimestamp:YES]];
+    self.endTimeLabel.text = [NSString stringWithFormat:@"%@：%@", NSLocalizedStringForKey(@"结束时间"), [VeDateUtil formatterDate:model.endTime inStytle:nil outStytle:@"yyyy-MM-dd HH:mm:ss" isTimestamp:YES]];
 }
 
 - (void)lessSecondToDay:(NSInteger)seconds{

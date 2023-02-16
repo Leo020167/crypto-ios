@@ -109,7 +109,7 @@
 - (QMUIButton *)coinBtn{
     if (!_coinBtn) {
         _coinBtn = [[QMUIButton alloc] init];
-        [_coinBtn setTitle:NSLocalizedStringForKey(@"新币申购") forState:0];
+        [_coinBtn setTitle:NSLocalizedStringForKey(@"创新试验区") forState:0];
         [_coinBtn setTitleColor:UIColorMakeWithHex(@"#333333") forState:0];
         [_coinBtn setImage:UIImageMake(@"home_item_coin") forState:0];
         _coinBtn.titleLabel.font = UIFontMake(13);
@@ -125,7 +125,7 @@
 - (QMUIButton *)pledgeBtn{
     if (!_pledgeBtn) {
         _pledgeBtn = [[QMUIButton alloc] init];
-        [_pledgeBtn setTitle:NSLocalizedStringForKey(@"Defi专区") forState:0];
+        [_pledgeBtn setTitle:NSLocalizedStringForKey(@"质押生息") forState:0];
         [_pledgeBtn setTitleColor:UIColorMakeWithHex(@"#333333") forState:0];
         [_pledgeBtn setImage:UIImageMake(@"home_item_pledge") forState:0];
         //_pledgeBtn.imageEdgeInsets = UIEdgeInsetsMake(15, 15, 15, 15);

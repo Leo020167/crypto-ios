@@ -26,10 +26,9 @@
 #import "TextFieldToolBar.h"
 #import "TradeUtil.h"
 #import "HomeNewNumEntity.h"
-#import "P2PCoinFilterView.h"
 
 
-@interface P2PMainController () <P2PMenuViewDelegate,P2PPayWayViewDelegate,P2PPayMoneyViewDelegate, PayWayAlertViewDelegate,TextFieldToolBarDelegate,UITextFieldDelegate, QMUITextFieldDelegate, P2PCoinFilterViewDelegate>{
+@interface P2PMainController () <P2PMenuViewDelegate,P2PPayWayViewDelegate,P2PPayMoneyViewDelegate, PayWayAlertViewDelegate,TextFieldToolBarDelegate,UITextFieldDelegate, QMUITextFieldDelegate>{
     BOOL bReqFinished;
     
     NSMutableArray* tableData;
@@ -57,7 +56,6 @@
 @property (retain, nonatomic) IBOutlet NSLayoutConstraint *layoutAmountAllWidth;
 @property (retain, nonatomic) P2PPayWayView *payWayView;
 @property (retain, nonatomic) P2PPayMoneyView *payMoneyView;
-@property (retain, nonatomic) P2PCoinFilterView *coinFilterView;
 @property (retain, nonatomic) P2PConfirmAlertView *confirmAlertView;
 @property (retain, nonatomic) PayWayAlertView *payAlertView;
 @property (retain, nonatomic) ExpressSellAlertView *expressSellAlertView;
@@ -68,11 +66,9 @@
 
 @property (retain, nonatomic) IBOutlet FRDLivelyButton *btnPayAmountLogo;
 @property (retain, nonatomic) IBOutlet FRDLivelyButton *btnPayWayLogo;
-@property (retain, nonatomic) IBOutlet FRDLivelyButton *btnSymbolFilterLogo;
 @property (retain, nonatomic) IBOutlet RZRefreshTableView *refreshTableView;
 @property (retain, nonatomic) IBOutlet UIButton *btnPayWay;
 @property (retain, nonatomic) IBOutlet UIButton *btnPayAmount;
-@property (retain, nonatomic) IBOutlet UIButton *btnSymbolFilter;
 
 /// 划转按钮
 @property (nonatomic, strong) QMUIButton *btnTransfer;
@@ -122,9 +118,6 @@
     tableData = [[NSMutableArray alloc] init];
     bReqFinished = YES;
     
-    [_btnBuy setTitle:NSLocalizedStringForKey(@"充值") forState:UIControlStateNormal];
-    [_btnSell setTitle:NSLocalizedStringForKey(@"提现") forState:UIControlStateNormal];
-    
     [_refreshTableView setTableViewDelegate:self];
     [CommonUtil setExtraCellLineHidden:_refreshTableView];
     
@@ -158,16 +151,11 @@
     
     [_btnPayWayLogo setStyle:kFRDLivelyButtonStyleCaretDown animated:NO];
     [_btnPayAmountLogo setStyle:kFRDLivelyButtonStyleCaretDown animated:NO];
-    [_btnSymbolFilterLogo setStyle:kFRDLivelyButtonStyleCaretDown animated:NO];
     [_btnPayWayLogo setOptions:@{ kFRDLivelyButtonLineWidth: @(0.5f),
                           kFRDLivelyButtonHighlightedColor: RGBA(97, 117, 174, 1),
                           kFRDLivelyButtonColor: [UIColor blackColor]
                           }];
     [_btnPayAmountLogo setOptions:@{ kFRDLivelyButtonLineWidth: @(0.5f),
-                          kFRDLivelyButtonHighlightedColor: RGBA(97, 117, 174, 1),
-                          kFRDLivelyButtonColor: [UIColor blackColor]
-                          }];
-    [_btnSymbolFilterLogo setOptions:@{ kFRDLivelyButtonLineWidth: @(0.5f),
                           kFRDLivelyButtonHighlightedColor: RGBA(97, 117, 174, 1),
                           kFRDLivelyButtonColor: [UIColor blackColor]
                           }];
@@ -188,8 +176,7 @@
     [YYRequestUtility Post:@"/otc/mainad/config.do" addParameters:nil progress:nil success:^(NSDictionary *responseDict) {
         if ([responseDict[@"code"] intValue] == 200) {
             self.coinTypeArray = [NSMutableArray arrayWithArray:responseDict[@"data"][@"currencies"]];
-//            self.payMoneyView.coinTypeArray = self.coinTypeArray;
-            self.coinFilterView.coinTypeArray = self.coinTypeArray;
+            self.payMoneyView.coinTypeArray = self.coinTypeArray;
         }else{
             [QMUITips showError:responseDict[@"msg"]];
         }
@@ -252,16 +239,6 @@
     return _payMoneyView;
 }
 
-- (P2PCoinFilterView *)coinFilterView
-{
-    if(!_coinFilterView){
-        _coinFilterView = [[[[NSBundle mainBundle] loadNibNamed:@"P2PCoinFilterView" owner:nil options:nil] lastObject] retain];
-        _coinFilterView.delegate = self;
-    }
-    return _coinFilterView;
-}
-
-
 - (PayWayAlertView *)payAlertView
 {
     if(!_payAlertView){
@@ -318,13 +295,10 @@
         [self.payWayView dismissView];
     }else{
         [_btnPayWayLogo setStyle:kFRDLivelyButtonStyleCaretUp animated:YES];
-        [self.refreshTableView qmui_scrollToTop];
         [self.payWayView showInView:self.refreshTableView];
     }
     [self.payMoneyView dismissView];
     [_btnPayAmountLogo setStyle:kFRDLivelyButtonStyleCaretDown animated:YES];
-    [self.coinFilterView dismissView];
-    [_btnSymbolFilterLogo setStyle:kFRDLivelyButtonStyleCaretDown animated:YES];
 }
 
 - (IBAction)payMoneyBtnClicked:(id)sender
@@ -334,33 +308,12 @@
         [self.payMoneyView dismissView];
     }else{
         [_btnPayAmountLogo setStyle:kFRDLivelyButtonStyleCaretUp animated:YES];
-        [self.refreshTableView qmui_scrollToTop];
         [self.payMoneyView showInView:self.refreshTableView];
     }
     [self.payWayView dismissView];
     [_btnPayWayLogo setStyle:kFRDLivelyButtonStyleCaretDown animated:YES];
-    [self.coinFilterView dismissView];
-    [_btnSymbolFilterLogo setStyle:kFRDLivelyButtonStyleCaretDown animated:YES];
 }
  
-- (IBAction)coinFilterBtnClicked:(id)sender
-{
-    [_btnPayAmountLogo setStyle:kFRDLivelyButtonStyleCaretDown animated:YES];
-    [_btnPayWayLogo setStyle:kFRDLivelyButtonStyleCaretDown animated:YES];
-    [self.payMoneyView dismissView];
-    [self.payWayView dismissView];
-    
-    if (self.coinFilterView.displayed) {
-        [_btnSymbolFilterLogo setStyle:kFRDLivelyButtonStyleCaretDown animated:YES];
-        [self.coinFilterView dismissView];
-    }else{
-        [_btnSymbolFilterLogo setStyle:kFRDLivelyButtonStyleCaretUp animated:YES];
-        [self.refreshTableView qmui_scrollToTop];
-        [self.coinFilterView showInView:self.refreshTableView];
-    }
-}
- 
-
 - (IBAction)optionsButtonPressed:(id)sender
 {
     UIButton *targetButton = (UIButton *)sender;
@@ -563,25 +516,6 @@
     }
 }
 
-#pragma mark - P2PCoinFilterView delegate
-- (void)p2pSymbolView:(P2PCoinFilterView *)menuView dismissView:(id)sender{
-    [_btnSymbolFilterLogo setStyle:kFRDLivelyButtonStyleCaretDown animated:YES];
-}
-
-- (void)p2pSymbolView:(P2PCoinFilterView *)menuView selected: (NSString *)symbol {
-    [self refreshTableViewHeaderRefreshingDidTrigger];
-    [_btnSymbolFilterLogo setStyle:kFRDLivelyButtonStyleCaretDown animated:YES];
-    
-    if ([symbol isEqualToString:@""]) {
-        [_btnSymbolFilter setTitle:NSLocalizedStringForKey(@"币种") forState:UIControlStateNormal];
-        [_btnSymbolFilter setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
-    }else{
-        [_btnSymbolFilter setTitle:symbol forState:UIControlStateNormal];
-        [_btnSymbolFilter setTitleColor:RGBA(97, 117, 174, 1) forState:UIControlStateNormal];
-    }
-}
-
-
 #pragma mark - PayWayAlertView delegate
 - (void)p2pView:(PayWayAlertView *)menuView entity:(P2PPayWayEntity*) entity{
     [self.expressSellAlertView showInView:self.view];
@@ -626,11 +560,10 @@
 //    if (bReqFinished) {
         bReqFinished = NO;
         [self showProgressDefaultText];
-        //NSString *coinType = @"CNY";
-        NSString *coinType = @"";
+        NSString *coinType = @"CNY";
         if ([self.type isEqualToString:@"optional"]) {
-            if (self.coinFilterView.coinType.length) {
-                coinType = self.coinFilterView.coinType;
+            if (self.payMoneyView.coinType.length) {
+                coinType = self.payMoneyView.coinType;
             }
         }else{
             coinType = self.textField.text;

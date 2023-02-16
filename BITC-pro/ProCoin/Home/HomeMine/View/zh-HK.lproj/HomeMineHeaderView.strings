@@ -5,7 +5,7 @@
 /* Class = "UILabel"; text = "提币"; ObjectID = "IzF-Pz-SnT"; */
 "IzF-Pz-SnT.text" = "提幣";
 
-/* Class = "UILabel"; text = "余额提现"; ObjectID = "VHG-Oc-ouJ"; */
+/* Class = "UILabel"; text = "法币买卖"; ObjectID = "VHG-Oc-ouJ"; */
 "VHG-Oc-ouJ.text" = "法幣買賣";
 
 /* Class = "UILabel"; text = "昵称"; ObjectID = "VYw-qt-Ut9"; */

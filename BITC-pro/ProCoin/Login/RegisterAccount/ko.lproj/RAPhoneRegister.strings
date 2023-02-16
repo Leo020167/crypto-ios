@@ -42,4 +42,4 @@
 "sSZ-Tb-9Lo.text" = "글로벌 디지털 자산 거래 플랫폼";
 
 /* Class = "UITextField"; placeholder = "请填写邀请码(必填)"; ObjectID = "vUt-E2-J20"; */
-"vUt-E2-J20.placeholder" = "초대장 코드를 작성하십시오 (필수)";
+"vUt-E2-J20.placeholder" = "초대장 코드를 작성하십시오";
