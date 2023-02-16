@@ -34,7 +34,7 @@ static NSString * const LanguageSaveKey = @"currentLanguageKey";
     if (code) {
         [LanguageManager saveLanguageByCode: code];
     } else {
-        [LanguageManager saveLanguageByCode: LanguageCodes[1]]; // 默认简体中文
+        [LanguageManager saveLanguageByCode: LanguageCodes[2]]; // 默认繁体中文
     }
 
 }

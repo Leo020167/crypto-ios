@@ -194,7 +194,6 @@
     [dataArray addObject:array2];
     NSArray *array3 = @[
                         [HomeMineEntity createWithName:NSLocalizedStringForKey(@"实名认证") iconName:@"mine_main_cert" toPageName:@"MyOauthController"],
-                        [HomeMineEntity createWithName:NSLocalizedStringForKey(@"绑定银行卡") iconName:@"mine_main_cert" toPageName:@""],
                         [HomeMineEntity createWithName:NSLocalizedStringForKey(@"绑定邮箱") iconName:@"mine_main_email" toPageName:@"EmailVerificationViewController"]
                         ];
     [dataArray addObject:array3];
@@ -322,7 +321,6 @@
 - (void)updateTopViewUserInfo
 {
     [_tableHeaderView reloadHeaderViewBaseData];
-    [_tableHeaderView reloadAccount];
 }
 
 #pragma mark - 请求数据
@@ -550,9 +548,6 @@
             web.title = NSLocalizedStringForKey(@"帮助中心");
             web.url = _dataEntity.helpCenterUrl;
             [self.navigationController pushViewController:web animated:YES];
-        } else if ([item.name isEqualToString:NSLocalizedStringForKey(@"绑定银行卡")]) {
-            [self putValueToParamDictionary:FundExchangeDic value:[NSString stringWithFormat:@"%@",@(3)] forKey:@"AddBankWithdrawReceiptType"];
-            [self pageToViewControllerForName:@"AddBankWithdrawController"];
         }
     }
 }

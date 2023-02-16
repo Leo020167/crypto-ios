@@ -11,7 +11,7 @@
 /* Class = "UIButton"; normalTitle = "提币"; ObjectID = "fV3-8T-8I1"; */
 "fV3-8T-8I1.normalTitle" = "提幣";
 
-/* Class = "UIButton"; normalTitle = "余额提现"; ObjectID = "hDX-rX-ViY"; */
+/* Class = "UIButton"; normalTitle = "法币买卖"; ObjectID = "hDX-rX-ViY"; */
 "hDX-rX-ViY.normalTitle" = "法幣買賣";
 
 /* Class = "UILabel"; text = "≈0.00 CNY"; ObjectID = "izH-2Z-Q9v"; */

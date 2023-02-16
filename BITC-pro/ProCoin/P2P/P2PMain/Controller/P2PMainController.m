@@ -122,9 +122,6 @@
     tableData = [[NSMutableArray alloc] init];
     bReqFinished = YES;
     
-    [_btnBuy setTitle:NSLocalizedStringForKey(@"充值") forState:UIControlStateNormal];
-    [_btnSell setTitle:NSLocalizedStringForKey(@"提现") forState:UIControlStateNormal];
-    
     [_refreshTableView setTableViewDelegate:self];
     [CommonUtil setExtraCellLineHidden:_refreshTableView];
     

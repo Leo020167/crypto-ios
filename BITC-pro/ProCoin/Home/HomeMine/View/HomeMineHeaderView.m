@@ -9,7 +9,7 @@
 #import "HomeMineHeaderView.h"
 #import "RZWebImageView.h"
 #import "HomeNewNumEntity.h"
-#import "PCAccountModel.h"
+
 
 @interface HomeMineHeaderView()
 {
@@ -18,10 +18,8 @@
 
 @property (retain, nonatomic) IBOutlet RZWebImageView *headLogo;
 @property (retain, nonatomic) IBOutlet UILabel *nameLabel;
-@property (retain, nonatomic) IBOutlet UILabel *usdtTitleLabel;
 @property (retain, nonatomic) IBOutlet UILabel *userIdLabel;
 @property (retain, nonatomic) IBOutlet UIView *OTCView;
-
 
 @end
 
@@ -34,7 +32,6 @@
     self.OTCView.qmui_badgeTextColor = UIColor.whiteColor;
     self.OTCView.qmui_badgeBackgroundColor = UIColor.redColor;
     self.OTCView.qmui_badgeOffset = CGPointMake(-25, 20);
-    self.usdtTitleLabel.text = [NSString stringWithFormat: @"%@:", NSLocalizedStringForKey(@"可用(USDT)")];
 }
 
 - (void)dealloc
@@ -43,7 +40,6 @@
     [_nameLabel release];
     [_userIdLabel release];
     [_OTCView release];
-    [_usdtTitleLabel release];
     [super dealloc];
 }
 
@@ -61,23 +57,9 @@
     }
     [_headLogo showImageWithUrl:ROOTCONTROLLER_USER.headurl];
     _nameLabel.text = ROOTCONTROLLER_USER.name;
-    //_userIdLabel.text = ROOTCONTROLLER_USER.userId;
+    _userIdLabel.text = ROOTCONTROLLER_USER.userId;
 }
 
-- (void)reloadAccount {
-    [YYRequestUtility Post:@"home/account.do" addParameters:nil progress:nil success:^(NSDictionary *responseDict) {
-        if ([responseDict[@"code"] intValue] == 200) {
-            //更新顶部总资产数据
-            NSDictionary *spotDic = [responseDict[@"data"] objectForKey:@"spotAccount"];
-            PCAccountModel *spotModel = [PCAccountModel yy_modelWithDictionary:spotDic];
-            
-            self.userIdLabel.text = spotModel.holdAmount;
-        }else{
-            [QMUITips showError:responseDict[@"msg"]];
-        }
-    } failure:^(NSError *error) {
-    }];
-}
 
 #pragma mark - 按钮点击事件
 /** 编辑资料*/
