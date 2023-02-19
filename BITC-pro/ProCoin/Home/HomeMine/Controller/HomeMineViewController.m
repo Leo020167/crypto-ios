@@ -194,7 +194,7 @@
     [dataArray addObject:array2];
     NSArray *array3 = @[
                         [HomeMineEntity createWithName:NSLocalizedStringForKey(@"实名认证") iconName:@"mine_main_cert" toPageName:@"MyOauthController"],
-                        [HomeMineEntity createWithName:NSLocalizedStringForKey(@"绑定银行卡") iconName:@"mine_main_cert" toPageName:@""],
+                        [HomeMineEntity createWithName:NSLocalizedStringForKey(@"绑定银行卡") iconName:@"p2p_main_icon_money" toPageName:@""],
                         [HomeMineEntity createWithName:NSLocalizedStringForKey(@"绑定邮箱") iconName:@"mine_main_email" toPageName:@"EmailVerificationViewController"]
                         ];
     [dataArray addObject:array3];
