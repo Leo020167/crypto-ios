@@ -38,7 +38,7 @@
 /* Class = "UILabel"; text = "-"; ObjectID = "YcS-eU-imb"; */
 "YcS-eU-imb.text" = "-";
 
-/* Class = "UILabel"; text = "购买数量"; ObjectID = "Ynr-G2-JJB"; */
+/* Class = "UILabel"; text = "充值数量"; ObjectID = "Ynr-G2-JJB"; */
 "Ynr-G2-JJB.text" = "Amount";
 
 /* Class = "UIButton"; normalTitle = "全部"; ObjectID = "hHE-Up-pF7"; */

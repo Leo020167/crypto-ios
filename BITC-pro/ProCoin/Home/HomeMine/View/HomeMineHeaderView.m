@@ -64,19 +64,21 @@
     //_userIdLabel.text = ROOTCONTROLLER_USER.userId;
 }
 
-- (void)reloadAccount {
-    [YYRequestUtility Post:@"home/account.do" addParameters:nil progress:nil success:^(NSDictionary *responseDict) {
-        if ([responseDict[@"code"] intValue] == 200) {
-            //更新顶部总资产数据
-            NSDictionary *spotDic = [responseDict[@"data"] objectForKey:@"spotAccount"];
-            PCAccountModel *spotModel = [PCAccountModel yy_modelWithDictionary:spotDic];
-            
-            self.userIdLabel.text = spotModel.holdAmount;
-        }else{
-            [QMUITips showError:responseDict[@"msg"]];
-        }
-    } failure:^(NSError *error) {
-    }];
+- (void)reloadAccount: (NSString *)usdtAmount {
+    self.userIdLabel.text = usdtAmount;
+    
+//    [YYRequestUtility Post:@"home/account.do" addParameters:nil progress:nil success:^(NSDictionary *responseDict) {
+//        if ([responseDict[@"code"] intValue] == 200) {
+//            //更新顶部总资产数据
+//            NSDictionary *spotDic = [responseDict[@"data"] objectForKey:@"spotAccount"];
+//            PCAccountModel *spotModel = [PCAccountModel yy_modelWithDictionary:spotDic];
+//
+//            self.userIdLabel.text = spotModel.holdAmount;
+//        }else{
+//            [QMUITips showError:responseDict[@"msg"]];
+//        }
+//    } failure:^(NSError *error) {
+//    }];
 }
 
 #pragma mark - 按钮点击事件

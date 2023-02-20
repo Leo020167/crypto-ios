@@ -117,10 +117,15 @@
         return cell;
     }
     if (self.type == 1) {
-        BBMinePositionCell *cell = [tableView dequeueReusableCellWithIdentifier:NSStringFromClass([BBMinePositionCell class]) forIndexPath:indexPath];
+        TYMinePositionCell *cell = [tableView dequeueReusableCellWithIdentifier:NSStringFromClass([TYMinePositionCell class]) forIndexPath:indexPath];
         TYMinePositionModel *model = self.positionArray[indexPath.row];
         cell.model = model;
         return cell;
+        
+//        BBMinePositionCell *cell = [tableView dequeueReusableCellWithIdentifier:NSStringFromClass([BBMinePositionCell class]) forIndexPath:indexPath];
+//        TYMinePositionModel *model = self.positionArray[indexPath.row];
+//        cell.model = model;
+//        return cell;
     }
     PCCoinOperationRecordModel *recordEntity = [self.financeArray objectAtIndex:indexPath.row];
     if (recordEntity.inOut == 2 || recordEntity.inOut == 3 || recordEntity.inOut == 4) {

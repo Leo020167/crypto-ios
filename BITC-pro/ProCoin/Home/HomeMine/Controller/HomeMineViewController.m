@@ -322,7 +322,7 @@
 - (void)updateTopViewUserInfo
 {
     [_tableHeaderView reloadHeaderViewBaseData];
-    [_tableHeaderView reloadAccount];
+    [_tableHeaderView reloadAccount:self.dataEntity.usdtAmount];
 }
 
 #pragma mark - 请求数据
@@ -337,7 +337,7 @@
         NSDictionary *dataDic = [json objectForKey:@"data"];
         self.dataEntity = [[[HomeMineDataEntity alloc] initWithJson:dataDic] autorelease];
         _tvHome.tableHeaderView = self.tableHeaderView;
-        
+        [_tableHeaderView reloadAccount:self.dataEntity.usdtAmount];
         [self createTableViewOptions];
     }else{
         [self showErrorToastCenter:json defaultErrorMsg:NSLocalizedStringForKey(@"请求失败")];
@@ -551,8 +551,10 @@
             web.url = _dataEntity.helpCenterUrl;
             [self.navigationController pushViewController:web animated:YES];
         } else if ([item.name isEqualToString:NSLocalizedStringForKey(@"绑定银行卡")]) {
-            [self putValueToParamDictionary:FundExchangeDic value:[NSString stringWithFormat:@"%@",@(3)] forKey:@"AddBankWithdrawReceiptType"];
-            [self pageToViewControllerForName:@"AddBankWithdrawController"];
+            [self pageToOrBackWithName:@"P2PBankWayController"];
+            
+//            [self putValueToParamDictionary:FundExchangeDic value:[NSString stringWithFormat:@"%@",@(3)] forKey:@"AddBankWithdrawReceiptType"];
+//            [self pageToViewControllerForName:@"AddBankWithdrawController"];
         }
     }
 }

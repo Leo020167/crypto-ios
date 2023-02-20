@@ -66,7 +66,7 @@
 "OK" = "OK";
 
 /*  */
-"OTC交易" = "OTCтранзакция";
+"OTC交易" = "FiatVurranceTrading";
 
 
 "Please drag the validation images" = "Drag the validation images";

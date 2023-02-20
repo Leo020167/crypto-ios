@@ -35,7 +35,7 @@ typedef enum {
 #pragma mark - reload更新数据
 - (void)reloadHeaderViewBaseData;
 
-- (void)reloadAccount;
+- (void)reloadAccount: (NSString *)usdtAmount;
 @end
 
 

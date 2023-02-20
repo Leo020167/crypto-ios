@@ -124,6 +124,7 @@
     
     [_btnBuy setTitle:NSLocalizedStringForKey(@"充值") forState:UIControlStateNormal];
     [_btnSell setTitle:NSLocalizedStringForKey(@"提现") forState:UIControlStateNormal];
+    [_btnExpressDone setTitle:NSLocalizedStringForKey(@"充值") forState:UIControlStateNormal];
     
     [_refreshTableView setTableViewDelegate:self];
     [CommonUtil setExtraCellLineHidden:_refreshTableView];
@@ -390,12 +391,12 @@
         _btnSell.selected = YES;
         _btnBuy.titleLabel.font = [UIFont systemFontOfSize:16.0f];
         _btnSell.titleLabel.font = [UIFont systemFontOfSize:22.0f];
-        _lExpressTitle.text = NSLocalizedStringForKey(@"出售数量");
+        _lExpressTitle.text = NSLocalizedStringForKey(@"提现数量");
         _btnTransfer.hidden = NO;
         _layoutAmountAllWidth.constant = 50;
         _lbBalance.hidden = NO;
         _tfExpress.text = @"";
-        [_btnExpressDone setTitle:NSLocalizedStringForKey(@"出售") forState:UIControlStateNormal];
+        [_btnExpressDone setTitle:NSLocalizedStringForKey(@"提现") forState:UIControlStateNormal];
         
         self.buySell = @"sell";
     }

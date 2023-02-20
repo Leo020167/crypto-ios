@@ -66,7 +66,7 @@
 "OK" = "OK";
 
 /*  */
-"OTC交易" = "OTC transaction";
+"OTC交易" = "Fiat currency trading";
 
 
 "Please drag the validation images" = "Drag the validation images";
@@ -1892,9 +1892,6 @@
 
 /* 请输入划转的数量 */
 "余额提现" = "Fiat currency trading";
-
-
-"余额提现" = "OTC";
 
 /* 月 */
 "注:订阅/续费后将收到该用户的交易策略。" = "Note: The user's trading strategy will be received after subscription/renewal.";

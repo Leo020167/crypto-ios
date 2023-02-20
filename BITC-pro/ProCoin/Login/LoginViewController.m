@@ -99,7 +99,7 @@
     [_loginBtn setTitle:NSLocalizedStringForKey(@"登录") forState:UIControlStateNormal];
     
 #ifdef DEBUG
-    _accountTextField.text = @"2036";
+    _accountTextField.text = @"2191";
     _passwordTextField.text  = @"123456";
 #else
     
