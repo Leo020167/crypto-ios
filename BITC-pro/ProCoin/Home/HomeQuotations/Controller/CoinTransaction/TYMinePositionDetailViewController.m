@@ -19,7 +19,7 @@
 
 @property (nonatomic, strong) UILabel *priceLabel;
 
-//@property (nonatomic, strong) UILabel *rateLabel;
+@property (nonatomic, strong) UILabel *rateLabel;
 
 @property (nonatomic, strong) UIView *headerView;
 
@@ -106,10 +106,10 @@
             self.model = model;
             self.titleLabel.text = self.model.symbol;
             self.priceLabel.text = self.model.amount;
-            //self.priceLabel.text = self.model.profit;
-            //self.priceLabel.textColor = [TradeUtil textColorWithQuotationNumber:self.model.profit.doubleValue];
-            //self.rateLabel.text = [NSString stringWithFormat:@"%@%@", self.model.profitRate, @"%"];
-            //self.rateLabel.textColor = [TradeUtil textColorWithQuotationNumber:self.model.profit.doubleValue];
+            self.priceLabel.text = self.model.profit;
+            self.priceLabel.textColor = [TradeUtil textColorWithQuotationNumber:self.model.profit.doubleValue];
+            self.rateLabel.text = [NSString stringWithFormat:@"%@%@", self.model.profitRate, @"%"];
+            self.rateLabel.textColor = [TradeUtil textColorWithQuotationNumber:self.model.profit.doubleValue];
             [self.tableView reloadData];
         }else{
             [QMUITips showError:responseDict[@"msg"]];
@@ -198,7 +198,7 @@
 
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
-    return 2;
+    return 3;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
@@ -223,12 +223,11 @@
     cell.descLabel.hidden = NO;
     cell.descLabel.textColor = UIColorMakeWithHex(@"#000000");
     if (indexPath.row == 0) {
-        cell.titleLabel.text = NSLocalizedStringForKey(@"可用");
-        cell.descLabel.text = self.model.availableAmount;
+        cell.titleLabel.text = NSLocalizedStringForKey(@"成本");
+        cell.descLabel.text = self.model.price;
     }else if (indexPath.row == 1) {
-        cell.titleLabel.text = NSLocalizedStringForKey(@"委托");
-        cell.descLabel.text = self.model.frozenAmount ?: @"0";
-        //cell.descLabel.text = [NSString stringWithFormat:@"%@/%@", self.model.amount, self.model.availableAmount];
+        cell.titleLabel.text = NSLocalizedStringForKey(@"数量/可用");
+        cell.descLabel.text = [NSString stringWithFormat:@"%@/%@", self.model.amount, self.model.availableAmount];
     }
     return cell;
 }
@@ -266,7 +265,8 @@
         UILabel *titleLabel = [[UILabel alloc] init];
         titleLabel.textColor = UIColorMakeWithHex(@"2B4166");
         titleLabel.font = UIFontMake(15);
-        titleLabel.text = NSLocalizedStringForKey(@"总资产");
+        //titleLabel.text = NSLocalizedStringForKey(@"总资产");
+        titleLabel.text = NSLocalizedStringForKey(@"盈利USDT");
         [_headerView addSubview:titleLabel];
         [titleLabel mas_makeConstraints:^(MASConstraintMaker *make) {
             make.top.mas_equalTo(15);
@@ -282,15 +282,15 @@
             make.center.mas_equalTo(self.headerView);
         }];
         
-//        UILabel *rateLabel = [[UILabel alloc] init];
-//        rateLabel.textColor = UIColor.blackColor;
-//        rateLabel.font = UIFontMake(15);
-//        self.rateLabel = rateLabel;
-//        [_headerView addSubview:rateLabel];
-//        [rateLabel mas_makeConstraints:^(MASConstraintMaker *make) {
-//            make.bottom.mas_equalTo(-15);
-//            make.centerX.mas_equalTo(self.headerView);
-//        }];
+        UILabel *rateLabel = [[UILabel alloc] init];
+        rateLabel.textColor = UIColor.blackColor;
+        rateLabel.font = UIFontMake(15);
+        self.rateLabel = rateLabel;
+        [_headerView addSubview:rateLabel];
+        [rateLabel mas_makeConstraints:^(MASConstraintMaker *make) {
+            make.bottom.mas_equalTo(-15);
+            make.centerX.mas_equalTo(self.headerView);
+        }];
     }
     return _headerView;
 }

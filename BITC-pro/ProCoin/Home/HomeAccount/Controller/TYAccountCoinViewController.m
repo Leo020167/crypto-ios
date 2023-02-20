@@ -117,7 +117,7 @@
         return cell;
     }
     if (self.type == 1) {
-        BBMinePositionCell *cell = [tableView dequeueReusableCellWithIdentifier:NSStringFromClass([BBMinePositionCell class]) forIndexPath:indexPath];
+        TYMinePositionCell *cell = [tableView dequeueReusableCellWithIdentifier:NSStringFromClass([TYMinePositionCell class]) forIndexPath:indexPath];
         TYMinePositionModel *model = self.positionArray[indexPath.row];
         cell.model = model;
         return cell;
