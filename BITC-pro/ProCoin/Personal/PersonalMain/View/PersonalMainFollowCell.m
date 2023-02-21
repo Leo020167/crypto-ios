@@ -20,7 +20,7 @@
 /// 最高倍数
 @property (nonatomic, strong) UILabel *maxLabel;
 
-/// 消耗TVC
+/// 消耗LCN
 @property (nonatomic, strong) UILabel *expendLabel;
 
 /// 时间
@@ -94,7 +94,7 @@
     self.profitLabel.text = [NSString stringWithFormat:@"%@%@%@", NSLocalizedStringForKey(@"盈利分成"), model.profitRate, @"%"];
     self.lossLabel.text = [NSString stringWithFormat:@"%@%@%@", NSLocalizedStringForKey(@"亏损补贴"), model.lossRate, @"%"];
     self.maxLabel.text = [NSString stringWithFormat:@"%@%@", NSLocalizedStringForKey(@"最高倍数"), [NSString stringWithFormat:@"%ld", (long)model.maxMultiNum]];
-    self.expendLabel.text = [NSString stringWithFormat:@"%@:%@", NSLocalizedStringForKey(@"消耗TVC"), model.tokenAmount];
+    self.expendLabel.text = [NSString stringWithFormat:@"%@:%@", NSLocalizedStringForKey(@"消耗LCN"), model.tokenAmount];
     
     NSString *title = NSLocalizedStringForKey(@"最低金额");
     

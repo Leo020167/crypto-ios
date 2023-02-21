@@ -793,7 +793,7 @@
 "头像" = "Avatar";
 
 /*  */
-"奖励(TVC)" = "Recompensa (TVC)";
+"奖励(LCN)" = "Recompensa (LCN)";
 
 /* 男 */
 "女" = "Femenino";
@@ -1159,7 +1159,7 @@
 "总盈亏(USDT)" = "Ganancias y pérdidas totales (USDT)";
 
 /*  */
-"总资产(TVC)" = "Activos totales (TVC)";
+"总资产(LCN)" = "Activos totales (LCN)";
 
 "总资产(USDT)" = "Activos totales(USDT)";
 "总资产" = "Activos totales";
@@ -1777,7 +1777,7 @@
 "查看" = "Controlar";
 
 /*  */
-"查看如何获取TVC？" = "Verifique cómo obtener TVC?";
+"查看如何获取LCN？" = "Verifique cómo obtener LCN?";
 
 
 "查看导师" = "Ver tutor";
@@ -1906,7 +1906,7 @@
 "消息推送" = "Push del mensaje";
 
 /*  */
-"消耗TVC" = "Consumir TVC";
+"消耗LCN" = "Consumir LCN";
 
 
 "涨幅榜" = "Lista";
@@ -2194,7 +2194,7 @@
 "社区人数：%@" = "Número de comunidad:%@";
 
 /*  */
-"社区总奖励(TVC)" = "Premio a la comunidad total (TVC)";
+"社区总奖励(LCN)" = "Premio a la comunidad total (LCN)";
 
 /*  */
 "离强平价还剩 -" = "Restante a una fuerte paridad -";
@@ -2296,7 +2296,7 @@
 "获取验证码失败" = "No se pudo obtener el código de verificación";
 
 /*  */
-"获得TVC" = "Obtener TVC";
+"获得LCN" = "Obtener LCN";
 
 /* 上月收益 */
 "行情" = "Mercado";
