@@ -1,6 +1,6 @@
 
 /* Class = "UILabel"; text = "+1"; ObjectID = "14c-1v-nLe"; */
-"14c-1v-nLe.text" = "+852";
+"14c-1v-nLe.text" = "+86";
 
 /* Class = "UIButton"; normalTitle = "2.更换手机"; ObjectID = "49Q-4W-7Dl"; */
 "49Q-4W-7Dl.normalTitle" = "2.Change Mobile Number";
@@ -33,7 +33,7 @@
 "jov-jA-9pw.normalTitle" = "3.Completed";
 
 /* Class = "UILabel"; text = "美国"; ObjectID = "nDN-tw-5xA"; */
-"nDN-tw-5xA.text" = "US";
+"nDN-tw-5xA.text" = "China";
 
 /* Class = "UIButton"; normalTitle = "获取验证码"; ObjectID = "qbm-LP-Fcq"; */
 "qbm-LP-Fcq.normalTitle" = "Obtain the verification code";
