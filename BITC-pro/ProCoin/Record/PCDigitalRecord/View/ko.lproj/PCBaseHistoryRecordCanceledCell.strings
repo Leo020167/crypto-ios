@@ -1,6 +1,6 @@
 
-/* Class = "UILabel"; text = "手数"; ObjectID = "9hn-gI-Nwd"; */
-"9hn-gI-Nwd.text" = "手数";
+/* Class = "UILabel"; text = "数量"; ObjectID = "9hn-gI-Nwd"; */
+"9hn-gI-Nwd.text" = "수량";
 
 /* Class = "UILabel"; text = "0"; ObjectID = "SS0-6D-QVR"; */
 "SS0-6D-QVR.text" = "0";
@@ -8,8 +8,8 @@
 /* Class = "UILabel"; text = "0"; ObjectID = "TJh-pa-YMh"; */
 "TJh-pa-YMh.text" = "0";
 
-/* Class = "UILabel"; text = "开仓保证金"; ObjectID = "WWo-kJ-x8u"; */
-"WWo-kJ-x8u.text" = "開倉保證金";
+/* Class = "UILabel"; text = "金额(USDT)"; ObjectID = "WWo-kJ-x8u"; */
+"WWo-kJ-x8u.text" = "양(USDT)";
 
 /* Class = "UILabel"; text = "委托价"; ObjectID = "Y4o-xF-Qkt"; */
 "Y4o-xF-Qkt.text" = "委託價";

@@ -15,6 +15,7 @@
 @property (nonatomic, strong) UILabel *nameLabel;
 
 @property (nonatomic, strong) UILabel *titleLabel;
+@property (nonatomic, strong) UILabel *profitLabel;    //盈利
 
 @property (nonatomic, strong) UILabel *lotLabel;
 
@@ -54,6 +55,7 @@
     self.backgroundColor = UIColorWhite;
     [self.contentView addSubview:self.nameLabel];
     [self.contentView addSubview:self.titleLabel];
+    [self.contentView addSubview:self.profitLabel];
     [self.contentView addSubview:self.statusBtn];
     [self.contentView addSubview:self.lotLabel];
     [self.contentView addSubview:self.lotTitleLabel];
@@ -70,6 +72,10 @@
     }];
     [self.titleLabel mas_makeConstraints:^(MASConstraintMaker *make) {
         make.left.mas_equalTo(self.nameLabel.mas_right).offset(0);
+        make.centerY.mas_equalTo(self.nameLabel);
+    }];
+    [self.profitLabel mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.left.mas_equalTo(self.titleLabel.mas_right).offset(10);
         make.centerY.mas_equalTo(self.nameLabel);
     }];
     [self.statusBtn mas_makeConstraints:^(MASConstraintMaker *make) {
@@ -136,6 +142,8 @@
     }else{
         self.nameLabel.text = [NSString stringWithFormat:@"%@ · ", model.symbol];
         self.titleLabel.text = NSLocalizedStringForKey(@"卖出");
+        self.profitLabel.text = [NSString stringWithFormat:@"%@", model.profit];
+        self.profitLabel.textColor = model.profit.doubleValue > 0 ? QuotationGreenColor : QuotationRedColor;
     }
     self.titleLabel.textColor = [model.buySell isEqualToString:@"buy"] ? QuotationGreenColor : QuotationRedColor;
     self.lotLabel.text = model.amount;
@@ -180,6 +188,15 @@
         _titleLabel.textColor = UIColorMakeWithHex(@"#828282");
     }
     return _titleLabel;
+}
+
+- (UILabel *)profitLabel{
+    if (!_profitLabel) {
+        _profitLabel = [[UILabel alloc] init];
+        _profitLabel.font = UIFontMake(14);
+        _profitLabel.textColor = UIColorMakeWithHex(@"#828282");
+    }
+    return _profitLabel;
 }
 
 - (UILabel *)lotLabel{
