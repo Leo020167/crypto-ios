@@ -237,8 +237,12 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     if (indexPath.row == 2) {
-        [self putValueToParamDictionary:@"CoinTradeDic" value:self.model.symbol forKey:@"CoinQuotationsDetailSymbol"];
-        [self pageToViewControllerForName:@"CoinQuotationsDetailController"];
+        //[self putValueToParamDictionary:@"CoinTradeDic" value:self.model.symbol forKey:@"CoinQuotationsDetailSymbol"];
+        //[self pageToViewControllerForName:@"CoinQuotationsDetailController"];
+        
+        [self putValueToParamDictionary:CoinTradeDic value:_symbol forKey:@"CoinTransactionSymbol"];
+        [self putValueToParamDictionary:CoinTradeDic value:@"-1" forKey:@"CoinTransactionBuySell"];
+        [self pageToViewControllerForName:@"TYCoinTransactionController"];
     }
 }
 

@@ -2,8 +2,8 @@
 /* Class = "UILabel"; text = "0"; ObjectID = "6Zp-JS-kve"; */
 "6Zp-JS-kve.text" = "0";
 
-/* Class = "UILabel"; text = "手数"; ObjectID = "OQU-wt-Kla"; */
-"OQU-wt-Kla.text" = "手數";
+/* Class = "UILabel"; text = "數量"; ObjectID = "OQU-wt-Kla"; */
+"OQU-wt-Kla.text" = "數量";
 
 /* Class = "UIButton"; normalTitle = "撤销"; ObjectID = "ZWe-JQ-u5d"; */
 "ZWe-JQ-u5d.normalTitle" = "撤銷";
@@ -11,8 +11,8 @@
 /* Class = "UILabel"; text = "2020-02-29 15:33:20"; ObjectID = "dZy-Fp-pFQ"; */
 "dZy-Fp-pFQ.text" = "2020-02-29 15:33:20";
 
-/* Class = "UILabel"; text = "开仓保证金"; ObjectID = "eZx-h7-qLA"; */
-"eZx-h7-qLA.text" = "開倉保證金";
+/* Class = "UILabel"; text = "金额(USDT)"; ObjectID = "eZx-h7-qLA"; */
+"eZx-h7-qLA.text" = "金額(USDT)";
 
 /* Class = "UILabel"; text = "BTC/USDT 看涨(做多)"; ObjectID = "jZd-Y5-ozb"; */
 "jZd-Y5-ozb.text" = "BTC/USDT 看漲(做多)";

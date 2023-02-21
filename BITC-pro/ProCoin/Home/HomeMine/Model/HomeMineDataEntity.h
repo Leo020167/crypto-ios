@@ -24,7 +24,7 @@
 @property (copy, nonatomic) NSString *score;                        //得分
 @property (copy, nonatomic) NSString *shareUrl;                     //分享链接
 @property (copy, nonatomic) NSString *latestMsgTitle;               //最新一条消息
-@property (copy, nonatomic) NSString *usdtAmount;               //
+@property (copy, nonatomic) NSString *usdtAmount;               //33488.79810438≈￥229063.37
 
 /// 未读消息数量
 @property (nonatomic, assign) NSInteger msgCount;

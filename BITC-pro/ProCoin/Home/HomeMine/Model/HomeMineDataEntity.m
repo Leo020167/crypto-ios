@@ -33,6 +33,7 @@
         self.equityLevel = [self stringParser:@"equityLevel" json:json];
         self.coinApplyTip = [self stringParser:@"coinApplyTip" json:json];
         self.msgCount = [self integerParser:@"msgCount" json:json];
+        self.usdtAmount = [self stringParser:@"usdtAmount" json:json];
     }
     return self;
 }
