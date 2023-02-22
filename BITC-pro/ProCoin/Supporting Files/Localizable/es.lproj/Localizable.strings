@@ -1198,7 +1198,7 @@
 "您正在向BITC认证卖家购买%@ USDT" = "Está comprando %@ USDT de un vendedor certificado por Leader Coin";
 
 /* 申购失败转换 */
-"您正在向BITC认证卖家购买%@ USDT" = "You are buying %@ USDT from a BITC certified seller";
+"您正在向BITC认证卖家购买%@ USDT" = "You are buying %@ USDT from a LeaderCoin certified seller";
 
 /* 选择个人头像 */
 "您的资料已修改，是否要保存？" = "Su perfil ha sido modificado, ¿quieres guardarlo?";
