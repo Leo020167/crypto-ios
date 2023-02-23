@@ -36,11 +36,17 @@ NSString *const DragBackEnd    = @"dragBackEnd";            //滑动返回完成
 //NSString *const QuoteSocket       = @"market.usefortest0603.com";
 //NSString *const ApiFilesys        = @"http://upload.usefortest0603.com/procoin-file/";   // 上传文件接口
 
-NSString *const ApiBaseUrl        = @"http://api.gsxxg.com/procoin/";   // 线上域名
-NSString *const PushSocket        = @"api.gsxxg.com";
-NSString *const ApiQuoteUrl       = @"http://market.gsxxg.com/procoin-market/";
-NSString *const QuoteSocket       = @"market.gsxxg.com";
-NSString *const ApiFilesys        = @"http://upload.gsxxg.com/procoin-file/";   // 上传文件接口
+//NSString *const ApiBaseUrl        = @"http://api.gsxxg.com/procoin/";   // 线上域名
+//NSString *const PushSocket        = @"api.gsxxg.com";
+//NSString *const ApiQuoteUrl       = @"http://market.gsxxg.com/procoin-market/";
+//NSString *const QuoteSocket       = @"market.gsxxg.com";
+//NSString *const ApiFilesys        = @"http://upload.gsxxg.com/procoin-file/";   // 上传文件接口
+
+NSString *const ApiBaseUrl        = @"http://api.qokwjxf.cn/procoin/";   // 线上域名
+NSString *const PushSocket        = @"api.qokwjxf.cn";
+NSString *const ApiQuoteUrl       = @"http://market.qokwjxf.cn/procoin-market/";
+NSString *const QuoteSocket       = @"market.qokwjxf.cn";
+NSString *const ApiFilesys        = @"http://upload.qokwjxf.cn/procoin-file/";   // 上传文件接口
 
 
 /** socket端口*/
