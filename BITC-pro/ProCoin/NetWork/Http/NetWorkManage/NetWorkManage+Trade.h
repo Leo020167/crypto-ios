@@ -31,7 +31,7 @@
 
 
 #pragma mark - 搜索币种
-- (void)reqSearchCoin:(id)delegate symbol:(NSString *)symbol finishedCallback:(SEL)cbFinished failedCallback:(SEL)cbFailed;
+- (void)reqSearchCoin:(id)delegate symbol:(NSString *)symbol accountType: (NSString *)accountType finishedCallback:(SEL)cbFinished failedCallback:(SEL)cbFailed;
 
 #pragma mark - 充值提现
 /** 充值提现页面获取usdt汇率和后面小数还有充值时间等等*/

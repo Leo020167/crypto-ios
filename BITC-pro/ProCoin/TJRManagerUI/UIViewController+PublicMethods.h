@@ -62,7 +62,7 @@ extern NSString *const P2PDict;                     //OTC字典
 extern NSString *const ProCoinBaseDict;              //应用基本字典(尽量统一用一个)
 extern NSString *const PCDigitalRecordDict;              //交易记录
 
-
+extern NSString *const ProCoinSerachDict;             //搜索字典
 
 #define TitleBackgroundColor [UIColor colorWithRed:191.0/255.0 green:191.0/255.0 blue:191.0/255.0 alpha:1]		// 新的title背景颜色
 

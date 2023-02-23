@@ -10,7 +10,7 @@
 #import "JXCategoryView.h"
 #import "JXCategoryListContainerView.h"
 #import "TYQuotationsListViewController.h"
-
+#import "UIViewController+PublicMethods.h"
 @interface TYQuotationsBaseViewController ()<JXCategoryListContainerViewDelegate,JXCategoryViewDelegate, UITextFieldDelegate>
 
 @property (nonatomic, strong) JXCategoryTitleView *myCategoryView;
@@ -68,6 +68,9 @@
     UIButton *searchBtn = [[UIButton alloc] init];
     [searchBtn setImage:UIImageMake(@"util_Icon_search") forState:0];
     searchBtn.qmui_tapBlock = ^(__kindof UIControl *sender) {
+        /// Segment顺序
+        NSString *type = @[@"stock", @"digital", @"spot"][_myCategoryView.selectedIndex];
+        [self putValueToParamDictionary:ProCoinSerachDict value:type  forKey:@"CoinSearchType"];
         [self pageToViewControllerForName:@"SearchCoinController"];
     };
     [navView addSubview:searchBtn];

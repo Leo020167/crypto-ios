@@ -38,7 +38,7 @@
 - (void)bindPledgeInfo:(NSDictionary *)pledgeInfo {
     self.pledgeInfo = pledgeInfo;
     _daysLabel.text = [NSString stringWithFormat: @"%@%@", pledgeInfo[@"duration"], NSLocalizedStringForKey(@"天")];
-    _gainLabel.text = [NSString stringWithFormat: @"%@", pledgeInfo[@"profitRate"]];
+    _gainLabel.text = [NSString stringWithFormat: @"%@%%", pledgeInfo[@"profitRate"]];
     _minPledgeLabel.text =  [NSString stringWithFormat: @"%@%@%@",
                              NSLocalizedStringForKey(@"最小质押数量"), pledgeInfo[@"minCount"], pledgeInfo[@"symbol"] ];
     
@@ -127,11 +127,11 @@
 {
     if(checkIsStringWithAnyText(_inputSymbolTF.text)){
         NSNumber *number = [NSNumber numberWithInt:[_inputSymbolTF.text floatValue]] ;
-        if (number < [NSNumber numberWithInt:[self.pledgeInfo[@"minCount"] floatValue]]) {
-            //[QMUITips showInfo:_minPledgeLabel.text];
-            [QMUITips showInfo: NSLocalizedStringForKey(@"账户可用余额不足")];
-            return;
-        }
+//        if (number < [NSNumber numberWithInt:[self.pledgeInfo[@"minCount"] floatValue]]) {
+//            //[QMUITips showInfo:_minPledgeLabel.text];
+//            [QMUITips showInfo: NSLocalizedStringForKey(@"账户可用余额不足")];
+//            return;
+//        }
         if (number > 0) {
             [YYRequestUtility Post:@"pledge/commit.do" addParameters:@{@"pledgeId": self.pledgeInfo[@"id"], @"count": number} progress:nil success:^(NSDictionary *responseDict) {
                 if ([responseDict[@"code"] intValue] == 200) {
