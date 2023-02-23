@@ -12,7 +12,7 @@
 "OGa-2k-OaV.text" = "Minimum pledge amount";
 
 /* Class = "UILabel"; text = "預期收益"; ObjectID = "Rii-Yr-xU3"; */
-"Rii-Yr-xU3.text" = "expected profit";
+"Rii-Yr-xU3.text" = "Annualized income";
 
 /* Class = "UILabel"; text = "參與質押"; ObjectID = "Tng-Gk-QGl"; */
 "Tng-Gk-QGl.text" = "Participate in pledge";

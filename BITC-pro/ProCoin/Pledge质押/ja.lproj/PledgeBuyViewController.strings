@@ -12,7 +12,7 @@
 "OGa-2k-OaV.text" = "最低保証金額";
 
 /* Class = "UILabel"; text = "預期收益"; ObjectID = "Rii-Yr-xU3"; */
-"Rii-Yr-xU3.text" = "期待利益";
+"Rii-Yr-xU3.text" = "年収";
 
 /* Class = "UILabel"; text = "參與質押"; ObjectID = "Tng-Gk-QGl"; */
 "Tng-Gk-QGl.text" = "誓約書に参加する";
