@@ -12,7 +12,7 @@
 "OGa-2k-OaV.text" = "최소 약정 금액";
 
 /* Class = "UILabel"; text = "預期收益"; ObjectID = "Rii-Yr-xU3"; */
-"Rii-Yr-xU3.text" = "예상 이익";
+"Rii-Yr-xU3.text" = "연간 소득";
 
 /* Class = "UILabel"; text = "參與質押"; ObjectID = "Tng-Gk-QGl"; */
 "Tng-Gk-QGl.text" = "서약에 참여";
