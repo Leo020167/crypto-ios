@@ -27,6 +27,7 @@
 @property (retain, nonatomic) IBOutlet UIView *headerView;
 @property (retain, nonatomic) IBOutlet NSLayoutConstraint *tvSearchLayoutConstraintBottom;
 
+@property (retain, nonatomic) NSString *type;
 @end
 
 @implementation SearchCoinController
@@ -35,6 +36,12 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    
+    if([self getValueFromModelDictionary:ProCoinSerachDict forKey:@"CoinSearchType"]){
+        self.type = [self getValueFromModelDictionary:ProCoinSerachDict forKey:@"CoinSearchType"];
+        [self removeParamFromModelDictionary:ProCoinSerachDict forKey:@"CoinSearchType"];
+    }
+    
     isEdit = NO;
     searchArray = [[NSMutableArray alloc] init];
     historyArray = [[NSMutableArray alloc] init];
@@ -129,7 +136,7 @@
 #pragma mark - 请求数据
 - (void)reqSearchCoin
 {
-    [[NetWorkManage shareSingleNetWork] reqSearchCoin:self symbol:_searchBar.text finishedCallback:@selector(reqSearchCoinFinished:) failedCallback:nil];
+    [[NetWorkManage shareSingleNetWork] reqSearchCoin:self symbol:_searchBar.text accountType: _type finishedCallback:@selector(reqSearchCoinFinished:) failedCallback:nil];
 }
 
 - (void)reqSearchCoinFinished:(NSDictionary *)json

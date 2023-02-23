@@ -39,7 +39,7 @@ NSString *const P2PDict = @"P2PDict";
 NSString *const FollowOrderDict = @"FollowOrderDict";
 NSString *const ProCoinBaseDict = @"ProCoinBaseDict";
 NSString *const PCDigitalRecordDict = @"PCDigitalRecordDict";
-
+NSString *const ProCoinSerachDict = @"ProCoinSerachDict";
 
 @implementation UIViewController (PublicMethods)
 

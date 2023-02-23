@@ -82,11 +82,13 @@
 
 
 #pragma mark - 搜索币种
-- (void)reqSearchCoin:(id)delegate symbol:(NSString *)symbol finishedCallback:(SEL)cbFinished failedCallback:(SEL)cbFailed
+- (void)reqSearchCoin:(id)delegate symbol:(NSString *)symbol accountType: (NSString *)accountType finishedCallback:(SEL)cbFinished failedCallback:(SEL)cbFailed
 {
     [taojinHttpBase doHttpPOSTForJson:[self fullApiBaseUrlTrade:URL_API_SEARCH_COIN]
                               params:[self fetchUrlParam:
-                                      [BasicNameValuePair setName:@"symbol" value:symbol],nil]
+                                      [BasicNameValuePair setName:@"symbol" value:symbol],
+                                      [BasicNameValuePair setName:@"accountType" value:accountType],
+                                      nil]
                             delegate:delegate httpFinish:cbFinished httpFaild:cbFailed];
 }
 
