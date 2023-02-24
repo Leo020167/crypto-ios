@@ -45,7 +45,7 @@
 - (void)setModel:(NSDictionary *)model {
     
     _coinLabel.text = model[@"symbol"];
-    _gainLabel.text = model[@"profit"];
+    _gainLabel.text = model[@"preProfit"];
     _duringLabel.text = [NSString stringWithFormat: @"%@%@", model[@"duration"], NSLocalizedStringForKey(@"天")];
     _numberLabel.text = [NSString stringWithFormat: @"%@", model[@"count"]];
     _beginTimeLabel.text = [VeDateUtil formatterDate:model[@"startTime"] inStytle:nil outStytle:@"yyyy-MM-dd HH:mm:ss" isTimestamp:YES];
