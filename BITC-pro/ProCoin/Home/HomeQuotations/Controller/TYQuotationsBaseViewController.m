@@ -84,8 +84,10 @@
 - (void)initUI{
     self.view.backgroundColor = UIColorWhite;
     
-    self.myCategoryView.frame = CGRectMake(0, kUINormalNavBarHeight, SCREEN_WIDTH, 45);
-    self.listContainerView.frame = CGRectMake(0, kUINormalNavBarHeight, SCREEN_WIDTH, SCREEN_HEIGHT);
+        self.myCategoryView.frame = CGRectMake(0, kUINormalNavBarHeight, DEVICE_WIDTH, 45);
+        self.listContainerView.frame = CGRectMake(0, kUINormalNavBarHeight + 45, DEVICE_WIDTH, DEVICE_HEIGHT - (kUINormalNavBarHeight + 45));
+//    self.myCategoryView.frame = CGRectMake(0, kUINormalNavBarHeight, SCREEN_WIDTH, 45);
+//    self.listContainerView.frame = CGRectMake(0, kUINormalNavBarHeight, SCREEN_WIDTH, SCREEN_HEIGHT);
     [self.view addSubview:self.listContainerView];
     self.myCategoryView.listContainer = self.listContainerView;
     self.myCategoryView.delegate = self;

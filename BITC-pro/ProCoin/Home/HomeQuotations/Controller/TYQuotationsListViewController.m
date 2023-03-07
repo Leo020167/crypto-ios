@@ -45,7 +45,7 @@
 - (void)initUI{
     self.sortField = @"symbol";
     self.sortType = @"1";
-    UITableView *tableView = [[UITableView alloc] initWithFrame:CGRectMake(0, 45, SCREEN_WIDTH, SCREEN_HEIGHT - kUINormalNavBarHeight - 50 - 45)];
+    UITableView *tableView = [[UITableView alloc] initWithFrame:CGRectMake(0, 0, DEVICE_WIDTH, DEVICE_HEIGHT - kUINormalNavBarHeight - 50 - kUINormalTabBarHeight)];
     tableView.delegate = self;
     tableView.dataSource = self;
     tableView.backgroundColor = UIColorMakeWithHex(@"#F3F3F3");
