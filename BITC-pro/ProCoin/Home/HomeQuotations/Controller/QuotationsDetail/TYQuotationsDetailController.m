@@ -97,7 +97,7 @@
     if([self getValueFromModelDictionary:CoinTradeDic forKey:@"CoinQuotationDetailMarketType"]){
         NSString *marketType = [NSString stringWithFormat:@"%@",[self getValueFromModelDictionary:CoinTradeDic forKey:@"CoinQuotationDetailMarketType"]];
         if([marketType isEqualToString:PCAccountStockType]){
-            isSpecialShareTimeView = YES;
+            isSpecialShareTimeView = NO;    /// 股指改为和数字货币一致
         }
         [self removeParamFromModelDictionary:CoinTradeDic forKey:@"CoinQuotationDetailMarketType"];
     }
