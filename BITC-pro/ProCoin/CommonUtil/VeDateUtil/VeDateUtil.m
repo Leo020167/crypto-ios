@@ -1244,5 +1244,47 @@
 
 
 
+#pragma mark - 传入秒数获小时、分、秒分别存放的字典（只能传入正数）
+/**
+ *  hour    :  小时
+ *  minute  :  分
+ *  sencond :  秒
+ */
++ (NSDictionary *)getHourMinuteSecondDictionaryFromSeconds:(NSInteger)senconds
+{
+    if (senconds <= 0) return nil;
+    NSInteger hours = (senconds / 60 / 60 );
+    NSInteger minutes = (senconds /60 - (60 * hours));
+    NSInteger seconds = (senconds - (60 * 60 * hours) - (60 * minutes));
+    
+
+    NSString *hoursStr;
+    NSString *minutesStr;
+    NSString *secondsStr;
+    
+    if (hours < 10) {
+        hoursStr = [NSString stringWithFormat:@"0%ld", (long)hours];
+    }else {
+        hoursStr = [NSString stringWithFormat:@"%ld", (long)hours];
+    }
+    
+    if (minutes < 10) {
+        minutesStr = [NSString stringWithFormat:@"0%ld", (long)minutes];
+    } else {
+        minutesStr = [NSString stringWithFormat:@"%ld", (long)minutes];
+    }
+    
+    if (seconds < 10) {
+        secondsStr = [NSString stringWithFormat:@"0%ld", (long)seconds];
+    } else {
+        secondsStr = [NSString stringWithFormat:@"%ld", (long)seconds];
+    }
+    
+    NSDictionary *dic = @{ @"hour" : hoursStr , @"minute" : minutesStr , @"second" : secondsStr};
+    return dic;
+}
+
+
+
 @end
 
