@@ -277,7 +277,7 @@
     
     timerCount--;
     if (timerCount >= 0) {
-        NSDictionary* timeDic = [VeDateUtil getDayHourMinuteSecondDictionaryFromSeconds:timerCount];
+        NSDictionary* timeDic = [VeDateUtil getHourMinuteSecondDictionaryFromSeconds:timerCount];
         NSString* str = [NSString stringWithFormat:@"%@:%@:%@",[timeDic objectForKey:@"hour"],[timeDic objectForKey:@"minute"],[timeDic objectForKey:@"second"]];
         [_lbPayTime setText:str];
     }

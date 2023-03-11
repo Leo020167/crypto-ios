@@ -252,4 +252,12 @@
  */
 + (NSDictionary *)getDayHourMinuteSecondDictionaryFromSeconds:(NSInteger)senconds;
 
+#pragma mark - 传入秒数获得小时、分、秒分别存放的字典 （只能传入正数）
+/**
+ *  hour    :  小时
+ *  minute  :  分
+ *  sencond :  秒
+ */
++ (NSDictionary *)getHourMinuteSecondDictionaryFromSeconds:(NSInteger)senconds;
+
 @end
