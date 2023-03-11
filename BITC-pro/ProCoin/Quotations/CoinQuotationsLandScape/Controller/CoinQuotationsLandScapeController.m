@@ -84,7 +84,7 @@
     if([self getValueFromModelDictionary:ProCoinBaseDict forKey:@"CoinQuotationsLandScapeMarketType"]){
         NSString *marketType = [NSString stringWithFormat:@"%@",[self getValueFromModelDictionary:ProCoinBaseDict forKey:@"CoinQuotationsLandScapeMarketType"]];
         if([marketType isEqualToString:PCAccountStockType]){
-            isSpecialShareTimeView = YES;
+            isSpecialShareTimeView = NO;    /// 股指改为和数字货币一致
         }
         [self removeParamFromModelDictionary:ProCoinBaseDict forKey:@"CoinQuotationsLandScapeMarketType"];
     }
