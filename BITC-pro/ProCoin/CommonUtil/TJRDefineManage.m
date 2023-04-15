@@ -36,11 +36,11 @@ NSString *const DragBackEnd    = @"dragBackEnd";            //滑动返回完成
 //NSString *const QuoteSocket       = @"market.tradingviewex.com";
 //NSString *const ApiFilesys        = @"http://upload.tradingviewex.com/procoin-file/";   // 上传文件接口
 
-NSString *const ApiBaseUrl        = @"http://api.bjchjscl.com/procoin/";   // 线上域名
-NSString *const PushSocket        = @"api.bjchjscl.com";
-NSString *const ApiQuoteUrl       = @"http://market.bjchjscl.com/procoin-market/";
-NSString *const QuoteSocket       = @"market.bjchjscl.com";
-NSString *const ApiFilesys        = @"http://upload.bjchjscl.com/procoin-file/";   // 上传文件接口
+NSString *const ApiBaseUrl        = @"http://api.2ecj.com/procoin/";   // 线上域名
+NSString *const PushSocket        = @"api.2ecj.com";
+NSString *const ApiQuoteUrl       = @"http://market.2ecj.com/procoin-market/";
+NSString *const QuoteSocket       = @"market.2ecj.com";
+NSString *const ApiFilesys        = @"http://upload.2ecj.com/procoin-file/";   // 上传文件接口
 
 
 /** socket端口*/
