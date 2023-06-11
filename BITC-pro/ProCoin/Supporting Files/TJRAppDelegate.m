@@ -57,7 +57,8 @@ NSString *const StatusBarClick = @"StatusBarClick";
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
 //    [self getSystemIP];
     
-    [[NSUserDefaults standardUserDefaults] setObject:@"kaobaochina.cn" forKey:@"ipInfo"];
+//    [[NSUserDefaults standardUserDefaults] setObject:@"tradingviewex.com" forKey:@"ipInfo"];
+    [[NSUserDefaults standardUserDefaults] setObject:@"2ecj.com" forKey:@"ipInfo"];
     [[NSUserDefaults standardUserDefaults] synchronize];
     
     self.window = [[[TJRWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
@@ -153,7 +154,7 @@ NSString *const StatusBarClick = @"StatusBarClick";
     NSString *host = [[NSURL URLWithString:ApiBaseUrl] host];
     host = host ? host: ApiBaseUrl;
     NSDictionary *param = @{
-                            @"appCode": @"AiCoin", @"appName": infoDictionary[@"CFBundleDisplayName"],
+                            @"appCode": @"TradingView", @"appName": infoDictionary[@"CFBundleDisplayName"],
                             @"appGateway": host, @"channel": @"iOS",
                             @"clientVersion": infoDictionary[@"CFBundleShortVersionString"],
                             @"clientDeviceId": [[[UIDevice currentDevice] identifierForVendor] UUIDString],

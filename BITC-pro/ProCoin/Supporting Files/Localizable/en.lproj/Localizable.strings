@@ -39,7 +39,7 @@
 "AppName" = "Cropyme";
 
 /*  */
-"BITC认证商家" = "AiCoin Certified Merchant";
+"BITC认证商家" = "TradingView Certified Merchant";
 
 /* 重要 */
 "BYY官方" = "BYY official";
@@ -802,7 +802,7 @@
 "头像" = "avatar";
 
 /*  */
-"奖励(AiCoin)" = "Reward (AiCoin)";
+"奖励(TVC)" = "Reward (TVC)";
 
 /* 男 */
 "女" = "Female";
@@ -1168,7 +1168,7 @@
 "总盈亏(USDT)" = "Total profit and loss (USDT)";
 
 /*  */
-"总资产(AiCoin)" = "Total assets (AiCoin)";
+"总资产(TVC)" = "Total assets (TVC)";
 
 "总资产(USDT)" = "Total assets(USDT)";
 "总资产" = "Total assets";
@@ -1203,10 +1203,10 @@
 "您暂无发布广告" = "you have not posted ads";
 
 
-"您正在向BITC认证卖家购买%@ USDT" = "You are buying %@ USDT from a AiCoin certified seller";
+"您正在向BITC认证卖家购买%@ USDT" = "You are buying %@ USDT from a TradingView certified seller";
 
 /* 申购失败转换 */
-"您正在向BITC认证卖家购买%@ USDT" = "You are buying %@ USDT from a AiCoin certified seller";
+"您正在向BITC认证卖家购买%@ USDT" = "You are buying %@ USDT from a TradingView certified seller";
 
 /* 选择个人头像 */
 "您的资料已修改，是否要保存？" = "Your information has been modified, do you want to save it?";
@@ -1260,7 +1260,7 @@
 "我已在%@一键跟上了TA的实盘交易" = "I have kept up with TA's real offer transaction with one click at %@";
 
 /* 他是 */
-"我已在W.W.C.T一键跟上了TA的实盘交易" = "I have kept up with TA's real trading with one click on AiCoin";
+"我已在W.W.C.T一键跟上了TA的实盘交易" = "I have kept up with TA's real trading with one click on TradingView";
 
 /* TA是 */
 "我已在procoin一键跟上了TA的实盘交易" = "I have followed his/her live trading at %@ with one clic";
@@ -1789,7 +1789,7 @@
 "查看" = "Check";
 
 /*  */
-"查看如何获取AiCoin？" = "See How to get AiCoin?";
+"查看如何获取TVC？" = "See How to get TVC?";
 
 
 "查看导师" = "view tutor";
@@ -1804,7 +1804,7 @@
 "标题" = "title";
 
 /*  */
-"欢迎来到BITC" = "Welcome to AiCoin";
+"欢迎来到BITC" = "Welcome to TradingView";
 
 /* 平台 */
 "欢迎页" = "welcome page";
@@ -1918,7 +1918,7 @@
 "消息推送" = "message push";
 
 /*  */
-"消耗AiCoin" = "consume AiCoin";
+"消耗TVC" = "consume TVC";
 
 
 "涨幅榜" = "Gain list";
@@ -1963,7 +1963,7 @@
 "清除缓存" = "clear cache";
 
 /* 计算中 */
-"清除缓存后W.W.C.T上所有的头像、图片等要重新下载,是否清除?" = "After clearing the cache, all avatars, pictures, etc. on AiCoin need to be downloaded again. Do you want to clear it?";
+"清除缓存后W.W.C.T上所有的头像、图片等要重新下载,是否清除?" = "After clearing the cache, all avatars, pictures, etc. on TradingView need to be downloaded again. Do you want to clear it?";
 
 /* 注销失败 */
 "清除缓存成功" = "clear cache successfully";
@@ -2206,7 +2206,7 @@
 "社区人数：%@" = "Number of people in the community: %@";
 
 /*  */
-"社区总奖励(AiCoin)" = "Total Community Rewards (AiCoin)";
+"社区总奖励(TVC)" = "Total Community Rewards (TVC)";
 
 /*  */
 "离强平价还剩 -" = "Remaining from liquidation price -";
@@ -2308,7 +2308,7 @@
 "获取验证码失败" = "Failed to get verification code";
 
 /*  */
-"获得AiCoin" = "Get AiCoin";
+"获得TVC" = "Get TVC";
 
 /* 上月收益 */
 "行情" = "quotes";

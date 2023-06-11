@@ -183,11 +183,11 @@
             [amountText yy_setLineSpacing:5 range:amountText.yy_rangeOfAll];
             self.amountLabel.attributedText = amountText;
             
-            NSMutableAttributedString *tokenText = [[NSMutableAttributedString alloc] initWithString:[NSString stringWithFormat:@"%@\n%@", NSLocalizedStringForKey(@"获得AiCoin"), responseDict[@"data"][@"sumToken"]]];
+            NSMutableAttributedString *tokenText = [[NSMutableAttributedString alloc] initWithString:[NSString stringWithFormat:@"%@\n%@", NSLocalizedStringForKey(@"获得TVC"), responseDict[@"data"][@"sumToken"]]];
             [tokenText yy_setFont:UIFontMake(15) range:tokenText.yy_rangeOfAll];
             [tokenText yy_setColor:UIColorMakeWithHex(@"#333333") range:tokenText.yy_rangeOfAll];
-            [tokenText yy_setFont:UIFontMake(13) range:NSMakeRange(0, NSLocalizedStringForKey(@"获得AiCoin").length)];
-            [tokenText yy_setColor:UIColorMakeWithHex(@"#999999") range:NSMakeRange(0, NSLocalizedStringForKey(@"获得AiCoin").length)];
+            [tokenText yy_setFont:UIFontMake(13) range:NSMakeRange(0, NSLocalizedStringForKey(@"获得TVC").length)];
+            [tokenText yy_setColor:UIColorMakeWithHex(@"#999999") range:NSMakeRange(0, NSLocalizedStringForKey(@"获得TVC").length)];
             [tokenText yy_setAlignment:NSTextAlignmentCenter range:tokenText.yy_rangeOfAll];
             [tokenText yy_setLineSpacing:5 range:tokenText.yy_rangeOfAll];
             self.tokenLabel.attributedText = tokenText;
