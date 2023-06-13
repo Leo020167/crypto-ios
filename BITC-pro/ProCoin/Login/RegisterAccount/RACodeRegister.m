@@ -60,7 +60,7 @@
 {
     [super viewDidLoad];
     
-    self.lbPhoneTips.text = NSLocalizedStringForKey(@"欢迎来到BITC");
+    self.lbPhoneTips.text = NSLocalizedStringForKey(@"欢迎来到AiCoin");
     
     self.canDragBack = NO;
     

@@ -12,16 +12,16 @@
 "Jrf-Vi-FgC.text" = "--";
 
 /* Class = "UILabel"; text = "发行时间"; ObjectID = "LkW-yv-JeK"; */
-"LkW-yv-JeK.text" = "发行时间";
+"LkW-yv-JeK.text" = "报价货币";
 
 /* Class = "UILabel"; text = "--"; ObjectID = "Y2G-Wf-huH"; */
 "Y2G-Wf-huH.text" = "--";
 
 /* Class = "UILabel"; text = "官网"; ObjectID = "bHM-NR-Os1"; */
-"bHM-NR-Os1.text" = "官网";
+"bHM-NR-Os1.text" = "手续费";
 
 /* Class = "UILabel"; text = "白皮书"; ObjectID = "e0c-af-aFR"; */
-"e0c-af-aFR.text" = "白皮书";
+"e0c-af-aFR.text" = "最小波动盈亏";
 
 /* Class = "UILabel"; text = "---"; ObjectID = "eBc-h1-pd5"; */
 "eBc-h1-pd5.text" = "---";
@@ -30,16 +30,16 @@
 "hgF-rt-gfO.text" = "--";
 
 /* Class = "UILabel"; text = "众筹价格"; ObjectID = "mMl-3i-kCS"; */
-"mMl-3i-kCS.text" = "众筹价格";
+"mMl-3i-kCS.text" = "最小波动值";
 
 /* Class = "UILabel"; text = "--"; ObjectID = "nDp-HM-tXH"; */
 "nDp-HM-tXH.text" = "--";
 
 /* Class = "UILabel"; text = "发行总量"; ObjectID = "oEY-ie-mIn"; */
-"oEY-ie-mIn.text" = "发行总量";
+"oEY-ie-mIn.text" = "合约份数";
 
 /* Class = "UILabel"; text = "--"; ObjectID = "pdN-nB-57j"; */
 "pdN-nB-57j.text" = "--";
 
 /* Class = "UILabel"; text = "区块链查询"; ObjectID = "s6e-qL-UMe"; */
-"s6e-qL-UMe.text" = "区块链查询";
+"s6e-qL-UMe.text" = "买入点差";

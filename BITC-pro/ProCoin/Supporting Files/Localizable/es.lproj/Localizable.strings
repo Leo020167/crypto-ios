@@ -39,7 +39,7 @@
 "AppName" = "Cropyme";
 
 /*  */
-"BITC认证商家" = "Comerciante certificado por AiCoin";
+"AiCoin认证商家" = "Comerciante certificado por AiCoin";
 
 /* 重要 */
 "BYY官方" = "Byy Oficial";
@@ -1195,10 +1195,10 @@
 "您暂无发布广告" = "you have not posted ads";
 
 
-"您正在向BITC认证卖家购买%@ USDT" = "Está comprando %@ USDT de un vendedor certificado por AiCoin";
+"您正在向AiCoin认证卖家购买%@ USDT" = "Está comprando %@ USDT de un vendedor certificado por AiCoin";
 
 /* 申购失败转换 */
-"您正在向BITC认证卖家购买%@ USDT" = "You are buying %@ USDT from a BITC certified seller";
+"您正在向AiCoin认证卖家购买%@ USDT" = "You are buying %@ USDT from a AiCoin certified seller";
 
 /* 选择个人头像 */
 "您的资料已修改，是否要保存？" = "Su perfil ha sido modificado, ¿quieres guardarlo?";
@@ -1792,7 +1792,7 @@
 "标题" = "Título";
 
 /*  */
-"欢迎来到BITC" = "Bienvenido a AiCoin";
+"欢迎来到AiCoin" = "Bienvenido a AiCoin";
 
 /* 平台 */
 "欢迎页" = "Pagina de bienvenida";

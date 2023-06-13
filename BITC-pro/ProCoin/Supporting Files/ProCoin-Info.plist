@@ -222,15 +222,15 @@
 		</dict>
 	</dict>
 	<key>NSCameraUsageDescription</key>
-	<string>BITC在上传头像、发布动态等功能时访问您的摄像头。</string>
+	<string>AiCoin在上传头像、发布动态等功能时访问您的摄像头。</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
-	<string>BITC在使用定位等功能时访问您的位置</string>
+	<string>AiCoin在使用定位等功能时访问您的位置</string>
 	<key>NSMicrophoneUsageDescription</key>
-	<string>BITC在语音回复等功能时访问您的麦克风。</string>
+	<string>AiCoin在语音回复等功能时访问您的麦克风。</string>
 	<key>NSPhotoLibraryAddUsageDescription</key>
-	<string>BITC在保存图片到手机等功能时，需要访问您的相册。</string>
+	<string>AiCoin在保存图片到手机等功能时，需要访问您的相册。</string>
 	<key>NSPhotoLibraryUsageDescription</key>
-	<string>BITC在上传头像、发布动态等功能时访问您的照片。</string>
+	<string>AiCoin在上传头像、发布动态等功能时访问您的照片。</string>
 	<key>UIBackgroundModes</key>
 	<array>
 		<string>remote-notification</string>
