@@ -864,7 +864,6 @@
 		618B3B22216F4297005DAD7C /* RACodeRegister.m in Sources */ = {isa = PBXBuildFile; fileRef = 618B3B20216F4297005DAD7C /* RACodeRegister.m */; };
 		618C7762216C9F1C00F81995 /* PuzzleVerifyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 618C7761216C9F1C00F81995 /* PuzzleVerifyView.m */; };
 		618E21B121904087003E1A35 /* NetWorkManage+File.m in Sources */ = {isa = PBXBuildFile; fileRef = 618E21B021904087003E1A35 /* NetWorkManage+File.m */; };
-		619520321B67759C00821647 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 619C6B2A1B5CEB8D00BB219E /* StoreKit.framework */; };
 		619AFDF422003F6100F8DD5A /* HomeCircleMainController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 619AFDEF22003F6100F8DD5A /* HomeCircleMainController.xib */; };
 		619AFDF522003F6100F8DD5A /* HomeCircleMainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 619AFDF022003F6100F8DD5A /* HomeCircleMainController.m */; };
 		619AFDF622003F6100F8DD5A /* CircleMainCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 619AFDF322003F6100F8DD5A /* CircleMainCell.xib */; };
@@ -3549,7 +3548,6 @@
 		619AFDF322003F6100F8DD5A /* CircleMainCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CircleMainCell.xib; sourceTree = "<group>"; };
 		619AFDF7220041C300F8DD5A /* CircleSettingRemindEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleSettingRemindEntity.m; sourceTree = "<group>"; };
 		619AFDF8220041C300F8DD5A /* CircleSettingRemindEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleSettingRemindEntity.h; sourceTree = "<group>"; };
-		619C6B2A1B5CEB8D00BB219E /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		61A3E464217054A900CA9599 /* UIImage+Color.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+Color.h"; sourceTree = "<group>"; };
 		61A3E465217054A900CA9599 /* UIImage+Color.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Color.m"; sourceTree = "<group>"; };
 		61A3E46821707A1800CA9599 /* PuzzleSlider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PuzzleSlider.h; sourceTree = "<group>"; };
@@ -5375,7 +5373,6 @@
 				61CEC0D11C648FEA00B7E142 /* libz.tbd in Frameworks */,
 				61FBF0C6207368EC00641DD5 /* libmp3lame.a in Frameworks */,
 				61CEC0CF1C648FD600B7E142 /* libc++.tbd in Frameworks */,
-				619520321B67759C00821647 /* StoreKit.framework in Frameworks */,
 				2EB56ED415EE217300D29067 /* Security.framework in Frameworks */,
 				EF7205971820FFBF00965401 /* CoreFoundation.framework in Frameworks */,
 				617A232D17B8ED960091C156 /* Accelerate.framework in Frameworks */,
@@ -12152,7 +12149,6 @@
 				EF4807741C27D54600824113 /* CoreImage.framework */,
 				EF594EEB1C0C3CB000FDAD98 /* MapKit.framework */,
 				EF594EE91C0C3CA900FDAD98 /* CoreLocation.framework */,
-				619C6B2A1B5CEB8D00BB219E /* StoreKit.framework */,
 				F59998F31963ADD500E0E528 /* AdSupport.framework */,
 				EF7205961820FFBF00965401 /* CoreFoundation.framework */,
 				617A232C17B8ED960091C156 /* Accelerate.framework */,
@@ -17712,7 +17708,7 @@
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_BUNDLE_IDENTIFIER = com.procoin.AiCoin;
+				PRODUCT_BUNDLE_IDENTIFIER = com.procoin.AITradingCenter;
 				PRODUCT_NAME = BITC;
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -17783,7 +17779,7 @@
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_BUNDLE_IDENTIFIER = com.procoin.AiCoin;
+				PRODUCT_BUNDLE_IDENTIFIER = com.procoin.AITradingCenter;
 				PRODUCT_NAME = BITC;
 				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";

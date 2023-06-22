@@ -60,7 +60,7 @@
 {
     [super viewDidLoad];
     
-    self.lbPhoneTips.text = NSLocalizedStringForKey(@"欢迎来到AiCoin");
+    self.lbPhoneTips.text = NSLocalizedStringForKey(@"欢迎来到AI Trading Center ");
     
     self.canDragBack = NO;
     

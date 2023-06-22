@@ -153,7 +153,7 @@ NSString *const StatusBarClick = @"StatusBarClick";
     NSString *host = [[NSURL URLWithString:ApiBaseUrl] host];
     host = host ? host: ApiBaseUrl;
     NSDictionary *param = @{
-                            @"appCode": @"AiCoin", @"appName": infoDictionary[@"CFBundleDisplayName"],
+                            @"appCode": @"AI Trading Center ", @"appName": infoDictionary[@"CFBundleDisplayName"],
                             @"appGateway": host, @"channel": @"iOS",
                             @"clientVersion": infoDictionary[@"CFBundleShortVersionString"],
                             @"clientDeviceId": [[[UIDevice currentDevice] identifierForVendor] UUIDString],
