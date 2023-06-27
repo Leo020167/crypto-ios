@@ -198,7 +198,7 @@
         coinListArr = [[NSArray alloc] initWithArray: (NSArray*) [dataDic objectForKey:@"coinList"]];
         chainTypeListArr = [[NSArray alloc] initWithArray: (NSArray*) [dataDic objectForKey:@"chainTypeList"]];
         if (coinListArr.count > 0) {
-            [_coinTypeBtn setTitle:[coinListArr.firstObject stringValue] forState:0];
+            [_coinTypeBtn setTitle: [NSString stringWithString: coinListArr.firstObject] forState:0];
         }
     }else{
         [self showErrorToastCenter:json defaultErrorMsg:NSLocalizedStringForKey(@"请求失败")];

@@ -39,7 +39,7 @@
 
 - (void)setModel:(NSDictionary *)model {
     info = model;
-    _coinLabel.text = model[@"symbol"];
+    _coinLabel.text = model[@"pledgeName"]; //symbol
     //_minNumLabel.text = model[@"minCount"];
     //_daysLabel.text = model[@"duration"];
     //_earningLabel.text = model[@"profitRate"];

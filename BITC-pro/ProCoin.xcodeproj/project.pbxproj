@@ -12237,7 +12237,7 @@
 				ORGANIZATIONNAME = Toka;
 				TargetAttributes = {
 					EF93954815E89DA000F30D1B = {
-						DevelopmentTeam = 57B8CTB783;
+						DevelopmentTeam = PFUYW3YK8B;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.ApplicationGroups.iOS = {
@@ -17678,7 +17678,7 @@
 				COMPRESS_PNG_FILES = NO;
 				CURRENT_PROJECT_VERSION = 1.2.3;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = 57B8CTB783;
+				DEVELOPMENT_TEAM = PFUYW3YK8B;
 				ENABLE_BITCODE = NO;
 				EXCLUDED_ARCHS = "";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -17750,7 +17750,7 @@
 				COMPRESS_PNG_FILES = NO;
 				CURRENT_PROJECT_VERSION = 1.2.3;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = 57B8CTB783;
+				DEVELOPMENT_TEAM = PFUYW3YK8B;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",

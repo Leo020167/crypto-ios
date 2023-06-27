@@ -251,7 +251,7 @@
         coinListArr = [[NSArray alloc] initWithArray: (NSArray*) [dataDic objectForKey:@"coinList"]];
         chainTypeListArr = [[NSArray alloc] initWithArray: (NSArray*) [dataDic objectForKey:@"chainTypeList"]];
         if (coinListArr.count > 0) {
-            [self bindSymbol:[coinListArr.firstObject stringValue]];
+            [self bindSymbol: [NSString stringWithString: coinListArr.firstObject ]];
         }
 
     }else{

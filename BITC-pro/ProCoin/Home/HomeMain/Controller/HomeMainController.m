@@ -187,11 +187,7 @@
 }
 #pragma mark - 请求数据
 - (void)reqRankDataArr{
-    if(!ROOTCONTROLLER_USER.userId){
-        [self cacheAction];
-        return;
-    }
-    [YYRequestUtility Post:@"home/account.do" addParameters:nil progress:nil success:^(NSDictionary *responseDict) {
+    [YYRequestUtility Post:@"home/config.do" addParameters:nil progress:nil success:^(NSDictionary *responseDict) {
         if ([responseDict[@"code"] intValue] == 200) {
             self.bannerArray = [NSMutableArray array];
             NSMutableArray *imageUrlArray = [NSMutableArray array];
@@ -210,6 +206,30 @@
     } failure:^(NSError *error) {
         [self cacheAction];
     }];
+
+//    if(!ROOTCONTROLLER_USER.userId){
+//        [self cacheAction];
+//        return;
+//    }
+//    [YYRequestUtility Post:@"home/account.do" addParameters:nil progress:nil success:^(NSDictionary *responseDict) {
+//        if ([responseDict[@"code"] intValue] == 200) {
+//            self.bannerArray = [NSMutableArray array];
+//            NSMutableArray *imageUrlArray = [NSMutableArray array];
+//            for(NSDictionary *bannerDic in responseDict[@"data"][@"banner"]){
+//                CropymeBannerEntity *entity = [[[CropymeBannerEntity alloc] initWithJson:bannerDic] autorelease];
+//                [self.bannerArray addObject:entity];
+//                [imageUrlArray addObject:entity.imageUrl];
+//            }
+//            self.headerView.bannerArray = imageUrlArray;
+//            [[NSUserDefaults standardUserDefaults] setObject:responseDict[@"data"] forKey:@"banner"];
+//            [[NSUserDefaults standardUserDefaults] synchronize];
+//        }else{
+//            [QMUITips showError:responseDict[@"msg"]];
+//            [self cacheAction];
+//        }
+//    } failure:^(NSError *error) {
+//        [self cacheAction];
+//    }];
 }
 
 - (void)cacheAction{

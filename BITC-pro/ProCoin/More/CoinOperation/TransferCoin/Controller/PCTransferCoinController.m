@@ -102,7 +102,7 @@
     if([self checkJsonIsSuccess:json]){
         coinListArr = [[NSArray alloc] initWithArray: (NSArray*) [json objectForKey:@"data"]];
         if (coinListArr.count > 0) {
-            [self bindSymbol: [coinListArr.firstObject stringValue]];
+            [self bindSymbol: [NSString stringWithString: coinListArr.firstObject]];
         }
 
     }else{
