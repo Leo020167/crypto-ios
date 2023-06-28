@@ -272,7 +272,8 @@
     [_coinSymbolButton setTitle:symbol forState:0];
     self.amountSymbolLabel.text = [NSString stringWithFormat: NSLocalizedStringForKey(@"可用余额()"), symbol];
     self.lockSymbolLabel.text = [NSString stringWithFormat: NSLocalizedStringForKey(@"冻结金额()"), symbol];
-    self.feeSymbolLabel.text = [NSString stringWithFormat: NSLocalizedStringForKey(@"手续费()"), symbol];
+    //self.feeSymbolLabel.text = [NSString stringWithFormat: NSLocalizedStringForKey(@"手续费()"), symbol];
+    self.feeSymbolLabel.text = [NSString stringWithFormat: NSLocalizedStringForKey(@"手续费()"), "ATC"];
     self.extractTFSymbolLabel.text = [NSString stringWithFormat: NSLocalizedStringForKey(@"到账数量()"), symbol];
     [self getWithdrawConfig];
     [self bindChainTypeView];
@@ -480,10 +481,11 @@
     if(textField == _amountTF){
         if (textField.text.length) {
             float amount = [textField.text floatValue];
-            float income = amount - [_infoEntity.fee floatValue];
-            if (income > 0) {
-                _finalExtractCoinAmountLabel.text = [NSString stringWithFormat:@"%.8f", income];
-            }
+            _finalExtractCoinAmountLabel.text = [NSString stringWithFormat:@"%.8f", amount];
+//            float income = amount - [_infoEntity.fee floatValue];
+//            if (income > 0) {
+//                _finalExtractCoinAmountLabel.text = [NSString stringWithFormat:@"%.8f", income];
+//            }
         }
     }
 }
@@ -535,10 +537,11 @@
 - (void)updateViewData
 {
     float amount = [self.amountTF.text floatValue];
-    float income = amount - [_infoEntity.fee floatValue];
-    if (income > 0) {
-        _finalExtractCoinAmountLabel.text = [NSString stringWithFormat:@"%.8f", income];
-    }
+    _finalExtractCoinAmountLabel.text = [NSString stringWithFormat:@"%.8f", amount];
+//    float income = amount - [_infoEntity.fee floatValue];
+//    if (income > 0) {
+//        _finalExtractCoinAmountLabel.text = [NSString stringWithFormat:@"%.8f", income];
+//    }
 }
 
 
@@ -550,7 +553,8 @@
     //[CommonUtil viewHeightForAutoLayout:_keyTypesView height:0];
     _amountSymbolLabel.text = [NSString stringWithFormat: NSLocalizedStringForKey(@"可用余额()"), (_symbol ?: @"")];
     _lockSymbolLabel.text = [NSString stringWithFormat: NSLocalizedStringForKey(@"冻结金额()"), _symbol ?: @""];
-    _feeSymbolLabel.text = [NSString stringWithFormat: NSLocalizedStringForKey(@"手续费()"), _symbol ?: @""];
+//    _feeSymbolLabel.text = [NSString stringWithFormat: NSLocalizedStringForKey(@"手续费()"), _symbol ?: @""];
+    self.feeSymbolLabel.text = [NSString stringWithFormat: NSLocalizedStringForKey(@"手续费()"), "ATC"];
     _extractTFSymbolLabel.text = [NSString stringWithFormat: NSLocalizedStringForKey(@"到账数量()"), _symbol ?: @""];
     
     _feeLabel.text = @"0.00000000";
