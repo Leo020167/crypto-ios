@@ -1,6 +1,6 @@
 
 /* Class = "UILabel"; text = "如果你要关闭或开启W.W.C.T的新消息通知，请在iPhone的“设置”-“通知”功能中，找到应用程序“W.W.C.T”更改。"; ObjectID = "38B-qs-9vf"; */
-"38B-qs-9vf.text" = "AI Trading Center 新しいメッセージ通知をオフにしたりオンにしたりする場合は、iPhoneの「設定」-「通知」機能で、アプリ「AI Trading Center 」の変更を探してください。";
+"38B-qs-9vf.text" = "Fwdetsc 新しいメッセージ通知をオフにしたりオンにしたりする場合は、iPhoneの「設定」-「通知」機能で、アプリ「Fwdetsc 」の変更を探してください。";
 
 /* Class = "UILabel"; text = "接收新消息通知"; ObjectID = "Ki7-CD-Fpj"; */
 "Ki7-CD-Fpj.text" = "新規メッセージ通知の受信";
@@ -15,4 +15,4 @@
 "YU0-QQ-raz.text" = "新しいメッセージの通知";
 
 /* Class = "UILabel"; text = "当W.W.C.T在运行时，你可以设置在客服、私聊是否需要声音或者振动。"; ObjectID = "Z7q-2Z-eIt"; */
-"Z7q-2Z-eIt.text" = "AI Trading Center 実行されているときに、カスタマーサービスやプライベートチャットで音や振動を必要とするかどうかを設定することができます";
+"Z7q-2Z-eIt.text" = "Fwdetsc 実行されているときに、カスタマーサービスやプライベートチャットで音や振動を必要とするかどうかを設定することができます";

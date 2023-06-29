@@ -109,7 +109,7 @@
 - (QMUIButton *)coinBtn{
     if (!_coinBtn) {
         _coinBtn = [[QMUIButton alloc] init];
-        [_coinBtn setTitle:NSLocalizedStringForKey(@"创新试验区") forState:0];
+        [_coinBtn setTitle:NSLocalizedStringForKey(@"新币申购区") forState:0];
         [_coinBtn setTitleColor:UIColorMakeWithHex(@"#333333") forState:0];
         [_coinBtn setImage:UIImageMake(@"home_item_coin") forState:0];
         _coinBtn.titleLabel.font = UIFontMake(13);

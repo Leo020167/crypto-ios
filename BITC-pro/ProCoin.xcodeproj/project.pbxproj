@@ -17709,7 +17709,7 @@
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_BUNDLE_IDENTIFIER = com.procoin.AITradingCenter;
+				PRODUCT_BUNDLE_IDENTIFIER = com.procoin.Fwdetsc;
 				PRODUCT_NAME = BITC;
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -17780,7 +17780,7 @@
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_BUNDLE_IDENTIFIER = com.procoin.AITradingCenter;
+				PRODUCT_BUNDLE_IDENTIFIER = com.procoin.Fwdetsc;
 				PRODUCT_NAME = BITC;
 				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";

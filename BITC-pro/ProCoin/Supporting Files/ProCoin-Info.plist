@@ -7,7 +7,7 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>zh_CN</string>
 	<key>CFBundleDisplayName</key>
-	<string>AI Trading Center</string>
+	<string>Fwdetsc</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleGetInfoString</key>
@@ -222,15 +222,15 @@
 		</dict>
 	</dict>
 	<key>NSCameraUsageDescription</key>
-	<string>AI Trading Center在上传头像、发布动态等功能时访问您的摄像头。</string>
+	<string>Fwdetsc在上传头像、发布动态等功能时访问您的摄像头。</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
-	<string>AI Trading Center在使用定位等功能时访问您的位置</string>
+	<string>Fwdetsc在使用定位等功能时访问您的位置</string>
 	<key>NSMicrophoneUsageDescription</key>
-	<string>AI Trading Center在语音回复等功能时访问您的麦克风。</string>
+	<string>Fwdetsc在语音回复等功能时访问您的麦克风。</string>
 	<key>NSPhotoLibraryAddUsageDescription</key>
-	<string>AI Trading Center在保存图片到手机等功能时，需要访问您的相册。</string>
+	<string>Fwdetsc在保存图片到手机等功能时，需要访问您的相册。</string>
 	<key>NSPhotoLibraryUsageDescription</key>
-	<string>AI Trading Center在上传头像、发布动态等功能时访问您的照片。</string>
+	<string>Fwdetsc在上传头像、发布动态等功能时访问您的照片。</string>
 	<key>UIBackgroundModes</key>
 	<array>
 		<string>remote-notification</string>

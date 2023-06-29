@@ -39,7 +39,7 @@
 "AppName" = "Cropyme";
 
 /*  */
-"AI Trading Center 认证商家" = "Comerciante certificado por AI Trading Center ";
+"Fwdetsc 认证商家" = "Comerciante certificado por Fwdetsc ";
 
 /* 重要 */
 "BYY官方" = "Byy Oficial";
@@ -515,7 +515,7 @@
 "划转记录" = "Récord de transferencia";
 
 /*  */
-"创新试验区" = "Zona piloto de innovación";
+"新币申购区" = "Zona piloto de innovación";
 
 /* 默认 */
 "删除" = "Borrar";
@@ -1195,10 +1195,10 @@
 "您暂无发布广告" = "you have not posted ads";
 
 
-"您正在向AI Trading Center 认证卖家购买%@ USDT" = "Está comprando %@ USDT de un vendedor certificado por AI Trading Center ";
+"您正在向Fwdetsc 认证卖家购买%@ USDT" = "Está comprando %@ USDT de un vendedor certificado por Fwdetsc ";
 
 /* 申购失败转换 */
-"您正在向AI Trading Center 认证卖家购买%@ USDT" = "You are buying %@ USDT from a AI Trading Center  certified seller";
+"您正在向Fwdetsc 认证卖家购买%@ USDT" = "You are buying %@ USDT from a Fwdetsc  certified seller";
 
 /* 选择个人头像 */
 "您的资料已修改，是否要保存？" = "Su perfil ha sido modificado, ¿quieres guardarlo?";
@@ -1252,7 +1252,7 @@
 "我已在%@一键跟上了TA的实盘交易" = "He seguido las operaciones en vivo de TA en %@one clic";
 
 /* 他是 */
-"我已在W.W.C.T一键跟上了TA的实盘交易" = "He seguido el intercambio en vivo de TA en \"AI Trading Center \" con un clic";
+"我已在W.W.C.T一键跟上了TA的实盘交易" = "He seguido el intercambio en vivo de TA en \"Fwdetsc \" con un clic";
 
 /* TA是 */
 "我已在procoin一键跟上了TA的实盘交易" = "I have followed his/her live trading at %@ with one clic";
@@ -1792,7 +1792,7 @@
 "标题" = "Título";
 
 /*  */
-"欢迎来到AI Trading Center " = "Bienvenido a AI Trading Center ";
+"欢迎来到Fwdetsc " = "Bienvenido a Fwdetsc ";
 
 /* 平台 */
 "欢迎页" = "Pagina de bienvenida";
@@ -1951,7 +1951,7 @@
 "清除缓存" = "Limpiar cache";
 
 /* 计算中 */
-"清除缓存后W.W.C.T上所有的头像、图片等要重新下载,是否清除?" = "Después de borrar el caché, todos los avatares y las imágenes en AI Trading Center  deben descargarse nuevamente.";
+"清除缓存后W.W.C.T上所有的头像、图片等要重新下载,是否清除?" = "Después de borrar el caché, todos los avatares y las imágenes en Fwdetsc  deben descargarse nuevamente.";
 
 /* 注销失败 */
 "清除缓存成功" = "Borrar el caché con éxito";
