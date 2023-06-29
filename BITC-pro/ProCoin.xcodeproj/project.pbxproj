@@ -17681,6 +17681,7 @@
 				DEVELOPMENT_TEAM = PFUYW3YK8B;
 				ENABLE_BITCODE = NO;
 				EXCLUDED_ARCHS = "";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)",
