@@ -65,8 +65,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.countryName = NSLocalizedStringForKey(@"香港");
-    self.countryCode = @"+852";
+//    self.countryName = NSLocalizedStringForKey(@"香港");
+//    self.countryCode = @"+852";
+    self.countryName = NSLocalizedStringForKey(@"中国");
+    self.countryCode = @"+86";
     _countryNameLabel.text = self.countryName;
     _countryCodeLabel.text = self.countryCode;
     
