@@ -23,8 +23,8 @@
 /* Class = "UILabel"; text = "点击注册即表示您已经阅读并同意W.W.C.T的"; ObjectID = "SeM-fo-ao2"; */
 "SeM-fo-ao2.text" = " En cliquant sur le registre, vous acceptez de «procurer»";
 
-/* Class = "UILabel"; text = "提示:密码必须是8-16位数字与字母组合"; ObjectID = "Vgu-GU-vGZ"; */
-"Vgu-GU-vGZ.text" = "Astuce: le mot de passe doit être une combinaison de 8 à 16 chiffres et lettres";
+/* Class = "UILabel"; text = "提示:密码必须是8-16位"; ObjectID = "Vgu-GU-vGZ"; */
+"Vgu-GU-vGZ.text" = "Astuce: le mot de passe doit être une combinaison de 8 à 16";
 
 /* Class = "UILabel"; text = "美国"; ObjectID = "WL3-ZB-WuB"; */
 "WL3-ZB-WuB.text" = "US";

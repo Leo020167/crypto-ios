@@ -23,8 +23,8 @@
 /* Class = "UILabel"; text = "点击注册即表示您已经阅读并同意W.W.C.T的"; ObjectID = "SeM-fo-ao2"; */
 "SeM-fo-ao2.text" = "레지스터를 클릭하면 'Procoin'에 동의합니다.";
 
-/* Class = "UILabel"; text = "提示:密码必须是8-16位数字与字母组合"; ObjectID = "Vgu-GU-vGZ"; */
-"Vgu-GU-vGZ.text" = "팁 : 암호는 8-16 자리와 문자의 조합 여야합니다.";
+/* Class = "UILabel"; text = "提示:密码必须是8-16位"; ObjectID = "Vgu-GU-vGZ"; */
+"Vgu-GU-vGZ.text" = "팁 : 암호는 8-16 .";
 
 /* Class = "UILabel"; text = "美国"; ObjectID = "WL3-ZB-WuB"; */
 "WL3-ZB-WuB.text" = "US";

@@ -179,7 +179,7 @@
 /* 释义：高手最近30天跟单人数，数值越大，代表跟随者越多，人气越高。 */
 "业绩走势" = "Tendencia de rendimiento";
 
-/* 密码必须为8到16位数字与字母组合! */
+/* 密码必须为8到16位! */
 "两次密码不一样!" = "¡Las dos contraseñas no son las mismas!";
 
 /* 设置交易密码 */
@@ -487,7 +487,7 @@
 /*  */
 "分享给朋友，让他们来雇您吧" = "¡Compártalo con tus amigos y deja que te contraten!";
 
-/* 提示:密码必须是8-16位数字与字母组合 */
+/* 提示:密码必须是8-16位 */
 "分享给朋友，让他们来雇您吧!" = "Share it with your friends and let them hire you!";
 
 /* 简介 */
@@ -883,7 +883,7 @@
 "客服" = "Servicio al Cliente";
 
 /* 验证码为数字! */
-"密码必须为8到16位数字与字母组合!" = "¡La contraseña debe ser una combinación de 8 a 16 dígitos y letras!";
+"密码必须为8到16位!" = "¡La contraseña debe ser una combinación de 8 a 16!";
 
 /* 跟单成功 */
 "少于%@ USDT的币种" = "Menos de %@ USDT moneda";
@@ -1450,7 +1450,7 @@
 "提示" = "Inmediato";
 
 /* 请再次输入密码 */
-"提示:密码必须是8-16位数字与字母组合" = "Consejo: la contraseña debe ser una combinación de 8-16 dígitos y letras";
+"提示:密码必须是8-16位" = "Consejo: la contraseña debe ser una combinación de 8-16";
 
 
 "提起申诉后资产将会冻结，申诉专员将介入本次交易，直至申诉结束。恶意申诉属于扰乱平台正常运营秩序的行为，情节严重将冻结账户." = "Assets will be frozen after filing a complaint, and the ombudsman will intervene in this transaction until the end of the complaint. Malicious complaints are acts that disrupt the normal operation of the platform, and if the circumstances are serious, the account will be frozen.";

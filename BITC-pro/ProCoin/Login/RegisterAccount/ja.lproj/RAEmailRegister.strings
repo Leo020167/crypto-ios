@@ -35,8 +35,8 @@
 /* Class = "UIButton"; normalTitle = "《用户协议》"; ObjectID = "s1t-T0-Jsu"; */
 "s1t-T0-Jsu.normalTitle" = "《ユーザプロトコル》";
 
-/* Class = "UILabel"; text = "提示:密码必须是8-16位数字与字母组合"; ObjectID = "v6L-1T-qzS"; */
-"v6L-1T-qzS.text" = "ヒント:パスワードは8~16桁の数字と文字を組み合わせてください";
+/* Class = "UILabel"; text = "提示:密码必须是8-16位"; ObjectID = "v6L-1T-qzS"; */
+"v6L-1T-qzS.text" = "ヒント:パスワードは8~16桁の";
 
 /* Class = "UIButton"; normalTitle = "Register with Phone"; ObjectID = "zfC-gq-jJY"; */
 "zfC-gq-jJY.normalTitle" = "モバイル登録";

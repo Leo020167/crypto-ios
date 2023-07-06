@@ -111,12 +111,13 @@
         if ([raDelegate respondsToSelector:@selector(RAShowToast:)]) [raDelegate RAShowToast:NSLocalizedStringForKey(@"请输入密码")];
     } else {
         if ([password1 isEqualToString:password2]) {
-            NSPredicate *pred  = [NSPredicate predicateWithFormat:@"SELF MATCHES %@", kRegexPassWordNumLetter];
+            //NSPredicate *pred  = [NSPredicate predicateWithFormat:@"SELF MATCHES %@", kRegexPassWordNumLetter];
             // 利用正则表达式检查密码是否正确
-            if ([pred evaluateWithObject:password1]) {
+            //if ([pred evaluateWithObject:password1]) {
+            if (password1.length >= 8 && password1.length <= 16 ) {
                 correct = YES;
             } else {
-                if ([raDelegate respondsToSelector:@selector(RAShowToast:)]) [raDelegate RAShowToast:NSLocalizedStringForKey(@"密码必须为8到16位数字与字母组合!")];
+                if ([raDelegate respondsToSelector:@selector(RAShowToast:)]) [raDelegate RAShowToast:NSLocalizedStringForKey(@"密码必须为8到16位!")];
             }
         } else {
             if ([raDelegate respondsToSelector:@selector(RAShowToast:)]) [raDelegate RAShowToast:NSLocalizedStringForKey(@"两次密码不一样!")];
