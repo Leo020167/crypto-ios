@@ -243,9 +243,7 @@
 		32510737270DAA84009CD38F /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 32510736270DAA84009CD38F /* 1.png */; };
 		32511DDD271450EC00EC2BB3 /* OTCCEll.m in Sources */ = {isa = PBXBuildFile; fileRef = 32511DDB271450EC00EC2BB3 /* OTCCEll.m */; };
 		32511DDE271450EC00EC2BB3 /* OTCCEll.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32511DDC271450EC00EC2BB3 /* OTCCEll.xib */; };
-		3262B7CA271579DD001E1CFB /* bluearrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 3262B7C9271579DD001E1CFB /* bluearrow.png */; };
 		3262B7CC271579E4001E1CFB /* roundarrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 3262B7CB271579E4001E1CFB /* roundarrow.png */; };
-		3262B7CE271579EA001E1CFB /* global.png in Resources */ = {isa = PBXBuildFile; fileRef = 3262B7CD271579EA001E1CFB /* global.png */; };
 		3262B7D0271579F0001E1CFB /* visa.png in Resources */ = {isa = PBXBuildFile; fileRef = 3262B7CF271579EF001E1CFB /* visa.png */; };
 		3262B7D427157E79001E1CFB /* CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3262B7D227157E79001E1CFB /* CollectionViewCell.m */; };
 		3262B7D527157E79001E1CFB /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3262B7D327157E79001E1CFB /* CollectionViewCell.xib */; };
@@ -639,7 +637,6 @@
 		615DCCC02080BF1C003D2AA9 /* NSStringAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 615DCCB92080BF1B003D2AA9 /* NSStringAdditions.m */; };
 		615DCCC32080BFC9003D2AA9 /* TTGlobalCoreLocale.m in Sources */ = {isa = PBXBuildFile; fileRef = 615DCCC12080BFC8003D2AA9 /* TTGlobalCoreLocale.m */; };
 		615DCCC62080BFD1003D2AA9 /* TTMarkupStripper.m in Sources */ = {isa = PBXBuildFile; fileRef = 615DCCC52080BFD1003D2AA9 /* TTMarkupStripper.m */; };
-		615E3FDF21B52FFF006529F4 /* bubble.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 615E3FDE21B52FFF006529F4 /* bubble.xcassets */; };
 		615E3FE121B531C1006529F4 /* TJRRecordView.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 615E3FE021B531C1006529F4 /* TJRRecordView.xcassets */; };
 		615E3FE921B5360F006529F4 /* PlayWave.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 615E3FE821B5360F006529F4 /* PlayWave.xcassets */; };
 		615E50C32225312300A2DB56 /* CircleJoinViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 615E50BB2225312200A2DB56 /* CircleJoinViewController.xib */; };
@@ -1766,9 +1763,7 @@
 		32511DDA271450EC00EC2BB3 /* OTCCEll.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OTCCEll.h; sourceTree = "<group>"; };
 		32511DDB271450EC00EC2BB3 /* OTCCEll.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OTCCEll.m; sourceTree = "<group>"; };
 		32511DDC271450EC00EC2BB3 /* OTCCEll.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OTCCEll.xib; sourceTree = "<group>"; };
-		3262B7C9271579DD001E1CFB /* bluearrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bluearrow.png; sourceTree = "<group>"; };
 		3262B7CB271579E4001E1CFB /* roundarrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = roundarrow.png; sourceTree = "<group>"; };
-		3262B7CD271579EA001E1CFB /* global.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = global.png; sourceTree = "<group>"; };
 		3262B7CF271579EF001E1CFB /* visa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = visa.png; sourceTree = "<group>"; };
 		3262B7D127157E79001E1CFB /* CollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CollectionViewCell.h; sourceTree = "<group>"; };
 		3262B7D227157E79001E1CFB /* CollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollectionViewCell.m; sourceTree = "<group>"; };
@@ -3212,7 +3207,6 @@
 		615DCCC22080BFC9003D2AA9 /* TTGlobalCoreLocale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTGlobalCoreLocale.h; sourceTree = "<group>"; };
 		615DCCC42080BFD1003D2AA9 /* TTMarkupStripper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTMarkupStripper.h; sourceTree = "<group>"; };
 		615DCCC52080BFD1003D2AA9 /* TTMarkupStripper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTMarkupStripper.m; sourceTree = "<group>"; };
-		615E3FDE21B52FFF006529F4 /* bubble.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = bubble.xcassets; sourceTree = "<group>"; };
 		615E3FE021B531C1006529F4 /* TJRRecordView.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = TJRRecordView.xcassets; sourceTree = "<group>"; };
 		615E3FE821B5360F006529F4 /* PlayWave.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = PlayWave.xcassets; sourceTree = "<group>"; };
 		615E50BB2225312200A2DB56 /* CircleJoinViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CircleJoinViewController.xib; sourceTree = "<group>"; };
@@ -7298,9 +7292,7 @@
 		3262B7C8271579C8001E1CFB /* images */ = {
 			isa = PBXGroup;
 			children = (
-				3262B7C9271579DD001E1CFB /* bluearrow.png */,
 				3262B7CB271579E4001E1CFB /* roundarrow.png */,
-				3262B7CD271579EA001E1CFB /* global.png */,
 				3262B7CF271579EF001E1CFB /* visa.png */,
 			);
 			path = images;
@@ -8790,7 +8782,6 @@
 			isa = PBXGroup;
 			children = (
 				616A8DD4202413C5003441B7 /* chat.xcassets */,
-				615E3FDE21B52FFF006529F4 /* bubble.xcassets */,
 			);
 			path = Chat;
 			sourceTree = "<group>";
@@ -12324,7 +12315,6 @@
 				395A91DC27587FD300B0235D /* PurchaseCoinCell.xib in Resources */,
 				615E50C72225312300A2DB56 /* CircleJoinHeaderView.xib in Resources */,
 				395A92A7275898DE00B0235D /* TJRSetUpLogoutCell.xib in Resources */,
-				615E3FDF21B52FFF006529F4 /* bubble.xcassets in Resources */,
 				395A921827588F1000B0235D /* SelectCoinController.xib in Resources */,
 				395A93432758A62D00B0235D /* KBTAssetsInfoHeaderView.xib in Resources */,
 				395A8D6D2757BA0500B0235D /* FODTradeDetailHeaderView.xib in Resources */,
@@ -12470,7 +12460,6 @@
 				395A8B462757509C00B0235D /* FundWayCell.xib in Resources */,
 				395A8FFE27585B8B00B0235D /* PCCoinOperationDetailController.xib in Resources */,
 				395A8E982758432400B0235D /* PCTransactionStopWinLossSettingView.xib in Resources */,
-				3262B7CA271579DD001E1CFB /* bluearrow.png in Resources */,
 				395A8E092758383E00B0235D /* CropymeDetailController.xib in Resources */,
 				395A8AB52757498F00B0235D /* EditCustomSymbolCell.xib in Resources */,
 				395A908D2758684C00B0235D /* CoinTransactionDetailController.xib in Resources */,
@@ -12617,7 +12606,6 @@
 				616A91F9202413C6003441B7 /* TJRFace_10@2x.png in Resources */,
 				616A91EE202413C6003441B7 /* CircleChat.xcassets in Resources */,
 				616A9213202413C6003441B7 /* TJRFace_133@2x.png in Resources */,
-				3262B7CE271579EA001E1CFB /* global.png in Resources */,
 				61FBF1A720736A1500641DD5 /* ZSSforcejustify.png in Resources */,
 				616A921D202413C6003441B7 /* TJRFace_143@2x.png in Resources */,
 				395A89DE27573D6400B0235D /* StoreDataCell.xib in Resources */,

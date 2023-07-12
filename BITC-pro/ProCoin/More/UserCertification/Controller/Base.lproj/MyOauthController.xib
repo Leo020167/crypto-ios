@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment version="2304" identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -22,7 +22,6 @@
                 <outlet property="statusBarView" destination="SbF-w4-cVS" id="0Gp-PO-h3B"/>
                 <outlet property="tfName" destination="HUs-ng-c0s" id="sjy-x9-FIk"/>
                 <outlet property="tfNum" destination="VHL-dz-iFJ" id="43K-nc-RJc"/>
-                <outlet property="titleView" destination="Mca-8j-216" id="OIN-Rq-TKr"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
                 <outlet property="viewCardHead" destination="C4p-o9-5aM" id="8i3-I1-8j8"/>
                 <outlet property="viewCardTail" destination="H6h-ZO-tsp" id="lQ0-gS-TRf"/>

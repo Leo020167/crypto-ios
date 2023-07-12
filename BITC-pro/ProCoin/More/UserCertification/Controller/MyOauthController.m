@@ -14,7 +14,6 @@
 #import "NetWorkManage+File.h"
 #import "CommonUtil.h"
 #import "UIImage+Size.h"
-#import "TJRBaseTitleView.h"
 #import "LoginSQLModel.h"
 #import "TZImagePickerController.h"
 #import "MyOauthPicAlertView.h"
@@ -42,7 +41,7 @@
 @property (retain, nonatomic) IBOutlet UIView *viewCardTail;
 @property (retain, nonatomic) IBOutlet UILabel *lbStatusMsg;
 @property (retain, nonatomic) IBOutlet UIView *statusBarView;
-@property (retain, nonatomic) IBOutlet TJRBaseTitleView *titleView;
+//@property (retain, nonatomic) IBOutlet TJRBaseTitleView *titleView;
 @property (retain, nonatomic) IBOutlet NSLayoutConstraint *layoutStatusBarTop;
 @property (retain, nonatomic) IBOutlet NSLayoutConstraint *layoutStatusBarHeight;
 
