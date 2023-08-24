@@ -39,7 +39,7 @@
 "AppName" = "Cropyme";
 
 /*  */
-"Fwdetsc 认证商家" = "Comerciante certificado por Fwdetsc ";
+"AIDTC 认证商家" = "Comerciante certificado por AIDTC ";
 
 /* 重要 */
 "BYY官方" = "Byy Oficial";
@@ -793,7 +793,7 @@
 "头像" = "Avatar";
 
 /*  */
-"奖励(ATC)" = "Recompensa (ATC)";
+"奖励(BICP)" = "Recompensa (BICP)";
 
 /* 男 */
 "女" = "Femenino";
@@ -1159,7 +1159,7 @@
 "总盈亏(USDT)" = "Ganancias y pérdidas totales (USDT)";
 
 /*  */
-"总资产(ATC)" = "Activos totales (ATC)";
+"总资产(BICP)" = "Activos totales (BICP)";
 
 "总资产(USDT)" = "Activos totales(USDT)";
 "总资产" = "Activos totales";
@@ -1195,10 +1195,10 @@
 "您暂无发布广告" = "you have not posted ads";
 
 
-"您正在向Fwdetsc 认证卖家购买%@ USDT" = "Está comprando %@ USDT de un vendedor certificado por Fwdetsc ";
+"您正在向AIDTC 认证卖家购买%@ USDT" = "Está comprando %@ USDT de un vendedor certificado por AIDTC ";
 
 /* 申购失败转换 */
-"您正在向Fwdetsc 认证卖家购买%@ USDT" = "You are buying %@ USDT from a Fwdetsc  certified seller";
+"您正在向AIDTC 认证卖家购买%@ USDT" = "You are buying %@ USDT from a AIDTC  certified seller";
 
 /* 选择个人头像 */
 "您的资料已修改，是否要保存？" = "Su perfil ha sido modificado, ¿quieres guardarlo?";
@@ -1252,7 +1252,7 @@
 "我已在%@一键跟上了TA的实盘交易" = "He seguido las operaciones en vivo de TA en %@one clic";
 
 /* 他是 */
-"我已在W.W.C.T一键跟上了TA的实盘交易" = "He seguido el intercambio en vivo de TA en \"Fwdetsc \" con un clic";
+"我已在W.W.C.T一键跟上了TA的实盘交易" = "He seguido el intercambio en vivo de TA en \"AIDTC \" con un clic";
 
 /* TA是 */
 "我已在procoin一键跟上了TA的实盘交易" = "I have followed his/her live trading at %@ with one clic";
@@ -1777,7 +1777,7 @@
 "查看" = "Controlar";
 
 /*  */
-"查看如何获取ATC？" = "Verifique cómo obtener ATC?";
+"查看如何获取BICP？" = "Verifique cómo obtener BICP?";
 
 
 "查看导师" = "Ver tutor";
@@ -1792,7 +1792,7 @@
 "标题" = "Título";
 
 /*  */
-"欢迎来到Fwdetsc " = "Bienvenido a Fwdetsc ";
+"欢迎来到AIDTC " = "Bienvenido a AIDTC ";
 
 /* 平台 */
 "欢迎页" = "Pagina de bienvenida";
@@ -1906,7 +1906,7 @@
 "消息推送" = "Push del mensaje";
 
 /*  */
-"消耗ATC" = "Consumir ATC";
+"消耗BICP" = "Consumir BICP";
 
 
 "涨幅榜" = "Lista";
@@ -1951,7 +1951,7 @@
 "清除缓存" = "Limpiar cache";
 
 /* 计算中 */
-"清除缓存后W.W.C.T上所有的头像、图片等要重新下载,是否清除?" = "Después de borrar el caché, todos los avatares y las imágenes en Fwdetsc  deben descargarse nuevamente.";
+"清除缓存后W.W.C.T上所有的头像、图片等要重新下载,是否清除?" = "Después de borrar el caché, todos los avatares y las imágenes en AIDTC  deben descargarse nuevamente.";
 
 /* 注销失败 */
 "清除缓存成功" = "Borrar el caché con éxito";
@@ -2194,7 +2194,7 @@
 "社区人数：%@" = "Número de comunidad:%@";
 
 /*  */
-"社区总奖励(ATC)" = "Premio a la comunidad total (ATC)";
+"社区总奖励(BICP)" = "Premio a la comunidad total (BICP)";
 
 /*  */
 "离强平价还剩 -" = "Restante a una fuerte paridad -";
@@ -2296,7 +2296,7 @@
 "获取验证码失败" = "No se pudo obtener el código de verificación";
 
 /*  */
-"获得ATC" = "Obtener ATC";
+"获得BICP" = "Obtener BICP";
 
 /* 上月收益 */
 "行情" = "Mercado";
