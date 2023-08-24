@@ -83,7 +83,8 @@
 - (UIView *)bgView{
     if (!_bgView) {
         _bgView = [[UIView alloc] init];
-        _bgView.backgroundColor = UIColor.whiteColor;
+        _bgView.backgroundColor = UIColor.clearColor;
+        //_bgView.backgroundColor = UIColor.whiteColor;
         _bgView.layer.cornerRadius = 10;
         _bgView.layer.masksToBounds = YES;
     }
@@ -99,7 +100,7 @@
         _vBtn.titleLabel.font = UIFontMake(13);
         _vBtn.spacingBetweenImageAndTitle = 5;
         _vBtn.imagePosition = QMUIButtonImagePositionTop;
-        _vBtn.backgroundColor = UIColor.whiteColor;
+        _vBtn.backgroundColor = UIColor.clearColor;
         _vBtn.tag = 1;
         [_vBtn addTarget:self action:@selector(btnAction:) forControlEvents:UIControlEventTouchUpInside];
     }
@@ -115,7 +116,7 @@
         _coinBtn.titleLabel.font = UIFontMake(13);
         _coinBtn.spacingBetweenImageAndTitle = 5;
         _coinBtn.imagePosition = QMUIButtonImagePositionTop;
-        _coinBtn.backgroundColor = UIColor.whiteColor;
+        _coinBtn.backgroundColor = UIColor.clearColor;
         _coinBtn.tag = 2;
         [_coinBtn addTarget:self action:@selector(btnAction:) forControlEvents:UIControlEventTouchUpInside];
     }
@@ -132,7 +133,7 @@
         _pledgeBtn.titleLabel.font = UIFontMake(13);
         _pledgeBtn.spacingBetweenImageAndTitle = 5;
         _pledgeBtn.imagePosition = QMUIButtonImagePositionTop;
-        _pledgeBtn.backgroundColor = UIColor.whiteColor;
+        _pledgeBtn.backgroundColor = UIColor.clearColor;
         _pledgeBtn.tag = 3;
         [_pledgeBtn addTarget:self action:@selector(btnAction:) forControlEvents:UIControlEventTouchUpInside];
     }
@@ -148,7 +149,7 @@
         _otcBtn.titleLabel.font = UIFontMake(13);
         _otcBtn.spacingBetweenImageAndTitle = 5;
         _otcBtn.imagePosition = QMUIButtonImagePositionTop;
-        _otcBtn.backgroundColor = UIColor.whiteColor;
+        _otcBtn.backgroundColor = UIColor.clearColor;
         _otcBtn.tag = 4;
         [_otcBtn addTarget:self action:@selector(btnAction:) forControlEvents:UIControlEventTouchUpInside];
     }
@@ -164,7 +165,7 @@
         _serviceBtn.titleLabel.font = UIFontMake(13);
         _serviceBtn.spacingBetweenImageAndTitle = 5;
         _serviceBtn.imagePosition = QMUIButtonImagePositionTop;
-        _serviceBtn.backgroundColor = UIColor.whiteColor;
+        _serviceBtn.backgroundColor = UIColor.clearColor;
         _serviceBtn.tag = 5;
         [_serviceBtn addTarget:self action:@selector(btnAction:) forControlEvents:UIControlEventTouchUpInside];
     }

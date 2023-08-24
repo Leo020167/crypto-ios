@@ -5,12 +5,11 @@
       "scale" : "1x"
     },
     {
-      "filename" : "p2p_logo_ok_big@2x.png",
+      "filename" : "操作结果.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "p2p_logo_ok_big@3x.png",
       "idiom" : "universal",
       "scale" : "3x"
     }

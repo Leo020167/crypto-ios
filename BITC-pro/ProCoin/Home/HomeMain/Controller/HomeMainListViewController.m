@@ -112,17 +112,6 @@
             make.centerY.mas_equalTo(self.headerView);
         }];
         
-        QMUIButton *priceBtn = [[QMUIButton alloc] init];
-        [priceBtn setTitle:NSLocalizedStringForKey(@"最新价") forState:0];
-        [priceBtn setTitleColor:UIColorMakeWithHex(@"#999999") forState:0];
-        priceBtn.titleLabel.font = UIFontMake(13);
-        priceBtn.imagePosition = QMUIButtonImagePositionRight;
-        priceBtn.spacingBetweenImageAndTitle = 5;
-        [_headerView addSubview:priceBtn];
-        [priceBtn mas_makeConstraints:^(MASConstraintMaker *make) {
-            make.centerY.mas_equalTo(self.headerView);
-            make.centerX.mas_equalTo(self.headerView.mas_centerX).offset(-15);
-        }];
         
         QMUIButton *rateBtn = [[QMUIButton alloc] init];
         [rateBtn setTitle:NSLocalizedStringForKey(@"涨跌幅") forState:0];
@@ -132,9 +121,23 @@
         rateBtn.spacingBetweenImageAndTitle = 5;
         [_headerView addSubview:rateBtn];
         [rateBtn mas_makeConstraints:^(MASConstraintMaker *make) {
-            make.right.mas_equalTo(-35);
+            make.right.mas_equalTo(-30);
             make.centerY.mas_equalTo(self.headerView);
         }];
+        
+        QMUIButton *priceBtn = [[QMUIButton alloc] init];
+        [priceBtn setTitle:NSLocalizedStringForKey(@"最新价") forState:0];
+        [priceBtn setTitleColor:UIColorMakeWithHex(@"#999999") forState:0];
+        priceBtn.titleLabel.font = UIFontMake(13);
+        priceBtn.imagePosition = QMUIButtonImagePositionRight;
+        priceBtn.spacingBetweenImageAndTitle = 5;
+        [_headerView addSubview:priceBtn];
+        [priceBtn mas_makeConstraints:^(MASConstraintMaker *make) {
+            make.centerY.mas_equalTo(self.headerView);
+            //make.centerX.mas_equalTo(self.headerView.mas_centerX).offset(-15);
+            make.right.mas_equalTo(rateBtn.mas_left).offset(-70);
+        }];
+
     }
     return _headerView;
 }

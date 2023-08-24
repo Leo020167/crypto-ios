@@ -192,7 +192,7 @@
         [_headerView addSubview:priceBtn];
         [priceBtn mas_makeConstraints:^(MASConstraintMaker *make) {
             make.centerY.mas_equalTo(self.headerView);
-            make.centerX.mas_equalTo(self.headerView.mas_centerX).offset(-15);
+            make.centerX.mas_equalTo(self.headerView.mas_centerX).offset(5);
         }];
         
         QMUIButton *rateBtn = [[QMUIButton alloc] init];

@@ -116,7 +116,7 @@
     [iconBtn mas_makeConstraints:^(MASConstraintMaker *make) {
         make.left.mas_equalTo(10);
         make.top.mas_equalTo(kUIStatusBarHeight);
-        make.height.mas_equalTo(44);
+        make.width.height.mas_equalTo(44);
     }];
 //    UIImageView *logoImageView = [[UIImageView alloc] init];
 //    logoImageView.image = UIImageMake(@"home_main_logo_word");
@@ -369,7 +369,7 @@
 }
 
 - (NSUInteger)tableHeaderViewHeightInPagerView:(JXPagerView *)pagerView {
-    return ceil((SCREEN_WIDTH - 20) / 2.1) + 20 + 55 + 240 + kUINormalNavBarHeight;
+    return ceil((SCREEN_WIDTH - 20) / 2.1) + 10 + 240 + kUINormalNavBarHeight;
 }
 
 - (NSUInteger)heightForPinSectionHeaderInPagerView:(JXPagerView *)pagerView {
@@ -420,7 +420,7 @@
 
 - (HomeMainHeaderView *)headerView{
     if (!_headerView) {
-        _headerView = [[HomeMainHeaderView alloc] initWithFrame:CGRectMake(0, 0, SCREEN_WIDTH, 440 + ceil((SCREEN_WIDTH - 20) / 2.1))];
+        _headerView = [[HomeMainHeaderView alloc] initWithFrame:CGRectMake(0, 0, SCREEN_WIDTH, 380 + ceil((SCREEN_WIDTH - 20) / 2.1))];
         _headerView.announceViewActionBlock = ^{
             [self pageToViewControllerForName:@"PCAnnounceController"];
         };

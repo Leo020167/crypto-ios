@@ -2311,7 +2311,7 @@
 "获得ATC" = "Get ATC";
 
 /* 上月收益 */
-"行情" = "quotes";
+"市场" = "quotes";
 
 
 "解绑" = "untie";
@@ -2737,7 +2737,7 @@
 "账号" = "account";
 
 /* 暂时无关注的自选 */
-"账户" = "account";
+"资产" = "account";
 
 /* 您尚未订阅该用户 */
 "账户余额可用" = "Account balance available";

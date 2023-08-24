@@ -1305,6 +1305,8 @@
 		73AE5C44292F45C400614A77 /* ExtAddressViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 73AE5C42292F45C400614A77 /* ExtAddressViewController.xib */; };
 		73AE5C48292F477200614A77 /* ExtAddressCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 73AE5C46292F477200614A77 /* ExtAddressCell.m */; };
 		73AE5C4D292F4DAA00614A77 /* ExtNewAddressViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73AE5C4B292F4DAA00614A77 /* ExtNewAddressViewController.m */; };
+		73EF48572A6A739C001BF5B2 /* HomeBannerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 73EF48562A6A739C001BF5B2 /* HomeBannerCell.m */; };
+		73EF485A2A6A7463001BF5B2 /* HomeAnnounceCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 73EF48592A6A7463001BF5B2 /* HomeAnnounceCell.m */; };
 		73F7D62C293CFAE400DCCC6D /* PledgeIndexViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 73F7D62E293CFAE400DCCC6D /* PledgeIndexViewController.xib */; };
 		73F7D63F293CFB2200DCCC6D /* PledgeIndexCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 73F7D641293CFB2200DCCC6D /* PledgeIndexCell.xib */; };
 		73F7D652293CFB4400DCCC6D /* PledgeRecordCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 73F7D654293CFB4400DCCC6D /* PledgeRecordCell.xib */; };
@@ -5286,6 +5288,10 @@
 		73DE51F7292DC4B000CAD24F /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/StoreMainVC.strings; sourceTree = "<group>"; };
 		73DE51F8292DC4B000CAD24F /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/Localizable.strings; sourceTree = "<group>"; };
 		73DE51F9292DC4B000CAD24F /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		73EF48552A6A739C001BF5B2 /* HomeBannerCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeBannerCell.h; sourceTree = "<group>"; };
+		73EF48562A6A739C001BF5B2 /* HomeBannerCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeBannerCell.m; sourceTree = "<group>"; };
+		73EF48582A6A7463001BF5B2 /* HomeAnnounceCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeAnnounceCell.h; sourceTree = "<group>"; };
+		73EF48592A6A7463001BF5B2 /* HomeAnnounceCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeAnnounceCell.m; sourceTree = "<group>"; };
 		73F7D62D293CFAE400DCCC6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/PledgeIndexViewController.xib; sourceTree = "<group>"; };
 		73F7D630293CFAEC00DCCC6D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/PledgeIndexViewController.strings; sourceTree = "<group>"; };
 		73F7D632293CFAED00DCCC6D /* zh-HK */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-HK"; path = "zh-HK.lproj/PledgeIndexViewController.strings"; sourceTree = "<group>"; };
@@ -7460,6 +7466,10 @@
 				39369854275F335D00643867 /* HomeMainOTCCell.m */,
 				39369852275F335D00643867 /* HomeMainQuotationsListCell.h */,
 				3936984D275F335D00643867 /* HomeMainQuotationsListCell.m */,
+				73EF48552A6A739C001BF5B2 /* HomeBannerCell.h */,
+				73EF48562A6A739C001BF5B2 /* HomeBannerCell.m */,
+				73EF48582A6A7463001BF5B2 /* HomeAnnounceCell.h */,
+				73EF48592A6A7463001BF5B2 /* HomeAnnounceCell.m */,
 			);
 			path = HomeMain;
 			sourceTree = "<group>";
@@ -13062,6 +13072,7 @@
 				6711780F215F8CD200381659 /* RZRefreshHeader.m in Sources */,
 				0420B32823167D5E008DB4D8 /* SearchCoinSQL.m in Sources */,
 				0431F83B23BE024000E69C66 /* LeverageAddBondBalanceView.m in Sources */,
+				73EF485A2A6A7463001BF5B2 /* HomeAnnounceCell.m in Sources */,
 				61FBF4482073765700641DD5 /* RSA.m in Sources */,
 				61FBF3232073719B00641DD5 /* OverlapButton.m in Sources */,
 				39C0C142272C06E1009DE110 /* MineDelegateInfoModel.m in Sources */,
@@ -13213,6 +13224,7 @@
 				04944FE32326570F00BB59F3 /* ChargeCoinController.m in Sources */,
 				0426531722FD6F1F004B6628 /* CDHoldCoinMarketController.m in Sources */,
 				61FBF3732073728800641DD5 /* BarrageFloatSpirit.m in Sources */,
+				73EF48572A6A739C001BF5B2 /* HomeBannerCell.m in Sources */,
 				61FBF3792073728800641DD5 /* BarrageWalkTextSpirit.m in Sources */,
 				615DCCBF2080BF1C003D2AA9 /* NSObjectAdditions.m in Sources */,
 				6727C73622AFB81000B2B43D /* LineDataEntity.m in Sources */,

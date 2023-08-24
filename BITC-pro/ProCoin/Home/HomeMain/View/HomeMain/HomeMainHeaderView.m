@@ -14,13 +14,15 @@
 #import "RZWebImageView.h"
 #import "CommonUtil.h"
 #import "RZSmallVideoManager.h"
-#import "SDCycleScrollView.h"
+
 #import "RZWebImageView.h"
 #import "PCAnnounceModel.h"
 #import "LMJVerticalScrollText.h"
 #import "CollectionViewCell.h"
 #import "NSString+Align.h"
 #import "HomeMainOTCCell.h"
+#import "HomeBannerCell.h"
+#import "HomeAnnounceCell.h"
 
 @interface HomeMainHeaderView ()<UITableViewDelegate, UITableViewDataSource, SDCycleScrollViewDelegate, LMJVerticalScrollTextDelegate>
 
@@ -55,7 +57,9 @@
     tableView.tableFooterView = [[UIView alloc] init];
     tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
     [tableView registerClass:[HomeMainQuotationsCell class] forCellReuseIdentifier:NSStringFromClass([HomeMainQuotationsCell class])];
+    [tableView registerClass:[HomeBannerCell class] forCellReuseIdentifier:NSStringFromClass([HomeBannerCell class])];
     [tableView registerClass:[HomeMainOTCCell class] forCellReuseIdentifier:NSStringFromClass([HomeMainOTCCell class])];
+    [tableView registerClass:[HomeAnnounceCell class] forCellReuseIdentifier:NSStringFromClass([HomeAnnounceCell class])];
     self.tableView = tableView;
     [self addSubview:self.tableView];
     [tableView mas_makeConstraints:^(MASConstraintMaker *make) {
@@ -64,19 +68,25 @@
 }
 
 - (void)setBannerArray:(NSMutableArray *)bannerArray{
-    _bannerArray = bannerArray;
-    self.cycleScrollView.imageURLStringsGroup = bannerArray;
+    _bannerArray = [[NSMutableArray alloc] initWithArray: bannerArray];
+    //self.cycleScrollView.imageURLStringsGroup = bannerArray;
+    [self.tableView reloadRowsAtIndexPaths:@[[NSIndexPath indexPathForRow:1 inSection:0]]  withRowAnimation:UITableViewRowAnimationNone];
 }
 
 - (void)setQuoteArray:(NSMutableArray *)quoteArray{
     _quoteArray = quoteArray;
-    [self.tableView reloadData];
+    //[self.tableView reloadData];
+    [self.tableView reloadRowsAtIndexPaths:@[[NSIndexPath indexPathForRow:2 inSection:0]] withRowAnimation:UITableViewRowAnimationNone];
 }
 
 - (void)setAnnounceDataArr:(NSMutableArray *)announceDataArr{
-    [self.scrollText stopToEmpty];
-    self.scrollText.textDataArr = announceDataArr;
-    [self.scrollText startScrollBottomToTopWithNoSpace];
+//    _announceDataArr = [[NSMutableArray alloc] initWithArray: announceDataArr];
+//
+//    //[self.scrollText stopToEmpty];
+//    //self.scrollText.textDataArr = announceDataArr;
+//    //[self.scrollText startScrollBottomToTopWithNoSpace];
+//
+//    [self.tableView reloadRowsAtIndexPaths:@[[NSIndexPath indexPathForRow:1 inSection:0]]  withRowAnimation:UITableViewRowAnimationNone];
 }
 
 /// 公告
@@ -93,90 +103,65 @@
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
-    return 2;
+    return 3;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
     if (indexPath.row == 0) {
-        HomeMainQuotationsCell *cell = [tableView dequeueReusableCellWithIdentifier:NSStringFromClass([HomeMainQuotationsCell class]) forIndexPath:indexPath];
-        cell.dataArray = self.quoteArray;
-        cell.clickDataBlock = ^(HomeQuoteModel * _Nonnull model) {
-            if (self.quotationsDataBlock) {
-                self.quotationsDataBlock(model);
-            }
+        HomeMainOTCCell *cell = [tableView dequeueReusableCellWithIdentifier:NSStringFromClass([HomeMainOTCCell class]) forIndexPath:indexPath];
+        cell.clickActionBlock = ^(NSUInteger type) {
+            [self clickAction:type];
         };
         return cell;
+    } else if (indexPath.row == 1) {
+//        HomeAnnounceCell *cell = [tableView dequeueReusableCellWithIdentifier:NSStringFromClass([HomeAnnounceCell class]) forIndexPath:indexPath];
+//        if (self.announceDataArr.count > 0) {
+//            cell.announceDataArr = self.announceDataArr;
+//        }
+//        return cell;
+        HomeBannerCell *cell = [tableView dequeueReusableCellWithIdentifier:NSStringFromClass([HomeBannerCell class]) forIndexPath:indexPath];
+        if (self.bannerArray.count > 0) {
+            cell.bannerArray = self.bannerArray;
+        }
+        return cell;
     }
-    HomeMainOTCCell *cell = [tableView dequeueReusableCellWithIdentifier:NSStringFromClass([HomeMainOTCCell class]) forIndexPath:indexPath];
-    cell.clickActionBlock = ^(NSUInteger type) {
-        [self clickAction:type];
+    HomeMainQuotationsCell *cell = [tableView dequeueReusableCellWithIdentifier:NSStringFromClass([HomeMainQuotationsCell class]) forIndexPath:indexPath];
+    cell.dataArray = self.quoteArray;
+    cell.clickDataBlock = ^(HomeQuoteModel * _Nonnull model) {
+        if (self.quotationsDataBlock) {
+            self.quotationsDataBlock(model);
+        }
     };
     return cell;
 }
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
-    return indexPath.row == 0 ? 120 : 110;
+    if (indexPath.row == 0) {
+        return 110;
+    } else if (indexPath.row == 1) {
+        //return 60;
+        return ceil((SCREEN_WIDTH - 20) / 2.1);
+    }
+    return 130;
+    //return indexPath.row == 0 ? 120 : 110;
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+//    if (indexPath.row == 1) {
+//        [self announceViewAction];
+//    }
 }
 
 #pragma mark =========================== 懒加载 ===========================
 - (UIView *)headerView{
     if (!_headerView) {
-        _headerView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, SCREEN_WIDTH - 20, ceil((SCREEN_WIDTH - 20) / 2.1) + 20 + 55)];
-        [_headerView addSubview:self.cycleScrollView];
-        
-        UIView *announceView = [[UIView alloc] initWithFrame:CGRectMake(0, ceil((SCREEN_WIDTH - 20) / 2.1) + 20, SCREEN_WIDTH - 20, 50)];
-        announceView.backgroundColor = UIColor.whiteColor;
-        announceView.layer.cornerRadius = 10;
-        announceView.layer.masksToBounds = YES;
-        [announceView addGestureRecognizer:[[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(announceViewAction)]];
-        [_headerView addSubview:announceView];
-        
-        UIImageView *logoImageView = [[UIImageView alloc] initWithImage:UIImageMake(@"home_notice")];
-        [announceView addSubview:logoImageView];
-        [logoImageView mas_makeConstraints:^(MASConstraintMaker *make) {
-            make.left.mas_equalTo(18);
-            make.size.mas_equalTo(20);
-            make.centerY.mas_equalTo(announceView);
-        }];
-        
-        
-        UIImageView *arrowImageView = [[UIImageView alloc] initWithImage:UIImageMake(@"home_notice_arrow")];
-        [announceView addSubview:arrowImageView];
-        [arrowImageView mas_makeConstraints:^(MASConstraintMaker *make) {
-            make.right.mas_equalTo(-36);
-            make.size.mas_equalTo(CGSizeMake(28, 21));
-            make.centerY.mas_equalTo(announceView);
-        }];
-        
-        self.scrollText = [[LMJVerticalScrollText alloc] initWithFrame:CGRectMake(47, 0, SCREEN_WIDTH - 47 - 20 - 60, 50)];
-        self.scrollText.delegate            = self;
-        self.scrollText.textStayTime        = 2;
-        self.scrollText.scrollAnimationTime = 1;
-        self.scrollText.backgroundColor     = [UIColor whiteColor];
-        self.scrollText.textColor           = RGBA(61, 58, 80, 1.0);
-        self.scrollText.textFont            = [UIFont boldSystemFontOfSize:14.f];
-        self.scrollText.textAlignment       = NSTextAlignmentLeft;
-        self.scrollText.touchEnable         = NO;
-        self.scrollText.layer.cornerRadius  = 3;
-        [announceView addSubview:self.scrollText];
+//        _headerView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, SCREEN_WIDTH - 20, ceil((SCREEN_WIDTH - 20) / 2.1) + 5 )];
+        _headerView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 0, 0)];
+
     }
     return _headerView;
 }
 
-- (SDCycleScrollView *)cycleScrollView{
-    if (!_cycleScrollView) {
-        _cycleScrollView = [SDCycleScrollView cycleScrollViewWithFrame:CGRectMake(0, 10, SCREEN_WIDTH - 20, (SCREEN_WIDTH - 20) / 2.1) delegate:self placeholderImage:nil];
-        _cycleScrollView.pageControlAliment = SDCycleScrollViewPageContolAlimentRight;
-        _cycleScrollView.currentPageDotColor = UIColorMakeWithHex(@"#008FE6");
-        _cycleScrollView.pageDotColor = [UIColor whiteColor];
-        _cycleScrollView.backgroundColor = UIColorClear;
-        _cycleScrollView.layer.cornerRadius = 10;
-        _cycleScrollView.layer.masksToBounds = YES;
-    }
-    return _cycleScrollView;
-}
-
 @end
+
+

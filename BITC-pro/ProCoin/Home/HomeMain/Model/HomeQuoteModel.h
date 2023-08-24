@@ -11,6 +11,7 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface HomeQuoteModel : NSObject
+@property (nonatomic, copy) NSString *image;
 
 @property (nonatomic, copy) NSString *symbol;
 

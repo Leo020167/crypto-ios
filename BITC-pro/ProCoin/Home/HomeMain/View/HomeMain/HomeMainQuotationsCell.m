@@ -7,8 +7,11 @@
 //
 
 #import "HomeMainQuotationsCell.h"
+#import "RZWebImageView.h"
 
 @interface HomeMainSecondCell : UICollectionViewCell
+
+@property (nonatomic, strong) RZWebImageView *iconImageView;
 
 @property (nonatomic, strong) UILabel *nameLabel;
 
@@ -34,13 +37,19 @@
 }
 
 - (void)initUI{
+    [self.contentView addSubview:self.iconImageView];
     [self.contentView addSubview:self.nameLabel];
     [self.contentView addSubview:self.rateLabel];
     [self.contentView addSubview:self.moneyLabel];
     [self.contentView addSubview:self.approximateLabel];
     [self.nameLabel mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.centerX.mas_equalTo(self);
+        make.centerX.mas_equalTo(self).offset(10);
         make.top.mas_equalTo(15);
+    }];
+    [self.iconImageView mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.right.mas_equalTo(self.nameLabel.mas_left).offset(-5);
+        make.centerY.mas_equalTo(self.nameLabel);
+        make.size.mas_equalTo(CGSizeMake(16, 16));
     }];
     [self.rateLabel mas_makeConstraints:^(MASConstraintMaker *make) {
         make.top.mas_equalTo(self.nameLabel.mas_bottom).offset(10);
@@ -57,6 +66,7 @@
 }
 
 - (void)setModel:(HomeQuoteModel *)model{
+    [self.iconImageView showImageWithUrl:model.image];
     self.nameLabel.text = [NSString stringWithFormat:@"%@/%@", model.symbol, model.currency];
     self.rateLabel.text = [NSString stringWithFormat:@"%@%@", model.rate, @"%"];
     self.moneyLabel.text = model.price;
@@ -66,6 +76,21 @@
 }
 
 #pragma mark =========================== 懒加载 ===========================
+/** 懒加载UI*/
+- (RZWebImageView *)iconImageView
+{
+    if(!_iconImageView){
+        _iconImageView = [[RZWebImageView alloc] init];
+        _iconImageView.userInteractionEnabled = NO;
+        _iconImageView.clipsToBounds = YES;
+        _iconImageView.contentMode = UIViewContentModeScaleAspectFit;
+        //_iconImageView.backgroundColor = [UIColor lightGrayColor];
+    }
+    return _iconImageView;
+}
+
+
+
 - (UILabel *)nameLabel{
     if (!_nameLabel) {
         _nameLabel = [[UILabel alloc] init];
@@ -126,7 +151,7 @@
     self.backgroundColor = UIColor.clearColor;
     [self.contentView addSubview:self.collectionView];
     [self.collectionView mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.edges.mas_equalTo(UIEdgeInsetsMake(5, 0, 0, 0));
+        make.edges.mas_equalTo(UIEdgeInsetsMake(10, 0, 0, 0));
     }];
 }
 

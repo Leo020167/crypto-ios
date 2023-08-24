@@ -5,17 +5,18 @@
       "scale" : "1x"
     },
     {
+      "filename" : "搜索失败@2x.png",
       "idiom" : "universal",
-      "filename" : "home_follow_bg_no_data.png",
       "scale" : "2x"
     },
     {
+      "filename" : "搜索失败@3x.png",
       "idiom" : "universal",
       "scale" : "3x"
     }
   ],
   "info" : {
-    "version" : 1,
-    "author" : "xcode"
+    "author" : "xcode",
+    "version" : 1
   }
 }

@@ -7,11 +7,14 @@
 //
 
 #import "TYQuotationsListCell.h"
+#import "RZWebImageView.h"
 
 @interface TYQuotationsListCell () {
     HomeQuoteModel *itemModel;
     BOOL didShow;
 }
+
+@property (nonatomic, strong) RZWebImageView *iconImageView;
 
 @property (nonatomic, strong) UILabel *nameLabel;
 
@@ -39,19 +42,29 @@
 
 - (void)initUI{
     [self.contentView addSubview:self.cellView];
+    [self.contentView addSubview:self.iconImageView];
     [self.contentView addSubview:self.nameLabel];
     [self.contentView addSubview:self.descLabel];
     [self.contentView addSubview:self.priceLabel];
     [self.contentView addSubview:self.amountLabel];
     [self.contentView addSubview:self.rateLabel];
+
     [self.cellView mas_makeConstraints:^(MASConstraintMaker *make) {
         make.left.mas_equalTo(0);
         make.top.mas_equalTo(0);
         make.right.mas_equalTo(0);
         make.bottom.mas_equalTo(0);
     }];
+    
+    [self.iconImageView mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.left.mas_equalTo(10);
+        make.centerY.mas_equalTo(0);
+        make.size.mas_equalTo(CGSizeMake(38, 38));
+    }];
+    
     [self.nameLabel mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.left.mas_equalTo(19);
+        //make.left.mas_equalTo(19);
+        make.left.mas_equalTo(self.iconImageView.mas_right).offset(10);
         make.top.mas_equalTo(20);
     }];
     [self.descLabel mas_makeConstraints:^(MASConstraintMaker *make) {
@@ -59,7 +72,7 @@
         make.bottom.mas_equalTo(-20);
     }];
     [self.priceLabel mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.centerX.mas_equalTo(self);
+        make.centerX.mas_equalTo(self).offset(20);
         make.width.mas_equalTo(100);
         make.centerY.mas_equalTo(self.nameLabel);
     }];
@@ -75,6 +88,7 @@
 }
 
 - (void)bindModel:(HomeQuoteModel *)model index: (NSInteger)index {
+    [self.iconImageView showImageWithUrl:model.image];
     self.nameLabel.text = [NSString stringWithFormat:@"%@", model.symbol];
     self.descLabel.text = model.name;
     self.rateLabel.text = [NSString stringWithFormat:@"%@%@", model.rate, @"%"];
@@ -127,6 +141,21 @@
 
 
 #pragma mark =========================== 懒加载 ===========================
+/** 懒加载UI*/
+- (RZWebImageView *)iconImageView
+{
+    if(!_iconImageView){
+        _iconImageView = [[RZWebImageView alloc] init];
+        _iconImageView.userInteractionEnabled = NO;
+        _iconImageView.clipsToBounds = YES;
+        _iconImageView.contentMode = UIViewContentModeScaleAspectFit;
+        //_iconImageView.backgroundColor = [UIColor lightGrayColor];
+    }
+    return _iconImageView;
+}
+
+
+
 - (UIView *)cellView {
     if (!_cellView) {
         _cellView = [[UIView alloc] init];

@@ -55,7 +55,7 @@
     navView.backgroundColor = UIColor.whiteColor;
     
     UILabel *titleLabel = [[UILabel alloc] init];
-    titleLabel.text = NSLocalizedStringForKey(@"行情");
+    titleLabel.text = NSLocalizedStringForKey(@"市场");
     titleLabel.textColor = UIColor.blackColor;
     titleLabel.font = UIFontMake(17);
     [navView addSubview:titleLabel];

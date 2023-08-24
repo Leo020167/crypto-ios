@@ -2299,7 +2299,7 @@
 "获得ATC" = "Obtener ATC";
 
 /* 上月收益 */
-"行情" = "Mercado";
+"市场" = "Mercado";
 
 
 "解绑" = "Desatar";
@@ -2725,7 +2725,7 @@
 "账号" = "Número de cuenta";
 
 /* 暂时无关注的自选 */
-"账户" = "Cuenta";
+"资产" = "Cuenta";
 
 /* 您尚未订阅该用户 */
 "账户余额可用" = "Saldo de la cuenta disponible";

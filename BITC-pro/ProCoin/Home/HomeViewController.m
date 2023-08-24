@@ -166,8 +166,8 @@
 {
     NSArray *array = @[
                         @{TabClassKey:@"HomeMainController",TabClassTitle:NSLocalizedStringForKey(@"首页"),TabClassImageKey:@"tabbar_icon3_normal",TabClassSelectImageKey:@"tabbar_icon3_selected"},
-                       @{TabClassKey:@"TYQuotationsBaseViewController",TabClassTitle:NSLocalizedStringForKey(@"行情"),TabClassImageKey:@"tabbar_icon4_normal",TabClassSelectImageKey:@"tabbar_icon4_selected"},
-                       @{TabClassKey:@"TYAccountBaseViewController",TabClassTitle:NSLocalizedStringForKey(@"账户"),TabClassImageKey:@"tabbar_icon1_normal",TabClassSelectImageKey:@"tabbar_icon1_selected"},
+                       @{TabClassKey:@"TYQuotationsBaseViewController",TabClassTitle:NSLocalizedStringForKey(@"市场"),TabClassImageKey:@"tabbar_icon4_normal",TabClassSelectImageKey:@"tabbar_icon4_selected"},
+                       @{TabClassKey:@"TYAccountBaseViewController",TabClassTitle:NSLocalizedStringForKey(@"资产"),TabClassImageKey:@"tabbar_icon1_normal",TabClassSelectImageKey:@"tabbar_icon1_selected"},
                        @{TabClassKey:@"TYMineCommunityViewController",TabClassTitle:NSLocalizedStringForKey(@"社区"),TabClassImageKey:@"tabbar_icon2_normal",TabClassSelectImageKey:@"tabbar_icon2_selected"},
                        @{TabClassKey:@"HomeMineViewController",TabClassTitle:NSLocalizedStringForKey(@"我的"),TabClassImageKey:@"tabbar_icon5_normal",TabClassSelectImageKey:@"tabbar_icon5_selected"},
                       ];
@@ -178,8 +178,9 @@
         UIViewController *viewController = [[[NSClassFromString([tabDic objectForKey:TabClassKey]) alloc] init] autorelease];
         viewController.tabBarItem.title = tabDic[TabClassTitle];
         [viewController.tabBarItem setTitleTextAttributes:@{NSForegroundColorAttributeName:RGBA(61, 58, 80, 0.3)} forState:UIControlStateNormal];
-        [viewController.tabBarItem setTitleTextAttributes:@{NSForegroundColorAttributeName:RGBA(61, 58, 80, 1.0)} forState:UIControlStateSelected];
+        [viewController.tabBarItem setTitleTextAttributes:@{NSForegroundColorAttributeName:RGBA(65, 77, 115, 1)} forState:UIControlStateSelected];
         viewController.tabBarItem.image = [UIImage imageNamed:tabDic[TabClassImageKey]];
+        viewController.tabBarItem.imageInsets = UIEdgeInsetsMake(1, 0, -1, 0);
         viewController.tabBarItem.selectedImage = [[UIImage imageNamed:tabDic[TabClassSelectImageKey]] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
         if(@available(iOS 10.0,*)){
             viewController.tabBarItem.badgeColor = RGBA(251, 135, 90, 0.6);
@@ -193,6 +194,23 @@
         [vcs addObject:viewController];
     }
     [self setViewControllers:vcs];
+    
+    // 适配iOS13导致的bug
+    if (@available(iOS 13.0, *)) {
+        // iOS 13以上
+        self.tabBar.tintColor = HexColorA(0x414D73, 1);
+        self.tabBar.unselectedItemTintColor = HexColorA(0xBBBBBB, 1);
+        UITabBarItem *item = [UITabBarItem appearance];
+        item.titlePositionAdjustment = UIOffsetMake(0, -2);
+        [item setTitleTextAttributes:@{NSFontAttributeName:[UIFont systemFontOfSize:11]} forState:UIControlStateNormal];
+        [item setTitleTextAttributes:@{NSFontAttributeName:[UIFont systemFontOfSize:11]} forState:UIControlStateSelected];
+    } else {
+        // iOS 13以下
+        UITabBarItem *item = [UITabBarItem appearance];
+        item.titlePositionAdjustment = UIOffsetMake(0, -2);
+        [item setTitleTextAttributes:@{NSFontAttributeName:[UIFont systemFontOfSize:12], NSForegroundColorAttributeName:HexColorA(0xBBBBBB, 1)} forState:UIControlStateNormal];
+        [item setTitleTextAttributes:@{NSFontAttributeName:[UIFont systemFontOfSize:12], NSForegroundColorAttributeName:HexColorA(0x414D73, 1)} forState:UIControlStateSelected];
+    }
     
     UIView *tabBarBackgroundView = [[[UIView alloc] initWithFrame:CGRectMake(0, 0, self.tabBar.bounds.size.width, TAB_BAR_HEIGHT)] autorelease];
     tabBarBackgroundView.backgroundColor = [UIColor whiteColor];
