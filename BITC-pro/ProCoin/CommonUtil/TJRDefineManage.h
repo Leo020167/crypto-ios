@@ -113,8 +113,7 @@
 //#define CouponWebUrl @"http://coupon.bitcglobaltrade.com/index-zh-TW.html" // 优惠券
 //#define CommissionWebUrl @"http://commission.bitcglobaltrade.com" // 佣金详情
 
-#define URL_SERVICE_PROTOCOL    [NSString stringWithFormat:@"http://api.%@/procoin/article/#/passgeDetail?article_id=48", [[NSUserDefaults standardUserDefaults] objectForKey:@"ipInfo"]]                  //服务协议
-#define URL_PRIVACY_POLICY      [NSString stringWithFormat:@"http://api.%@/procoin/article/#/passgeDetail?article_id=54", [[NSUserDefaults standardUserDefaults] objectForKey:@"ipInfo"]]                  //隐私条款
+
 #define TradeServiceProtocolWebURL         [NSString stringWithFormat:@"http://api.%@/procoin/article/#/passgeDetail?article_id=49", [[NSUserDefaults standardUserDefaults] objectForKey:@"ipInfo"]]       //交易服务协议
 #define TradeRulesWebURL                   [NSString stringWithFormat:@"http://api.%@/procoin/article/#/passgeDetail?article_id=51", [[NSUserDefaults standardUserDefaults] objectForKey:@"ipInfo"]]       //交易规则
 #define AboutUsWebURL                      [NSString stringWithFormat:@"http://api.%@/procoin/article/#/passgeDetail?article_id=60", [[NSUserDefaults standardUserDefaults] objectForKey:@"ipInfo"]]       //关于我们

@@ -92,7 +92,7 @@
     self.myCategoryView.listContainer = self.listContainerView;
     self.myCategoryView.delegate = self;
     [self.view addSubview:self.myCategoryView];
-    self.titles = @[NSLocalizedStringForKey(@"全球期指"), NSLocalizedStringForKey(@"合约"), NSLocalizedStringForKey(@"币币")];
+    self.titles = @[NSLocalizedStringForKey(@"币币"), NSLocalizedStringForKey(@"合约"), NSLocalizedStringForKey(@"全球期指")];
     _myCategoryView.titles = self.titles;
 }
 
