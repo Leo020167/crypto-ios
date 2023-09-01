@@ -78,7 +78,7 @@
         [self removeParamFromModelDictionary:P2PDict forKey:@"selectedPaymentId"];
     }
     
-    self.authShopLabel.text = NSLocalizedStringForKey(@"AI Trading Center 认证商家");
+    self.authShopLabel.text = NSLocalizedStringForKey(@"FireGlobal 认证商家");
     
     [self reqGetOrderDetailData:_orderId];
 }
@@ -257,7 +257,7 @@
 
         _lbPayTimeTips.text = _model.stateTip;
         _lbMoney.text = [NSString stringWithFormat:@"%@%@", _model.currencySign,  _model.tolPrice];
-        _lbAmount.text = [NSString stringWithFormat:NSLocalizedStringForKey(@"您正在向AI Trading Center 认证卖家购买%@ USDT"), _model.amount];
+        _lbAmount.text = [NSString stringWithFormat:NSLocalizedStringForKey(@"您正在向FireGlobal 认证卖家购买%@ USDT"), _model.amount];
         [_ivCustomerLogo showImageWithUrl:_model.showUserLogo];
         _lbCustomerName.text = _model.showUserName;
         _lbCustomerRealName.text = _model.showRealName;

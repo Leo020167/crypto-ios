@@ -104,13 +104,13 @@
 
 - (void)setTokenModel:(PCAccountModel *)tokenModel{
     
-    self.totalAssetTitleLabel.text = NSLocalizedStringForKey(@"总资产(ATC)");
+    self.totalAssetTitleLabel.text = NSLocalizedStringForKey(@"总资产(FGEC)");
     self.totalAssetLabel.text = tokenModel.assets;
     
-    self.availableTitleLabel.text = NSLocalizedStringForKey(@"可用(ATC)");
+    self.availableTitleLabel.text = NSLocalizedStringForKey(@"可用(FGEC)");
     self.availableLabel.text = tokenModel.holdAmount;
     
-    self.freezeTitleLabel.text = NSLocalizedStringForKey(@"冻结(ATC)");
+    self.freezeTitleLabel.text = NSLocalizedStringForKey(@"冻结(FGEC)");
     self.freezeLabel.text = tokenModel.frozenAmount;
     
     self.profitTitleLabel.text = NSLocalizedStringForKey(@"市值(USDT)");
@@ -124,7 +124,7 @@
 - (UIButton *)getBtn{
     if (!_getBtn) {
         _getBtn = [[UIButton alloc] init];
-        [_getBtn setTitle:NSLocalizedStringForKey(@"查看如何获取ATC？") forState:0];
+        [_getBtn setTitle:NSLocalizedStringForKey(@"查看如何获取FGEC？") forState:0];
         [_getBtn setTitleColor:UIColorMakeWithHex(@"C9C9C9") forState:0];
         _getBtn.titleLabel.font = UIFontMake(10);
     }

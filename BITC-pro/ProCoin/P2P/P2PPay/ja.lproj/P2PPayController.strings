@@ -24,7 +24,7 @@
 "HYb-kX-vW2.text" = "必ずご自身の支払い方法で以下の銀行カードにご自身で送金してください。";
 
 /* Class = "UILabel"; text = "WWCT认证商家"; ObjectID = "Hjf-Ea-GPl"; */
-"Hjf-Ea-GPl.text" = "AI Trading Center 認定商人";
+"Hjf-Ea-GPl.text" = "FireGlobal 認定商人";
 
 /* Class = "UILabel"; text = "收款码"; ObjectID = "SFI-Gj-FaV"; */
 "SFI-Gj-FaV.text" = "コードの受信";
@@ -48,7 +48,7 @@
 "gqi-Ew-OfM.text" = "売り手に支払う";
 
 /* Class = "UILabel"; text = "您正在向WWCT认证卖家购买0.00USDT"; ObjectID = "t4O-dc-Ulf"; */
-"t4O-dc-Ulf.text" = "AI Trading Center 認定販売者から0.00USDTを購入しています";
+"t4O-dc-Ulf.text" = "FireGlobal 認定販売者から0.00USDTを購入しています";
 
 /* Class = "UILabel"; text = "-"; ObjectID = "t6D-Df-dlD"; */
 "t6D-Df-dlD.text" = "-";

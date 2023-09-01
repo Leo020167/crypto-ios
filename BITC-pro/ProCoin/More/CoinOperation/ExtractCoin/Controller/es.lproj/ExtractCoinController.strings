@@ -6,7 +6,7 @@
 "0vO-lW-dOV.text" = "Cantidad de";
 
 /* Class = "UILabel"; text = "手续费（USDT）"; ObjectID = "1e6-2N-hs3"; */
-"1e6-2N-hs3.text" = "Tasa de tramitación（ATC）";
+"1e6-2N-hs3.text" = "Tasa de tramitación（FGEC）";
 
 /* Class = "UILabel"; text = "為保障資金安全，當您帳戶安全策略變更、密碼修改、使用新地址提幣，我們會對提幣進行人工審核，請耐心等待工作人員電話或郵件聯繫。 請務必確認電腦及瀏覽器安全，防止信息被篡改或洩露。"; ObjectID = "AQc-G1-tBo"; */
 "AQc-G1-tBo.text" = "Para garantizar la seguridad de los fondos, cuando se cambie la política de seguridad de su cuenta, se cambie su contraseña o use una nueva dirección para retirar monedas, revisaremos manualmente los retiros. Tenga paciencia y espere a que el personal se comunique con usted. por teléfono o correo electrónico. Asegúrese de confirmar la seguridad de su computadora y navegador para evitar que la información sea manipulada o filtrada.";

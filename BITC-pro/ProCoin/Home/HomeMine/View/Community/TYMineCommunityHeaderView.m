@@ -189,7 +189,7 @@
         _incomeTitleLabel = [[UILabel alloc] init];
         _incomeTitleLabel.font = UIFontMake(12);
         _incomeTitleLabel.textColor = UIColorMakeWithHex(@"#EEF4FF");
-        _incomeTitleLabel.text = NSLocalizedStringForKey(@"社区总奖励(ATC)");
+        _incomeTitleLabel.text = NSLocalizedStringForKey(@"社区总奖励(FGEC)");
     }
     return _incomeTitleLabel;
 }
@@ -252,7 +252,7 @@
         _moneyLabel = [[UILabel alloc] init];
         _moneyLabel.font = UIFontMake(14);
         _moneyLabel.textColor = UIColorMakeWithHex(@"#666666");
-        _moneyLabel.text = NSLocalizedStringForKey(@"奖励(ATC)");
+        _moneyLabel.text = NSLocalizedStringForKey(@"奖励(FGEC)");
         _moneyLabel.textAlignment = NSTextAlignmentRight;
     }
     return _moneyLabel;

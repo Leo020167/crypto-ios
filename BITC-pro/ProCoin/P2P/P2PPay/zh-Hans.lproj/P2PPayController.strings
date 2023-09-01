@@ -24,7 +24,7 @@
 "HYb-kX-vW2.text" = "请务必使用本人的支付方式向以下银行卡自行转账";
 
 /* Class = "UILabel"; text = "WWCT认证商家"; ObjectID = "Hjf-Ea-GPl"; */
-"Hjf-Ea-GPl.text" = "AI Trading Center 认证商家";
+"Hjf-Ea-GPl.text" = "FireGlobal 认证商家";
 
 /* Class = "UILabel"; text = "收款码"; ObjectID = "SFI-Gj-FaV"; */
 "SFI-Gj-FaV.text" = "收款码";
@@ -48,7 +48,7 @@
 "gqi-Ew-OfM.text" = "向卖家付款";
 
 /* Class = "UILabel"; text = "您正在向WWCT认证卖家购买0.00USDT"; ObjectID = "t4O-dc-Ulf"; */
-"t4O-dc-Ulf.text" = "您正在向AI Trading Center 认证卖家购买0.00USDT";
+"t4O-dc-Ulf.text" = "您正在向FireGlobal 认证卖家购买0.00USDT";
 
 /* Class = "UILabel"; text = "-"; ObjectID = "t6D-Df-dlD"; */
 "t6D-Df-dlD.text" = "-";
