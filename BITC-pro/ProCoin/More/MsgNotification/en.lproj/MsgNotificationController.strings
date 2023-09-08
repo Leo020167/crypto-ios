@@ -1,6 +1,6 @@
 
 /* Class = "UILabel"; text = "如果你要关闭或开启W.W.C.T的新消息通知，请在iPhone的“设置”-“通知”功能中，找到应用程序“W.W.C.T”更改。"; ObjectID = "38B-qs-9vf"; */
-"38B-qs-9vf.text" = "If you want to turn off or on Fwdetsc 's new message notifications, please find the application \"Fwdetsc \" in the \"Settings\" - \"Notifications\" function of your iPhone and change it.";
+"38B-qs-9vf.text" = "If you want to turn off or on Gliedt 's new message notifications, please find the application \"Gliedt \" in the \"Settings\" - \"Notifications\" function of your iPhone and change it.";
 
 /* Class = "UILabel"; text = "接收新消息通知"; ObjectID = "Ki7-CD-Fpj"; */
 "Ki7-CD-Fpj.text" = "Receive notifications of new messages";
@@ -15,4 +15,4 @@
 "YU0-QQ-raz.text" = "New Message Notification";
 
 /* Class = "UILabel"; text = "当W.W.C.T在运行时，你可以设置在客服、私聊是否需要声音或者振动。"; ObjectID = "Z7q-2Z-eIt"; */
-"Z7q-2Z-eIt.text" = "When Fwdetsc  is operating, you can set whether you want sound or vibration in customer service or private chat.";
+"Z7q-2Z-eIt.text" = "When Gliedt  is operating, you can set whether you want sound or vibration in customer service or private chat.";

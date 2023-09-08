@@ -60,7 +60,7 @@
 {
     [super viewDidLoad];
     
-    self.lbPhoneTips.text = NSLocalizedStringForKey(@"欢迎来到Fwdetsc ");
+    self.lbPhoneTips.text = NSLocalizedStringForKey(@"欢迎来到Gliedt ");
     
     self.canDragBack = NO;
     
