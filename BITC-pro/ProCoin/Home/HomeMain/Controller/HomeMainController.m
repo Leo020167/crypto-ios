@@ -425,9 +425,13 @@
             [self pageToViewControllerForName:@"PCAnnounceController"];
         };
         _headerView.quotationsDataBlock = ^(HomeQuoteModel * _Nonnull model) {
-            [self putValueToParamDictionary:@"CoinTradeDic" value:model.symbol forKey:@"CoinQuotationsDetailSymbol"];
-            [self putValueToParamDictionary:@"CoinTradeDic" value:model.marketType forKey:@"CoinQuotationDetailMarketType"];
-            [self pageToViewControllerForName:@"CoinQuotationsDetailController"];
+//            [self putValueToParamDictionary:@"CoinTradeDic" value:model.symbol forKey:@"CoinQuotationsDetailSymbol"];
+//            [self putValueToParamDictionary:@"CoinTradeDic" value:model.marketType forKey:@"CoinQuotationDetailMarketType"];
+//            [self pageToViewControllerForName:@"CoinQuotationsDetailController"];
+        [self putValueToParamDictionary:CoinTradeDic value:model.symbol forKey:@"CoinQuotationsDetailSymbol"];
+        [self putValueToParamDictionary:CoinTradeDic value:model.marketType forKey:@"CoinQuotationDetailMarketType"];
+        [self pageToViewControllerForName:@"TYQuotationsDetailController"];
+
         };
         _headerView.clickActionBlock = ^(NSUInteger type) {
             if (type == 1) {

@@ -57,13 +57,22 @@
 - (void)viewWillAppear:(BOOL)animated{
     [super viewWillAppear:animated];
     
+//    if (!self.accountType.length) {
+//        self.accountType = @"follow";
+//    }
+//    if (self.accountName.length) {
+//        [self.titleBtn setTitle:self.accountName forState:0];
+//    }else{
+//        [self.titleBtn setTitle:NSLocalizedStringForKey(@"跟单交易记录") forState:0];
+//    }
     if (!self.accountType.length) {
-        self.accountType = @"follow";
+        self.accountType = @"spot";
+        self.screenButton.hidden = YES;
     }
     if (self.accountName.length) {
         [self.titleBtn setTitle:self.accountName forState:0];
     }else{
-        [self.titleBtn setTitle:NSLocalizedStringForKey(@"跟单交易记录") forState:0];
+        [self.titleBtn setTitle:NSLocalizedStringForKey(@"币币交易记录") forState:0];
     }
     if ([self.accountType isEqualToString:@"digital"] || [self.accountType isEqualToString:@"stock"]) {
         self.tokenLabel.hidden = NO;

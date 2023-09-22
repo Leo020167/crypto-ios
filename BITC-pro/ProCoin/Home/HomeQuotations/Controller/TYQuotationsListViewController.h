@@ -13,7 +13,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface TYQuotationsListViewController : TJRBaseViewController<JXCategoryListContentViewDelegate>
 
-/// 2新币榜 3涨幅榜 4跌幅榜
+/// 1： 币币 2：合约  3：全球期指
 @property (nonatomic, assign) NSInteger index;
 
 - (void)getData;

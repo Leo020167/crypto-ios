@@ -90,9 +90,12 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     HomeQuoteModel *model = self.dataSource[indexPath.row];
-    [self putValueToParamDictionary:@"CoinTradeDic" value:model.symbol forKey:@"CoinQuotationsDetailSymbol"];
-    [self putValueToParamDictionary:@"CoinTradeDic" value:model.marketType forKey:@"CoinQuotationDetailMarketType"];
-    [self pageToViewControllerForName:@"CoinQuotationsDetailController"];
+//    [self putValueToParamDictionary:@"CoinTradeDic" value:model.symbol forKey:@"CoinQuotationsDetailSymbol"];
+//    [self putValueToParamDictionary:@"CoinTradeDic" value:model.marketType forKey:@"CoinQuotationDetailMarketType"];
+//    [self pageToViewControllerForName:@"CoinQuotationsDetailController"];
+    [self putValueToParamDictionary:CoinTradeDic value:model.symbol forKey:@"CoinQuotationsDetailSymbol"];
+    [self putValueToParamDictionary:CoinTradeDic value:model.marketType forKey:@"CoinQuotationDetailMarketType"];
+    [self pageToViewControllerForName:@"TYQuotationsDetailController"];
 }
 
 - (UIView *)headerView{

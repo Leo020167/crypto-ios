@@ -58,7 +58,9 @@ NSString *const StatusBarClick = @"StatusBarClick";
 //    [self getSystemIP];
     
     //[[NSUserDefaults standardUserDefaults] setObject:@"kaobaochina.cn" forKey:@"ipInfo"];
-    [[NSUserDefaults standardUserDefaults] setObject:@"thk-hcr.cn" forKey:@"ipInfo"];
+    [[NSUserDefaults standardUserDefaults] setObject:@"wwhwuy.cn" forKey:@"ipInfo"];
+//    [[NSUserDefaults standardUserDefaults] setObject:@"yulexing.cn" forKey:@"ipInfo"];
+//    [[NSUserDefaults standardUserDefaults] setObject:@"xjhyf.cn" forKey:@"ipInfo"];
     [[NSUserDefaults standardUserDefaults] synchronize];
     
     self.window = [[[TJRWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];

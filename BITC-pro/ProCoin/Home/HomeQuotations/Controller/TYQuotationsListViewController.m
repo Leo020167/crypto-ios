@@ -67,12 +67,12 @@
     NSMutableDictionary *para = [NSMutableDictionary dictionary];
     [para setObject:self.sortField forKey:@"sortField"];
     [para setObject:self.sortType forKey:@"sortType"];
-    if (self.index == 0){// 全球指数
-        [para setObject:@"stock" forKey:@"tab"];
+    if (self.index == 0){// 币币
+        [para setObject:@"spot" forKey:@"tab"];
     }else if (self.index == 1){// 合约
         [para setObject:@"digital" forKey:@"tab"];
-    }else if (self.index == 2){// 币币
-        [para setObject:@"spot" forKey:@"tab"];
+    }else if (self.index == 2){// 全球指数
+        [para setObject:@"stock" forKey:@"tab"];
     }
     [YYRequestUtility Post:@"quote/marketData.do" addParameters:para progress:nil success:^(NSDictionary *responseDict) {
         if ([responseDict[@"code"] intValue] == 200) {
@@ -147,7 +147,7 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     HomeQuoteModel *model = self.dataSource[indexPath.row];
-    if (self.index == 2) {
+    if (self.index == 0) {
         [self putValueToParamDictionary:CoinTradeDic value:model.symbol forKey:@"CoinQuotationsDetailSymbol"];
         [self putValueToParamDictionary:CoinTradeDic value:model.marketType forKey:@"CoinQuotationDetailMarketType"];
         [self pageToViewControllerForName:@"TYQuotationsDetailController"];
