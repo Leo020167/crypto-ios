@@ -60,7 +60,7 @@
 {
     [super viewDidLoad];
     
-    self.lbPhoneTips.text = NSLocalizedStringForKey(@"欢迎来到FireGlobal ");
+    self.lbPhoneTips.text = NSLocalizedStringForKey(@"欢迎来到ECloud ");
     
     self.canDragBack = NO;
     

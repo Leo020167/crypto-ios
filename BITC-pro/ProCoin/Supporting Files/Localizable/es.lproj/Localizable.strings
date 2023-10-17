@@ -39,7 +39,7 @@
 "AppName" = "Cropyme";
 
 /*  */
-"FireGlobal 认证商家" = "Comerciante certificado por FireGlobal ";
+"ECloud 认证商家" = "Comerciante certificado por ECloud ";
 
 /* 重要 */
 "BYY官方" = "Byy Oficial";
@@ -793,7 +793,7 @@
 "头像" = "Avatar";
 
 /*  */
-"奖励(FGEC)" = "Recompensa (FGEC)";
+"奖励(ECloud)" = "Recompensa (ECloud)";
 
 /* 男 */
 "女" = "Femenino";
@@ -1159,7 +1159,7 @@
 "总盈亏(USDT)" = "Ganancias y pérdidas totales (USDT)";
 
 /*  */
-"总资产(FGEC)" = "Activos totales (FGEC)";
+"总资产(ECloud)" = "Activos totales (ECloud)";
 
 "总资产(USDT)" = "Activos totales(USDT)";
 "总资产" = "Activos totales";
@@ -1195,10 +1195,10 @@
 "您暂无发布广告" = "you have not posted ads";
 
 
-"您正在向FireGlobal 认证卖家购买%@ USDT" = "Está comprando %@ USDT de un vendedor certificado por FireGlobal ";
+"您正在向ECloud 认证卖家购买%@ USDT" = "Está comprando %@ USDT de un vendedor certificado por ECloud ";
 
 /* 申购失败转换 */
-"您正在向FireGlobal 认证卖家购买%@ USDT" = "You are buying %@ USDT from a FireGlobal  certified seller";
+"您正在向ECloud 认证卖家购买%@ USDT" = "You are buying %@ USDT from a ECloud  certified seller";
 
 /* 选择个人头像 */
 "您的资料已修改，是否要保存？" = "Su perfil ha sido modificado, ¿quieres guardarlo?";
@@ -1252,7 +1252,7 @@
 "我已在%@一键跟上了TA的实盘交易" = "He seguido las operaciones en vivo de TA en %@one clic";
 
 /* 他是 */
-"我已在W.W.C.T一键跟上了TA的实盘交易" = "He seguido el intercambio en vivo de TA en \"FireGlobal \" con un clic";
+"我已在W.W.C.T一键跟上了TA的实盘交易" = "He seguido el intercambio en vivo de TA en \"ECloud \" con un clic";
 
 /* TA是 */
 "我已在procoin一键跟上了TA的实盘交易" = "I have followed his/her live trading at %@ with one clic";
@@ -1777,7 +1777,7 @@
 "查看" = "Controlar";
 
 /*  */
-"查看如何获取FGEC？" = "Verifique cómo obtener FGEC?";
+"查看如何获取ECloud？" = "Verifique cómo obtener ECloud?";
 
 
 "查看导师" = "Ver tutor";
@@ -1792,7 +1792,7 @@
 "标题" = "Título";
 
 /*  */
-"欢迎来到FireGlobal " = "Bienvenido a FireGlobal ";
+"欢迎来到ECloud " = "Bienvenido a ECloud ";
 
 /* 平台 */
 "欢迎页" = "Pagina de bienvenida";
@@ -1906,7 +1906,7 @@
 "消息推送" = "Push del mensaje";
 
 /*  */
-"消耗FGEC" = "Consumir FGEC";
+"消耗ECloud" = "Consumir ECloud";
 
 
 "涨幅榜" = "Lista";
@@ -1951,7 +1951,7 @@
 "清除缓存" = "Limpiar cache";
 
 /* 计算中 */
-"清除缓存后W.W.C.T上所有的头像、图片等要重新下载,是否清除?" = "Después de borrar el caché, todos los avatares y las imágenes en FireGlobal  deben descargarse nuevamente.";
+"清除缓存后W.W.C.T上所有的头像、图片等要重新下载,是否清除?" = "Después de borrar el caché, todos los avatares y las imágenes en ECloud  deben descargarse nuevamente.";
 
 /* 注销失败 */
 "清除缓存成功" = "Borrar el caché con éxito";
@@ -2194,7 +2194,7 @@
 "社区人数：%@" = "Número de comunidad:%@";
 
 /*  */
-"社区总奖励(FGEC)" = "Premio a la comunidad total (FGEC)";
+"社区总奖励(ECloud)" = "Premio a la comunidad total (ECloud)";
 
 /*  */
 "离强平价还剩 -" = "Restante a una fuerte paridad -";
@@ -2296,7 +2296,7 @@
 "获取验证码失败" = "No se pudo obtener el código de verificación";
 
 /*  */
-"获得FGEC" = "Obtener FGEC";
+"获得ECloud" = "Obtener ECloud";
 
 /* 上月收益 */
 "行情" = "Mercado";
