@@ -21,7 +21,7 @@
 "R4q-H0-EJS.text" = "+1";
 
 /* Class = "UILabel"; text = "点击注册即表示您已经阅读并同意W.W.C.T的"; ObjectID = "SeM-fo-ao2"; */
-"SeM-fo-ao2.text" = "登録をクリックすると、Gliedt の";
+"SeM-fo-ao2.text" = "登録をクリックすると、Stdelit の";
 
 /* Class = "UILabel"; text = "提示:密码必须是8-16位"; ObjectID = "Vgu-GU-vGZ"; */
 "Vgu-GU-vGZ.text" = "ヒント:パスワードは8~16桁の";

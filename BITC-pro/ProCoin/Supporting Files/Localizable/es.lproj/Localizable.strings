@@ -39,7 +39,7 @@
 "AppName" = "Cropyme";
 
 /*  */
-"Gliedt 认证商家" = "Comerciante certificado por Gliedt ";
+"Stdelit 认证商家" = "Comerciante certificado por Stdelit ";
 
 /* 重要 */
 "BYY官方" = "Byy Oficial";
@@ -793,7 +793,7 @@
 "头像" = "Avatar";
 
 /*  */
-"奖励(GLT)" = "Recompensa (GLT)";
+"奖励(TCC)" = "Recompensa (TCC)";
 
 /* 男 */
 "女" = "Femenino";
@@ -1159,7 +1159,7 @@
 "总盈亏(USDT)" = "Ganancias y pérdidas totales (USDT)";
 
 /*  */
-"总资产(GLT)" = "Activos totales (GLT)";
+"总资产(TCC)" = "Activos totales (TCC)";
 
 "总资产(USDT)" = "Activos totales(USDT)";
 "总资产" = "Activos totales";
@@ -1195,10 +1195,10 @@
 "您暂无发布广告" = "you have not posted ads";
 
 
-"您正在向Gliedt 认证卖家购买%@ USDT" = "Está comprando %@ USDT de un vendedor certificado por Gliedt ";
+"您正在向Stdelit 认证卖家购买%@ USDT" = "Está comprando %@ USDT de un vendedor certificado por Stdelit ";
 
 /* 申购失败转换 */
-"您正在向Gliedt 认证卖家购买%@ USDT" = "You are buying %@ USDT from a Gliedt  certified seller";
+"您正在向Stdelit 认证卖家购买%@ USDT" = "You are buying %@ USDT from a Stdelit  certified seller";
 
 /* 选择个人头像 */
 "您的资料已修改，是否要保存？" = "Su perfil ha sido modificado, ¿quieres guardarlo?";
@@ -1252,7 +1252,7 @@
 "我已在%@一键跟上了TA的实盘交易" = "He seguido las operaciones en vivo de TA en %@one clic";
 
 /* 他是 */
-"我已在W.W.C.T一键跟上了TA的实盘交易" = "He seguido el intercambio en vivo de TA en \"Gliedt \" con un clic";
+"我已在W.W.C.T一键跟上了TA的实盘交易" = "He seguido el intercambio en vivo de TA en \"Stdelit \" con un clic";
 
 /* TA是 */
 "我已在procoin一键跟上了TA的实盘交易" = "I have followed his/her live trading at %@ with one clic";
@@ -1777,7 +1777,7 @@
 "查看" = "Controlar";
 
 /*  */
-"查看如何获取GLT？" = "Verifique cómo obtener GLT?";
+"查看如何获取TCC？" = "Verifique cómo obtener TCC?";
 
 
 "查看导师" = "Ver tutor";
@@ -1792,7 +1792,7 @@
 "标题" = "Título";
 
 /*  */
-"欢迎来到Gliedt " = "Bienvenido a Gliedt ";
+"欢迎来到Stdelit " = "Bienvenido a Stdelit ";
 
 /* 平台 */
 "欢迎页" = "Pagina de bienvenida";
@@ -1906,7 +1906,7 @@
 "消息推送" = "Push del mensaje";
 
 /*  */
-"消耗GLT" = "Consumir GLT";
+"消耗TCC" = "Consumir TCC";
 
 
 "涨幅榜" = "Lista";
@@ -1951,7 +1951,7 @@
 "清除缓存" = "Limpiar cache";
 
 /* 计算中 */
-"清除缓存后W.W.C.T上所有的头像、图片等要重新下载,是否清除?" = "Después de borrar el caché, todos los avatares y las imágenes en Gliedt  deben descargarse nuevamente.";
+"清除缓存后W.W.C.T上所有的头像、图片等要重新下载,是否清除?" = "Después de borrar el caché, todos los avatares y las imágenes en Stdelit  deben descargarse nuevamente.";
 
 /* 注销失败 */
 "清除缓存成功" = "Borrar el caché con éxito";
@@ -2194,7 +2194,7 @@
 "社区人数：%@" = "Número de comunidad:%@";
 
 /*  */
-"社区总奖励(GLT)" = "Premio a la comunidad total (GLT)";
+"社区总奖励(TCC)" = "Premio a la comunidad total (TCC)";
 
 /*  */
 "离强平价还剩 -" = "Restante a una fuerte paridad -";
@@ -2296,7 +2296,7 @@
 "获取验证码失败" = "No se pudo obtener el código de verificación";
 
 /*  */
-"获得GLT" = "Obtener GLT";
+"获得TCC" = "Obtener TCC";
 
 /* 上月收益 */
 "行情" = "Mercado";

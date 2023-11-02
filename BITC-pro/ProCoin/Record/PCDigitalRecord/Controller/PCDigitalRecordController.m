@@ -192,11 +192,11 @@
             [amountText yy_setLineSpacing:5 range:amountText.yy_rangeOfAll];
             self.amountLabel.attributedText = amountText;
             
-            NSMutableAttributedString *tokenText = [[NSMutableAttributedString alloc] initWithString:[NSString stringWithFormat:@"%@\n%@", NSLocalizedStringForKey(@"获得GLT"), responseDict[@"data"][@"sumToken"]]];
+            NSMutableAttributedString *tokenText = [[NSMutableAttributedString alloc] initWithString:[NSString stringWithFormat:@"%@\n%@", NSLocalizedStringForKey(@"获得TCC"), responseDict[@"data"][@"sumToken"]]];
             [tokenText yy_setFont:UIFontMake(15) range:tokenText.yy_rangeOfAll];
             [tokenText yy_setColor:UIColorMakeWithHex(@"#333333") range:tokenText.yy_rangeOfAll];
-            [tokenText yy_setFont:UIFontMake(13) range:NSMakeRange(0, NSLocalizedStringForKey(@"获得GLT").length)];
-            [tokenText yy_setColor:UIColorMakeWithHex(@"#999999") range:NSMakeRange(0, NSLocalizedStringForKey(@"获得GLT").length)];
+            [tokenText yy_setFont:UIFontMake(13) range:NSMakeRange(0, NSLocalizedStringForKey(@"获得TCC").length)];
+            [tokenText yy_setColor:UIColorMakeWithHex(@"#999999") range:NSMakeRange(0, NSLocalizedStringForKey(@"获得TCC").length)];
             [tokenText yy_setAlignment:NSTextAlignmentCenter range:tokenText.yy_rangeOfAll];
             [tokenText yy_setLineSpacing:5 range:tokenText.yy_rangeOfAll];
             self.tokenLabel.attributedText = tokenText;

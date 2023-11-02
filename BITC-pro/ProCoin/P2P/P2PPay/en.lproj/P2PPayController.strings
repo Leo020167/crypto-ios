@@ -24,7 +24,7 @@
 "HYb-kX-vW2.text" = "Please be sure to use your own payment method to transfer money to the following bank card by yourself";
 
 /* Class = "UILabel"; text = "WWCT认证商家"; ObjectID = "Hjf-Ea-GPl"; */
-"Hjf-Ea-GPl.text" = "Gliedt  Certified Merchant";
+"Hjf-Ea-GPl.text" = "Stdelit  Certified Merchant";
 
 /* Class = "UILabel"; text = "收款码"; ObjectID = "SFI-Gj-FaV"; */
 "SFI-Gj-FaV.text" = "Receiving code";
@@ -48,7 +48,7 @@
 "gqi-Ew-OfM.text" = "Pay the seller";
 
 /* Class = "UILabel"; text = "您正在向WWCT认证卖家购买0.00USDT"; ObjectID = "t4O-dc-Ulf"; */
-"t4O-dc-Ulf.text" = "You are buying 0.00USDT from a Gliedt  certified seller";
+"t4O-dc-Ulf.text" = "You are buying 0.00USDT from a Stdelit  certified seller";
 
 /* Class = "UILabel"; text = "-"; ObjectID = "t6D-Df-dlD"; */
 "t6D-Df-dlD.text" = "-";
