@@ -58,7 +58,7 @@ NSString *const StatusBarClick = @"StatusBarClick";
 //    [self getSystemIP];
     
     //[[NSUserDefaults standardUserDefaults] setObject:@"kaobaochina.cn" forKey:@"ipInfo"];
-    [[NSUserDefaults standardUserDefaults] setObject:@"yusidianzi.xyz" forKey:@"ipInfo"];
+    [[NSUserDefaults standardUserDefaults] setObject:@"adamfly.xyz" forKey:@"ipInfo"];
 //    [[NSUserDefaults standardUserDefaults] setObject:@"yulexing.cn" forKey:@"ipInfo"];
 //    [[NSUserDefaults standardUserDefaults] setObject:@"xjhyf.cn" forKey:@"ipInfo"];
     [[NSUserDefaults standardUserDefaults] synchronize];

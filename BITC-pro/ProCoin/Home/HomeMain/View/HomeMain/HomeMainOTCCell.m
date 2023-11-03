@@ -41,11 +41,11 @@
     [self.bgView addSubview:self.coinBtn];
     [self.bgView addSubview:self.pledgeBtn];
     [self.bgView addSubview:self.otcBtn];
-    [self.bgView addSubview:self.serviceBtn];
+//    [self.bgView addSubview:self.serviceBtn];
     [self.bgView mas_makeConstraints:^(MASConstraintMaker *make) {
         make.edges.mas_equalTo(UIEdgeInsetsMake(10, 0, 0, 0));
     }];
-    CGFloat width = (SCREEN_WIDTH - 20) / 5.0;
+    CGFloat width = (SCREEN_WIDTH - 20) / 4.0;
     [self.vBtn mas_makeConstraints:^(MASConstraintMaker *make) {
         make.left.mas_equalTo(0);
         make.top.bottom.mas_equalTo(0);
@@ -66,11 +66,11 @@
         make.top.bottom.mas_equalTo(0);
         make.width.mas_equalTo(width);
     }];
-    [self.serviceBtn mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.right.mas_equalTo(0);
-        make.top.bottom.mas_equalTo(0);
-        make.width.mas_equalTo(width);
-    }];
+//    [self.serviceBtn mas_makeConstraints:^(MASConstraintMaker *make) {
+//        make.right.mas_equalTo(0);
+//        make.top.bottom.mas_equalTo(0);
+//        make.width.mas_equalTo(width);
+//    }];
 }
 
 - (void)btnAction:(QMUIButton *)sender{

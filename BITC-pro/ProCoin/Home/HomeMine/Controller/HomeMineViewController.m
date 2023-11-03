@@ -188,7 +188,7 @@
     [dataArray addObject:array1];
     
     NSArray *array2 = @[
-                        [HomeMineEntity createWithName:NSLocalizedStringForKey(@"客服") iconName:@"home_mine_icon_service" toPageName:@""],
+//                        [HomeMineEntity createWithName:NSLocalizedStringForKey(@"客服") iconName:@"home_mine_icon_service" toPageName:@""],
                         [HomeMineEntity createWithName:NSLocalizedStringForKey(@"设置") iconName:@"home_mine_icon_setting" toPageName:@"TJRSetUpViewController"]
                         ];
     [dataArray addObject:array2];
