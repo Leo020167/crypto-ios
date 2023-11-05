@@ -6,6 +6,7 @@
 //  Copyright (c) 2018年 Taojinroad. All rights reserved.
 //
 #import "TJRAppDelegate.h"
+#import "LanguageManager.h"
 
 /* 上传时间:
  *  2019-09-21 18:00:00  版本1     1.0
@@ -113,11 +114,11 @@
 //#define CouponWebUrl @"http://coupon.bitcglobaltrade.com/index-zh-TW.html" // 优惠券
 //#define CommissionWebUrl @"http://commission.bitcglobaltrade.com" // 佣金详情
 
-#define URL_SERVICE_PROTOCOL    [NSString stringWithFormat:@"http://api.%@/procoin/article/#/passgeDetail?article_id=48", [[NSUserDefaults standardUserDefaults] objectForKey:@"ipInfo"]]                  //服务协议
-#define URL_PRIVACY_POLICY      [NSString stringWithFormat:@"http://api.%@/procoin/article/#/passgeDetail?article_id=54", [[NSUserDefaults standardUserDefaults] objectForKey:@"ipInfo"]]                  //隐私条款
+#define URL_SERVICE_PROTOCOL    [NSString stringWithFormat:@"http://api.%@/procoin/article/#/passgeDetail?article_id=%d", [[NSUserDefaults standardUserDefaults] objectForKey:@"ipInfo"], [LanguageManager protocolCodeByLanguage: 0]]                  //服务协议
+#define URL_PRIVACY_POLICY      [NSString stringWithFormat:@"http://api.%@/procoin/article/#/passgeDetail?article_id=%d", [[NSUserDefaults standardUserDefaults] objectForKey:@"ipInfo"], [LanguageManager protocolCodeByLanguage: 1]]                  //隐私条款
 #define TradeServiceProtocolWebURL         [NSString stringWithFormat:@"http://api.%@/procoin/article/#/passgeDetail?article_id=49", [[NSUserDefaults standardUserDefaults] objectForKey:@"ipInfo"]]       //交易服务协议
 #define TradeRulesWebURL                   [NSString stringWithFormat:@"http://api.%@/procoin/article/#/passgeDetail?article_id=51", [[NSUserDefaults standardUserDefaults] objectForKey:@"ipInfo"]]       //交易规则
-#define AboutUsWebURL                      [NSString stringWithFormat:@"http://api.%@/procoin/article/#/passgeDetail?article_id=60", [[NSUserDefaults standardUserDefaults] objectForKey:@"ipInfo"]]       //关于我们
+#define AboutUsWebURL                      [NSString stringWithFormat:@"http://api.%@/procoin/article/#/passgeDetail?article_id=%d", [[NSUserDefaults standardUserDefaults] objectForKey:@"ipInfo"], [LanguageManager protocolCodeByLanguage: 2]]       //关于我们
 
 #define RiskWarningURL                      [NSString stringWithFormat:@"http://api.%@/procoin/article/#/passgeDetail?article_id=66", [[NSUserDefaults standardUserDefaults] objectForKey:@"ipInfo"]]       //风险提示
 #define DelegateRules                      [NSString stringWithFormat:@"http://api.%@/procoin/article/#/passgeDetail?article_id=33", [[NSUserDefaults standardUserDefaults] objectForKey:@"ipInfo"]]      //代理规则

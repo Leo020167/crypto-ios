@@ -75,6 +75,23 @@ static NSString * const LanguageSaveKey = @"currentLanguageKey";
     return [[NSUserDefaults standardUserDefaults] objectForKey:LanguageSaveKey];
 }
 
+/// 简体中文：用户协议48，隐私政策54，关于我们60；
+///繁体中文：用户协议49，隐私政策55，关于我们61；
+///其他所有语言：用户协议50，隐私政策56，关于我们62
++ (int)protocolCodeByLanguage: (int)urlCode
+{
+    NSLog(@"%@", [LanguageManager languageCountryCodes]);
+    NSString *code = [[[NSUserDefaults standardUserDefaults] objectForKey:LanguageSaveKey] stringValue];
+    
+    if( [code isEqualToString:  @"zh-Hans"]) {
+        return [@[@480, @540 , @600][urlCode] intValue];
+    } else if( [code isEqualToString:  @"zh-HK"]) {
+        return [@[@490, @550 , @610][urlCode] intValue];
+    } else  {
+        return [@[@500,  @560, @620][urlCode] intValue];
+    }
+}
+
 + (NSInteger)currentLanguageIndex
 {
     NSInteger index = 0;

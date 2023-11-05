@@ -262,7 +262,8 @@ NSString *const TJRSetUpChatService = @"TJRSetUpChatService";
         } else if([toPageName isEqualToString:@"TJRWebViewController"]){
             TYWebViewController *web = [[TYWebViewController alloc] init];
             web.title = NSLocalizedStringForKey(@"关于我们");
-            web.url = _dataEntity.aboutUsUrl;
+            //web.url = _dataEntity.aboutUsUrl;
+            web.url = AboutUsWebURL;
             [self.navigationController pushViewController:web animated:YES];
             
             //TYWebViewController *web = [[TYWebViewController alloc] init];

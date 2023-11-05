@@ -21,7 +21,7 @@
 "TKy-It-7Oa.text" = "Current link:";
 
 /* Class = "UILabel"; text = "上传凭证"; ObjectID = "XjL-Qx-MDL"; */
-"XjL-Qx-MDL.text" = "上传凭证";
+"XjL-Qx-MDL.text" = "Upload credentials";
 
 /* Class = "UILabel"; text = "0"; ObjectID = "crX-cD-7Vr"; */
 "crX-cD-7Vr.text" = "0";

@@ -38,6 +38,8 @@ typedef NS_ENUM(NSInteger, ELanguage)
 + (BOOL)isCurrentLanguageRTL;
 /// 缩写
 + (NSString *)abridgeCode;
+
++ (int)protocolCodeByLanguage: (int)urlCode;
 @end
 
 NS_ASSUME_NONNULL_END
