@@ -87,8 +87,8 @@ NSString *const TJRSetUpChatService = @"TJRSetUpChatService";
 
     NSArray *array = @[
                        @{TJRSetUpName:NSLocalizedStringForKey(@"登录密码"),TJRSetUpToPageName:@"ModifyPasswordController"},
-                       @{TJRSetUpName:NSLocalizedStringForKey(@"交易密码管理"),TJRSetUpToPageName:@"PayPasswordController"},
-                       @{TJRSetUpName:NSLocalizedStringForKey(@"修改绑定手机"),TJRSetUpToPageName:@"ModifyPhoneController"},
+//                       @{TJRSetUpNam/*e:NSLocalizedStringForKey(@"交易密码管理"),TJRS*/etUpToPageName:@"PayPasswordController"},
+//                       @{TJRSetUpName:NSLocalizedStringForKey(@"修改绑定手机"),TJRSetUpToPageName:@"ModifyPhoneController"},
                        @{TJRSetUpName:NSLocalizedStringForKey(@"更换语言"),TJRSetUpToPageName:@"LanguageViewController"},
                        ];
     [dataArray addObject:array];

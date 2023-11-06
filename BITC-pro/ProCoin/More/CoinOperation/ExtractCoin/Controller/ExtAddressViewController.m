@@ -11,11 +11,12 @@
 #import "YYRequestUtility.h"
 #import "PayAlertView.h"
 
-@interface ExtAddressViewController () <UITableViewDelegate, UITableViewDataSource, PayAlertViewDelegate> {}
+@interface ExtAddressViewController () <UITableViewDelegate, UITableViewDataSource> {}
 
 @property (retain, nonatomic) IBOutlet UILabel *titleLabel;
 @property (retain, nonatomic) IBOutlet UIButton *navRightBtn;
 
+@property (retain, nonatomic) IBOutlet UILabel *sectitleLabel;
 @property (retain, nonatomic) IBOutlet UITableView *tableView;
 
 @property (nonatomic, strong) NSMutableArray *dataSource;
@@ -50,6 +51,7 @@
     } else {
         _titleLabel.text = NSLocalizedStringForKey(@"提币地址管理");
     }
+    _sectitleLabel.text = NSLocalizedStringForKey(@"我的提币地址");
     self.dataSource = [[NSMutableArray alloc] init];
 }
 
@@ -133,9 +135,9 @@
     cell.isManager = (_symbol == nil);
     cell.deleteBlock = ^(NSDictionary * _Nonnull model) {
         self.toDeleteAddrId = [model[@"id"] stringValue];
-        PayAlertView* payAlertView = [[[PayAlertView alloc]initWithTitle:nil message:NSLocalizedStringForKey(@"验证身份") delegate:self] autorelease];
-        [payAlertView show];
-        
+//        PayAlertView* payAlertView = [[[PayAlertView alloc]initWithTitle:nil message:NSLocalizedStringForKey(@"验证身份") delegate:self] autorelease];
+//        [payAlertView show];
+        [self deleteAddr:@""];
     };
     return cell;
 }

@@ -20,7 +20,7 @@
 #import "YYRequestUtility.h"
 #import "PayAlertView.h"
 
-@interface ExtNewAddressViewController () <SelectCoinControllerDelegate, UITextFieldDelegate, PayAlertViewDelegate> {
+@interface ExtNewAddressViewController () <SelectCoinControllerDelegate, UITextFieldDelegate> {
     NSArray *coinListArr;
     NSArray *chainTypeListArr;
 }
@@ -233,14 +233,16 @@
     NSString *addr = _addressField.text;
     if (addr.length <= 0) {
         [QMUITips showInfo:_addressField.placeholder];
+        return;
     }
-    NSString *remark = _descField.text;
-    if (remark.length <= 0) {
-        [QMUITips showInfo:_descField.placeholder];
-    }
-    PayAlertView* payAlertView = [[[PayAlertView alloc]initWithTitle:nil message:NSLocalizedStringForKey(@"验证身份") delegate:self] autorelease];
-    [payAlertView show];
+//    NSString *remark = _descField.text;
+//    if (remark.length <= 0) {
+//        [QMUITips showInfo:_descField.placeholder];
+//    }
+//    PayAlertView* payAlertView = [[[PayAlertView alloc]initWithTitle:nil message:NSLocalizedStringForKey(@"验证身份") delegate:self] autorelease];
+//    [payAlertView show];
 
+    [self reqSave:@""];
 }
 
 -(void)reqSave:(NSString *)payPass {
@@ -256,14 +258,11 @@
     if (addr.length > 0) {
         param[@"address"] = addr;
     } else {
-        [QMUITips showError:@"msg"];
+        [QMUITips showError:_addressField.placeholder];
+        return;
     }
     NSString *remark = _descField.text;
-    if (remark.length > 0) {
-        param[@"remark"] = remark;
-    } else {
-        [QMUITips showError:@"msg"];
-    }
+    param[@"remark"] = remark ? remark: @"";
     param[@"payPass"] = payPass;
     [YYRequestUtility Post:@"depositeWithdraw/addAddress.do" addParameters:param progress:nil success:^(NSDictionary *responseDict) {
         if ([responseDict[@"code"] intValue] == 200) {

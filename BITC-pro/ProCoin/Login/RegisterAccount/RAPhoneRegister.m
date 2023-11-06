@@ -12,15 +12,22 @@
 #import "TextFieldToolBar.h"
 #import "LoginBase.h"
 #import "CountrySelectController.h"
+#import "UserParser.h"
+#import "NetWorkManage+Security.h"
+
+
+#import "LoginSQLModel.h"
 
 #define kUpOfHeight 40
 
-@interface RAPhoneRegister ()<UITextFieldDelegate,TextFieldToolBarDelegate,RAJudgementDelegate>
+@interface RAPhoneRegister ()<UITextFieldDelegate,TextFieldToolBarDelegate, RAJudgementDelegate>
 {
     BOOL bReqFinished;
     NSTimeInterval animationDuration;
     RAJudgement         *judgeMent;
     TextFieldToolBar    *toolBar;
+    
+    BOOL bAutoReg;
 }
 
 @property (copy, nonatomic) NSString *countryCode;
@@ -173,13 +180,87 @@
 
     if ([judgeMent judgePhoneNum:_textFieldRegisterAccount.text] && [judgeMent judgePassword:_textFieldPassword.text andPassword2:_textFieldPassword2.text] ) {
         
-        [self putValueToParamDictionary:RegisterAccountDict value:_textFieldRegisterAccount.text forKey:@"phoneNum"];
-        [self putValueToParamDictionary:RegisterAccountDict value:_textFieldPassword.text forKey:@"password"];
-        [self putValueToParamDictionary:RegisterAccountDict value:self.countryCode forKey:@"countryCode"];
-        [self putValueToParamDictionary:RegisterAccountDict value:_textFieldCode.text forKey:@"inviteCode"];
-        [self pageToViewControllerForName:@"RACodeRegister"];
+//        [self putValueToParamDictionary:RegisterAccountDict value:_textFieldRegisterAccount.text forKey:@"phoneNum"];
+//        [self putValueToParamDictionary:RegisterAccountDict value:_textFieldPassword.text forKey:@"password"];
+//        [self putValueToParamDictionary:RegisterAccountDict value:self.countryCode forKey:@"countryCode"];
+//        [self putValueToParamDictionary:RegisterAccountDict value:_textFieldCode.text forKey:@"inviteCode"];
+//        [self pageToViewControllerForName:@"RACodeRegister"];
+        
+        [self toRegister];
     }
 }
+
+#pragma mark - 确认注册
+- (IBAction)toRegister {
+    NSString *phoneNum = _textFieldRegisterAccount.text;
+    NSString *password  = _textFieldPassword.text;
+    if ([judgeMent judgePhoneNum:phoneNum]  && TTIsStringWithAnyText(password)) {
+        
+        if (bReqFinished) {
+            bReqFinished = NO;
+            [self showProgressDefaultText];
+            NSString* psw = [CommonUtil getMD5:password];
+            [[NetWorkManage shareSingleNetWork] reqRegisterNewUser:self countryCode:self.countryCode phone:phoneNum smsCode:@""  sex:@"0" userName:@"" userPass:psw inviteCode:_textFieldCode.text headUrl:@"" describes:@"" dragImgKey:@"" locationx:0 finishedCallback:@selector(reqPhoneRegisterFinished:) failedCallback:@selector(reqPhoneRegisterFailed:)];
+
+        }
+    }
+}
+
+- (void)reqPhoneRegisterFinished:(id)result{
+    bReqFinished = YES;
+    [self dismissProgress];
+
+    UserParser *userParser = [[[UserParser alloc] init]autorelease];
+    
+    if ([userParser parseBaseIsOk:result]) {
+       
+        NSDictionary* dic = [result objectForKey:@"data"];
+        
+        if ([dic objectForKey:@"user"]) {
+            
+            TJRUser *user = [userParser parserMyInfoJson:[dic objectForKey:@"user"]];
+            
+            NSString *token = [dic objectForKey:@"token"];
+            user.token = token.length>0?token:@"";
+            NSString *password  = _textFieldPassword.text;
+            user.password = [CommonUtil getMD5:password];
+            
+            if (user.userId.length > 0) {
+                [LoginBase setRootLoginUser:user];
+                
+                [LoginSQLModel insertLoginInfo:ROOTCONTROLLER_USER];
+                [self performSelector:@selector(delayGoToHome) withObject:nil afterDelay:0.5];
+                [self showProgressHUDCompleteMessage:NSLocalizedStringForKey(@"注册成功") detailsMessage:NSLocalizedStringForKey(@"正在进入") imageName:HUD_SUCCEED];
+            }
+        }
+    }else{
+        
+        NSString* str = @"";
+        if ([result objectForKey:@"msg"]) {
+            str = [NSString stringWithFormat:@"%@",[result objectForKey:@"msg"]];
+        }
+        [self showToast:str];
+        
+        
+    }
+}
+
+
+- (void)delayGoToHome{
+    
+    [[self getTJRAppDelegate].navigation popToRootViewControllerAnimated:NO];
+    [self pageToViewControllerForName:@"HomeViewController" animated:NO];
+    [CommonUtil setPageToAnimation];
+}
+
+
+- (void)reqPhoneRegisterFailed:(id)result{
+    bReqFinished = YES;
+    [self dismissProgress];
+    [self showToast:NSLocalizedStringForKey(@"注册失败")];
+}
+
+
 - (IBAction)registerEmail_btn:(id)sender {
     [self pageToViewControllerForName:@"RAEmailRegister"];
 }

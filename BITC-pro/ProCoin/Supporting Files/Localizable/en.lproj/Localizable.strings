@@ -1429,7 +1429,10 @@
 "提币地址" = "Withdrawal address";
 
 /* / 提币 */
-"提币地址管理" = "提币地址管理";
+"提币地址管理" = "Cash withdrawal address management";
+
+"我的提币地址" = "My withdrawal address";
+
 
 /* 充币地址 */
 "提币数量" = "Withdrawal amount";

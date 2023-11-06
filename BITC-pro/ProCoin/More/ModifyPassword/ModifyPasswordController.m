@@ -73,10 +73,10 @@
     if ([CommonUtil checkEmail:ROOTCONTROLLER_USER.email]) {
         _emailContentLab.text = [NSString stringWithFormat:@"%@:%@", NSLocalizedStringForKey(@"已绑定邮箱号:"), [CommonUtil hidenEmailStr:ROOTCONTROLLER_USER.email]];
     } else {
-        UIAlertView *alt = [[UIAlertView alloc] initWithTitle:NSLocalizedStringForKey(@"提示") message:[NSString stringWithFormat:NSLocalizedStringForKey(@"请绑定邮箱")] delegate:self cancelButtonTitle:NSLocalizedStringForKey(@"取消") otherButtonTitles:NSLocalizedStringForKey(@"去设置"),nil];
-        [alt show];
-        RELEASE(alt);
-        _emailContentLab.text = NSLocalizedStringForKey(@"请绑定邮箱");
+//        UIAlertView *alt = [[UIAlertView alloc] initWithTitle:NSLocalizedStringForKey(@"提示") message:[NSString stringWithFormat:NSLocalizedStringForKey(@"请绑定邮箱")] delegate:self cancelButtonTitle:NSLocalizedStringForKey(@"取消") otherButtonTitles:NSLocalizedStringForKey(@"去设置"),nil];
+//        [alt show];
+//        RELEASE(alt);
+//        _emailContentLab.text = NSLocalizedStringForKey(@"请绑定邮箱");
     }
 
     [CommonUtil viewMasksToBounds:_emailGetCodeBtn cornerRadius:2 borderColor:[UIColor blueColor]];
