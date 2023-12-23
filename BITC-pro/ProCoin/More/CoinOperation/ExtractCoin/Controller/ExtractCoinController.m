@@ -273,7 +273,7 @@
     self.amountSymbolLabel.text = [NSString stringWithFormat: NSLocalizedStringForKey(@"可用余额()"), symbol];
     self.lockSymbolLabel.text = [NSString stringWithFormat: NSLocalizedStringForKey(@"冻结金额()"), symbol];
     //self.feeSymbolLabel.text = [NSString stringWithFormat: NSLocalizedStringForKey(@"手续费()"), symbol];
-    self.feeSymbolLabel.text = [NSString stringWithFormat: NSLocalizedStringForKey(@"手续费()"), @"TCC"];
+    self.feeSymbolLabel.text = [NSString stringWithFormat: NSLocalizedStringForKey(@"手续费()"), @"LET"];
     self.extractTFSymbolLabel.text = [NSString stringWithFormat: NSLocalizedStringForKey(@"到账数量()"), symbol];
     [self getWithdrawConfig];
     [self bindChainTypeView];
@@ -554,7 +554,7 @@
     _amountSymbolLabel.text = [NSString stringWithFormat: NSLocalizedStringForKey(@"可用余额()"), (_symbol ?: @"")];
     _lockSymbolLabel.text = [NSString stringWithFormat: NSLocalizedStringForKey(@"冻结金额()"), _symbol ?: @""];
 //    _feeSymbolLabel.text = [NSString stringWithFormat: NSLocalizedStringForKey(@"手续费()"), _symbol ?: @""];
-    _feeSymbolLabel.text = [NSString stringWithFormat: NSLocalizedStringForKey(@"手续费()"), @"TCC"];
+    _feeSymbolLabel.text = [NSString stringWithFormat: NSLocalizedStringForKey(@"手续费()"), @"LET"];
     _extractTFSymbolLabel.text = [NSString stringWithFormat: NSLocalizedStringForKey(@"到账数量()"), _symbol ?: @""];
     
     _feeLabel.text = @"0.00000000";

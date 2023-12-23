@@ -12237,7 +12237,7 @@
 				ORGANIZATIONNAME = Toka;
 				TargetAttributes = {
 					EF93954815E89DA000F30D1B = {
-						DevelopmentTeam = PFUYW3YK8B;
+						DevelopmentTeam = AQYB264B53;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.ApplicationGroups.iOS = {
@@ -17678,7 +17678,7 @@
 				COMPRESS_PNG_FILES = NO;
 				CURRENT_PROJECT_VERSION = 1.2.3;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = PFUYW3YK8B;
+				DEVELOPMENT_TEAM = AQYB264B53;
 				ENABLE_BITCODE = NO;
 				EXCLUDED_ARCHS = "";
 				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
@@ -17694,6 +17694,7 @@
 				HEADER_SEARCH_PATHS = "$(inherited)";
 				INCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = ".DS_Store .svn .git";
 				INFOPLIST_FILE = "$(SRCROOT)/ProCoin/Supporting Files/ProCoin-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Liegt;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -17709,7 +17710,7 @@
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_BUNDLE_IDENTIFIER = com.procoin.x390;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xprocoin.Liegt;
 				PRODUCT_NAME = BITC;
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -17751,7 +17752,7 @@
 				COMPRESS_PNG_FILES = NO;
 				CURRENT_PROJECT_VERSION = 1.2.3;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = PFUYW3YK8B;
+				DEVELOPMENT_TEAM = AQYB264B53;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -17765,6 +17766,7 @@
 				HEADER_SEARCH_PATHS = "$(inherited)";
 				INCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = ".DS_Store .svn .git";
 				INFOPLIST_FILE = "$(SRCROOT)/ProCoin/Supporting Files/ProCoin-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Liegt;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -17780,7 +17782,7 @@
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_BUNDLE_IDENTIFIER = com.procoin.x390;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xprocoin.Liegt;
 				PRODUCT_NAME = BITC;
 				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";

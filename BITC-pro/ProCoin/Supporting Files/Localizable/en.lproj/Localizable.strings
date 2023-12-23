@@ -802,7 +802,7 @@
 "头像" = "avatar";
 
 /*  */
-"奖励(TCC)" = "Reward (TCC)";
+"奖励(LET)" = "Reward (LET)";
 
 /* 男 */
 "女" = "Female";
@@ -1168,7 +1168,7 @@
 "总盈亏(USDT)" = "Total profit and loss (USDT)";
 
 /*  */
-"总资产(TCC)" = "Total assets (TCC)";
+"总资产(LET)" = "Total assets (LET)";
 
 "总资产(USDT)" = "Total assets(USDT)";
 "总资产" = "Total assets";
@@ -1792,7 +1792,7 @@
 "查看" = "Check";
 
 /*  */
-"查看如何获取TCC？" = "See How to get TCC?";
+"查看如何获取LET？" = "See How to get LET?";
 
 
 "查看导师" = "view tutor";
@@ -1921,7 +1921,7 @@
 "消息推送" = "message push";
 
 /*  */
-"消耗TCC" = "consume TCC";
+"消耗LET" = "consume LET";
 
 
 "涨幅榜" = "Gain list";
@@ -2311,7 +2311,7 @@
 "获取验证码失败" = "Failed to get verification code";
 
 /*  */
-"获得TCC" = "Get TCC";
+"获得LET" = "Get LET";
 
 /* 上月收益 */
 "行情" = "quotes";
