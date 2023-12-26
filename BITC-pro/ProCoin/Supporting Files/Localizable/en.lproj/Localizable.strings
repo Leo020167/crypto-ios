@@ -39,7 +39,7 @@
 "AppName" = "Cropyme";
 
 /*  */
-"Stdelit 认证商家" = "Stdelit  Certified Merchant";
+"Liegt 认证商家" = "Liegt  Certified Merchant";
 
 /* 重要 */
 "BYY官方" = "BYY official";
@@ -1203,10 +1203,10 @@
 "您暂无发布广告" = "you have not posted ads";
 
 
-"您正在向Stdelit 认证卖家购买%@ USDT" = "You are buying %@ USDT from a Stdelit  certified seller";
+"您正在向Liegt 认证卖家购买%@ USDT" = "You are buying %@ USDT from a Liegt  certified seller";
 
 /* 申购失败转换 */
-"您正在向Stdelit 认证卖家购买%@ USDT" = "You are buying %@ USDT from a Stdelit  certified seller";
+"您正在向Liegt 认证卖家购买%@ USDT" = "You are buying %@ USDT from a Liegt  certified seller";
 
 /* 选择个人头像 */
 "您的资料已修改，是否要保存？" = "Your information has been modified, do you want to save it?";
@@ -1260,7 +1260,7 @@
 "我已在%@一键跟上了TA的实盘交易" = "I have kept up with TA's real offer transaction with one click at %@";
 
 /* 他是 */
-"我已在W.W.C.T一键跟上了TA的实盘交易" = "I have kept up with TA's real trading with one click on Stdelit ";
+"我已在W.W.C.T一键跟上了TA的实盘交易" = "I have kept up with TA's real trading with one click on Liegt ";
 
 /* TA是 */
 "我已在procoin一键跟上了TA的实盘交易" = "I have followed his/her live trading at %@ with one clic";
@@ -1807,7 +1807,7 @@
 "标题" = "title";
 
 /*  */
-"欢迎来到Stdelit " = "Welcome to Stdelit ";
+"欢迎来到Liegt " = "Welcome to Liegt ";
 
 /* 平台 */
 "欢迎页" = "welcome page";
@@ -1966,7 +1966,7 @@
 "清除缓存" = "clear cache";
 
 /* 计算中 */
-"清除缓存后W.W.C.T上所有的头像、图片等要重新下载,是否清除?" = "After clearing the cache, all avatars, pictures, etc. on Stdelit  need to be downloaded again. Do you want to clear it?";
+"清除缓存后W.W.C.T上所有的头像、图片等要重新下载,是否清除?" = "After clearing the cache, all avatars, pictures, etc. on Liegt  need to be downloaded again. Do you want to clear it?";
 
 /* 注销失败 */
 "清除缓存成功" = "clear cache successfully";
@@ -2209,7 +2209,7 @@
 "社区人数：%@" = "Number of people in the community: %@";
 
 /*  */
-"社区总奖励(Stdelit )" = "Total Community Rewards (Stdelit )";
+"社区总奖励(Liegt )" = "Total Community Rewards (Liegt )";
 
 /*  */
 "离强平价还剩 -" = "Remaining from liquidation price -";

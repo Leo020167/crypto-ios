@@ -1,0 +1,913 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "8C952428-DDF6-47F4-8D2A-D7738BC81FE1"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BD5C5A8A-AAF3-4ABD-AF6C-3F1B3FC10853"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ProCoin/Home/HomeMine/Controller/HomeMineViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "315"
+            endingLineNumber = "315"
+            landmarkName = "-refreshNotification:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CDE2C177-33D6-4B04-B2FF-25E7048286E0"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ProCoin/Home/HomeMine/View/HomeMineHeaderView.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "51"
+            endingLineNumber = "51"
+            landmarkName = "-reloadHeaderViewBaseData"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4A84D962-2881-4698-8403-CF63F2ED839B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ProCoin/Chat/ChatViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "525"
+            endingLineNumber = "525"
+            landmarkName = "-reqSendFileFinished:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "4A84D962-2881-4698-8403-CF63F2ED839B - 1f14db4ce0e7840e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[ChatViewController reqSendFileFinished:]"
+                  moduleName = "BITC"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/luochun1/Documents/GitHub/crypto-ios/BITC-pro/ProCoin/Chat/ChatViewController.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "525"
+                  endingLineNumber = "525"
+                  offsetFromSymbolStart = "84">
+               </Location>
+               <Location
+                  uuid = "4A84D962-2881-4698-8403-CF63F2ED839B - 1f14db4ce0e7840e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[ChatViewController reqSendFileFinished:]"
+                  moduleName = "BITC"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/luochun1/Documents/GitHub/crypto-ios/BITC-pro/ProCoin/Chat/ChatViewController.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "525"
+                  endingLineNumber = "525"
+                  offsetFromSymbolStart = "78">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0C70CA24-2E81-4544-A52A-D800E0293243"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ProCoin/Chat/ChatViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "101"
+            endingLineNumber = "101"
+            landmarkName = "-dealloc"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "0C70CA24-2E81-4544-A52A-D800E0293243 - 7656742331b77b7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[ChatViewController dealloc]"
+                  moduleName = "BITC"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/luochun1/Documents/GitHub/crypto-ios/BITC-pro/ProCoin/Chat/ChatViewController.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "101"
+                  endingLineNumber = "101"
+                  offsetFromSymbolStart = "412">
+               </Location>
+               <Location
+                  uuid = "0C70CA24-2E81-4544-A52A-D800E0293243 - 7656742331b77b7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[ChatViewController dealloc]"
+                  moduleName = "BITC"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/luochun1/Documents/GitHub/crypto-ios/BITC-pro/ProCoin/Chat/ChatViewController.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "101"
+                  endingLineNumber = "101"
+                  offsetFromSymbolStart = "447">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "432DC20E-3E95-4482-94F5-042BFA0F3BF1"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ProCoin/Chat/ChatViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "113"
+            endingLineNumber = "113"
+            landmarkName = "-viewWillAppear:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "432DC20E-3E95-4482-94F5-042BFA0F3BF1 - cf19045440ee0b39"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[ChatViewController viewWillAppear:]"
+                  moduleName = "BITC"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/luochun1/Documents/GitHub/crypto-ios/BITC-pro/ProCoin/Chat/ChatViewController.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "113"
+                  endingLineNumber = "113"
+                  offsetFromSymbolStart = "84">
+               </Location>
+               <Location
+                  uuid = "432DC20E-3E95-4482-94F5-042BFA0F3BF1 - cf19045440ee0b39"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[ChatViewController viewWillAppear:]"
+                  moduleName = "BITC"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/luochun1/Documents/GitHub/crypto-ios/BITC-pro/ProCoin/Chat/ChatViewController.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "113"
+                  endingLineNumber = "113"
+                  offsetFromSymbolStart = "66">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DAEED9B2-B105-49FB-A77F-C9671C2C2F34"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ProCoin/Chat/ChatViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "554"
+            endingLineNumber = "554"
+            landmarkName = "-reqSendFileFailed:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "DAEED9B2-B105-49FB-A77F-C9671C2C2F34 - d962dab91e553ed2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[ChatViewController reqSendFileFailed:]"
+                  moduleName = "BITC"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/luochun1/Documents/GitHub/crypto-ios/BITC-pro/ProCoin/Chat/ChatViewController.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "554"
+                  endingLineNumber = "554"
+                  offsetFromSymbolStart = "52">
+               </Location>
+               <Location
+                  uuid = "DAEED9B2-B105-49FB-A77F-C9671C2C2F34 - d962dab91e553ed2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[ChatViewController reqSendFileFailed:]"
+                  moduleName = "BITC"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/luochun1/Documents/GitHub/crypto-ios/BITC-pro/ProCoin/Chat/ChatViewController.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "554"
+                  endingLineNumber = "554"
+                  offsetFromSymbolStart = "35">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F3D0B03F-2384-433F-9E3E-6A12292E95C4"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ProCoin/Circle/Main/Base/CircleSocket/CircleSocket.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "163"
+            endingLineNumber = "163"
+            landmarkName = "-onSocket:didReadData:withTag:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "ABC4AABA-186F-4AB9-9168-0F5191C6DAA0"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ProCoin/Circle/Main/Base/CircleSocket/CircleSocket.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "179"
+            endingLineNumber = "179"
+            landmarkName = "-onSocket:didReadData:withTag:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FB8F1A29-908D-4AF9-B2D7-1BFC496E82E6"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ProCoin/Circle/Main/Base/CircleSocket/CircleSocket.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "89"
+            endingLineNumber = "89"
+            landmarkName = "-onSocket:didReadData:withTag:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5C718FC0-2A5A-422F-B922-DB06BA1EE0C2"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ProCoin/Record/PCDigitalRecord/Controller/PCDigitalRecordController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "485"
+            endingLineNumber = "485"
+            landmarkName = "-tableView:cellForRowAtIndexPath:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "5C718FC0-2A5A-422F-B922-DB06BA1EE0C2 - 24d292d0225ae566"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__61-[PCDigitalRecordController tableView:cellForRowAtIndexPath:]_block_invoke"
+                  moduleName = "BITC"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/luochun1/Documents/GitHub/crypto-ios/BITC-pro/ProCoin/Record/PCDigitalRecord/Controller/PCDigitalRecordController.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "485"
+                  endingLineNumber = "485"
+                  offsetFromSymbolStart = "52">
+               </Location>
+               <Location
+                  uuid = "5C718FC0-2A5A-422F-B922-DB06BA1EE0C2 - cf130d9d937d4f1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[PCDigitalRecordController tableView:cellForRowAtIndexPath:]"
+                  moduleName = "BITC"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/luochun1/Documents/GitHub/crypto-ios/BITC-pro/ProCoin/Record/PCDigitalRecord/Controller/PCDigitalRecordController.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "485"
+                  endingLineNumber = "485"
+                  offsetFromSymbolStart = "96">
+               </Location>
+               <Location
+                  uuid = "5C718FC0-2A5A-422F-B922-DB06BA1EE0C2 - cf130d9d937d4f1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[PCDigitalRecordController tableView:cellForRowAtIndexPath:]"
+                  moduleName = "BITC"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/luochun1/Documents/GitHub/crypto-ios/BITC-pro/ProCoin/Record/PCDigitalRecord/Controller/PCDigitalRecordController.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "485"
+                  endingLineNumber = "485"
+                  offsetFromSymbolStart = "53">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "28587069-3BE0-4011-A019-5CA436639FD4"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ProCoin/Record/PCDigitalRecord/Controller/PCDigitalRecordController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "526"
+            endingLineNumber = "526"
+            landmarkName = "-tableView:cellForRowAtIndexPath:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "28587069-3BE0-4011-A019-5CA436639FD4 - cf130d9d937c8d1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[PCDigitalRecordController tableView:cellForRowAtIndexPath:]"
+                  moduleName = "BITC"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/luochun1/Documents/GitHub/crypto-ios/BITC-pro/ProCoin/Record/PCDigitalRecord/Controller/PCDigitalRecordController.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "517"
+                  endingLineNumber = "517"
+                  offsetFromSymbolStart = "1216">
+               </Location>
+               <Location
+                  uuid = "28587069-3BE0-4011-A019-5CA436639FD4 - cf130d9d937c8d1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[PCDigitalRecordController tableView:cellForRowAtIndexPath:]"
+                  moduleName = "BITC"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/luochun1/Documents/GitHub/crypto-ios/BITC-pro/ProCoin/Record/PCDigitalRecord/Controller/PCDigitalRecordController.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "517"
+                  endingLineNumber = "517"
+                  offsetFromSymbolStart = "1630">
+               </Location>
+               <Location
+                  uuid = "28587069-3BE0-4011-A019-5CA436639FD4 - 7f981912f58a16de"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[PCDigitalRecordController tableView:cellForRowAtIndexPath:]"
+                  moduleName = "eval101.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/luochun1/Documents/GitHub/crypto-ios/BITC-pro/ProCoin/Record/PCDigitalRecord/Controller/PCDigitalRecordController.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "517"
+                  endingLineNumber = "517"
+                  offsetFromSymbolStart = "1630">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "74697418-8907-4ED7-B1F4-D22406CC32DD"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ProCoin/Quotations/CMStockFutureShareTimeView/CMStockFuturesShareTimeView.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "216"
+            endingLineNumber = "216"
+            landmarkName = "-addShareTimeViewHistoryData:yesterdayClose:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3AD67BF7-3606-4151-BA6E-92D8FB5E4731"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ProCoin/Home/HomeQuotations/Controller/HomeQuotationsController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "515"
+            endingLineNumber = "515"
+            landmarkName = "-tableView:didSelectRowAtIndexPath:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "3AD67BF7-3606-4151-BA6E-92D8FB5E4731 - 8a961368e0c4bb12"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[HomeQuotationsController tableView:didSelectRowAtIndexPath:]"
+                  moduleName = "BITC"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/luochun1/Documents/GitHub/crypto-ios/BITC-pro/ProCoin/Home/HomeQuotations/Controller/HomeQuotationsController.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "515"
+                  endingLineNumber = "515"
+                  offsetFromSymbolStart = "492">
+               </Location>
+               <Location
+                  uuid = "3AD67BF7-3606-4151-BA6E-92D8FB5E4731 - 8a961368e0c4bb12"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[HomeQuotationsController tableView:didSelectRowAtIndexPath:]"
+                  moduleName = "BITC"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/luochun1/Documents/GitHub/crypto-ios/BITC-pro/ProCoin/Home/HomeQuotations/Controller/HomeQuotationsController.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "515"
+                  endingLineNumber = "515"
+                  offsetFromSymbolStart = "502">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FCB08537-0B47-4429-9E58-E199C846ED26"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ProCoin/Home/HomeMain/Controller/HomeMainListViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "95"
+            endingLineNumber = "95"
+            landmarkName = "-tableView:didSelectRowAtIndexPath:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "FCB08537-0B47-4429-9E58-E199C846ED26 - 5ae9477028cd2c52"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[HomeMainListViewController tableView:didSelectRowAtIndexPath:]"
+                  moduleName = "BITC"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/luochun1/Documents/GitHub/crypto-ios/BITC-pro/ProCoin/Home/HomeMain/Controller/HomeMainListViewController.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "95"
+                  endingLineNumber = "95"
+                  offsetFromSymbolStart = "184">
+               </Location>
+               <Location
+                  uuid = "FCB08537-0B47-4429-9E58-E199C846ED26 - 5ae9477028cd2c52"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[HomeMainListViewController tableView:didSelectRowAtIndexPath:]"
+                  moduleName = "BITC"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/luochun1/Documents/GitHub/crypto-ios/BITC-pro/ProCoin/Home/HomeMain/Controller/HomeMainListViewController.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "95"
+                  endingLineNumber = "95"
+                  offsetFromSymbolStart = "204">
+               </Location>
+               <Location
+                  uuid = "FCB08537-0B47-4429-9E58-E199C846ED26 - 2e073a0b2a0f6058"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[HomeMainListViewController tableView:didSelectRowAtIndexPath:]"
+                  moduleName = "eval104.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/luochun1/Documents/GitHub/crypto-ios/BITC-pro/ProCoin/Home/HomeMain/Controller/HomeMainListViewController.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "95"
+                  endingLineNumber = "95"
+                  offsetFromSymbolStart = "204">
+               </Location>
+               <Location
+                  uuid = "FCB08537-0B47-4429-9E58-E199C846ED26 - 2903b72b30a1d45e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[HomeMainListViewController tableView:didSelectRowAtIndexPath:]"
+                  moduleName = "eval102.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/luochun1/Documents/GitHub/crypto-ios/BITC-pro/ProCoin/Home/HomeMain/Controller/HomeMainListViewController.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "95"
+                  endingLineNumber = "95"
+                  offsetFromSymbolStart = "204">
+               </Location>
+               <Location
+                  uuid = "FCB08537-0B47-4429-9E58-E199C846ED26 - 5ae9477028cd2c90"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[HomeMainListViewController tableView:didSelectRowAtIndexPath:]"
+                  moduleName = "BITC"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/luochun1/Documents/GitHub/crypto-ios/BITC-pro/ProCoin/Home/HomeMain/Controller/HomeMainListViewController.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "97"
+                  endingLineNumber = "97"
+                  offsetFromSymbolStart = "86">
+               </Location>
+               <Location
+                  uuid = "FCB08537-0B47-4429-9E58-E199C846ED26 - 5ae9477028cd2c73"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[HomeMainListViewController tableView:didSelectRowAtIndexPath:]"
+                  moduleName = "BITC"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/luochun1/Documents/GitHub/crypto-ios/BITC-pro/ProCoin/Home/HomeMain/Controller/HomeMainListViewController.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "96"
+                  endingLineNumber = "96"
+                  offsetFromSymbolStart = "80">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DB022531-F494-4B32-BBC3-3560DE278D6A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ProCoin/Quotations/CoinQuotations/Controller/CoinQuotationsDetailController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "369"
+            endingLineNumber = "369"
+            landmarkName = "-reqShareTimeHistoryDataFinished:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "02239A63-0D37-4BE6-96FA-DF721793CC29"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ProCoin/Quotations/CMStockFutureShareTimeView/CMStockFuturesShareTimeView.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "222"
+            endingLineNumber = "222"
+            landmarkName = "-addShareTimeViewHistoryData:yesterdayClose:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A8C012CD-3161-4CC6-8D7E-54A04D018DEF"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ProCoin/Home/HomeQuotations/Controller/TYQuotationsBaseViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "111"
+            endingLineNumber = "111"
+            landmarkName = "-getQuoteData"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B4420D7B-AE8D-419C-A4EE-9DF34E926163"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ProCoin/P2P/P2PConfirm/P2PConfirmController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "282"
+            endingLineNumber = "282"
+            landmarkName = "-onTimer:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4CB7F099-B7CC-466F-B3F8-39A2AA6196CA"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ProCoin/Quotations/CMStockFutureShareTimeView/CMStockFuturesShareTimeView.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "251"
+            endingLineNumber = "251"
+            landmarkName = "-drawRect:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1564F81C-D446-4D99-B6B6-889267525CAE"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ProCoin/Quotations/CMStockFutureShareTimeView/CMStockFuturesShareTimeView.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "343"
+            endingLineNumber = "343"
+            landmarkName = "-drawBackgroundLineText:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "1564F81C-D446-4D99-B6B6-889267525CAE - 269c97ef89c0a299"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[CMStockFuturesShareTimeView drawBackgroundLineText:]"
+                  moduleName = "BITC"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/luochun1/Documents/GitHub/crypto-ios/BITC-pro/ProCoin/Quotations/CMStockFutureShareTimeView/CMStockFuturesShareTimeView.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "343"
+                  endingLineNumber = "343"
+                  offsetFromSymbolStart = "968">
+               </Location>
+               <Location
+                  uuid = "1564F81C-D446-4D99-B6B6-889267525CAE - 269c97ef89c0a299"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[CMStockFuturesShareTimeView drawBackgroundLineText:]"
+                  moduleName = "BITC"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/luochun1/Documents/GitHub/crypto-ios/BITC-pro/ProCoin/Quotations/CMStockFutureShareTimeView/CMStockFuturesShareTimeView.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "343"
+                  endingLineNumber = "343"
+                  offsetFromSymbolStart = "1119">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2E10B2CC-9842-46B4-93D8-B1E352BF1BAC"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ProCoin/Home/HomeQuotations/Controller/QuotationsDetail/TYQuotationsDetailController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "99"
+            endingLineNumber = "99"
+            landmarkName = "-viewDidLoad"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "428E0438-637C-463A-B62F-051D798CF8A5"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ProCoin/Quotations/CoinQuotations/Controller/CoinQuotationsDetailController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "92"
+            endingLineNumber = "92"
+            landmarkName = "-viewDidLoad"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B67E0BAB-7C28-45AE-AB6E-2121674F89F5"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ProCoin/Login/CountrySelect/Controller/CountrySelectController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "118"
+            endingLineNumber = "118"
+            landmarkName = "-reqCountryInfoList"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "644DA99F-082D-4B0C-B689-39F8345AA87A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ProCoin/Home/HomeMain/Controller/HomeMainController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "263"
+            endingLineNumber = "263"
+            landmarkName = "-getQuoteData"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "644DA99F-082D-4B0C-B689-39F8345AA87A - df03888fd6342102"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__34-[HomeMainController getQuoteData]_block_invoke"
+                  moduleName = "BITC"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/luochun1/Documents/GitHub/crypto-ios/BITC-pro/ProCoin/Home/HomeMain/Controller/HomeMainController.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "263"
+                  endingLineNumber = "263"
+                  offsetFromSymbolStart = "635">
+               </Location>
+               <Location
+                  uuid = "644DA99F-082D-4B0C-B689-39F8345AA87A - ac6aa144fa89ff0d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__34-[HomeMainController getQuoteData]_block_invoke"
+                  moduleName = "eval101.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/luochun1/Documents/GitHub/crypto-ios/BITC-pro/ProCoin/Home/HomeMain/Controller/HomeMainController.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "263"
+                  endingLineNumber = "263"
+                  offsetFromSymbolStart = "635">
+               </Location>
+               <Location
+                  uuid = "644DA99F-082D-4B0C-B689-39F8345AA87A - ab6f3e64c127330f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__34-[HomeMainController getQuoteData]_block_invoke"
+                  moduleName = "eval103.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/luochun1/Documents/GitHub/crypto-ios/BITC-pro/ProCoin/Home/HomeMain/Controller/HomeMainController.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "263"
+                  endingLineNumber = "263"
+                  offsetFromSymbolStart = "635">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "143B3E8F-4BBC-4942-8E74-5FD71879297B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ProCoin/Home/HomeMain/Controller/HomeMainListViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "63"
+            endingLineNumber = "63"
+            landmarkName = "-getData"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3874F46A-0EDE-4E09-BDBC-E05B109912A1"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ProCoin/Home/HomeQuotations/Controller/TYQuotationsListViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "151"
+            endingLineNumber = "151"
+            landmarkName = "-tableView:didSelectRowAtIndexPath:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "3874F46A-0EDE-4E09-BDBC-E05B109912A1 - fa8f8a258751b19c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[TYQuotationsListViewController tableView:didSelectRowAtIndexPath:]"
+                  moduleName = "BITC"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/luochun1/Documents/GitHub/crypto-ios/BITC-pro/ProCoin/Home/HomeQuotations/Controller/TYQuotationsListViewController.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "151"
+                  endingLineNumber = "151"
+                  offsetFromSymbolStart = "113">
+               </Location>
+               <Location
+                  uuid = "3874F46A-0EDE-4E09-BDBC-E05B109912A1 - 89e6a3eeabec6f93"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[TYQuotationsListViewController tableView:didSelectRowAtIndexPath:]"
+                  moduleName = "eval101.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/luochun1/Documents/GitHub/crypto-ios/BITC-pro/ProCoin/Home/HomeQuotations/Controller/TYQuotationsListViewController.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "151"
+                  endingLineNumber = "151"
+                  offsetFromSymbolStart = "113">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9D8BA984-5DFD-4E5B-BA3D-029BB17D6B3E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ProCoin/More/TJRSetUp/TJRSetUpViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "79"
+            endingLineNumber = "79"
+            landmarkName = "-reqHomeMineDataFninshed:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "170410CF-B927-46F9-A4B7-98214E3D1411"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ProCoin/Home/HomeAccount/View/Account/TYAccountTokenInfoCell.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "120"
+            endingLineNumber = "120"
+            landmarkName = "-setTokenModel:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

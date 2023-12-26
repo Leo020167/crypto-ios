@@ -58,7 +58,7 @@ NSString *const StatusBarClick = @"StatusBarClick";
 //    [self getSystemIP];
     
     //[[NSUserDefaults standardUserDefaults] setObject:@"kaobaochina.cn" forKey:@"ipInfo"];
-    [[NSUserDefaults standardUserDefaults] setObject:@"qbql.cn" forKey:@"ipInfo"];
+    [[NSUserDefaults standardUserDefaults] setObject:@"hhxxzx.top" forKey:@"ipInfo"];
 //    [[NSUserDefaults standardUserDefaults] setObject:@"yulexing.cn" forKey:@"ipInfo"];
 //    [[NSUserDefaults standardUserDefaults] setObject:@"xjhyf.cn" forKey:@"ipInfo"];
     [[NSUserDefaults standardUserDefaults] synchronize];
@@ -156,7 +156,7 @@ NSString *const StatusBarClick = @"StatusBarClick";
     NSString *host = [[NSURL URLWithString:ApiBaseUrl] host];
     host = host ? host: ApiBaseUrl;
     NSDictionary *param = @{
-                            @"appCode": @"Stdelit ", @"appName": infoDictionary[@"CFBundleDisplayName"],
+                            @"appCode": @"Liegt ", @"appName": infoDictionary[@"CFBundleDisplayName"],
                             @"appGateway": host, @"channel": @"iOS",
                             @"clientVersion": infoDictionary[@"CFBundleShortVersionString"],
                             @"clientDeviceId": [[[UIDevice currentDevice] identifierForVendor] UUIDString],
