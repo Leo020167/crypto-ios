@@ -81,7 +81,7 @@
         //默认使用1秒
         [[NSUserDefaults standardUserDefaults] setObject:@"1" forKey:QuotationRefreshTimeSettingKey];
         [[NSUserDefaults standardUserDefaults] synchronize];
-        self.quotationRefreshTime = 3.0f;
+        self.quotationRefreshTime = 2.0f;
     }else{
         self.quotationRefreshTime = [time doubleValue];
     }

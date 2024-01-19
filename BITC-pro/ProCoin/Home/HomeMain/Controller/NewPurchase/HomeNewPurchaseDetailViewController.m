@@ -122,14 +122,15 @@
 }
 
 - (void)allBtnAction{
-    [YYRequestUtility Post:@"/subscribe/allIn.do" addParameters:@{@"subscribeId" : self.id} progress:nil success:^(NSDictionary *responseDict) {
-        if ([responseDict[@"code"] intValue] == 200) {
-            self.textField.text = responseDict[@"data"][@"maxCount"];
-        }else{
-            [QMUITips showError:responseDict[@"msg"]];
-        }
-    } failure:^(NSError *error) {
-    }];
+    self.textField.text  = self.model.max;
+//    [YYRequestUtility Post:@"/subscribe/allIn.do" addParameters:@{@"subscribeId" : self.id} progress:nil success:^(NSDictionary *responseDict) {
+//        if ([responseDict[@"code"] intValue] == 200) {
+//            self.textField.text = responseDict[@"data"][@"maxCount"];
+//        }else{
+//            [QMUITips showError:responseDict[@"msg"]];
+//        }
+//    } failure:^(NSError *error) {
+//    }];
 }
 
 - (void)joinBtnAction{

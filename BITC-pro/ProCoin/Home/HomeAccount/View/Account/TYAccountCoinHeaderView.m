@@ -51,7 +51,7 @@
 - (QMUIButton *)financialBtn{
     if (!_financialBtn) {
         _financialBtn = [[QMUIButton alloc] init];
-        [_financialBtn setTitle:NSLocalizedStringForKey(@"财务记录") forState:0];
+        [_financialBtn setTitle:NSLocalizedStringForKey(@"申购记录") forState:0];
         [_financialBtn setTitleColor:UIColorMakeWithHex(@"#666666") forState:0];
         [_financialBtn setTitleColor:UIColorMakeWithHex(@"#2B4166") forState:UIControlStateSelected];
         _financialBtn.titleLabel.font = UIFontMake(13);

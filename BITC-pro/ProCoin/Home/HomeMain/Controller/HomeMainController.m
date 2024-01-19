@@ -435,13 +435,15 @@
         };
         _headerView.clickActionBlock = ^(NSUInteger type) {
             if (type == 1) {
-                [self pageToViewControllerForName:@"HomeBigVController"];
+                //[self pageToViewControllerForName:@"HomeBigVController"];
+                [self pageToViewControllerForName:@"PlatformAnnouncementViewController"];
             }else if (type == 2){
                 HomeNewPurchaseBaseViewController *purchase = [[HomeNewPurchaseBaseViewController alloc] init];
                 [QMUIHelper.visibleViewController.navigationController pushViewController:purchase animated:YES];
             }else if (type == 3){
                 if(ROOTCONTROLLER_USER.userId){
-                    [self pageToViewControllerForName:@"PledgeIndexViewController"];
+                    [self reqPrivateChatService];
+//                    [self pageToViewControllerForName:@"PledgeIndexViewController"];
 //                    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Pledge" bundle:nil];
 //                    UIViewController *vc = [storyboard instantiateViewControllerWithIdentifier:@"PledgeIndexViewController"];
 //                    [[self getTJRAppDelegate].navigation pushViewController:vc animated:YES];

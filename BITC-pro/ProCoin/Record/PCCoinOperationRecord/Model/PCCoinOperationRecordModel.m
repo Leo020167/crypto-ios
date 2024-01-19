@@ -51,3 +51,43 @@
     [super dealloc];
 }
 @end
+
+@implementation PCCoinSubscribeRecordModel
+
+//@property (copy, nonatomic) NSString *title;
+//@property (copy, nonatomic) NSString *count;
+//@property (copy, nonatomic) NSString *time;
+//@property (copy, nonatomic) NSString *luckyCount;
+//@property (copy, nonatomic) NSString *stateDesc;
+//@property (copy, nonatomic) NSString *paidAmount;
+//@property (copy, nonatomic) NSString *unpaidAmount;
+//@property (copy, nonatomic) NSString *tradeTime;
+
+- (instancetype)initWithJson:(NSDictionary *)json {
+    if(self = [super initWithJson:json]){
+        self.title = [self stringParser:@"title" json:json];
+        self.count = [self stringParser:@"count" json:json];
+        self.time = [self stringParser:@"time" json:json];
+        self.luckyCount = [self stringParser:@"luckyCount" json:json];
+        self.stateDesc = [self stringParser:@"stateDesc" json:json];
+        self.paidAmount = [self stringParser:@"paidAmount" json:json];
+        self.unpaidAmount = [self stringParser:@"unpaidAmount" json:json];
+        self.tradeTime = [self stringParser:@"tradeTime" json:json];
+    }
+    return self;
+}
+
+- (void)dealloc {
+    [_title release];
+    [_count release];
+    [_time release];
+    [_luckyCount release];
+    [_stateDesc release];
+    [_paidAmount release];
+    [_unpaidAmount release];
+    [_tradeTime release];
+    [super dealloc];
+}
+@end
+
+

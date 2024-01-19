@@ -6,7 +6,7 @@
 "0vO-lW-dOV.text" = "提幣";
 
 /* Class = "UILabel"; text = "手续费（USDT）"; ObjectID = "1e6-2N-hs3"; */
-"1e6-2N-hs3.text" = "手續費(LET)";
+"1e6-2N-hs3.text" = "手續費(ACB)";
 
 /* Class = "UILabel"; text = "為保障資金安全，當您帳戶安全策略變更、密碼修改、使用新地址提幣，我們會對提幣進行人工審核，請耐心等待工作人員電話或郵件聯繫。 請務必確認電腦及瀏覽器安全，防止信息被篡改或洩露。"; ObjectID = "AQc-G1-tBo"; */
 "AQc-G1-tBo.text" = "為保障資金安全，當您帳戶安全策略變更、密碼修改、使用新地址提幣，我們會對提幣進行人工審核，請耐心等待工作人員電話或郵件聯繫。 請務必確認電腦及瀏覽器安全，防止信息被篡改或洩露。";
@@ -27,7 +27,7 @@
 "N75-Xh-ojf.text" = "到賬數量（USDT）";
 
 /* Class = "UILabel"; text = "选择提币网络"; ObjectID = "PtH-eo-3b7"; */
-"PtH-eo-3b7.text" = "選擇提幣網絡”";
+"PtH-eo-3b7.text" = "選擇提幣網絡";
 
 /* Class = "UILabel"; text = "选择币种"; ObjectID = "Q9X-U1-elQ"; */
 "Q9X-U1-elQ.text" = "選擇幣種";

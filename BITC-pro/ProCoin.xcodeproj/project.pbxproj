@@ -1313,6 +1313,10 @@
 		73F7D652293CFB4400DCCC6D /* PledgeRecordCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 73F7D654293CFB4400DCCC6D /* PledgeRecordCell.xib */; };
 		73F7D665293CFC8700DCCC6D /* PledgeBuyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 73F7D667293CFC8700DCCC6D /* PledgeBuyViewController.xib */; };
 		8F680207F6A07B59E1FF2C51 /* libPods-ProCoin.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 578968897E99BE9E46405005 /* libPods-ProCoin.a */; };
+		AB5C2EF02B5A58200070777E /* PlatformAnnouncementViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB5C2EEE2B5A58200070777E /* PlatformAnnouncementViewController.m */; };
+		AB5C2EF32B5A77E00070777E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB5C2EF22B5A77E00070777E /* LaunchScreen.storyboard */; };
+		AB5C2EF52B5A7BAF0070777E /* PlatformAnnouncementViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB5C2EF42B5A7BAF0070777E /* PlatformAnnouncementViewController.xib */; };
+		AB5C2EF82B5ADF4F0070777E /* TYNewSubscribeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AB5C2EF72B5ADF4F0070777E /* TYNewSubscribeCell.m */; };
 		EF2EAA5D15F9EE6A00928A38 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF2EAA5C15F9EE6900928A38 /* AudioToolbox.framework */; };
 		EF2EAABE15F9F27100928A38 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF2EAABD15F9F27100928A38 /* SystemConfiguration.framework */; };
 		EF4807751C27D54600824113 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF4807741C27D54600824113 /* CoreImage.framework */; };
@@ -5328,6 +5332,12 @@
 		73F7D673293CFC9F00DCCC6D /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/PledgeBuyViewController.strings; sourceTree = "<group>"; };
 		73F7D675293CFCA000DCCC6D /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/PledgeBuyViewController.strings; sourceTree = "<group>"; };
 		73F7D677293CFCA100DCCC6D /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/PledgeBuyViewController.strings; sourceTree = "<group>"; };
+		AB5C2EED2B5A58200070777E /* PlatformAnnouncementViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlatformAnnouncementViewController.h; sourceTree = "<group>"; };
+		AB5C2EEE2B5A58200070777E /* PlatformAnnouncementViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlatformAnnouncementViewController.m; sourceTree = "<group>"; };
+		AB5C2EF22B5A77E00070777E /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AB5C2EF42B5A7BAF0070777E /* PlatformAnnouncementViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlatformAnnouncementViewController.xib; sourceTree = "<group>"; };
+		AB5C2EF62B5ADF4F0070777E /* TYNewSubscribeCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYNewSubscribeCell.h; sourceTree = "<group>"; };
+		AB5C2EF72B5ADF4F0070777E /* TYNewSubscribeCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYNewSubscribeCell.m; sourceTree = "<group>"; };
 		EF01EB271DE6D97A00079EC1 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
 		EF2EAA5C15F9EE6900928A38 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		EF2EAABD15F9F27100928A38 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
@@ -7617,6 +7627,8 @@
 				7376E152293BB408002AF291 /* TYAccountFinancialSymbolHeaderView.m */,
 				4EC2E9DB28C4BBAF00ADEDA4 /* TYAccountSubscribeCell.h */,
 				4EC2E9DD28C4BBAF00ADEDA4 /* TYAccountSubscribeCell.m */,
+				AB5C2EF62B5ADF4F0070777E /* TYNewSubscribeCell.h */,
+				AB5C2EF72B5ADF4F0070777E /* TYNewSubscribeCell.m */,
 				4EC2E9E928C4CA1C00ADEDA4 /* TYAccountTokenInfoCell.h */,
 				4EC2E9EA28C4CA1C00ADEDA4 /* TYAccountTokenInfoCell.m */,
 				4EC2E9EF28C4D84C00ADEDA4 /* TYAccountFollowInfoCell.h */,
@@ -8953,6 +8965,7 @@
 				616A8E99202413C5003441B7 /* TJRRootNavigationController.m */,
 				616A8E9A202413C5003441B7 /* TJRWindow.h */,
 				616A8E9B202413C5003441B7 /* TJRWindow.m */,
+				AB5C2EF22B5A77E00070777E /* LaunchScreen.storyboard */,
 			);
 			path = "Supporting Files";
 			sourceTree = "<group>";
@@ -12080,6 +12093,9 @@
 				738FDA482988BF8300A57BBC /* HelpCenterListViewController.h */,
 				738FDA492988BF8300A57BBC /* HelpCenterListViewController.m */,
 				738FDA4A2988BF8300A57BBC /* HelpCenterListViewController.xib */,
+				AB5C2EED2B5A58200070777E /* PlatformAnnouncementViewController.h */,
+				AB5C2EEE2B5A58200070777E /* PlatformAnnouncementViewController.m */,
+				AB5C2EF42B5A7BAF0070777E /* PlatformAnnouncementViewController.xib */,
 			);
 			path = HelpCenter;
 			sourceTree = "<group>";
@@ -12238,6 +12254,7 @@
 				TargetAttributes = {
 					EF93954815E89DA000F30D1B = {
 						DevelopmentTeam = AQYB264B53;
+						LastSwiftMigration = 1510;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.ApplicationGroups.iOS = {
@@ -12318,6 +12335,7 @@
 				395A8AD927574A8100B0235D /* HomeQuotationsCoinCell.xib in Resources */,
 				61FBF1C120736A1500641DD5 /* ZSSkeyboard.png in Resources */,
 				395A8F3E27584F1B00B0235D /* LeverageDetailCloseInfoCell.xib in Resources */,
+				AB5C2EF52B5A7BAF0070777E /* PlatformAnnouncementViewController.xib in Resources */,
 				616A9207202413C6003441B7 /* TJRFace_122@2x.png in Resources */,
 				73621E88293D79CC005D2514 /* ExtAddressCell.xib in Resources */,
 				616A91D3202413C6003441B7 /* chat.xcassets in Resources */,
@@ -12792,6 +12810,7 @@
 				395A8DE5275836FA00B0235D /* MarketInfoHeaderView.xib in Resources */,
 				395A8EEB2758491200B0235D /* PCTransactionDetailController.xib in Resources */,
 				616A921B202413C6003441B7 /* TJRFace_141@2x.png in Resources */,
+				AB5C2EF32B5A77E00070777E /* LaunchScreen.storyboard in Resources */,
 				61FBF1B520736A1500641DD5 /* ZSShorizontalrule.png in Resources */,
 				616A921E202413C6003441B7 /* TJRFace_144@2x.png in Resources */,
 				395A8A492757443E00B0235D /* PCHomeFollowUserInfoCell.xib in Resources */,
@@ -13063,6 +13082,7 @@
 				61FBEFED2073661600641DD5 /* TJRTabBarItem.m in Sources */,
 				04911A582301935300BFDBA9 /* CDCostBaseEntity.m in Sources */,
 				6789B38B2170AB5F00A035EF /* LBPhotoBrowserView.m in Sources */,
+				AB5C2EF82B5ADF4F0070777E /* TYNewSubscribeCell.m in Sources */,
 				0C85D832261AD418009DC8AA /* P2PMainController.m in Sources */,
 				61FBF1F720736A1500641DD5 /* ZSSFontsViewController.m in Sources */,
 				615DCCBA2080BF1C003D2AA9 /* NSArrayAdditions.m in Sources */,
@@ -13312,6 +13332,7 @@
 				67117810215F8CD200381659 /* RZRefreshTableView.m in Sources */,
 				616A9313202413C7003441B7 /* TJRScrollView.m in Sources */,
 				61FBF1F320736A1500641DD5 /* CYRTextStorage.m in Sources */,
+				AB5C2EF02B5A58200070777E /* PlatformAnnouncementViewController.m in Sources */,
 				041D3E3C22C768440012F351 /* CMShareTimeView.m in Sources */,
 				61640361222FBA6800674618 /* RedzInOutWebController.m in Sources */,
 				616A91B3202413C6003441B7 /* NetWorkManage+User.m in Sources */,
@@ -17656,7 +17677,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_MODULE_DEBUGGING = YES;
 				CLANG_ENABLE_OBJC_ARC = NO;
@@ -17694,7 +17715,7 @@
 				HEADER_SEARCH_PATHS = "$(inherited)";
 				INCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = ".DS_Store .svn .git";
 				INFOPLIST_FILE = "$(SRCROOT)/ProCoin/Supporting Files/ProCoin-Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = Liegt;
+				INFOPLIST_KEY_CFBundleDisplayName = ACGT;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -17710,12 +17731,14 @@
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_BUNDLE_IDENTIFIER = com.xprocoin.Liegt;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xprocoin.ACGT;
 				PRODUCT_NAME = BITC;
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				RUN_CLANG_STATIC_ANALYZER = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 				USER_HEADER_SEARCH_PATHS = "";
 				VALIDATE_PRODUCT = NO;
@@ -17730,7 +17753,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_MODULE_DEBUGGING = YES;
 				CLANG_ENABLE_OBJC_ARC = NO;
@@ -17766,7 +17789,7 @@
 				HEADER_SEARCH_PATHS = "$(inherited)";
 				INCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = ".DS_Store .svn .git";
 				INFOPLIST_FILE = "$(SRCROOT)/ProCoin/Supporting Files/ProCoin-Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = Liegt;
+				INFOPLIST_KEY_CFBundleDisplayName = ACGT;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -17782,13 +17805,14 @@
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_BUNDLE_IDENTIFIER = com.xprocoin.Liegt;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xprocoin.ACGT;
 				PRODUCT_NAME = BITC;
 				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				RUN_CLANG_STATIC_ANALYZER = NO;
 				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 				USER_HEADER_SEARCH_PATHS = "";
 				VALIDATE_PRODUCT = YES;

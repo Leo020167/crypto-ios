@@ -102,8 +102,12 @@
 
 - (void)initUI{
     self.view.backgroundColor = UIColorMakeWithHex(@"#E2E6F2");
-    NSMutableArray *titlesArray = [NSMutableArray arrayWithArray:@[NSLocalizedStringForKey(@"余额"),
-                                                                   NSLocalizedStringForKey(@"币币账户"),NSLocalizedStringForKey(@"跟单账户"), NSLocalizedStringForKey(@"全球期指账户"), NSLocalizedStringForKey(@"合约账户")]];
+    NSMutableArray *titlesArray = [NSMutableArray arrayWithArray:
+@[NSLocalizedStringForKey(@"余额"),
+  NSLocalizedStringForKey(@"币币账户"),
+//  NSLocalizedStringForKey(@"跟单账户"),
+//  NSLocalizedStringForKey(@"全球期指账户"),
+  NSLocalizedStringForKey(@"合约账户")]];
     self.titlesArray = titlesArray;
     JXCategoryIndicatorLineView *lineView = [[JXCategoryIndicatorLineView alloc] init];
     lineView.backgroundColor = UIColorClear;
@@ -233,15 +237,15 @@
         TYAccountCoinViewController *coin = [[TYAccountCoinViewController alloc] init];
         self.coin = coin;
         return coin;
+//    }else if (index == 2) {
+//        TYAccountFollowViewController *follow = [[TYAccountFollowViewController alloc] init];
+//        self.follow = follow;
+//        return follow;
+//    }else if (index == 3) {
+//        TYAccountIndexViewController *index = [[TYAccountIndexViewController alloc] init];
+//        self.index = index;
+//        return index;
     }else if (index == 2) {
-        TYAccountFollowViewController *follow = [[TYAccountFollowViewController alloc] init];
-        self.follow = follow;
-        return follow;
-    }else if (index == 3) {
-        TYAccountIndexViewController *index = [[TYAccountIndexViewController alloc] init];
-        self.index = index;
-        return index;
-    }else if (index == 4) {
         TYAccountContractViewController *contract = [[TYAccountContractViewController alloc] init];
         self.contract = contract;
         return contract;

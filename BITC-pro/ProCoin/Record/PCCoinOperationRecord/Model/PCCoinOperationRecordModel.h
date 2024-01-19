@@ -43,3 +43,22 @@ NS_ASSUME_NONNULL_BEGIN
 @end
 
 NS_ASSUME_NONNULL_END
+
+
+NS_ASSUME_NONNULL_BEGIN
+
+
+@interface PCCoinSubscribeRecordModel : TJRBaseEntity
+
+@property (copy, nonatomic) NSString *title;
+@property (copy, nonatomic) NSString *count;
+@property (copy, nonatomic) NSString *time;
+@property (copy, nonatomic) NSString *luckyCount;
+@property (copy, nonatomic) NSString *stateDesc;
+@property (copy, nonatomic) NSString *paidAmount;
+@property (copy, nonatomic) NSString *unpaidAmount;
+@property (copy, nonatomic) NSString *tradeTime;
+
+@end
+
+NS_ASSUME_NONNULL_END

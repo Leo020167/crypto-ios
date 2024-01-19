@@ -92,7 +92,8 @@
     self.myCategoryView.listContainer = self.listContainerView;
     self.myCategoryView.delegate = self;
     [self.view addSubview:self.myCategoryView];
-    self.titles = @[NSLocalizedStringForKey(@"币币"), NSLocalizedStringForKey(@"合约"), NSLocalizedStringForKey(@"全球期指")];
+//    self.titles = @[NSLocalizedStringForKey(@"币币"), NSLocalizedStringForKey(@"合约"), NSLocalizedStringForKey(@"全球期指")];
+    self.titles = @[NSLocalizedStringForKey(@"币币"), NSLocalizedStringForKey(@"合约")];
     _myCategoryView.titles = self.titles;
 }
 
@@ -112,9 +113,9 @@
     if (self.list2) {
         [self.list2 getData];
     }
-    if (self.list3) {
-        [self.list3 getData];
-    }
+//    if (self.list3) {
+//        [self.list3 getData];
+//    }
 }
 
 - (void)closeRequestTimer
@@ -145,9 +146,9 @@
     if (index == 1) {
         self.list2 = list;
     }
-    if (index == 2) {
-        self.list3 = list;
-    }
+//    if (index == 2) {
+//        self.list3 = list;
+//    }
     return list;
 }
 

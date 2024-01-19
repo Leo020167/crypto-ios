@@ -50,8 +50,8 @@
 
 //输入框
 @property (retain, nonatomic) IBOutlet UITextField *amountTF;       //数量输入
-@property (retain, nonatomic) IBOutlet UILabel *feeLabel;           //手续费
-@property (retain, nonatomic) IBOutlet UILabel *feeSymbolLabel;     //手续费symbol
+//@property (retain, nonatomic) IBOutlet UILabel *feeLabel;           //手续费
+//@property (retain, nonatomic) IBOutlet UILabel *feeSymbolLabel;     //手续费symbol
 
 @property (retain, nonatomic) IBOutlet UILabel *extractTFSymbolLabel;    //到账数量的symbol
 @property (retain, nonatomic) IBOutlet UILabel *finalExtractCoinAmountLabel;            //最终到账
@@ -162,7 +162,7 @@
     _infoEntity = [infoEntity retain];
     _amountLabel.text = infoEntity.availableAmount;
     _lockLabel.text = infoEntity.frozenAmount;
-    _feeLabel.text = infoEntity.fee;
+//    _feeLabel.text = infoEntity.fee;
     
     //NSString *address = infoEntity.addressList.firstObject.address;
     //_addressTF.text = address;
@@ -193,8 +193,8 @@
     [_coinSymbolButton release];
     [_amountLabel release];
     [_extractTFSymbolLabel release];
-    [_feeLabel release];
-    [_feeSymbolLabel release];
+//    [_feeLabel release];
+//    [_feeSymbolLabel release];
     [_tipsLabel release];
     [_finalExtractCoinAmountLabel release];
     [_addressTF release];
@@ -272,8 +272,8 @@
     [_coinSymbolButton setTitle:symbol forState:0];
     self.amountSymbolLabel.text = [NSString stringWithFormat: NSLocalizedStringForKey(@"可用余额()"), symbol];
     self.lockSymbolLabel.text = [NSString stringWithFormat: NSLocalizedStringForKey(@"冻结金额()"), symbol];
-    //self.feeSymbolLabel.text = [NSString stringWithFormat: NSLocalizedStringForKey(@"手续费()"), symbol];
-    self.feeSymbolLabel.text = [NSString stringWithFormat: NSLocalizedStringForKey(@"手续费()"), @"LET"];
+//    self.feeSymbolLabel.text = [NSString stringWithFormat: NSLocalizedStringForKey(@"手续费()"), symbol];
+//    self.feeSymbolLabel.text = [NSString stringWithFormat: NSLocalizedStringForKey(@"手续费()"), @"ACB"];
     self.extractTFSymbolLabel.text = [NSString stringWithFormat: NSLocalizedStringForKey(@"到账数量()"), symbol];
     [self getWithdrawConfig];
     [self bindChainTypeView];
@@ -554,10 +554,10 @@
     _amountSymbolLabel.text = [NSString stringWithFormat: NSLocalizedStringForKey(@"可用余额()"), (_symbol ?: @"")];
     _lockSymbolLabel.text = [NSString stringWithFormat: NSLocalizedStringForKey(@"冻结金额()"), _symbol ?: @""];
 //    _feeSymbolLabel.text = [NSString stringWithFormat: NSLocalizedStringForKey(@"手续费()"), _symbol ?: @""];
-    _feeSymbolLabel.text = [NSString stringWithFormat: NSLocalizedStringForKey(@"手续费()"), @"LET"];
+//    _feeSymbolLabel.text = [NSString stringWithFormat: NSLocalizedStringForKey(@"手续费()"), @"ACB"];
     _extractTFSymbolLabel.text = [NSString stringWithFormat: NSLocalizedStringForKey(@"到账数量()"), _symbol ?: @""];
     
-    _feeLabel.text = @"0.00000000";
+//    _feeLabel.text = @"0.00000000";
     _amountLabel.text = @"0";
     _finalExtractCoinAmountLabel.text = @"---";
     

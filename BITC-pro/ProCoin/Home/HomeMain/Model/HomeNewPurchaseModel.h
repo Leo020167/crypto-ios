@@ -57,6 +57,9 @@ NS_ASSUME_NONNULL_BEGIN
 /// 最小申购数量
 @property (nonatomic, copy) NSString *min;
 
+/// 最小申购数量
+@property (nonatomic, copy) NSString *max;
+
 /// 状态：0 待开始，1 申购中，2 已结束
 @property (nonatomic, assign) NSInteger state;
 

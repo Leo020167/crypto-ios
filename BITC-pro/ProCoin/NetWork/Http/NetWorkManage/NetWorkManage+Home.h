@@ -51,6 +51,9 @@
 
 #pragma mark - 获取帮助列表(带分页)
 - (void)reqHelpDataList:(id)delegate pageNo:(NSString *)pageNo finishedCallback:(SEL)cbFinished failedCallback:(SEL)cbFailed;
+
+#pragma mark - 获取平台公告列表(带分页)
+- (void)reqPlatformAnnouncementDataList:(id)delegate pageNo:(NSString *)pageNo finishedCallback:(SEL)cbFinished failedCallback:(SEL)cbFailed;
 @end
 
 

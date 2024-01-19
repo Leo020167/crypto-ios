@@ -145,8 +145,10 @@
 }
 
 - (void)titleBtnAction{
-    NSArray *titleArray = @[NSLocalizedStringForKey(@"跟单交易记录"), NSLocalizedStringForKey(@"全球期指交易记录"), NSLocalizedStringForKey(@"合约交易记录"), NSLocalizedStringForKey(@"币币交易记录")];
-    NSArray *accountArray = @[@"follow", @"stock", @"digital", @"spot"];
+//    NSArray *titleArray = @[NSLocalizedStringForKey(@"跟单交易记录"), NSLocalizedStringForKey(@"全球期指交易记录"), NSLocalizedStringForKey(@"合约交易记录"), NSLocalizedStringForKey(@"币币交易记录")];
+//    NSArray *accountArray = @[@"follow", @"stock", @"digital", @"spot"];
+    NSArray *titleArray = @[ NSLocalizedStringForKey(@"合约交易记录"), NSLocalizedStringForKey(@"币币交易记录")];
+    NSArray *accountArray = @[@"digital", @"spot"];
     UIAlertController *alert = [UIAlertController alertControllerWithTitle:NSLocalizedStringForKey(@"交易类型") message:nil preferredStyle:UIAlertControllerStyleActionSheet];
     for (int i = 0; i < titleArray.count; i ++) {
         [alert addAction:[UIAlertAction actionWithTitle:titleArray[i] style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
@@ -192,11 +194,11 @@
             [amountText yy_setLineSpacing:5 range:amountText.yy_rangeOfAll];
             self.amountLabel.attributedText = amountText;
             
-            NSMutableAttributedString *tokenText = [[NSMutableAttributedString alloc] initWithString:[NSString stringWithFormat:@"%@\n%@", NSLocalizedStringForKey(@"获得LET"), responseDict[@"data"][@"sumToken"]]];
+            NSMutableAttributedString *tokenText = [[NSMutableAttributedString alloc] initWithString:[NSString stringWithFormat:@"%@\n%@", NSLocalizedStringForKey(@"获得ACB"), responseDict[@"data"][@"sumToken"]]];
             [tokenText yy_setFont:UIFontMake(15) range:tokenText.yy_rangeOfAll];
             [tokenText yy_setColor:UIColorMakeWithHex(@"#333333") range:tokenText.yy_rangeOfAll];
-            [tokenText yy_setFont:UIFontMake(13) range:NSMakeRange(0, NSLocalizedStringForKey(@"获得LET").length)];
-            [tokenText yy_setColor:UIColorMakeWithHex(@"#999999") range:NSMakeRange(0, NSLocalizedStringForKey(@"获得LET").length)];
+            [tokenText yy_setFont:UIFontMake(13) range:NSMakeRange(0, NSLocalizedStringForKey(@"获得ACB").length)];
+            [tokenText yy_setColor:UIColorMakeWithHex(@"#999999") range:NSMakeRange(0, NSLocalizedStringForKey(@"获得ACB").length)];
             [tokenText yy_setAlignment:NSTextAlignmentCenter range:tokenText.yy_rangeOfAll];
             [tokenText yy_setLineSpacing:5 range:tokenText.yy_rangeOfAll];
             self.tokenLabel.attributedText = tokenText;

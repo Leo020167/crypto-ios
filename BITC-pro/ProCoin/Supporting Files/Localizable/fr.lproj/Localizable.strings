@@ -39,7 +39,7 @@
 "AppName" = "Cropyme";
 
 /*  */
-"Liegt 认证商家" = "Marchand certifié Liegt ";
+"ACGT 认证商家" = "Marchand certifié ACGT ";
 
 /* 重要 */
 "BYY官方" = "BYY OFFICIEL";
@@ -793,7 +793,7 @@
 "头像" = "Avatar";
 
 /*  */
-"奖励(LET)" = "Récompense (LET)";
+"奖励(ACB)" = "Récompense (ACB)";
 
 /* 男 */
 "女" = "Femelle";
@@ -1159,7 +1159,7 @@
 "总盈亏(USDT)" = "Bénéfice total et perte (USDT)";
 
 /*  */
-"总资产(LET)" = "Actif total (LET)";
+"总资产(ACB)" = "Actif total (ACB)";
 
 "总资产(USDT)" = "Actif total (USDT)";
 "总资产" = "Actif total";
@@ -1194,10 +1194,10 @@
 "您暂无发布广告" = "you have not posted ads";
 
 
-"您正在向Liegt 认证卖家购买%@ USDT" = "Vous achetez%@ USDT auprès d'un vendeur certifié Liegt ";
+"您正在向ACGT 认证卖家购买%@ USDT" = "Vous achetez%@ USDT auprès d'un vendeur certifié ACGT ";
 
 /* 申购失败转换 */
-"您正在向Liegt 认证卖家购买%@ USDT" = "You are buying %@ USDT from a Liegt  certified seller";
+"您正在向ACGT 认证卖家购买%@ USDT" = "You are buying %@ USDT from a ACGT  certified seller";
 
 /* 选择个人头像 */
 "您的资料已修改，是否要保存？" = "Votre profil a été modifié, voulez-vous l'enregistrer?";
@@ -1251,7 +1251,7 @@
 "我已在%@一键跟上了TA的实盘交易" = "J'ai suivi les métiers en direct de TA à%@ un clic";
 
 /* 他是 */
-"我已在W.W.C.T一键跟上了TA的实盘交易" = "J'ai suivi le trading en direct de l'AT dans \"Liegt \" en un seul clic";
+"我已在W.W.C.T一键跟上了TA的实盘交易" = "J'ai suivi le trading en direct de l'AT dans \"ACGT \" en un seul clic";
 
 /* TA是 */
 "我已在procoin一键跟上了TA的实盘交易" = "I have followed his/her live trading at %@ with one clic";
@@ -1778,7 +1778,7 @@
 "查看" = "Vérifier";
 
 /*  */
-"查看如何获取LET？" = "Vérifiez comment obtenir LET?";
+"查看如何获取ACB？" = "Vérifiez comment obtenir ACB?";
 
 
 "查看导师" = "Afficher le tuteur";
@@ -1793,7 +1793,7 @@
 "标题" = "Titre";
 
 /*  */
-"欢迎来到Liegt " = "Bienvenue à Liegt ";
+"欢迎来到ACGT " = "Bienvenue à ACGT ";
 
 /* 平台 */
 "欢迎页" = "Page d'accueil";
@@ -1907,7 +1907,7 @@
 "消息推送" = "Poussée de message";
 
 /*  */
-"消耗LET" = "Consommer LET";
+"消耗ACB" = "Consommer ACB";
 
 
 "涨幅榜" = "Liste de hauts";
@@ -1952,7 +1952,7 @@
 "清除缓存" = "Vider le cache";
 
 /* 计算中 */
-"清除缓存后W.W.C.T上所有的头像、图片等要重新下载,是否清除?" = "Après avoir effacé le cache, tous les avatars et photos sur Liegt  doivent être téléchargés à nouveau.";
+"清除缓存后W.W.C.T上所有的头像、图片等要重新下载,是否清除?" = "Après avoir effacé le cache, tous les avatars et photos sur ACGT  doivent être téléchargés à nouveau.";
 
 /* 注销失败 */
 "清除缓存成功" = "Effacer le cache avec succès";
@@ -2195,7 +2195,7 @@
 "社区人数：%@" = "Nombre de communauté ：%@";
 
 /*  */
-"社区总奖励(LET)" = "Total Community Award (LET)";
+"社区总奖励(ACB)" = "Total Community Award (ACB)";
 
 /*  */
 "离强平价还剩 -" = "Rester à une parité forte -";
@@ -2297,7 +2297,7 @@
 "获取验证码失败" = "Échec de l'obtention du code de vérification";
 
 /*  */
-"获得LET" = "Obtenez LET";
+"获得ACB" = "Obtenez ACB";
 
 /* 上月收益 */
 "行情" = "Marché";
@@ -3171,3 +3171,11 @@
 "到账数量()" = "Montant à l'arrivée(%@)";
 
 "最小质押数量" = "Montant minimum de l'engagement";
+
+"平台公告" = "Annonce de la plateforme";
+"申购记录" = "Enregistrement";
+
+"申购时间" = "Durée d'abonnement";
+"中签数量" = "Quantité gagnée";
+"已缴款" =   "Payé";
+"未缴款" =   "Impayé";

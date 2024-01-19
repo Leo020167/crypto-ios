@@ -6,7 +6,7 @@
 "0vO-lW-dOV.text" = "Montant de";
 
 /* Class = "UILabel"; text = "手续费（USDT）"; ObjectID = "1e6-2N-hs3"; */
-"1e6-2N-hs3.text" = "Frais de gestion(LET)";
+"1e6-2N-hs3.text" = "Frais de gestion(ACB)";
 
 /* Class = "UILabel"; text = "為保障資金安全，當您帳戶安全策略變更、密碼修改、使用新地址提幣，我們會對提幣進行人工審核，請耐心等待工作人員電話或郵件聯繫。 請務必確認電腦及瀏覽器安全，防止信息被篡改或洩露。"; ObjectID = "AQc-G1-tBo"; */
 "AQc-G1-tBo.text" = "Afin d'assurer la sécurité des fonds, lorsque la politique de sécurité de votre compte est modifiée, que votre mot de passe est modifié ou que vous utilisez une nouvelle adresse pour retirer des pièces, nous examinerons manuellement les retraits. Veuillez patienter et attendre que le personnel vous contacte par téléphone ou par e-mail. Assurez-vous de confirmer la sécurité de votre ordinateur et de votre navigateur pour éviter que des informations ne soient falsifiées ou divulguées.";

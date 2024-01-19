@@ -15,6 +15,7 @@
 #import "PCCoinOperationRecordModel.h"
 #import "TYAccountSubscribeCell.h"
 #import "TYAccountFinancialRecordeCell.h"
+#import "TYNewSubscribeCell.h"
 
 @interface TYAccountCoinViewController ()<UITableViewDelegate, UITableViewDataSource>
 
@@ -33,6 +34,7 @@
 /// 1持仓  2财务记录
 @property (nonatomic, assign) NSInteger type;
 
+@property (nonatomic, assign) NSInteger page;
 @end
 
 @implementation TYAccountCoinViewController
@@ -47,6 +49,7 @@
 
 - (void)initUI{
     self.type = 1;
+    self.page = 1;
     self.positionArray = [NSMutableArray array];
     self.financeArray = [NSMutableArray array];
     [self.view addSubview:self.tableView];
@@ -62,7 +65,47 @@
     [self.tableView reloadData];
 }
 
-- (void)getFinanceData{
+- (void)loadData {
+    if (self.type == 2) {
+        [self getFinanceData];
+    }
+}
+
+- (void)getFinanceData {
+    [YYRequestUtility Post:@"subscribe/getRecordList.do" addParameters:@{@"pageNo" : @(self.page)} progress:nil success:^(NSDictionary *responseDict) {
+        [self.tableView.mj_header endRefreshing];
+        [self.tableView.mj_footer endRefreshing];
+        if ([responseDict[@"code"] intValue] == 200) {
+            if (self.page == 1) {
+                [self.financeArray removeAllObjects];
+            }
+            for (NSDictionary *dict in responseDict[@"data"][@"data"]) {
+                PCCoinSubscribeRecordModel *model = [PCCoinSubscribeRecordModel yy_modelWithDictionary:dict];
+                [self.financeArray addObject:model];
+            }
+            [self.tableView reloadData];
+        }else{
+            [QMUITips showError:responseDict[@"msg"]];
+        }
+        
+//        if ([responseDict[@"code"] intValue] == 200) {
+//            [self.financeArray removeAllObjects];
+//            NSArray *dataArr = [responseDict[@"data"] objectForKey:@"data"];
+//            for(NSDictionary *dic in dataArr){
+//                PCCoinOperationRecordModel *entity = [[[PCCoinOperationRecordModel alloc] initWithJson:dic] autorelease];
+//                [self.financeArray addObject:entity];
+//            }
+//            [self.tableView reloadData];
+//        }else{
+//            [QMUITips showError:responseDict[@"msg"]];
+//        }
+    } failure:^(NSError *error) {
+        [self.tableView.mj_header endRefreshing];
+        [self.tableView.mj_footer endRefreshing];
+    }];
+}
+
+- (void)getFinanceData2{
     [YYRequestUtility Post:@"depositeWithdraw/list.do" addParameters:@{@"type" : @"2", @"inOut" : @"", @"pageNo" : @"1"} progress:nil success:^(NSDictionary *responseDict) {
         if ([responseDict[@"code"] intValue] == 200) {
             [self.financeArray removeAllObjects];
@@ -79,6 +122,7 @@
         
     }];
 }
+
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView{
     return 2;
@@ -101,8 +145,9 @@
         if (self.type == 1) {
             return 120;
         }
-        PCCoinOperationRecordModel *recordEntity = [self.financeArray objectAtIndex:indexPath.row];
-        return recordEntity.inOut > 1 ? 160 : 100;
+        //PCCoinOperationRecordModel *recordEntity = [self.financeArray objectAtIndex:indexPath.row];
+        //return recordEntity.inOut > 1 ? 160 : 100;
+        return 270;
     }
     return 0;
 }
@@ -123,12 +168,20 @@
         return cell;
     }
     PCCoinOperationRecordModel *recordEntity = [self.financeArray objectAtIndex:indexPath.row];
-    if (recordEntity.inOut == 2 || recordEntity.inOut == 3 || recordEntity.inOut == 4) {
-        /// 财务记录
-        TYAccountSubscribeCell *cell = [tableView dequeueReusableCellWithIdentifier:NSStringFromClass([TYAccountSubscribeCell class]) forIndexPath:indexPath];
+//    if (recordEntity.inOut == 2 || recordEntity.inOut == 3 || recordEntity.inOut == 4) {
+//        /// 财务记录
+//        TYAccountSubscribeCell *cell = [tableView dequeueReusableCellWithIdentifier:NSStringFromClass([TYAccountSubscribeCell class]) forIndexPath:indexPath];
+//        cell.model = recordEntity;
+//        return cell;
+//    }
+    if (self.type == 2) {
+        PCCoinSubscribeRecordModel *recordEntity = [self.financeArray objectAtIndex:indexPath.row];
+        /// 申购记录
+        TYNewSubscribeCell *cell = [tableView dequeueReusableCellWithIdentifier:NSStringFromClass([TYNewSubscribeCell class]) forIndexPath:indexPath];
         cell.model = recordEntity;
         return cell;
     }
+    
     TYAccountFinancialRecordeCell *cell = [tableView dequeueReusableCellWithIdentifier:NSStringFromClass([TYAccountFinancialRecordeCell class]) forIndexPath:indexPath];
     cell.model = recordEntity;
     return cell;
@@ -200,6 +253,17 @@
         [_tableView registerClass:[TYAccountSubscribeCell class] forCellReuseIdentifier:NSStringFromClass([TYAccountSubscribeCell class])];
         [_tableView registerClass:[TYAccountFinancialRecordeCell class] forCellReuseIdentifier:NSStringFromClass([TYAccountFinancialRecordeCell class])];
         [_tableView registerClass:[TYAccountCoinHeaderView class] forHeaderFooterViewReuseIdentifier:NSStringFromClass([TYAccountCoinHeaderView class])];
+        [_tableView registerClass:[TYNewSubscribeCell class] forCellReuseIdentifier:NSStringFromClass([TYNewSubscribeCell class])];
+        
+        __weak typeof(self) weakSelf = self;
+        _tableView.mj_header = [MJRefreshNormalHeader headerWithRefreshingBlock:^{
+            weakSelf.page = 1;
+            [weakSelf loadData];
+        }];
+        _tableView.mj_footer = [MJRefreshAutoFooter footerWithRefreshingBlock:^{
+            weakSelf.page ++;
+            [weakSelf loadData];
+        }];
     }
     return _tableView;
 }

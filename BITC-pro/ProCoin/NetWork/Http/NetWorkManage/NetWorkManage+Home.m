@@ -138,5 +138,15 @@
                                       [BasicNameValuePair setName:@"pageNo" value:pageNo],nil]
                             delegate:delegate httpFinish:cbFinished httpFaild:cbFailed];
 }
+
+#pragma mark - 获取平台公告列表(带分页)
+- (void)reqPlatformAnnouncementDataList:(id)delegate pageNo:(NSString *)pageNo finishedCallback:(SEL)cbFinished failedCallback:(SEL)cbFailed
+{
+    [taojinHttpBase doHttpGETForJson:[self fullApiBaseUrlHome:@"/article/noticeList"]
+                              params:[self fetchUrlParam:
+                                      [BasicNameValuePair setName:@"pageNo" value:pageNo],nil]
+                            delegate:delegate httpFinish:cbFinished httpFaild:cbFailed];
+}
+
 @end
 

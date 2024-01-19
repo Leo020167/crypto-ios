@@ -16,7 +16,7 @@
 
 @property (nonatomic, strong) QMUIButton *coinBtn;
 
-@property (nonatomic, strong) QMUIButton *pledgeBtn;
+//@property (nonatomic, strong) QMUIButton *pledgeBtn;
 
 @property (nonatomic, strong) QMUIButton *otcBtn;
 
@@ -39,9 +39,10 @@
     [self.contentView addSubview:self.bgView];
     [self.bgView addSubview:self.vBtn];
     [self.bgView addSubview:self.coinBtn];
-    [self.bgView addSubview:self.pledgeBtn];
+    [self.bgView addSubview:self.serviceBtn];
+//    [self.bgView addSubview:self.pledgeBtn];
     [self.bgView addSubview:self.otcBtn];
-//    [self.bgView addSubview:self.serviceBtn];
+    
     [self.bgView mas_makeConstraints:^(MASConstraintMaker *make) {
         make.edges.mas_equalTo(UIEdgeInsetsMake(10, 0, 0, 0));
     }];
@@ -56,21 +57,23 @@
         make.top.bottom.mas_equalTo(0);
         make.width.mas_equalTo(width);
     }];
-    [self.pledgeBtn mas_makeConstraints:^(MASConstraintMaker *make) {
+    [self.serviceBtn mas_makeConstraints:^(MASConstraintMaker *make) {
         make.left.mas_equalTo(width * 2);
         make.top.bottom.mas_equalTo(0);
         make.width.mas_equalTo(width);
     }];
+    
+//    [self.pledgeBtn mas_makeConstraints:^(MASConstraintMaker *make) {
+//        make.left.mas_equalTo(width * 2);
+//        make.top.bottom.mas_equalTo(0);
+//        make.width.mas_equalTo(width);
+//    }];
     [self.otcBtn mas_makeConstraints:^(MASConstraintMaker *make) {
         make.left.mas_equalTo(width * 3);
         make.top.bottom.mas_equalTo(0);
         make.width.mas_equalTo(width);
     }];
-//    [self.serviceBtn mas_makeConstraints:^(MASConstraintMaker *make) {
-//        make.right.mas_equalTo(0);
-//        make.top.bottom.mas_equalTo(0);
-//        make.width.mas_equalTo(width);
-//    }];
+
 }
 
 - (void)btnAction:(QMUIButton *)sender{
@@ -93,7 +96,8 @@
 - (QMUIButton *)vBtn{
     if (!_vBtn) {
         _vBtn = [[QMUIButton alloc] init];
-        [_vBtn setTitle:NSLocalizedStringForKey(@"金牌机构") forState:0];
+        //[_vBtn setTitle:NSLocalizedStringForKey(@"金牌机构") forState:0];
+        [_vBtn setTitle:NSLocalizedStringForKey(@"平台公告") forState:0];
         [_vBtn setTitleColor:UIColorMakeWithHex(@"#333333") forState:0];
         [_vBtn setImage:UIImageMake(@"home_item_v") forState:0];
         _vBtn.titleLabel.font = UIFontMake(13);
@@ -122,22 +126,38 @@
     return _coinBtn;
 }
 
-- (QMUIButton *)pledgeBtn{
-    if (!_pledgeBtn) {
-        _pledgeBtn = [[QMUIButton alloc] init];
-        [_pledgeBtn setTitle:NSLocalizedStringForKey(@"Defi专区") forState:0];
-        [_pledgeBtn setTitleColor:UIColorMakeWithHex(@"#333333") forState:0];
-        [_pledgeBtn setImage:UIImageMake(@"home_item_pledge") forState:0];
-        //_pledgeBtn.imageEdgeInsets = UIEdgeInsetsMake(15, 15, 15, 15);
-        _pledgeBtn.titleLabel.font = UIFontMake(13);
-        _pledgeBtn.spacingBetweenImageAndTitle = 5;
-        _pledgeBtn.imagePosition = QMUIButtonImagePositionTop;
-        _pledgeBtn.backgroundColor = UIColor.whiteColor;
-        _pledgeBtn.tag = 3;
-        [_pledgeBtn addTarget:self action:@selector(btnAction:) forControlEvents:UIControlEventTouchUpInside];
+- (QMUIButton *)serviceBtn{
+    if (!_serviceBtn) {
+        _serviceBtn = [[QMUIButton alloc] init];
+        [_serviceBtn setTitle:NSLocalizedStringForKey(@"在线客服") forState:0];
+        [_serviceBtn setTitleColor:UIColorMakeWithHex(@"#333333") forState:0];
+        [_serviceBtn setImage:UIImageMake(@"home_item_service") forState:0];
+        _serviceBtn.titleLabel.font = UIFontMake(13);
+        _serviceBtn.spacingBetweenImageAndTitle = 5;
+        _serviceBtn.imagePosition = QMUIButtonImagePositionTop;
+        _serviceBtn.backgroundColor = UIColor.whiteColor;
+        _serviceBtn.tag = 3;
+        [_serviceBtn addTarget:self action:@selector(btnAction:) forControlEvents:UIControlEventTouchUpInside];
     }
-    return _pledgeBtn;
+    return _serviceBtn;
 }
+
+//- (QMUIButton *)pledgeBtn{
+//    if (!_pledgeBtn) {
+//        _pledgeBtn = [[QMUIButton alloc] init];
+//        [_pledgeBtn setTitle:NSLocalizedStringForKey(@"Defi专区") forState:0];
+//        [_pledgeBtn setTitleColor:UIColorMakeWithHex(@"#333333") forState:0];
+//        [_pledgeBtn setImage:UIImageMake(@"home_item_pledge") forState:0];
+//        //_pledgeBtn.imageEdgeInsets = UIEdgeInsetsMake(15, 15, 15, 15);
+//        _pledgeBtn.titleLabel.font = UIFontMake(13);
+//        _pledgeBtn.spacingBetweenImageAndTitle = 5;
+//        _pledgeBtn.imagePosition = QMUIButtonImagePositionTop;
+//        _pledgeBtn.backgroundColor = UIColor.whiteColor;
+//        _pledgeBtn.tag = 3;
+//        [_pledgeBtn addTarget:self action:@selector(btnAction:) forControlEvents:UIControlEventTouchUpInside];
+//    }
+//    return _pledgeBtn;
+//}
 
 - (QMUIButton *)otcBtn{
     if (!_otcBtn) {
@@ -155,20 +175,6 @@
     return _otcBtn;
 }
 
-- (QMUIButton *)serviceBtn{
-    if (!_serviceBtn) {
-        _serviceBtn = [[QMUIButton alloc] init];
-        [_serviceBtn setTitle:NSLocalizedStringForKey(@"在线客服") forState:0];
-        [_serviceBtn setTitleColor:UIColorMakeWithHex(@"#333333") forState:0];
-        [_serviceBtn setImage:UIImageMake(@"home_item_service") forState:0];
-        _serviceBtn.titleLabel.font = UIFontMake(13);
-        _serviceBtn.spacingBetweenImageAndTitle = 5;
-        _serviceBtn.imagePosition = QMUIButtonImagePositionTop;
-        _serviceBtn.backgroundColor = UIColor.whiteColor;
-        _serviceBtn.tag = 5;
-        [_serviceBtn addTarget:self action:@selector(btnAction:) forControlEvents:UIControlEventTouchUpInside];
-    }
-    return _serviceBtn;
-}
+
 
 @end
