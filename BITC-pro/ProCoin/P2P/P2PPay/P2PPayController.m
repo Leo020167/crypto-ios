@@ -376,7 +376,8 @@
     if([parser parseBaseIsOk:result]){
 
         [self showProgressHUDCompleteMessage:NSLocalizedStringForKey(@"提示") detailsMessage:str imageName:HUD_SUCCEED];
-        [self reqGetOrderDetailData:_orderId];
+        //[self reqGetOrderDetailData:_orderId];
+        [self goBack];
     }else{
         [self showErrorToastCenter:result defaultErrorMsg:NSLocalizedStringForKey(@"请求失败")];
     }

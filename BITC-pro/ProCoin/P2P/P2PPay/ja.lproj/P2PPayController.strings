@@ -39,7 +39,7 @@
 "YdF-SD-ZH9.text" = "-";
 
 /* Class = "UILabel"; text = "商家认证"; ObjectID = "dYx-SD-GTa"; */
-"dYx-SD-GTa.text" = "マーチャント認定";
+"dYx-SD-GTa.text" = " ";
 
 /* Class = "UILabel"; text = "担保交易"; ObjectID = "e68-l1-Cvg"; */
 "e68-l1-Cvg.text" = "保護されたトランザクション";

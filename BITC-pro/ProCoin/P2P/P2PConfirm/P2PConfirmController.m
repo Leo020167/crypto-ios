@@ -280,10 +280,38 @@
         NSDictionary* timeDic = [VeDateUtil getHourMinuteSecondDictionaryFromSeconds:timerCount];
         NSString* str = [NSString stringWithFormat:@"%@:%@:%@",[timeDic objectForKey:@"hour"],[timeDic objectForKey:@"minute"],[timeDic objectForKey:@"second"]];
         [_lbPayTime setText:str];
+        
+        [[NetWorkManage shareSingleNetWork] reqP2PGetOrderDetail:self orderId:self.orderId  finishedCallback:@selector(reqGetOrderDetailTimerFinished:) failedCallback:@selector(reqGetOrderDetailTimerFailed:)];
     }
     if (timerCount == 0) {
         [self closeTimer];
     }
+}
+
+- (void)reqGetOrderDetailTimerFinished:(id)result {
+    bReqFinished = YES;
+    
+    TJRBaseParserJson* parser = [[[TJRBaseParserJson alloc]init]autorelease];
+    if([parser parseBaseIsOk:result]){
+
+        NSDictionary *dataDic = [result objectForKey:@"data"];
+        
+        NSDictionary *dic = [dataDic objectForKey:@"order"];
+        P2PConfirmOrderModel *entity = [[[P2PConfirmOrderModel alloc] initWithJson:dic]autorelease];
+        self.model = entity;
+        if (self.model.state == 2) {
+            [self closeTimer];
+            [self refreshUI];
+            self.lbPayTime.text = @"";
+        }
+    }else{
+        [self showErrorToastCenter:result defaultErrorMsg:NSLocalizedStringForKey(@"请求失败")];
+    }
+
+}
+
+- (void)reqGetOrderDetailTimerFailed:(NSDictionary *)json {
+    
 }
 
 #pragma mark - 【广告市场】获取订单详情
@@ -311,110 +339,121 @@
         P2PConfirmOrderModel *entity = [[[P2PConfirmOrderModel alloc] initWithJson:dic]autorelease];
         self.model = entity;
 
-        self.paySecondTime = _model.paySecondTime;
-        _lbPayTitle.text = _model.stateValue;
-        _lbPayTimeTips.text = _model.stateTip;
-        _lbBuySellTitle.text = _model.buySellValue;
-        _lbTotalPrice.text = [NSString stringWithFormat:@"%@%@", _model.currencySign, _model.tolPrice];
-        _lbPrice.text = [NSString stringWithFormat:@"%@%@", _model.currencySign, _model.price];
-        _lbAmount.text = [NSString stringWithFormat:@"%@ USDT", _model.amount];
-        _lbOrderId.text = _model.orderId;
-        _lbOrderTime.text = [VeDateUtil formatterDate:_model.createTime inStytle:nil outStytle:@"yyyy-MM-dd HH:mm:ss" isTimestamp:YES];
-        [_ivCustomerLogo showImageWithUrl:_model.showUserLogo];
-        _LbCustomerName.text = _model.showUserName;
-        _lbCustomerRealName.text = _model.showRealName;
+        [self refreshUI];
         
-        if (_model.payWayArray.count>0) {
-            P2PPayWayEntity* pay = [_model.payWayArray firstObject];
-            _lbPayWay.text = pay.receiptTypeValue;
-            [_ivPayWay showImageWithUrl:pay.receiptLogo];
-            
-            self.selectedPaymentId = pay.paymentId;
+        if (_model.state == 1) {
+            [self startTimer];
         }
         
-        _bottomBuyView.hidden = YES;
-        _bottomSellView.hidden = YES;
-        _bottomAppealView.hidden = YES;
-        _btnBottom.enabled = YES;
-        _ivPayWayMoreLogo.hidden = YES;
-        _layoutPayWayMoreLogoLeading.constant = 0;
-        _btnPayWay.enabled = NO;
+        [self bindChat:dataDic];
         
-        if (_model.state == 0) {
-            if ([_model.buySell isEqualToString:@"buy"]) {
-                _bottomBuyView.hidden = NO;
-                _ivPayWayMoreLogo.hidden = NO;
-                _layoutPayWayMoreLogoLeading.constant = 15;
-                _btnPayWay.enabled = YES;
-            } else if ([_model.buySell isEqualToString:@"sell"]) {
-                _bottomAppealView.hidden = NO;
-                [_btnBottom setTitle:NSLocalizedStringForKey(@"申诉") forState:UIControlStateNormal];
-            }
-            _ivTimeLogo.image = [UIImage imageNamed:@"p2p_logo_clock"];
-        } else if (_model.state == 1){
-            if ([_model.buySell isEqualToString:@"buy"]) {
-                _bottomAppealView.hidden = NO;
-                [_btnBottom setTitle:NSLocalizedStringForKey(@"申诉") forState:UIControlStateNormal];
-            } else if ([_model.buySell isEqualToString:@"sell"]) {
-                _bottomSellView.hidden = NO;
-            }
-            _ivTimeLogo.image = [UIImage imageNamed:@"p2p_logo_clock"];
-        } else if (_model.state == 2){
-            _ivTimeLogo.image = [UIImage imageNamed:@"p2p_logo_ok_big"];
-        } else if (_model.state == 3){
-            _bottomAppealView.hidden = NO;
-            [_btnBottom setTitle:NSLocalizedStringForKey(@"申诉") forState:UIControlStateNormal];
-        } else if (_model.state == -1){
-            _bottomAppealView.hidden = NO;
-            _btnBottom.enabled = NO;
-            [_btnBottom setTitle:NSLocalizedStringForKey(@"已过期") forState:UIControlStateDisabled];
-            _ivTimeLogo.image = [UIImage imageNamed:@"p2p_logo_cancel"];
-        } else if (_model.state == -2){
-            _bottomAppealView.hidden = NO;
-            _btnBottom.enabled = NO;
-            [_btnBottom setTitle:NSLocalizedStringForKey(@"已撤销") forState:UIControlStateDisabled];
-            _ivTimeLogo.image = [UIImage imageNamed:@"p2p_logo_cancel"];
-        } else if (_model.state == -3){
-            _bottomAppealView.hidden = NO;
-            _btnBottom.enabled = NO;
-            [_btnBottom setTitle:NSLocalizedStringForKey(@"系统撤销") forState:UIControlStateDisabled];
-            _ivTimeLogo.image = [UIImage imageNamed:@"p2p_logo_cancel"];
-        }
-        
-        
-        [self startTimer];
-        
-        
-        //设置私聊数据
-        NSDictionary *chatStaffDic = [dataDic objectForKey:@"chatStaff"];
-        TJRBaseEntity *baseParser = [[[TJRBaseEntity alloc] init] autorelease];;
-        self.chatDataEntity = [[[PrivateChatDataEntity alloc] init] autorelease];
-        _chatDataEntity.chatTopic = [baseParser stringParser:@"chatTopic" json:chatStaffDic];
-        _chatDataEntity.userId = [baseParser stringParser:@"userId" json:chatStaffDic];
-        _chatDataEntity.headurl = [baseParser stringParser:@"headUrl" json:chatStaffDic];
-        _chatDataEntity.name = [baseParser stringParser:@"userName" json:chatStaffDic];
-        /** 获取到私聊信息后，将其入数据库，当收到全局push时，可以保存并通知*/
-        if([PrivateChatSQL getSinglePrivateChatDataWithChatTopic:_chatDataEntity.chatTopic] == nil){
-            [PrivateChatSQL createPrivateChatSQL:_chatDataEntity];
-            [UserInfoSQL insertOrUpdateUserInfoWithUserId:_chatDataEntity.userId userName:_chatDataEntity.name userLevel:0 headerUrl:_chatDataEntity.headurl];
-            if([[CircleSocket shareCircleSocket].privateDetail objectForKey:_chatDataEntity.chatTopic] == nil){
-                [[CircleSocket shareCircleSocket].privateDetail setObject:_chatDataEntity forKey:_chatDataEntity.chatTopic];
-            }
-        }else{
-            PrivateChatDataEntity *tempChatEntity = [PrivateChatSQL getSinglePrivateChatDataWithChatTopic:_chatDataEntity.chatTopic];
-            _chatDataEntity.chatNews = tempChatEntity.chatNews;
-        }
-        
-        NSArray *listArray = [[NSUserDefaults standardUserDefaults] objectForKey:@"OrderMessageList"];
-        for (NSDictionary *dict in listArray) {
-            if ([dict[@"chatTopic"] isEqualToString:_chatDataEntity.chatTopic]) {
-                self.messageBtn.qmui_badgeInteger = [dict[@"count"] intValue];
-            }
-        }
+
     }else{
         [self showErrorToastCenter:result defaultErrorMsg:NSLocalizedStringForKey(@"请求失败")];
     }
 
+}
+
+- (void)refreshUI {
+    self.paySecondTime = _model.paySecondTime;
+    _lbPayTitle.text = _model.stateValue;
+    _lbPayTimeTips.text = _model.stateTip;
+    _lbBuySellTitle.text = _model.buySellValue;
+    _lbTotalPrice.text = [NSString stringWithFormat:@"%@%@", _model.currencySign, _model.tolPrice];
+    _lbPrice.text = [NSString stringWithFormat:@"%@%@", _model.currencySign, _model.price];
+    _lbAmount.text = [NSString stringWithFormat:@"%@ USDT", _model.amount];
+    _lbOrderId.text = _model.orderId;
+    _lbOrderTime.text = [VeDateUtil formatterDate:_model.createTime inStytle:nil outStytle:@"yyyy-MM-dd HH:mm:ss" isTimestamp:YES];
+    [_ivCustomerLogo showImageWithUrl:_model.showUserLogo];
+    _LbCustomerName.text = _model.showUserName;
+    _lbCustomerRealName.text = _model.showRealName;
+    
+    if (_model.payWayArray.count>0) {
+        P2PPayWayEntity* pay = [_model.payWayArray firstObject];
+        _lbPayWay.text = pay.receiptTypeValue;
+        [_ivPayWay showImageWithUrl:pay.receiptLogo];
+        
+        self.selectedPaymentId = pay.paymentId;
+    }
+    
+    _bottomBuyView.hidden = YES;
+    _bottomSellView.hidden = YES;
+    _bottomAppealView.hidden = YES;
+    _btnBottom.enabled = YES;
+    _ivPayWayMoreLogo.hidden = YES;
+    _layoutPayWayMoreLogoLeading.constant = 0;
+    _btnPayWay.enabled = NO;
+    
+    if (_model.state == 0) {
+        if ([_model.buySell isEqualToString:@"buy"]) {
+            _bottomBuyView.hidden = NO;
+            _ivPayWayMoreLogo.hidden = NO;
+            _layoutPayWayMoreLogoLeading.constant = 15;
+            _btnPayWay.enabled = YES;
+        } else if ([_model.buySell isEqualToString:@"sell"]) {
+            _bottomAppealView.hidden = NO;
+            [_btnBottom setTitle:NSLocalizedStringForKey(@"申诉") forState:UIControlStateNormal];
+        }
+        _ivTimeLogo.image = [UIImage imageNamed:@"p2p_logo_clock"];
+    } else if (_model.state == 1){
+        if ([_model.buySell isEqualToString:@"buy"]) {
+            _bottomAppealView.hidden = NO;
+            [_btnBottom setTitle:NSLocalizedStringForKey(@"申诉") forState:UIControlStateNormal];
+        } else if ([_model.buySell isEqualToString:@"sell"]) {
+            _bottomSellView.hidden = NO;
+        }
+        _ivTimeLogo.image = [UIImage imageNamed:@"p2p_logo_clock"];
+    } else if (_model.state == 2){
+        _ivTimeLogo.image = [UIImage imageNamed:@"p2p_logo_ok_big"];
+    } else if (_model.state == 3){
+        _bottomAppealView.hidden = NO;
+        [_btnBottom setTitle:NSLocalizedStringForKey(@"申诉") forState:UIControlStateNormal];
+    } else if (_model.state == -1){
+        _bottomAppealView.hidden = NO;
+        _btnBottom.enabled = NO;
+        [_btnBottom setTitle:NSLocalizedStringForKey(@"已过期") forState:UIControlStateDisabled];
+        _ivTimeLogo.image = [UIImage imageNamed:@"p2p_logo_cancel"];
+    } else if (_model.state == -2){
+        _bottomAppealView.hidden = NO;
+        _btnBottom.enabled = NO;
+        [_btnBottom setTitle:NSLocalizedStringForKey(@"已撤销") forState:UIControlStateDisabled];
+        _ivTimeLogo.image = [UIImage imageNamed:@"p2p_logo_cancel"];
+    } else if (_model.state == -3){
+        _bottomAppealView.hidden = NO;
+        _btnBottom.enabled = NO;
+        [_btnBottom setTitle:NSLocalizedStringForKey(@"系统撤销") forState:UIControlStateDisabled];
+        _ivTimeLogo.image = [UIImage imageNamed:@"p2p_logo_cancel"];
+    }
+    
+    NSArray *listArray = [[NSUserDefaults standardUserDefaults] objectForKey:@"OrderMessageList"];
+    for (NSDictionary *dict in listArray) {
+        if ([dict[@"chatTopic"] isEqualToString:_chatDataEntity.chatTopic]) {
+            self.messageBtn.qmui_badgeInteger = [dict[@"count"] intValue];
+        }
+    }
+}
+
+- (void)bindChat: (NSDictionary *)dataDic {
+    
+    //设置私聊数据
+    NSDictionary *chatStaffDic = [dataDic objectForKey:@"chatStaff"];
+    TJRBaseEntity *baseParser = [[[TJRBaseEntity alloc] init] autorelease];;
+    self.chatDataEntity = [[[PrivateChatDataEntity alloc] init] autorelease];
+    _chatDataEntity.chatTopic = [baseParser stringParser:@"chatTopic" json:chatStaffDic];
+    _chatDataEntity.userId = [baseParser stringParser:@"userId" json:chatStaffDic];
+    _chatDataEntity.headurl = [baseParser stringParser:@"headUrl" json:chatStaffDic];
+    _chatDataEntity.name = [baseParser stringParser:@"userName" json:chatStaffDic];
+    /** 获取到私聊信息后，将其入数据库，当收到全局push时，可以保存并通知*/
+    if([PrivateChatSQL getSinglePrivateChatDataWithChatTopic:_chatDataEntity.chatTopic] == nil){
+        [PrivateChatSQL createPrivateChatSQL:_chatDataEntity];
+        [UserInfoSQL insertOrUpdateUserInfoWithUserId:_chatDataEntity.userId userName:_chatDataEntity.name userLevel:0 headerUrl:_chatDataEntity.headurl];
+        if([[CircleSocket shareCircleSocket].privateDetail objectForKey:_chatDataEntity.chatTopic] == nil){
+            [[CircleSocket shareCircleSocket].privateDetail setObject:_chatDataEntity forKey:_chatDataEntity.chatTopic];
+        }
+    }else{
+        PrivateChatDataEntity *tempChatEntity = [PrivateChatSQL getSinglePrivateChatDataWithChatTopic:_chatDataEntity.chatTopic];
+        _chatDataEntity.chatNews = tempChatEntity.chatNews;
+    }
 }
 
 - (void)reqGetOrderDetailFailed:(NSDictionary *)json

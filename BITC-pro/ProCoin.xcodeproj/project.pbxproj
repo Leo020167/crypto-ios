@@ -12253,7 +12253,7 @@
 				ORGANIZATIONNAME = Toka;
 				TargetAttributes = {
 					EF93954815E89DA000F30D1B = {
-						DevelopmentTeam = AQYB264B53;
+						DevelopmentTeam = 2YSTA9Y272;
 						LastSwiftMigration = 1510;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
@@ -17697,9 +17697,9 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMPRESS_PNG_FILES = NO;
-				CURRENT_PROJECT_VERSION = 1.2.3;
+				CURRENT_PROJECT_VERSION = 1.0.0.01;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = AQYB264B53;
+				DEVELOPMENT_TEAM = 2YSTA9Y272;
 				ENABLE_BITCODE = NO;
 				EXCLUDED_ARCHS = "";
 				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
@@ -17727,7 +17727,7 @@
 					"\"$(SRCROOT)/ProCoin/OtherSDK/TencentMTASDK/plugin/idfa\"",
 					"\"$(SRCROOT)/ProCoin/OtherSDK/TencentMTASDK/plugin/installtracker\"",
 				);
-				MARKETING_VERSION = 1.2.11;
+				MARKETING_VERSION = 1.0.0;
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_LIBTOOLFLAGS = "";
@@ -17773,9 +17773,9 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMPRESS_PNG_FILES = NO;
-				CURRENT_PROJECT_VERSION = 1.2.3;
+				CURRENT_PROJECT_VERSION = 1.0.0.01;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = AQYB264B53;
+				DEVELOPMENT_TEAM = 2YSTA9Y272;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -17801,7 +17801,7 @@
 					"\"$(SRCROOT)/ProCoin/OtherSDK/TencentMTASDK/plugin/idfa\"",
 					"\"$(SRCROOT)/ProCoin/OtherSDK/TencentMTASDK/plugin/installtracker\"",
 				);
-				MARKETING_VERSION = 1.2.11;
+				MARKETING_VERSION = 1.0.0;
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_LIBTOOLFLAGS = "";

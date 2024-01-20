@@ -54,15 +54,6 @@
 
 @implementation PCCoinSubscribeRecordModel
 
-//@property (copy, nonatomic) NSString *title;
-//@property (copy, nonatomic) NSString *count;
-//@property (copy, nonatomic) NSString *time;
-//@property (copy, nonatomic) NSString *luckyCount;
-//@property (copy, nonatomic) NSString *stateDesc;
-//@property (copy, nonatomic) NSString *paidAmount;
-//@property (copy, nonatomic) NSString *unpaidAmount;
-//@property (copy, nonatomic) NSString *tradeTime;
-
 - (instancetype)initWithJson:(NSDictionary *)json {
     if(self = [super initWithJson:json]){
         self.title = [self stringParser:@"title" json:json];
@@ -73,6 +64,7 @@
         self.paidAmount = [self stringParser:@"paidAmount" json:json];
         self.unpaidAmount = [self stringParser:@"unpaidAmount" json:json];
         self.tradeTime = [self stringParser:@"tradeTime" json:json];
+        self.symbol = [self stringParser:@"symbol" json:json];
     }
     return self;
 }
@@ -86,6 +78,7 @@
     [_paidAmount release];
     [_unpaidAmount release];
     [_tradeTime release];
+    [_symbol release];
     [super dealloc];
 }
 @end

@@ -58,7 +58,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (copy, nonatomic) NSString *paidAmount;
 @property (copy, nonatomic) NSString *unpaidAmount;
 @property (copy, nonatomic) NSString *tradeTime;
-
+@property (copy, nonatomic) NSString *symbol;
 @end
 
 NS_ASSUME_NONNULL_END

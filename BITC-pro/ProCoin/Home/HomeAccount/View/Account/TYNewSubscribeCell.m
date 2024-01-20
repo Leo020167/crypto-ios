@@ -147,7 +147,7 @@
 }
 
 - (void)setModel:(PCCoinSubscribeRecordModel *)model{
-    self.titleLabel.text = model.title;
+    self.titleLabel.text = [NSString stringWithFormat:@"%@(%@-%@)", NSLocalizedStringForKey(@"申购"), model.symbol, model.title];
     self.countLabel.text = model.count;
     self.timeLabel.text = model.time;
     self.luckyCountLabel.text = model.luckyCount;
@@ -260,7 +260,7 @@
         _paidAmountTitleLabel = [[UILabel alloc] init];
         _paidAmountTitleLabel.font = UIFontMake(14);
         _paidAmountTitleLabel.textColor = UIColorMakeWithHex(@"#666666");
-        _paidAmountTitleLabel.text = NSLocalizedStringForKey(@"已缴款");
+        _paidAmountTitleLabel.text = [NSString stringWithFormat:@"%@(USDT)", NSLocalizedStringForKey(@"已缴款")];
         _paidAmountTitleLabel.textAlignment = NSTextAlignmentRight;
     }
     return _paidAmountTitleLabel;
@@ -281,7 +281,7 @@
         _unpaidAmountTitleLabel = [[UILabel alloc] init];
         _unpaidAmountTitleLabel.font = UIFontMake(14);
         _unpaidAmountTitleLabel.textColor = UIColorMakeWithHex(@"#666666");
-        _unpaidAmountTitleLabel.text = NSLocalizedStringForKey(@"未缴款");
+        _unpaidAmountTitleLabel.text = [NSString stringWithFormat:@"%@(USDT)",NSLocalizedStringForKey(@"未缴款")];
         _unpaidAmountTitleLabel.textAlignment = NSTextAlignmentRight;
     }
     return _unpaidAmountTitleLabel;

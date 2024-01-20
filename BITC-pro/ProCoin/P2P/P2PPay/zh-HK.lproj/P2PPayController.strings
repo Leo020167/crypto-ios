@@ -39,7 +39,7 @@
 "YdF-SD-ZH9.text" = "-";
 
 /* Class = "UILabel"; text = "商家认证"; ObjectID = "dYx-SD-GTa"; */
-"dYx-SD-GTa.text" = "商家認證";
+"dYx-SD-GTa.text" = " ";
 
 /* Class = "UILabel"; text = "担保交易"; ObjectID = "e68-l1-Cvg"; */
 "e68-l1-Cvg.text" = "擔保交易";
